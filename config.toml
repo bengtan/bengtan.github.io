@@ -1,3 +1,40 @@
 baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+languageCode = "en-au"
+title = "Beng Tan's blog"
+theme = "anatole"
+
+[params]
+title = "bengtan.com"
+author = "bengtan"
+descriptions = [
+  "Hi! I'm a freelance software engineer and I write about things that interest me.",
+]
+# profilePicture
+disableThemeSwitcher = true
+singleDateFormat = "2nd Jan 2006"
+indexDateFormat = "2nd Jan 2006"
+listDateFormat = "2nd Jan"
+
+[menu]
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Blog"
+  identifier = "blog"
+  weight = 200
+  url = "/blog/"
+
+  [[menu.main]]
+  name = "Resume"
+  identifier = "resume"
+  weight = 300
+  url = "/resume/"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
