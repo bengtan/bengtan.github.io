@@ -1,5 +1,6 @@
 ---
 title: "App Startup vs Content Startup"
+type: post
 date: 2021-01-25T22:19:23+08:00
 draft: true
 ---

@@ -1,5 +1,6 @@
 ---
 title: "A New Beginning"
+type: post
 date: 2021-01-25T22:17:14+08:00
 ---
 
