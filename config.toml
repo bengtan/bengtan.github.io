@@ -12,7 +12,16 @@ since = 2021
 mobileNavigation = "right"
 showShare = false
 
+logo = "/images/logo.png"
+footerLogo = "/images/logo.png"
+
 [menu]
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
   [[menu.main]]
   name = "Resume"
   identifier = "resume"
