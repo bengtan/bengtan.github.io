@@ -1,38 +1,36 @@
-baseURL = "http://example.org/"
+baseURL = "http://bengtan.com/"
 languageCode = "en-au"
-title = "Beng Tan's blog"
-theme = "anatole"
+title = "Beng Tan"
+theme = "hugo-clarity"
 
 [params]
-title = "bengtan.com"
-author = "bengtan"
-descriptions = [
-  "Hi! I'm a freelance software engineer and I write about things that interest me.",
-]
-# profilePicture
-disableThemeSwitcher = true
-singleDateFormat = "2nd Jan 2006"
-indexDateFormat = "2nd Jan 2006"
-listDateFormat = "2nd Jan"
+author = "Beng Tan"
+introDescription = "I'm a freelance software engineer. I write about software, tech, startups and random things."
+dateFormat = "2 Jan 2006"
+mainSections = ["post"]
+since = 2021
+mobileNavigation = "right"
+showShare = false
 
 [menu]
-  [[menu.main]]
-  name = "Home"
-  identifier = "home"
-  weight = 100
-  url = "/"
-
-  [[menu.main]]
-  name = "Blog"
-  identifier = "blog"
-  weight = 200
-  url = "/blog/"
-
   [[menu.main]]
   name = "Resume"
   identifier = "resume"
   weight = 300
   url = "/resume/"
+
+  [[menu.social]]
+    name = "github"
+    weight = 1
+    url = "https://github.com/bengtan"
+  [[menu.social]]
+    name = "twitter"
+    weight = 2
+    url = "https://twitter.com/bengtanAU"
+  [[menu.social]]
+    name = "rss"
+    weight = 4
+    url = "index.xml"
 
 [markup]
   [markup.goldmark]
