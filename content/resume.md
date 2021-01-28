@@ -1,8 +1,7 @@
 ---
 title: "Resume of Beng Tan"
+showDate: false
 ---
-
-# Personal
 
 * Name: Beng Tan
 * Email: ${github_username} + '1' + '@' + 'gmail' + ${dot_com}
