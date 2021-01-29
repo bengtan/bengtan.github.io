@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "serve": "hugo server -DF",
-    "release": "rm -rf public/* && hugo"
+    "deploy": "rm -rf docs && hugo -d docs"
   },
   "keywords": [],
   "author": "Beng Tan",
