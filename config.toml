@@ -1,6 +1,7 @@
 baseURL = "http://bengtan.com/"
 languageCode = "en-au"
 title = "Beng Tan"
+themesDir = "node_modules"
 theme = "hugo-clarity"
 
 [params]

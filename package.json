@@ -1,0 +1,14 @@
+{
+  "name": "bengtan",
+  "version": "",
+  "description": "",
+  "scripts": {},
+  "keywords": [],
+  "author": "Beng Tan",
+  "license": "Proprietary",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "hugo-clarity": "bengtan/hugo-clarity#customisations"
+  }
+}
