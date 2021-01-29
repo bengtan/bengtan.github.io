@@ -18,6 +18,8 @@ showShare = false
 logo = "/images/logo.png"
 footerLogo = "/images/logo.png"
 
+ga_analytics = "G-VTEK0C8GRX"
+
 [menu]
   [[menu.main]]
   name = "Home"
