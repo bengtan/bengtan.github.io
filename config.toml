@@ -1,4 +1,5 @@
 title = "Beng Tan"
+baseURL = "/"
 languageCode = "en-au"
 themesDir = "node_modules"
 theme = "hugo-clarity"
