@@ -1,5 +1,5 @@
 title = "Beng Tan"
-baseURL = "http://bengtan.com/"
+baseURL = "https://bengtan.com/"
 languageCode = "en-au"
 themesDir = "node_modules"
 theme = "hugo-clarity"
