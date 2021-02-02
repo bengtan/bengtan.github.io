@@ -39,7 +39,7 @@ So I took a step back and thought about things.
 
 I need to learn how to do distribution. And marketing and all that other stuff.
 
-I can build things, but if I can't reach users, there's no point.
+I can build things, but if I can't reach users, then what's the point?
 
 On my to-do list of marketing activities, I had 'content marketing' ie. writing articles and blogging. Maybe I should jump straight to it and give it a try.
 
@@ -69,7 +69,7 @@ So I'm gonna write a blog.
 
 But let's refine the idea a bit more.
 
-I don't want to do something where I'm blatantly building something just to monetise or to push a sale. I don't want to be a shill for my next project (whatever that might be). It's not all just about money.
+I don't want to do something where I'm blatantly blogging just to monetise or to push a sale. I don't want to be a shill for my next project (whatever that might be). It's not all just about money.
 
 I want to write about stuff I'm interested in (Software, technology, startups, life, etc.). Otherwise it'll turn in a drag and I'll lose motivation. There has to be some intrinsic value in it too.
 
@@ -79,6 +79,6 @@ I'm excited. Yes, it's new and very different from building things, but it sound
 
 I spent most of nine months writing Gig'o'Books. Imagine if I spent nine months blogging. I wonder what the results would be? Only one way to find out.
 
-Let's do it.
+So here I am. A new beginning. Let's do it.
 
 Wish me luck!

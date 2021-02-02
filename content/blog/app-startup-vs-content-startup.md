@@ -84,7 +84,7 @@ Yikes!
 
 All those stories about people who produce courses on how to use the next hip new tech stack and sell for thousands of dollars per month? I wouldn't be able to conceive doing something similar because I've blinded myself to it.
 
-Luckily for me, I know about this unconscious bias now. Hopefully it's not going to hinder me any more.
+Luckily for me, I'm aware of this now. Hopefully it's not going to limit me any more.
 
 What about you? If you are also a maker/hacker and you only consider app startup ideas, are you also limiting yourself?
 
