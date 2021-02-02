@@ -2,9 +2,62 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Beng Tan</title>
-    <link>/blog/</link>
+    <link>http://bengtan.com/blog/</link>
     <description>Recent content in Blog on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-au</language><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-au</language>
+    <lastBuildDate>Tue, 02 Feb 2021 12:00:00 +0800</lastBuildDate><atom:link href="http://bengtan.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A New Beginning</title>
+      <link>http://bengtan.com/blog/a-new-beginning/</link>
+      <pubDate>Tue, 02 Feb 2021 12:00:00 +0800</pubDate>
+      
+      <guid>http://bengtan.com/blog/a-new-beginning/</guid>
+      <description>
+        
+          &lt;p&gt;This blog represents a new beginning and I&amp;rsquo;m both excited and trepidatious.&lt;/p&gt;
+&lt;p&gt;You see, I&amp;rsquo;ve considered blogging at one time or another over the last 15-20 years, but I&amp;rsquo;ve always been too busy with more important or fun &amp;lsquo;stuff&amp;rsquo;. Everytime I think about it, it sounds like a great idea &amp;hellip; and then it fizzles out.&lt;/p&gt;
+&lt;p&gt;I have a history of building things. Software/tech/web things that are supposed to make money. Call them micro-startups or side projects or lifestyle businesses or whatever. I&amp;rsquo;ve done a smattering of them.&lt;/p&gt;
+&lt;p&gt;Aside from jobs and freelancing gigs, I would spend my discretionary time on building something &amp;hellip; that I hoped would make money. It&amp;rsquo;s great fun.&lt;/p&gt;
+&lt;p&gt;Except when they don&amp;rsquo;t make money. Then it&amp;rsquo;s just a time sink.&lt;/p&gt;
+&lt;p&gt;Of the things that I&amp;rsquo;ve tried to monetise, sometimes the results were modest. Other times, the results were mediocre or downright terrible.&lt;/p&gt;
+&lt;p&gt;In my most recent project, I wrote a &lt;a href=&#34;http://www.gigobooks.com&#34;&gt;non-subscription accounting app&lt;/a&gt; for people with gigs or simple affairs. I had a lot of fun writing it. And I use it for myself (ie. dogfooding) too. Awesome!&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve spent the better part of nine months building it and I&amp;rsquo;ve shipped the MVP. Problem is &amp;hellip; Where are my users?&lt;/p&gt;
+&lt;p&gt;Uh, oh.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s happened again.&lt;/p&gt;
+&lt;p&gt;I built something. And the users aren&amp;rsquo;t coming. Even worse, this time, they don&amp;rsquo;t even know about it.&lt;/p&gt;
+&lt;p&gt;I have tried to get some word out and I&amp;rsquo;ve posted on various forums over the Internet. I&amp;rsquo;ve got a tiny trickle of people who visit the website and then, AFAICT, don&amp;rsquo;t come back. That&amp;rsquo;s about it. No one (other than myself) is actually using the app.&lt;/p&gt;
+&lt;p&gt;Granted, I didn&amp;rsquo;t spend a lot of time doing &amp;lsquo;marketing&amp;rsquo; things, but I did spend &lt;em&gt;some&lt;/em&gt; time, and the results have been underwhelming. It also doesn&amp;rsquo;t help that I have no pre-existing audience. No blog, no twitter followers. Nada.&lt;/p&gt;
+&lt;p&gt;Distribution is a hard problem. Maybe it&amp;rsquo;s sometimes even harder than writing software. Lack of distribution has killed my previous projects before. Several times. If I don&amp;rsquo;t solve this problem, it&amp;rsquo;s going to kill this latest project too.&lt;/p&gt;
+&lt;p&gt;So I took a step back and thought about things.&lt;/p&gt;
+&lt;p style=&#34;text-align: center;&#34;&gt;* * *&lt;/p&gt;
+&lt;p&gt;I need to learn how to do distribution. And marketing and all that other stuff.&lt;/p&gt;
+&lt;p&gt;I can build things, but if I can&amp;rsquo;t reach users, then what&amp;rsquo;s the point?&lt;/p&gt;
+&lt;p&gt;On my to-do list of marketing activities, I had &amp;lsquo;content marketing&amp;rsquo; ie. writing articles and blogging. Maybe I should jump straight to it and give it a try.&lt;/p&gt;
+&lt;p&gt;A related thought &amp;hellip; There are numerous posts on the Internet about people who are making X thousands of dollars N months after launching, or they do a kickstarter project and smash through the funding target.&lt;/p&gt;
+&lt;p&gt;The common thread? They already had an email newsletter of 3000 readers, or they had 10000 twitter followers, or they were already a well-known member of an existing forum, or something.&lt;/p&gt;
+&lt;p&gt;I don&amp;rsquo;t have that.&lt;/p&gt;
+&lt;p&gt;But if I want to solve distribution, I&amp;rsquo;m gonna need something like that. I need people who are reading what I&amp;rsquo;m writing. I need to interact with people who I can bounce ideas off. I need people who I can reach.&lt;/p&gt;
+&lt;p&gt;Alright. Fine.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s give this content-marketing/blogging thing a try. Let&amp;rsquo;s learn more about &amp;lsquo;marketing stuff&amp;rsquo;.&lt;/p&gt;
+&lt;p&gt;But let&amp;rsquo;s not just read about it. Let&amp;rsquo;s do it.&lt;/p&gt;
+&lt;p&gt;So I&amp;rsquo;m gonna write a blog, get some practical experience at content marketing, and see how things go.&lt;/p&gt;
+&lt;p&gt;Either it&amp;rsquo;s going to work: The next time I launch a new project, it will be more likely to succeed as I&amp;rsquo;ll be better at distribution (hopefully).&lt;/p&gt;
+&lt;p&gt;Or it&amp;rsquo;s not going to work: I should stop building things and concentrate on paid work instead.&lt;/p&gt;
+&lt;p style=&#34;text-align: center;&#34;&gt;* * *&lt;/p&gt;
+&lt;p&gt;So I&amp;rsquo;m gonna write a blog.&lt;/p&gt;
+&lt;p&gt;But let&amp;rsquo;s refine the idea a bit more.&lt;/p&gt;
+&lt;p&gt;I don&amp;rsquo;t want to do something where I&amp;rsquo;m blatantly blogging just to monetise or to push a sale. I don&amp;rsquo;t want to be a shill for my next project (whatever that might be). It&amp;rsquo;s not all just about money.&lt;/p&gt;
+&lt;p&gt;I want to write about stuff I&amp;rsquo;m interested in (Software, technology, startups, life, etc.). Otherwise it&amp;rsquo;ll turn in a drag and I&amp;rsquo;ll lose motivation. There has to be some intrinsic value in it too.&lt;/p&gt;
+&lt;p&gt;Having opened my mind to the idea of blogging, I&amp;rsquo;ve suddenly had a lot of ideas for things to write about. Things that my subconscious has always wanted to talk about but never got the chance.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m excited. Yes, it&amp;rsquo;s new and very different from building things, but it sounds like it could be fun too. (I&amp;rsquo;m also a little nervous) Hopefully, it also turns out well.&lt;/p&gt;
+&lt;p&gt;I spent most of nine months writing Gig&amp;rsquo;o&amp;rsquo;Books. Imagine if I spent nine months blogging. I wonder what the results would be? Only one way to find out.&lt;/p&gt;
+&lt;p&gt;So here I am. A new beginning. Let&amp;rsquo;s do it.&lt;/p&gt;
+&lt;p&gt;Wish me luck!&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
   </channel>
 </rss>

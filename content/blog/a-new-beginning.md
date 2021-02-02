@@ -1,8 +1,7 @@
 ---
 title: "A New Beginning"
 type: post
-date: 2021-02-01T12:00:00+08:00
-draft: true
+date: 2021-02-02T12:00:00+08:00
 ---
 
 This blog represents a new beginning and I'm both excited and trepidatious.
