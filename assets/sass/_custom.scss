@@ -1,4 +1,5 @@
 b, strong { font-weight: bold; }
+a:hover { text-decoration: underline; }
 
 .nav_brand { font-weight: bold; text-transform: uppercase;
   img { width: 36px; }
@@ -8,3 +9,11 @@ b, strong { font-weight: bold; }
 .footer { color: var(--light); background: dimgrey; }
 
 .post_meta { display: block; }
+
+.comments {
+  display: inline-block;
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: 1px dashed var(--dark);
+}
+html[data-mode="dim"] .comments { border-top-color: var(--light); }
