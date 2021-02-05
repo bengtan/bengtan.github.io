@@ -1,12 +1,19 @@
 b, strong { font-weight: bold; }
 a:hover { text-decoration: underline; }
 
+button { padding: 0.25em 0.5em; border-radius: 0.5em; }
+html[data-mode="dim"] button:hover { color: var(--dark); background-color: var(--haze); }
+
+input[type=checkbox] { margin: 0 0.25em; }
+
 .nav_brand { font-weight: bold; text-transform: uppercase;
   img { width: 36px; }
 }
 .nav_header { box-shadow: 0 2px 20px #33333388; }
 
 .footer { color: var(--light); background: dimgrey; }
+
+.content {  padding-top: 3em; }
 
 .post_meta { display: block; }
 
@@ -17,3 +24,40 @@ a:hover { text-decoration: underline; }
   border-top: 1px dashed var(--dark);
 }
 html[data-mode="dim"] .comments { border-top-color: var(--light); }
+
+// .scrollable triggers some weird firefox bug. Change it to something more conventional
+.scrollable { display: block; }
+
+
+/***********************************************************
+* css named colours picker                                 *
+************************************************************/
+
+.css-named-colours-picker {
+  .presets button { margin-bottom: 0.5em; margin-right: 0.25em; }
+  .newline:after { display: block; content: ''; }
+  .spacer:after { display: inline-block; content: ' '; width: 1em; }
+  .reset-table { font-weight: bold; }
+
+  .other-colour { width: 5em; }
+
+  table { margin: 1em 0 0; }
+  th, td { padding: 0.25em; }
+
+  td { text-align: right; }
+  th.column-label, td.column-label { text-align: left; }
+
+  .column-label input { width: 10em; }
+
+  .column-h, .column-r { border-left: 2px solid darkgrey; }
+  .rendered-colour { padding: 0.25em 1em; text-align: center; }
+
+  .column-hex { text-transform: uppercase; }
+
+  .number-range-filter-widget input { width: 2.5em; }
+  .number-range-filter-widget input:first-of-type { margin-right: 0.5em; }
+  .number-range-filter-widget input:last-of-type { margin-left: 0.5em; }
+
+  td button { padding: 2px; margin-left: 0.25em; border-width: 1px; border-radius: 5px; }
+  td button svg { height: 1em; opacity: 0.67; }
+}
