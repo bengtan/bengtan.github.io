@@ -12,6 +12,6 @@
   "private": true,
   "dependencies": {},
   "devDependencies": {
-    "hugo-clarity": "bengtan/hugo-clarity#2b0ad990"
+    "hugo-clarity": "bengtan/hugo-clarity#cf35bfea"
   }
 }

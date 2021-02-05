@@ -2,6 +2,6 @@
 # yarn lockfile v1
 
 
-hugo-clarity@bengtan/hugo-clarity#2b0ad990:
+hugo-clarity@bengtan/hugo-clarity#cf35bfea:
   version "0.0.0"
-  resolved "https://codeload.github.com/bengtan/hugo-clarity/tar.gz/2b0ad990aa0bd6d43b825826f35d5850d7719c08"
+  resolved "https://codeload.github.com/bengtan/hugo-clarity/tar.gz/cf35bfea1b84b8138a68fb719a6a9b86ffb5229a"
