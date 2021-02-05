@@ -11,8 +11,9 @@
       {{- end }}
     {{- end }}
     {{- $posts := where (where .Site.RegularPages "Permalink" "!=" .Permalink) "Type" "in" $s.mainSections }}
+    {{- $allposts := where .Site.RegularPages "Permalink" "!=" .Permalink }}
     {{- $featured := default 8 $s.numberOfFeaturedPosts }}
-    {{- with first $featured (where $posts "Params.featured" true)}}
+    {{- with first $featured (where $allposts "Params.featured" true)}}
     <h2 class="mt-4">{{ T "featured_posts" }}</h2>
     <ul>
       {{- range . }}

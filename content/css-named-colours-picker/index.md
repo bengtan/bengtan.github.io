@@ -2,7 +2,6 @@
 title: "CSS Named Colours Picker"
 showDate: false
 featured: true
-type: post
 sidebar: false
 singleColumn: true
 ---
