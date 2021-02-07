@@ -1,5 +1,6 @@
 ---
 title: "CSS Named Colours Picker"
+thumbnail: "/css-named-colours-picker/css-named-colours-picker-screenshot.png"
 showDate: false
 featured: true
 sidebar: false
