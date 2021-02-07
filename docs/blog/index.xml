@@ -6,7 +6,73 @@
     <description>Recent content in Blog on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Tue, 02 Feb 2021 12:00:00 +0800</lastBuildDate><atom:link href="https://bengtan.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Feb 2021 12:00:00 +0800</lastBuildDate><atom:link href="https://bengtan.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>App Startup vs Content Startup</title>
+      <link>https://bengtan.com/blog/app-startup-vs-content-startup/</link>
+      <pubDate>Sun, 07 Feb 2021 12:00:00 +0800</pubDate>
+      
+      <guid>https://bengtan.com/blog/app-startup-vs-content-startup/</guid>
+      <description>
+        
+          &lt;p&gt;Here is something that occurred to me recently. It&amp;rsquo;s not a law or anything, but just a thought-provoking observation. I find it interesting, and maybe it&amp;rsquo;s useful as a tool in thinking about startups.&lt;/p&gt;
+&lt;p&gt;Most startups are either an &lt;strong&gt;app startup&lt;/strong&gt; or a &lt;strong&gt;content startup&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;What do I mean? Let&amp;rsquo;s back up a bit and talk about definitions.&lt;/p&gt;
+&lt;p&gt;When I say &amp;lsquo;startup&amp;rsquo;, I don&amp;rsquo;t mean a &lt;a href=&#34;http://www.paulgraham.com/growth.html&#34;&gt;company that is designed to grow fast&lt;/a&gt;. I mean any venture that is new (and, in the context of this discussion, usually related to tech).&lt;/p&gt;
+&lt;p&gt;An app startup (where &amp;lsquo;app&amp;rsquo; == &amp;lsquo;application&amp;rsquo; and doesn&amp;rsquo;t mean just smartphone apps) is something that sells a technology (or an integration of existing technologies). It allows users to do something new, or do something in a faster, better or cheaper way.&lt;/p&gt;
+&lt;p&gt;A content startup is something that sells content, or sells the ability to interact with other people.&lt;/p&gt;
+&lt;p&gt;With definitions out of the way, let me repeat the above statement:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Most startups are either an app startup or a content startup.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Now, in truth, all businesses do a bit of both, but usually, a startup is dominated by one or the other. Hence, conceptually, most startups can be classified as one or the other.&lt;/p&gt;
+&lt;p&gt;(Note that I said &amp;lsquo;most&amp;rsquo;, not &amp;lsquo;all&amp;rsquo;. This is just a heuristic, and sometimes heuristics break down.)&lt;/p&gt;
+&lt;p&gt;Off the top of my head, here are some &amp;hellip;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;App startups&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Google search&lt;/li&gt;
+&lt;li&gt;Android&lt;/li&gt;
+&lt;li&gt;Tesla&lt;/li&gt;
+&lt;li&gt;Open AI&lt;/li&gt;
+&lt;li&gt;Substack&lt;/li&gt;
+&lt;li&gt;WordPress, Ghost, or any other CMS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These startups produce and/or sell a technology. Usually, the technology is novel or not easy to reproduce.&lt;/p&gt;
+&lt;p&gt;Here are some &amp;hellip;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Content startups&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;BetaList&lt;/li&gt;
+&lt;li&gt;Product Hunt&lt;/li&gt;
+&lt;li&gt;Stratechery&lt;/li&gt;
+&lt;li&gt;Substack newsletter writers&lt;/li&gt;
+&lt;li&gt;Anyone who sells eBooks, courses, or newsletters&lt;/li&gt;
+&lt;li&gt;Tech media ie. Engadget, Techmeme etc.&lt;/li&gt;
+&lt;li&gt;Anyone who sells themes or plugins for WordPress or another CMS&lt;/li&gt;
+&lt;li&gt;AirBnB&lt;/li&gt;
+&lt;li&gt;Twitter&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Content startups utilise known technology. Their technology is reproducible but the value of the startup is not in the technology. Instead, the hard-to-reproduce part is in the content side.&lt;/p&gt;
+&lt;p&gt;For example, it&amp;rsquo;s not hard to recreate the functionality of BetaList, Product Hunt or Stratechery, but it is much harder to duplicate the community.&lt;/p&gt;
+&lt;p&gt;For example, anyone can sell WordPress themes online. However, it&amp;rsquo;s much harder to create themes that people want to buy and to generate enough marketing and exposure to consistently get new buyers.&lt;/p&gt;
+&lt;p&gt;For example, anyone can create an AirBnB or Twitter clone, but they&amp;rsquo;d be useless without a community of users.&lt;/p&gt;
+&lt;p&gt;What startups can you think of? Are they app startups or content startups?&lt;/p&gt;
+&lt;p&gt;Bonus/trick question: Can you think of any startups which aren&amp;rsquo;t easily classified by this distinction?&lt;/p&gt;
+&lt;p style=&#34;text-align: center;&#34;&gt;* * *&lt;/p&gt;
+&lt;p&gt;What&amp;rsquo;s the point of thinking of startups as either app or content?&lt;/p&gt;
+&lt;p&gt;Well, it&amp;rsquo;s fun and frivolous theorising and it could be a useful aid in thinking about startups.&lt;/p&gt;
+&lt;p&gt;For me personally, it leads to a very important and relevant insight.&lt;/p&gt;
+&lt;p&gt;I think that &amp;hellip; people who are makers/builders tend to build app startups.&lt;/p&gt;
+&lt;p&gt;(What about the reverse? Do non-technical founders tend to build content startups? Um, I don&amp;rsquo;t know. Maybe this is a question for a future article.)&lt;/p&gt;
+&lt;p&gt;For example, I like building things. As a developer/maker/hacker/whatever, I always gravitate towards app startup ideas. I instinctively try to build some cool new tech. I have never, in the past, considered content startup ideas.&lt;/p&gt;
+&lt;p&gt;This is a blind spot. It&amp;rsquo;s a very big blind spot.&lt;/p&gt;
+&lt;p&gt;I am unconsciously cutting myself off from half of the market of startup ideas.&lt;/p&gt;
+&lt;p&gt;Yikes!&lt;/p&gt;
+&lt;p&gt;All those stories about people who produce courses on how to use the next hip new tech stack and sell for thousands of dollars per month? I wouldn&amp;rsquo;t be able to conceive doing something similar because I&amp;rsquo;ve blinded myself to it.&lt;/p&gt;
+&lt;p&gt;Luckily for me, I&amp;rsquo;m aware of this now. Hopefully it&amp;rsquo;s not going to limit me any more.&lt;/p&gt;
+&lt;p&gt;What about you? If you are also a maker/hacker and you only consider app startup ideas, are you also limiting yourself?&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
     <item>
       <title>A New Beginning</title>
       <link>https://bengtan.com/blog/a-new-beginning/</link>
