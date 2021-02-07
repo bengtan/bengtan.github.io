@@ -1,8 +1,7 @@
 ---
 title: "App Startup vs Content Startup"
 type: post
-date: 2021-01-25T22:19:23+08:00
-draft: true
+date: 2021-02-07T12:00:00+08:00
 ---
 
 Here is something that occurred to me recently. It's not a law or anything, but just a thought-provoking observation. I find it interesting, and maybe it's useful as a tool in thinking about startups.
