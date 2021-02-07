@@ -7,7 +7,7 @@ sidebar: false
 singleColumn: true
 ---
 
-A list of CSS named colours in a filterable, (multi-column) sortable table.
+A list of CSS named colours in a filterable, (multi-column) sortable table. This lists the 148 colours as of [CSS Color Module Level 4](https://www.w3.org/TR/css-color-4/).
 
 <div id="root" class="css-named-colours-picker">
     <div style="text-align: center;">
@@ -18,7 +18,7 @@ A list of CSS named colours in a filterable, (multi-column) sortable table.
 </div>
 <script src="dist/main.js"></script>
 
-(To sort by multiple columns, hold SHIFT and click. The colour `rebeccapurple` was added in [CSS Color Module Level 4](https://www.w3.org/TR/css-color-4/) and may not be supported by all browsers yet.)
+(To sort by multiple columns, hold SHIFT and click.)
 
 * Source code: https://github.com/bengtan/css-named-colours-picker
 * Bugs/feedback/feature requests: https://github.com/bengtan/css-named-colours-picker/issues
