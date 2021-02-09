@@ -6,7 +6,163 @@
     <description>Recent content in Blog on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Sun, 07 Feb 2021 12:00:00 +0800</lastBuildDate><atom:link href="https://bengtan.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Feb 2021 12:00:00 +0800</lastBuildDate><atom:link href="https://bengtan.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A recipe for recreating the functionality of Web SQL</title>
+      <link>https://bengtan.com/blog/recipe-for-websql/</link>
+      <pubDate>Tue, 09 Feb 2021 12:00:00 +0800</pubDate>
+      
+      <guid>https://bengtan.com/blog/recipe-for-websql/</guid>
+      <description>
+        
+          &lt;p&gt;&lt;em&gt;Firstly, let&amp;rsquo;s step back briefly in history.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.w3.org/TR/webdatabase/&#34;&gt;Web SQL&lt;/a&gt; was a way for javascript (and web apps) to use a relational database (specifically, &lt;a href=&#34;http://sqlite.org&#34;&gt;sqlite&lt;/a&gt;) that was stored in the web browser (ie. client side). It was popular amongst front-end developers for a while as it was a convenient and powerful method for storing and manipulating complex data in the browser.&lt;/p&gt;
+&lt;p&gt;Unfortunately, for various reasons, it didn&amp;rsquo;t become a web standard and was discontinued in 2010.&lt;/p&gt;
+&lt;p&gt;Despite it being a long time ago now, every once in a while, someone will still lament that Web SQL had to die.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Back to the present&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;I write &lt;a href=&#34;http://gigobooks.com&#34;&gt;Gig&amp;rsquo;o&amp;rsquo;Books&lt;/a&gt; and the initial version of it stored user data in an sqlite file on the local computer. Since it was desktop software, this is nothing unusual.&lt;/p&gt;
+&lt;p&gt;Later, however, I wanted to port Gig&amp;rsquo;o&amp;rsquo;Books to the web, and so, I needed a way to run sqlite on the client-side web, in the browser. I found &lt;a href=&#34;http://github.com/sql-js/sql.js&#34;&gt;sql.js&lt;/a&gt; which, thanks to the magic of WebAssembly, works very well. Extremely well.&lt;/p&gt;
+&lt;p&gt;The web edition of Gig&amp;rsquo;o&amp;rsquo;Books managed user data in an sqlite database in the browser&amp;rsquo;s javascript runtime. However, it wasn&amp;rsquo;t persisted. Every time the user refreshed the browser, they needed to load their data anew by &amp;lsquo;opening&amp;rsquo; a file on their local computer (assuming that they had saved the data previously). This was by design.&lt;/p&gt;
+&lt;p&gt;But it wasn&amp;rsquo;t good enough. Subsequent user feedback indicated that the database did need to be persisted across browser sessions. Otherwise, it was too easy to accidentally lose data.&lt;/p&gt;
+&lt;p&gt;I looked around for an easy and simple way to persist the sqlite database and I found IDB-Keyval. &lt;a href=&#34;http://github.com/jakearchibald/idb-keyval&#34;&gt;IDB-Keyval&lt;/a&gt; allows simple key-value pairs to be stored in browser storage.&lt;/p&gt;
+&lt;p&gt;I experimented with storing the entire database (ie. as a serialised string/binary) as a single key-value. After playing around with it, performance seemed fine. It didn&amp;rsquo;t feel noticeably slow or anything.&lt;/p&gt;
+&lt;p&gt;So I went with it.&lt;/p&gt;
+&lt;p style=&#34;text-align: center;&#34;&gt;* * *&lt;/p&gt;
+&lt;p&gt;After a while, I thought back about what had been done &amp;hellip; Wait, did I just recreate Web SQL? 🤔&lt;/p&gt;
+&lt;p&gt;Well, sort of. It&amp;rsquo;s not exactly the same but it&amp;rsquo;s good enough &amp;hellip; Actually. It&amp;rsquo;s. Quite. Good.&lt;/p&gt;
+&lt;p&gt;So I guess &amp;hellip; Yes I did, I did just recreate Web SQL. Web SQL is alive!&lt;/p&gt;
+&lt;p style=&#34;text-align: center;&#34;&gt;* * *&lt;/p&gt;
+&lt;p&gt;So, what if you want to do this too?&lt;/p&gt;
+&lt;p&gt;Unfortunately, I don&amp;rsquo;t have generic full working code to give out. The web edition of Gig&amp;rsquo;o&amp;rsquo;Books waits for the user to click &amp;lsquo;recover&amp;rsquo; before loading the sqlite database from indexedDB and that&amp;rsquo;s probably not what you want in your app.&lt;/p&gt;
+&lt;p&gt;But I can give you a recipe that I&amp;rsquo;m certain will work, and I can reveal some snippets from the source code of the web edition of Gig&amp;rsquo;o&amp;rsquo;Books. Implementing the rest is an exercise for the reader. 🙂&lt;/p&gt;
+&lt;p&gt;Tinkering with it is also encouraged. 🙂&lt;/p&gt;
+&lt;h2 id=&#34;recipe&#34;&gt;Recipe&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Use sql.js to create an sqlite database and do stuff with it.&lt;/li&gt;
+&lt;li&gt;Whenever there is a change to the database, export it from sql.js and save a snapshot to indexedDB.&lt;/li&gt;
+&lt;li&gt;When the page or webapp is loaded by the browser, inspect indexedDB to see if there is a saved snapshot. If there is, then load the snapshot into sql.js.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Note that we are not writing and reading indexedDB for every change to the database. It&amp;rsquo;s writing only when there is a change, yes, but reading only when the page or webapp is loaded. Furthermore, the writes can be throttled for better performance.&lt;/p&gt;
+&lt;p&gt;Effectively, indexedDB is an infrequently used mostly-write cache.&lt;/p&gt;
+&lt;p&gt;Further details are below.&lt;/p&gt;
+&lt;p&gt;Note that code snippets are from (the web edition of) Gig&amp;rsquo;o&amp;rsquo;Books verbatim and contain Gig&amp;rsquo;o&amp;rsquo;Books-specific references. They won&amp;rsquo;t work out-of-the-box with other code. You&amp;rsquo;ll have to extract out the important parts and integrate into your own code yourself.&lt;/p&gt;
+&lt;p&gt;Also, some code snippets are typescript instead of vanilla javascript.&lt;/p&gt;
+&lt;h3 id=&#34;detecting-a-change-and-calling-a-handler&#34;&gt;Detecting a change and calling a handler&lt;/h3&gt;
+&lt;p&gt;Any query which starts with one of &lt;code&gt;[&#39;insert&#39;, &#39;del&#39;, &#39;delete&#39;, &#39;update&#39;]&lt;/code&gt; and results in &lt;a href=&#34;https://github.com/sql-js/sql.js/blob/36859494d53f1962f2059d9597782f5f4ab49172/src/api.js#L1092&#34;&gt;.getRowsModified()&lt;/a&gt; returning positive constitutes a change.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;            &lt;span style=&#34;color:#75715e&#34;&gt;// This code is from the knex dialect for sql.js
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;            &lt;span style=&#34;color:#75715e&#34;&gt;// getRowsModified() is only applicable for insert, update and delete
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;            &lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;rowsAffected&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;
+            &lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;lowerSql&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;obj&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;sql&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;trim&lt;/span&gt;().&lt;span style=&#34;color:#a6e22e&#34;&gt;toLowerCase&lt;/span&gt;()
+            ;[&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;insert&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;del&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;delete&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;update&amp;#39;&lt;/span&gt;].&lt;span style=&#34;color:#a6e22e&#34;&gt;forEach&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;op&lt;/span&gt; =&amp;gt; {
+                &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;lowerSql&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;startsWith&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;`&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;op&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt; `&lt;/span&gt;)) {
+                    &lt;span style=&#34;color:#a6e22e&#34;&gt;rowsAffected&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;obj&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;connection&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;getRowsModified&lt;/span&gt;()
+                }
+            })
+
+            &lt;span style=&#34;color:#75715e&#34;&gt;// Notify upstream if any rows were changed
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;            &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;rowsAffected&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;!&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;obj&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;options&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;skipOnChange&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;obj&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;sql&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;indexOf&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;knex_migrations_lock&amp;#39;&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;this&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;config&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;onChange&lt;/span&gt;) {
+                &lt;span style=&#34;color:#66d9ef&#34;&gt;this&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;config&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;onChange&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;obj&lt;/span&gt;)
+            }
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If there is a change, then trigger a call to a change handler:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-ts&#34; data-lang=&#34;ts&#34;&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;onChange() {&lt;/span&gt;
+        ...
+
+        &lt;span style=&#34;color:#75715e&#34;&gt;// Trigger out of band: Since snapshot() interacts with the DB, it&amp;#39;s not
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;// good practice to have it occur within a DB-triggered handler
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;// Throttle: If multiple changes happen, only call snapshot() once at the end
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (&lt;span style=&#34;color:#66d9ef&#34;&gt;this&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;timeoutId&lt;/span&gt;) {
+            &lt;span style=&#34;color:#a6e22e&#34;&gt;clearTimeout&lt;/span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;this&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;timeoutId&lt;/span&gt;)
+        }
+        &lt;span style=&#34;color:#66d9ef&#34;&gt;this&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;timeoutId&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;setTimeout&lt;/span&gt;(() &lt;span style=&#34;color:#f92672&#34;&gt;=&amp;gt;&lt;/span&gt; {
+            &lt;span style=&#34;color:#a6e22e&#34;&gt;snapshot&lt;/span&gt;()
+            &lt;span style=&#34;color:#66d9ef&#34;&gt;this&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;timeoutId&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;
+        }, &lt;span style=&#34;color:#ae81ff&#34;&gt;1000&lt;/span&gt;)
+    }
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The &lt;code&gt;snapshot()&lt;/code&gt; calls are throttled (&lt;code&gt;snapshot()&lt;/code&gt; is defined below).&lt;/p&gt;
+&lt;p&gt;Since a single user-initiated action can result in multiple changes to the database, &lt;code&gt;snapshot()&lt;/code&gt; is only called (ie. database is persisted to indexedDB) after all the changes are done. A debouncing period of 1000 milliseconds works well.&lt;/p&gt;
+&lt;h3 id=&#34;creating-and-loading-snapshots&#34;&gt;Creating and loading snapshots&lt;/h3&gt;
+&lt;p&gt;Here is the code from Gig&amp;rsquo;o&amp;rsquo;Books that interacts with indexedDB via IDB-Keyval.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-ts&#34; data-lang=&#34;ts&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// snapshot.ts
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;import&lt;/span&gt; { &lt;span style=&#34;color:#a6e22e&#34;&gt;SqlJs&lt;/span&gt; } &lt;span style=&#34;color:#66d9ef&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;sql.js/module&amp;#39;&lt;/span&gt;
+&lt;span style=&#34;color:#66d9ef&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Idb&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;idb-keyval&amp;#39;&lt;/span&gt;
+&lt;span style=&#34;color:#66d9ef&#34;&gt;import&lt;/span&gt; { &lt;span style=&#34;color:#a6e22e&#34;&gt;Project&lt;/span&gt; } &lt;span style=&#34;color:#66d9ef&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;../core&amp;#39;&lt;/span&gt;
+
+&lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;SNAPSHOT&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;snapshot&amp;#39;&lt;/span&gt;
+
+&lt;span style=&#34;color:#66d9ef&#34;&gt;export&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;type&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Snapshot&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; {
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;title&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;string&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;filename&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;string&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;timestamp&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;Date&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;mru&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;string&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;data&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;Uint8Array&lt;/span&gt;
+}
+
+&lt;span style=&#34;color:#66d9ef&#34;&gt;export&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;async&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;snapshot() {&lt;/span&gt;
+    &lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;database&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;SqlJs.Database&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Project&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;database&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;any&lt;/span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;// typecast
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;
+    &lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;item&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;Snapshot&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; {
+        &lt;span style=&#34;color:#a6e22e&#34;&gt;title&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;Project.variables.get&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;title&amp;#39;&lt;/span&gt;),
+        &lt;span style=&#34;color:#a6e22e&#34;&gt;filename&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;Project.project&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;!&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;filename&lt;/span&gt;,
+        &lt;span style=&#34;color:#a6e22e&#34;&gt;timestamp&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; Date(),
+        &lt;span style=&#34;color:#a6e22e&#34;&gt;mru&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;window.location.hash.substring&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;),
+        &lt;span style=&#34;color:#a6e22e&#34;&gt;data&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;database.export&lt;/span&gt;()
+    }
+    &lt;span style=&#34;color:#66d9ef&#34;&gt;await&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Idb&lt;/span&gt;.&lt;span style=&#34;color:#66d9ef&#34;&gt;set&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;SNAPSHOT&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;item&lt;/span&gt;)
+}
+
+&lt;span style=&#34;color:#66d9ef&#34;&gt;export&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;getSnapshot&lt;/span&gt;()&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Promise&lt;/span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;Snapshot&lt;/span&gt;&amp;gt; {
+    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Idb&lt;/span&gt;.&lt;span style=&#34;color:#66d9ef&#34;&gt;get&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;SNAPSHOT&lt;/span&gt;)
+}
+
+&lt;span style=&#34;color:#66d9ef&#34;&gt;export&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;deleteSnapshot&lt;/span&gt;()&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Promise&lt;/span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;any&lt;/span&gt;&amp;gt; {
+    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Idb&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;del&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;SNAPSHOT&lt;/span&gt;)
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Again, this is code directly from Gig&amp;rsquo;o&amp;rsquo;Books and won&amp;rsquo;t work out of the box for your app. Don&amp;rsquo;t worry about &lt;code&gt;Project&lt;/code&gt; nor &lt;code&gt;.title&lt;/code&gt;, &lt;code&gt;.filename&lt;/code&gt;, &lt;code&gt;.timestamp&lt;/code&gt; nor &lt;code&gt;.mru&lt;/code&gt;. These are all Gig&amp;rsquo;o&amp;rsquo;Books-specific things.&lt;/p&gt;
+&lt;p&gt;The important field is &lt;code&gt;.data&lt;/code&gt; which holds the database in serialised form.&lt;/p&gt;
+&lt;p&gt;You can see this source file is very very simple. It&amp;rsquo;s basically just a thin wrapper around &lt;code&gt;Idb.set(), Idb.get(), Idb.del()&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;During page load or webapp initialisation, create a database from the snapshot (if exists) by doing something like:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;snapshot&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;getSnapshot&lt;/span&gt;()
+    &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;snapshot&lt;/span&gt;) {
+        &lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;database&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;SQL&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Database&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;snapshot&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;data&lt;/span&gt;)
+        ...
+    }
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;knex&#34;&gt;Knex&lt;/h3&gt;
+&lt;p&gt;Some of the code snippets reference &lt;a href=&#34;http://knexjs.org/&#34;&gt;knex&lt;/a&gt; (which is a popular and useful database abstraction/ORM-like layer) because Gig&amp;rsquo;o&amp;rsquo;Books uses knex over sql.js.&lt;/p&gt;
+&lt;p&gt;If you use knex, please note that knex&amp;rsquo;s built-in sqlite driver (which knex calls a &amp;lsquo;dialect&amp;rsquo;) is meant to be used against &lt;a href=&#34;http://github.com/mapbox/node-sqlite3&#34;&gt;node-sqlite3&lt;/a&gt;&amp;rsquo;s API and doesn&amp;rsquo;t work with sql.js.&lt;/p&gt;
+&lt;p&gt;(I wrote a customised sql.js dialect for knex so Gig&amp;rsquo;o&amp;rsquo;Books could use it.)&lt;/p&gt;
+&lt;h2 id=&#34;demo-and-outcome&#34;&gt;Demo and outcome&lt;/h2&gt;
+&lt;p&gt;If you want to see (something very similar to) this recipe working, head to the &lt;a href=&#34;http://gigobooks.com/webapp&#34;&gt;Gig&amp;rsquo;o&amp;rsquo;Books webapp&lt;/a&gt; and play around with it.&lt;/p&gt;
+&lt;p&gt;Open up the Storage tab in your browser&amp;rsquo;s developer tools and look at the indexedDB items.&lt;/p&gt;
+&lt;p&gt;Everytime you make a change, notice that:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;An asterisk appears next to the browser window/tab title (to indicate an unsaved change), and&lt;/li&gt;
+&lt;li&gt;The snapshot that is cached in indexedDB changes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;How well does this work?&lt;/p&gt;
+&lt;p&gt;For Gig&amp;rsquo;o&amp;rsquo;Books, it works quite well (Feel free to try to break Gig&amp;rsquo;o&amp;rsquo;Books 🙂). Exporting into indexedDB is quite quick relative to humans, and also relatively infrequent. Performance feels good.&lt;/p&gt;
+&lt;p&gt;(I admit I didn&amp;rsquo;t actually measure the overhead.)&lt;/p&gt;
+&lt;p&gt;If your webapp has a very large sqlite data file, maybe the overhead of export-and-persist might be too much. YMMV.&lt;/p&gt;
+&lt;h2 id=&#34;discussion-and-future-directions&#34;&gt;Discussion and future directions&lt;/h2&gt;
+&lt;p&gt;When I created this solution for myself, I didn&amp;rsquo;t know about some existing alternatives:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/Philzen/WebSQL-Polyfill&#34;&gt;http://github.com/Philzen/WebSQL-Polyfill&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://github.com/yathit/ydn-db&#34;&gt;http://github.com/yathit/ydn-db&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;but I&amp;rsquo;m happy with this solution anyway. It&amp;rsquo;s very simple to understand, it&amp;rsquo;s transparent, and it&amp;rsquo;s easy to both build and customise.&lt;/p&gt;
+&lt;p&gt;Unfortunately, I didn&amp;rsquo;t have generic full working code to publish. It was either post about this without full code, or not post about it at all. I chose the former.&lt;/p&gt;
+&lt;p&gt;Possible future work:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Package up the recipe into a generic module,&lt;/li&gt;
+&lt;li&gt;Publish the knex dialect for sql.js that Gig&amp;rsquo;o&amp;rsquo;Books uses.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We&amp;rsquo;ll see. Thanks for reading!&lt;/p&gt;
+&lt;h2 id=&#34;one-more-thing&#34;&gt;One more thing&lt;/h2&gt;
+&lt;p&gt;If you work with sqlite, remember to &lt;a href=&#34;https://sqlite.org/lang_vacuum.html&#34;&gt;VACUUM&lt;/a&gt; once in a while.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
     <item>
       <title>App Startup vs Content Startup</title>
       <link>https://bengtan.com/blog/app-startup-vs-content-startup/</link>
