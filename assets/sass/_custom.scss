@@ -28,6 +28,7 @@ html[data-mode="dim"] .comments { border-top-color: var(--light); }
 // .scrollable triggers some weird firefox bug. Change it to something more conventional
 .scrollable { display: block; }
 
+img { box-shadow: 0 0 10px #88888888; }
 
 /***********************************************************
 * css named colours picker                                 *
