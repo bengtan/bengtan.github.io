@@ -1,8 +1,8 @@
 
 <!DOCTYPE html>
-<html lang="en" data-figures="">
+<html lang="en" data-figures="" class="page">
   <head>
-<title>404 Page not found | Beng Tan</title>
+<title>My go-to tool for reading long JSON snippets | Beng Tan</title>
 <meta charset="utf-8">
 <meta name="generator" content="Hugo 0.80.0" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -17,18 +17,22 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="">
+<meta name="description" content="JSON is ubiquitous and I often run into it whilst developing or debugging.
+When it&rsquo;s in raw form like this &hellip;
+it&rsquo;s hard for a human to …">
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="404 Page not found" />
-<meta property="og:url" content="https://bengtan.com/404.html" />
-<meta property="og:title" content="404 Page not found" />
-<meta property="og:description" content="" />
-<meta property="og:image" content="https://bengtan.com/images/logo.png" />
+<meta name="twitter:title" content="My go-to tool for reading long JSON snippets" />
+<meta property="og:url" content="https://bengtan.com/blog/reading-long-json-snippets/" />
+<meta property="og:title" content="My go-to tool for reading long JSON snippets" />
+<meta property="og:description" content="JSON is ubiquitous and I often run into it whilst developing or debugging.
+When it&rsquo;s in raw form like this &hellip;
+it&rsquo;s hard for a human to …" />
+<meta property="og:image" content="https://bengtan.com/blog/reading-long-json-snippets/json.png" />
 <link rel="apple-touch-icon" href='https://bengtan.com/apple-touch-icon.png'>
 <link rel="icon" type="image/png" href='https://bengtan.com/favicon.ico'>
 
-<link rel="canonical" href="https://bengtan.com/404.html">
+<link rel="canonical" href="https://bengtan.com/blog/reading-long-json-snippets/">
 
     
 
@@ -104,12 +108,84 @@
 </header>
 
     <main>
-<div class="never wrap">
-  <h1>Lost</h1>
-  <p class="pale">We couldn&#39;t find the page you&#39;re looking for</p><br>
-  <div class="button btn_back">Go Back</div>
+  
+<div class="grid-inverse wrap content">
+  <article class="post_content">
+    <h1 class="post_title">My go-to tool for reading long JSON snippets</h1><div class="post_meta">
+  
+    <svg class="icon">
+  <use xlink:href="#calendar"></use>
+</svg>
+    <span class="post_date">
+      10 Feb 2021</span>
 </div>
 
+    
+
+    
+    <p><a href="https://www.json.org/json-en.html">JSON</a> is ubiquitous and I often run into it whilst developing or debugging.</p>
+<p>When it&rsquo;s in raw form like this &hellip;</p>
+<p><img src="plaintext.jpg" alt="json as raw text"></p>
+<p>it&rsquo;s hard for a human to interpret.</p>
+<p>For small snippets, I could copy-and-paste it into a text file and hand-prettify it. For long snippets, that&rsquo;s obviously not scalable.</p>
+<p>I stumbled upon a very useful tool for interpreting and analysing (extremely) long JSON snippets. The surprising thing is that it&rsquo;s been around for a long time and I just never noticed. However, once I knew about it, I kept using it, and it&rsquo;s now my go-to tool for analysing long JSON snippets.</p>
+<p>The tool?</p>
+<p><strong>Mozilla Firefox.</strong></p>
+<p>Yes, the web browser. (It also helps that Firefox is my main browser.)</p>
+<p>Here is a link to a random JSON file from the internet:</p>
+<p><a href="https://raw.githubusercontent.com/bengtan/bengtan.github.io/main/content/css-named-colours-picker/dist/main.js.map">https://raw.githubusercontent.com/bengtan/bengtan.github.io/main/content/css-named-colours-picker/dist/main.js.map</a></p>
+<p>If you click on the link with Firefox you get something human-unfriendly:</p>
+<p><img src="plaintext.jpg" alt="json as raw text"></p>
+<p>However, if you open a file with a <code>.json</code> extension on your local computer , you get &hellip;</p>
+<p><img src="json.png" alt="json in firefox json browser"></p>
+<p>&hellip; which is a nice and useful and human-friendly json browser with collapsible sections, pretty printing and <strong>filtering</strong>.</p>
+<p>(I think Firefox shows the json browser when the mimetype is set to json, and opening a local file with a <code>.json</code> extension is an easy way to set the mimetype.)</p>
+<p>I stumbled upon this by chance. But since then, everytime I have a long JSON snippet to debug, I save it to a text file, give it a <code>.json</code> extension and open it with Firefox.</p>
+<p style="text-align: center;">* * *</p>
+<p>Okay, so installing Firefox just to browse JSON is probably overkill, but this is great for me since I already use it.</p>
+<p>I&rsquo;m glad Firefox is my main browser.</p>
+
+    
+      
+<div class="comments">
+    
+        <a href="https://twitter.com/search?q=https%3a%2f%2fbengtan.com%2fblog%2freading-long-json-snippets%2f">Discuss on Twitter</a>
+    
+</div>
+
+
+    
+  </article>
+<aside class="sidebar">
+  <section class="sidebar_inner">
+    
+      <h2>Beng Tan</h2>
+      <div class="sidebar_description">
+        Hi! I&rsquo;m a freelance <a href="/resume">software engineer</a>. I write about software, tech, startups and random things.
+      </div>
+    <h2 class="mt-4">Featured Posts</h2>
+    <ul>
+      <li>
+        <a href="https://bengtan.com/css-named-colours-picker/" class="nav-link">CSS Named Colours Picker</a>
+      </li>
+    </ul>
+    <h2 class="mt-4">Recent Posts</h2>
+    <ul class="flex-column">
+      <li>
+        <a href="https://bengtan.com/blog/recipe-for-websql/" class="nav-link">A recipe for recreating the functionality of Web SQL</a>
+      </li>
+      <li>
+        <a href="https://bengtan.com/blog/app-startup-vs-content-startup/" class="nav-link">App Startup vs Content Startup</a>
+      </li>
+      <li>
+        <a href="https://bengtan.com/blog/a-new-beginning/" class="nav-link">A New Beginning</a>
+      </li>
+    </ul>
+  </section>
+</aside>
+
+  
+</div>
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
     <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>

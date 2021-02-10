@@ -6,7 +6,41 @@
     <description>Recent content in Blog on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Tue, 09 Feb 2021 12:00:00 +0800</lastBuildDate><atom:link href="https://bengtan.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Feb 2021 12:00:00 +0800</lastBuildDate><atom:link href="https://bengtan.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My go-to tool for reading long JSON snippets</title>
+      <link>https://bengtan.com/blog/reading-long-json-snippets/</link>
+      <pubDate>Wed, 10 Feb 2021 12:00:00 +0800</pubDate>
+      
+      <guid>https://bengtan.com/blog/reading-long-json-snippets/</guid>
+      <description>
+        
+          &lt;p&gt;&lt;a href=&#34;https://www.json.org/json-en.html&#34;&gt;JSON&lt;/a&gt; is ubiquitous and I often run into it whilst developing or debugging.&lt;/p&gt;
+&lt;p&gt;When it&amp;rsquo;s in raw form like this &amp;hellip;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;plaintext.jpg&#34; alt=&#34;json as raw text&#34;&gt;&lt;/p&gt;
+&lt;p&gt;it&amp;rsquo;s hard for a human to interpret.&lt;/p&gt;
+&lt;p&gt;For small snippets, I could copy-and-paste it into a text file and hand-prettify it. For long snippets, that&amp;rsquo;s obviously not scalable.&lt;/p&gt;
+&lt;p&gt;I stumbled upon a very useful tool for interpreting and analysing (extremely) long JSON snippets. The surprising thing is that it&amp;rsquo;s been around for a long time and I just never noticed. However, once I knew about it, I kept using it, and it&amp;rsquo;s now my go-to tool for analysing long JSON snippets.&lt;/p&gt;
+&lt;p&gt;The tool?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mozilla Firefox.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Yes, the web browser. (It also helps that Firefox is my main browser.)&lt;/p&gt;
+&lt;p&gt;Here is a link to a random JSON file from the internet:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://raw.githubusercontent.com/bengtan/bengtan.github.io/main/content/css-named-colours-picker/dist/main.js.map&#34;&gt;https://raw.githubusercontent.com/bengtan/bengtan.github.io/main/content/css-named-colours-picker/dist/main.js.map&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you click on the link with Firefox you get something human-unfriendly:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;plaintext.jpg&#34; alt=&#34;json as raw text&#34;&gt;&lt;/p&gt;
+&lt;p&gt;However, if you open a file with a &lt;code&gt;.json&lt;/code&gt; extension on your local computer , you get &amp;hellip;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;json.png&#34; alt=&#34;json in firefox json browser&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&amp;hellip; which is a nice and useful and human-friendly json browser with collapsible sections, pretty printing and &lt;strong&gt;filtering&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;(I think Firefox shows the json browser when the mimetype is set to json, and opening a local file with a &lt;code&gt;.json&lt;/code&gt; extension is an easy way to set the mimetype.)&lt;/p&gt;
+&lt;p&gt;I stumbled upon this by chance. But since then, everytime I have a long JSON snippet to debug, I save it to a text file, give it a &lt;code&gt;.json&lt;/code&gt; extension and open it with Firefox.&lt;/p&gt;
+&lt;p style=&#34;text-align: center;&#34;&gt;* * *&lt;/p&gt;
+&lt;p&gt;Okay, so installing Firefox just to browse JSON is probably overkill, but this is great for me since I already use it.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m glad Firefox is my main browser.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
     <item>
       <title>A recipe for recreating the functionality of Web SQL</title>
       <link>https://bengtan.com/blog/recipe-for-websql/</link>
