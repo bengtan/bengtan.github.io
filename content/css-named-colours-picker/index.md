@@ -1,13 +1,14 @@
 ---
 title: "CSS Named Colours Picker"
 thumbnail: "/css-named-colours-picker/css-named-colours-picker-screenshot.png"
+description: "Interactive tool for exploring CSS named/extended colours. Filterable (multi-column) sortable table widget. Useful for choosing colours for web development."
 showDate: false
 featured: true
 sidebar: false
 singleColumn: true
 ---
 
-A list of CSS named colours in a filterable, (multi-column) sortable table. This lists the 148 colours as of [CSS Color Module Level 4](https://www.w3.org/TR/css-color-4/).
+Interactive tool for exploring and selecting CSS named/extended colours. Filterable (multi-column) sortable table.
 
 <div id="root" class="css-named-colours-picker">
     <div style="text-align: center;">
