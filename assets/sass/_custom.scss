@@ -30,6 +30,12 @@ html[data-mode="dim"] .comments { border-top-color: var(--light); }
 
 img { box-shadow: 0 0 10px #88888888; }
 
+// List styling tweaks
+p + ul { margin-top: -1.3rem; }
+ul + p { padding-top: 1.3rem; }
+.post_content ul ul { padding-top: 0; padding-bottom: 0; }
+
+
 /***********************************************************
 * css named colours picker                                 *
 ************************************************************/
