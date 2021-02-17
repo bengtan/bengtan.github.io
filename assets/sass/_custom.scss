@@ -29,6 +29,7 @@ html[data-mode="dim"] .comments { border-top-color: var(--light); }
 .scrollable { display: block; }
 
 img { box-shadow: 0 0 10px #88888888; }
+a img { max-width: 100%; } // Avoid .image-scalable trick in theme
 
 // List styling tweaks
 p + ul { margin-top: -1.3rem; }
