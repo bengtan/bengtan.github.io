@@ -1,0 +1,386 @@
+
+<!DOCTYPE html>
+<html lang="en" data-figures="" class="page">
+  <head>
+<title>Open secrets about Hacker News | Beng Tan</title>
+<meta charset="utf-8">
+<meta name="generator" content="Hugo 0.80.0" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VTEK0C8GRX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-VTEK0C8GRX');
+</script>
+<meta property="og:locale" content="en" />
+
+<meta property="og:type" content="article">
+<meta name="description" content="I spent a few days examining the mechanics of Hacker News (HN) and I discovered some open secrets. &ldquo;Open&rdquo; because they&rsquo;re not private. …">
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:creator" content="">
+<meta name="twitter:title" content="Open secrets about Hacker News" />
+<meta property="og:url" content="https://bengtan.com/blog/open-secrets-hacker-news/" />
+<meta property="og:title" content="Open secrets about Hacker News" />
+<meta property="og:description" content="I spent a few days examining the mechanics of Hacker News (HN) and I discovered some open secrets. &ldquo;Open&rdquo; because they&rsquo;re not private. …" />
+<meta property="og:image" content="https://bengtan.com/images/logo.png" />
+<link rel="apple-touch-icon" href='https://bengtan.com/apple-touch-icon.png'>
+<link rel="icon" type="image/png" href='https://bengtan.com/favicon.ico'>
+
+<link rel="canonical" href="https://bengtan.com/blog/open-secrets-hacker-news/">
+
+    
+
+    
+    
+    <link rel="preload" href="https://bengtan.com/css/styles.17fda764b1bf9377a48e61142d3713f2785293444ded60cd05fd47d7e55844f3793eb453048f34c543e6063b6dc2a6fe5da930f42e4e1f1e2969c8937c030433.css" integrity = "sha512-F/2nZLG/k3ekjmEULTcT8nhSk0RN7WDNBf1H1&#43;VYRPN5PrRTBI80xUPmBjttwqb&#43;Xakw9C5OHx4paciTfAMEMw==" as="style" crossorigin="anonymous">
+    <link rel="preload" href="https://bengtan.com/js/bundle.min.48fa905ac5f708cd2dceac23a468b062d6c96282a530545826072e265b7cdd156320cbd7e56ba938d8476da637c260b713b2f7dae8b7ce8d8647055082418dcc.js" as="script" integrity=
+    "sha512-SPqQWsX3CM0tzqwjpGiwYtbJYoKlMFRYJgcuJlt83RVjIMvX5WupONhHbaY3wmC3E7L32ui3zo2GRwVQgkGNzA==" crossorigin="anonymous">
+
+    
+    <link rel="stylesheet" type="text/css" href="https://bengtan.com/css/styles.17fda764b1bf9377a48e61142d3713f2785293444ded60cd05fd47d7e55844f3793eb453048f34c543e6063b6dc2a6fe5da930f42e4e1f1e2969c8937c030433.css" integrity="sha512-F/2nZLG/k3ekjmEULTcT8nhSk0RN7WDNBf1H1&#43;VYRPN5PrRTBI80xUPmBjttwqb&#43;Xakw9C5OHx4paciTfAMEMw==" crossorigin="anonymous">
+    
+  </head>
+  
+  
+    
+  
+  <body data-code="100" data-lines="false" id="documentTop">
+
+<header class="nav_header" >
+  <nav class="nav">
+    <a href='https://bengtan.com/' class="nav_brand nav_item">
+      <img src="https://bengtan.com/images/logo.png" class="logo">
+      <div class="nav_close">
+        <div>
+          <svg class="icon">
+  <use xlink:href="#open-menu"></use>
+</svg>
+          <svg class="icon">
+  <use xlink:href="#closeme"></use>
+</svg>
+        </div>
+      </div>
+    </a>
+    <div class='nav_body nav_body_right'>
+      
+      
+      
+        
+
+  <div class="nav_parent">
+    <a href="https://bengtan.com/" class="nav_item">Home </a>
+  </div>
+  <div class="nav_parent">
+    <a href="https://bengtan.com/resume/" class="nav_item">Resume </a>
+  </div>
+      
+<div class='follow'>
+  <a href="https://github.com/bengtan">
+    <svg class="icon">
+  <use xlink:href="#github"></use>
+</svg>
+  </a>
+  <a href="https://twitter.com/bengtanAU">
+    <svg class="icon">
+  <use xlink:href="#twitter"></use>
+</svg>
+  </a>
+    
+  <a href="https://bengtan.com/index.xml">
+    <svg class="icon">
+  <use xlink:href="#rss"></use>
+</svg>
+  </a>
+<div class="color_mode">
+  <input type="checkbox" class="color_choice" id="mode">
+</div>
+
+</div>
+
+    </div>
+  </nav>
+</header>
+
+    <main>
+  
+<div class="grid-inverse wrap content">
+  <article class="post_content">
+    <h1 class="post_title">Open secrets about Hacker News</h1><div class="post_meta">
+  
+    <svg class="icon">
+  <use xlink:href="#calendar"></use>
+</svg>
+    <span class="post_date">
+      18 Feb 2021</span>
+</div>
+
+    
+
+    
+    
+    <h2>Overview</h2>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#sandbox-live-list-and-the-top30">Sandbox, Live List, and the Top30</a></li>
+    <li><a href="#making-the-front-page">Making the front page</a></li>
+    <li><a href="#upvote-conversion-rate">Upvote conversion rate</a></li>
+    <li><a href="#timing">Timing</a></li>
+    <li><a href="#most-stories-fail">Most stories &lsquo;fail&rsquo;</a></li>
+    <li><a href="#re-posting">Re-posting</a></li>
+    <li><a href="#dont-delete-and-re-post">Don&rsquo;t delete and re-post</a></li>
+    <li><a href="#text-posts-are-penalised">Text posts are penalised</a></li>
+    <li><a href="#show-hn">Show HN</a></li>
+    <li><a href="#karma">Karma</a></li>
+    <li><a href="#escape-velocity">Escape velocity</a></li>
+    <li><a href="#second-chance-pool">Second chance pool</a></li>
+    <li><a href="#vote-manipulation">Vote manipulation</a></li>
+    <li><a href="#dang">dang</a></li>
+    <li><a href="#random">Random</a></li>
+    <li><a href="#further-reading">Further reading</a></li>
+  </ul>
+</nav>
+    <p>I spent a few days examining the mechanics of Hacker News (HN) and I discovered some open secrets. &ldquo;Open&rdquo; because they&rsquo;re not private. &ldquo;Secret&rdquo; because they&rsquo;re not well known. One of them can triple the chances of a story reaching the front page.</p>
+<p>They are listed below with a sprinkling of my own analysis. Sources are included so you can explore further.</p>
+<h2 id="sandbox-live-list-and-the-top30">Sandbox, Live List, and the Top30</h2>
+<p>There are three parts of Hacker News which I&rsquo;m calling the Sandbox, the Live List and the Top30.</p>
+<p>The Top30 are the top 30 stories which appear on the <a href="https://news.ycombinator.com/new">front page</a> of <a href="https://news.ycombinator.com">Hacker News</a>. Stories with more points/upvotes are ranked higher. Stories which are older are ranked lower. An algorithm balances these two factors.</p>
+<p>The Live List is the rest of the top stories after the Top30. These appear on <a href="https://news.ycombinator.com/news?p=2">page two</a> and <a href="https://news.ycombinator.com/news?p=3">three</a> and so on.</p>
+<p>The Sandbox is the <a href="https://news.ycombinator.com/newest">&lsquo;new&rsquo;</a> section and lists all stories ranked by time. Newer stories appear higher.</p>
+<p>When a new story is posted, it is listed only in the sandbox. Once (or if) it has 5 points, then it also appears in the Live List.</p>
+<h2 id="making-the-front-page">Making the front page</h2>
+<p>A story needs to accumulate 5 points to appear in the Live List. Where it initially appears depends on how quickly it accumulated points. If points are acquired quickly enough, it appears high enough to be in the Top30. Otherwise, it appears at a lower position.</p>
+<p>Once a story appears on the Live List, it will have more exposure and acquire more points.</p>
+<p>Stories which begin life on the Live List on page two or three sometimes accumulate more points quickly enough to rise up to the Top30.</p>
+<h2 id="upvote-conversion-rate">Upvote conversion rate</h2>
+<p>The upvote conversion rate is the proportion of readers who upvote a story. It&rsquo;s a proxy for how strongly a story appeals to readers. More interesting stories will have a higher rate of upvotes.</p>
+<p>Whether a story (acquires 5 points and) escapes the sandbox depends on the rate and the number of page views.</p>
+<p><code>Chance of escaping sandbox = upvote conversion rate ✕ views</code></p>
+<p>Consider an example.</p>
+<p>A newly submitted story will get around 30 page views from being listed in the Sandbox (The actual number varies so let&rsquo;s just talk about averages). All stories start with one point. If it gets 4 additional upvotes, it will escape the Sandbox.</p>
+<p>In other words, the story must persuade 13.3% or more of readers to upvote. That&rsquo;s a pretty high conversion rate.</p>
+<p>In practice, most stories will rate much lower. Hence, some luck is needed: Either a transient boost in the conversion rate, or more page views.</p>
+<h2 id="timing">Timing</h2>
+<p>Timing affects how many times a sandboxed story is viewed.</p>
+<p><code>Views = number of users online / rate of new submissions</code></p>
+<p>But timing is not predictable in a reliable way.</p>
+<p>Posting a story during a busy period means more viewers and more chances for upvotes. But there are also more newer stories that push it down the Sandbox ranking too.</p>
+<p>The best time to post is when the ratio of viewers to new stories is highest. But no one knows with certainty when that happens.</p>
+<blockquote>
+<p>the analysis is probabilistic. You are not guaranteed to get onto the front page just by submitting on at a high-probability time.</p>
+<p>&hellip;</p>
+<p>There are game-theoric implications; the more people submitting at a time (weekday mornings), the less likely people will see your post on /new before it is pushed off the first page, and it is highly unlikely to get upvotes once it has fallen off the top 30 slots. (hence the repost/second chance rules)</p>
+<p>&ndash; <a href="https://news.ycombinator.com/item?id=11515207">https://news.ycombinator.com/item?id=11515207</a></p>
+</blockquote>
+<p><a href="https://i.imgur.com/MdUvMB9.png"><img src="MdUvMB9.png" alt="% of all Hacker News Submissions Which Receive 10+ Points"></a></p>
+<h2 id="most-stories-fail">Most stories &lsquo;fail&rsquo;</h2>
+<p>Most stories &lsquo;fail&rsquo; and have only one or two points.</p>
+<blockquote>
+<p>The median is either 1 (no upvotes) or 2 (just 1 upvote)</p>
+<p>&ndash; <a href="https://news.ycombinator.com/item?id=9864254">https://news.ycombinator.com/item?id=9864254</a></p>
+</blockquote>
+<p><a href="https://i.imgur.com/SN5BuAJ.png"><img src="SN5BuAJ.png" alt="Median Score of all Hacker News Submissions"></a></p>
+<p><a href="https://news.ycombinator.com/item?id=9864254">If your HN submission doesn&rsquo;t get any upvotes, don&rsquo;t worry about it</a>. Don&rsquo;t take it personally.</p>
+<p>For example, <a href="https://news.ycombinator.com/user?id=tptacek">tptacek</a> is one of the most well-known users on Hacker News. He has a <a href="https://news.ycombinator.com/item?id=23458896">pretty good track record of getting blog posts on the front page</a> yet his &lsquo;success&rsquo; rate is around 50%.</p>
+<h2 id="re-posting">Re-posting</h2>
+<p>Hacker News allows re-posts. This is not widely known.</p>
+<blockquote>
+<p>If a story has not had significant attention in the last year or so, a small number of reposts is ok. Otherwise we bury reposts as duplicates.</p>
+<p>&ndash; <a href="https://news.ycombinator.com/newsfaq.html">https://news.ycombinator.com/newsfaq.html</a></p>
+</blockquote>
+<p>Albeit, a &lsquo;small number&rsquo; is not defined.</p>
+<p>Personally, I&rsquo;d stay at 3. I&rsquo;d also wait at least a day between re-posts (and try re-posting at different time slots).</p>
+<p><strong>Re-posting can triple-or-more the chances of a story reaching the front page.</strong></p>
+<p>Here is a story that was posted six times:</p>
+<p><a href="https://hn.algolia.com/?dateRange=all&amp;page=0&amp;prefix=false&amp;query=https%3A%2F%2Fwww.lihaoyi.com%2Fpost%2FFromFirstPrinciplesWhyScala.html&amp;sort=byDate&amp;type=story">https://hn.algolia.com/?dateRange=all&amp;page=0&amp;prefix=false&amp;query=https%3A%2F%2Fwww.lihaoyi.com%2Fpost%2FFromFirstPrinciplesWhyScala.html&amp;sort=byDate&amp;type=story</a></p>
+<h2 id="dont-delete-and-re-post">Don&rsquo;t delete and re-post</h2>
+<p>The flip-side of re-posting is that delete-and-repost is not allowed.</p>
+<blockquote>
+<p>Please don&rsquo;t delete and repost the same story. Deletion is for things that shouldn&rsquo;t have been submitted in the first place.</p>
+<p>&ndash; <a href="https://news.ycombinator.com/newsfaq.html">https://news.ycombinator.com/newsfaq.html</a></p>
+</blockquote>
+<blockquote>
+<p>Don&rsquo;t do this.</p>
+<p>pg has said that this is a ban worthy offense. And I still see people doing it.</p>
+<p>&ndash; <a href="https://news.ycombinator.com/item?id=6861740">https://news.ycombinator.com/item?id=6861740</a></p>
+</blockquote>
+<h2 id="text-posts-are-penalised">Text posts are penalised</h2>
+<p>Submissions which are text and lack a URL (sometimes called a &lsquo;self post&rsquo;) have a ranking penalty applied. The factor has been estimated to be a 0.4 or 0.7 multiplier. (Source: <a href="https://news.ycombinator.com/item?id=1076633">Why you should submit your stuff as a blog posting</a>)</p>
+<p>If you must post text, consider posting a link and then submit the text as a comment.</p>
+<blockquote>
+<p>Posts without URLs get penalized, so you&rsquo;d be better off posting this with a link, then adding your text as a first comment in the new thread.</p>
+<p>&ndash; <a href="https://news.ycombinator.com/item?id=21874086">https://news.ycombinator.com/item?id=21874086</a></p>
+</blockquote>
+<h2 id="show-hn">Show HN</h2>
+<p>The Show HN section of Hacker News also has a <a href="https://news.ycombinator.com/shownew">sandbox</a> and it&rsquo;s own live <a href="https://news.ycombinator.com/show">&lsquo;Show&rsquo;</a> listing.</p>
+<blockquote>
+<p>Every Show HN appears on shownew. Once it clears a small points threshold, it will appear on the show page in the top bar.</p>
+<p>&ndash; <a href="https://news.ycombinator.com/showhn.html">https://news.ycombinator.com/showhn.html</a></p>
+</blockquote>
+<p>(I don&rsquo;t know what the points threshold for Show HN is.)</p>
+<p>A story which is posted to <a href="https://news.ycombinator.com/showhn.html">&lsquo;Show HN&rsquo;</a> appears in both sandboxes and has more opportunities to be upvoted.</p>
+<h2 id="karma">Karma</h2>
+<p><a href="https://news.ycombinator.com/item?id=23458656">Do posts by authors with more karma rank higher?</a> The answer is: No.</p>
+<h2 id="escape-velocity">Escape velocity</h2>
+<p>Taking into account all of the above:</p>
+<p><code>Chance of escaping sandbox = re-posts ✕ upvote conversion rate ✕ number of users online / rate of new submissions</code></p>
+<h2 id="second-chance-pool">Second chance pool</h2>
+<p>A small proportion of interesting stories which didn&rsquo;t attract enough upvotes are curated by the moderators.</p>
+<p>It is taken out of the sandbox and it&rsquo;s timestamp is artifically manipulated so it appears in the second half of the Top30. From there, it decays normally.</p>
+<blockquote>
+<p>Moderators and a small number of reviewer users comb the depths of /newest looking for stories that got overlooked but which the community might find interesting. Those go into a second-chance pool from which stories are randomly selected and lobbed onto the bottom part of the front page. This guarantees them a few minutes of attention. If they don&rsquo;t interest the community they soon fall off, but if they do, they get upvoted and stay on the front page.</p>
+<p>&ndash; <a href="https://news.ycombinator.com/item?id=11662380">https://news.ycombinator.com/item?id=11662380</a></p>
+</blockquote>
+<p>The implication? The Top30 is a combination of organically-upvoted stories and moderator-boosted stories.</p>
+<h2 id="vote-manipulation">Vote manipulation</h2>
+<p>Hacker News has software to detect vote manipulation (ie. asking friends to upvote).</p>
+<p><a href="https://news.ycombinator.com/item?id=22761897">Voting ring detection has been one of HN&rsquo;s priorities for over 12 years</a> and it&rsquo;s pretty good.</p>
+<blockquote>
+<p>HN&rsquo;s anti-voting-ring software is now so strict that the main thing we have to do is turn it off when a submission is good enough</p>
+<p>&ndash; <a href="https://news.ycombinator.com/item?id=15511238">https://news.ycombinator.com/item?id=15511238</a></p>
+</blockquote>
+<p>If you get past the voting ring detector, you won&rsquo;t get past the readers.</p>
+<p>Hacker News readers are very protective of the site. Stories which reach the Top30 via dubious means attract intense scrutiny. Sometimes even organically-upvoted stories are suspected.</p>
+<blockquote>
+<p>readers reacted negatively, even violently, to seeing junk on HN&rsquo;s front page. By &ldquo;junk&rdquo; I mean stories that were placed there randomly and that weren&rsquo;t of high-enough quality to otherwise be credible candidates for the front page. Basically, it was an &ldquo;ow my eyes&rdquo;, &ldquo;get that shit away from me&rdquo; effect.</p>
+<p>&hellip;</p>
+<p><strong>HN users have an intense emotional relationship with the front page</strong>. This shows up in the inevitable &ldquo;How is this on HN?&rdquo; comments when a story somehow violates the commenter&rsquo;s personal contract or mental model of HN. &hellip; lessons I drew from that experience: (1) people&rsquo;s relationship with HN is surprisingly personal</p>
+<p>&ndash; <a href="https://news.ycombinator.com/item?id=21868928">https://news.ycombinator.com/item?id=21868928</a> (emphasis added)</p>
+</blockquote>
+<h2 id="dang">dang</h2>
+<p>Hacker News is moderated mainly by <a href="https://news.ycombinator.com/user?id=dang">dang</a> aka Dan Gackle (pronounced &lsquo;Gackley&rsquo;). He&rsquo;s not of asian descent. But <a href="https://news.ycombinator.com/item?id=20643264">he</a> <a href="https://news.ycombinator.com/item?id=25054045">is</a> <a href="https://news.ycombinator.com/item?id=25049415">the</a> <a href="https://news.ycombinator.com/item?id=25049119">best</a> <a href="https://news.ycombinator.com/item?id=25056408">moderator</a> <a href="https://news.ycombinator.com/item?id=25048958">in</a> <a href="https://news.ycombinator.com/item?id=25051566">the</a> <a href="https://news.ycombinator.com/item?id=25052249">world</a>.</p>
+<h2 id="random">Random</h2>
+<p>The story &lsquo;Learn Git Branching&rsquo; has been posted almost 20 times across <a href="http://pcottle.github.io/learnGitBranching/">two</a> <a href="https://learngitbranching.js.org/">urls</a>. The distribution of points is <a href="https://news.ycombinator.com/from?site=pcottle.github.io">pretty</a> <a href="https://news.ycombinator.com/from?site=learngitbranching.js.org">random</a>.</p>
+<h2 id="further-reading">Further reading</h2>
+<ul>
+<li><a href="https://github.com/minimaxir/hacker-news-undocumented">A List of Hacker News&rsquo;s Undocumented Features and Behaviors</a></li>
+<li><a href="https://www.newyorker.com/news/letter-from-silicon-valley/the-lonely-work-of-moderating-hacker-news">The Lonely Work of Moderating Hacker News</a> (<a href="https://news.ycombinator.com/item?id=20643052">comments</a> and more <a href="https://news.ycombinator.com/item?id=25048415">comments</a>)</li>
+<li><a href="https://github.com/cheeaun/awesome-hacker-news">Awesome Hacker News</a> - A collection of awesome Hacker News apps, libraries, resources and shiny things</li>
+</ul>
+
+    
+      
+<div class="comments">
+    
+        <a href="https://twitter.com/search?q=https%3a%2f%2fbengtan.com%2fblog%2fopen-secrets-hacker-news%2f">Discuss on Twitter</a>
+    
+</div>
+
+
+    
+  </article>
+<aside class="sidebar">
+  <section class="sidebar_inner">
+    
+      <h2>Beng Tan</h2>
+      <div class="sidebar_description">
+        Hi! I&rsquo;m a freelance <a href="/resume">software engineer</a>. I write about software, tech, startups and random things.
+      </div>
+    <h2 class="mt-4">Featured Posts</h2>
+    <ul>
+      <li>
+        <a href="https://bengtan.com/css-named-colours-picker/" class="nav-link">CSS Named Colours Picker</a>
+      </li>
+    </ul>
+    <h2 class="mt-4">Recent Posts</h2>
+    <ul class="flex-column">
+      <li>
+        <a href="https://bengtan.com/reading-list/20210212/" class="nav-link">Reading List (2021-02-12)</a>
+      </li>
+      <li>
+        <a href="https://bengtan.com/blog/reading-long-json-snippets/" class="nav-link">My go-to tool for reading long JSON snippets</a>
+      </li>
+      <li>
+        <a href="https://bengtan.com/blog/recipe-for-websql/" class="nav-link">A recipe for recreating the functionality of Web SQL</a>
+      </li>
+      <li>
+        <a href="https://bengtan.com/blog/app-startup-vs-content-startup/" class="nav-link">App Startup vs Content Startup</a>
+      </li>
+      <li>
+        <a href="https://bengtan.com/blog/a-new-beginning/" class="nav-link">A New Beginning</a>
+      </li>
+    </ul>
+  </section>
+</aside>
+
+  
+</div>
+    </main><svg width="0" height="0" class="hidden">
+  <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
+    <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.001 18.001" id="twitter">
+    <path d="M15.891 4.013c.808-.496 1.343-1.173 1.605-2.034a8.68 8.68 0 0 1-2.351.861c-.703-.756-1.593-1.14-2.66-1.14-1.043 0-1.924.366-2.643 1.078a3.56 3.56 0 0 0-1.076 2.605c0 .309.039.585.117.819-3.076-.105-5.622-1.381-7.628-3.837-.34.601-.51 1.213-.51 1.846 0 1.301.549 2.332 1.645 3.089-.625-.053-1.176-.211-1.645-.47 0 .929.273 1.705.82 2.388a3.623 3.623 0 0 0 2.115 1.291c-.312.08-.641.118-.979.118-.312 0-.533-.026-.664-.083.23.757.664 1.371 1.291 1.841a3.652 3.652 0 0 0 2.152.743C4.148 14.173 2.625 14.69.902 14.69c-.422 0-.721-.006-.902-.038 1.697 1.102 3.586 1.649 5.676 1.649 2.139 0 4.029-.542 5.674-1.626 1.645-1.078 2.859-2.408 3.639-3.974a10.77 10.77 0 0 0 1.172-4.892v-.468a7.788 7.788 0 0 0 1.84-1.921 8.142 8.142 0 0 1-2.11.593z"
+      ></path>
+  </symbol>
+  <symbol aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="mail">
+    <path  d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="calendar">
+    <path d="M452 40h-24V0h-40v40H124V0H84v40H60C26.916 40 0 66.916 0 100v352c0 33.084 26.916 60 60 60h392c33.084 0 60-26.916 60-60V100c0-33.084-26.916-60-60-60zm20 412c0 11.028-8.972 20-20 20H60c-11.028 0-20-8.972-20-20V188h432v264zm0-304H40v-48c0-11.028 8.972-20 20-20h24v40h40V80h264v40h40V80h24c11.028 0 20 8.972 20 20v48z"></path>
+    <path d="M76 230h40v40H76zm80 0h40v40h-40zm80 0h40v40h-40zm80 0h40v40h-40zm80 0h40v40h-40zM76 310h40v40H76zm80 0h40v40h-40zm80 0h40v40h-40zm80 0h40v40h-40zM76 390h40v40H76zm80 0h40v40h-40zm80 0h40v40h-40zm80 0h40v40h-40zm80-80h40v40h-40z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="github">
+    <path d="M255.968 5.329C114.624 5.329 0 120.401 0 262.353c0 113.536 73.344 209.856 175.104 243.872 12.8 2.368 17.472-5.568 17.472-12.384 0-6.112-.224-22.272-.352-43.712-71.2 15.52-86.24-34.464-86.24-34.464-11.616-29.696-28.416-37.6-28.416-37.6-23.264-15.936 1.728-15.616 1.728-15.616 25.696 1.824 39.2 26.496 39.2 26.496 22.848 39.264 59.936 27.936 74.528 21.344 2.304-16.608 8.928-27.936 16.256-34.368-56.832-6.496-116.608-28.544-116.608-127.008 0-28.064 9.984-51.008 26.368-68.992-2.656-6.496-11.424-32.64 2.496-68 0 0 21.504-6.912 70.4 26.336 20.416-5.696 42.304-8.544 64.096-8.64 21.728.128 43.648 2.944 64.096 8.672 48.864-33.248 70.336-26.336 70.336-26.336 13.952 35.392 5.184 61.504 2.56 68 16.416 17.984 26.304 40.928 26.304 68.992 0 98.72-59.84 120.448-116.864 126.816 9.184 7.936 17.376 23.616 17.376 47.584 0 34.368-.32 62.08-.32 70.496 0 6.88 4.608 14.88 17.6 12.352C438.72 472.145 512 375.857 512 262.353 512 120.401 397.376 5.329 255.968 5.329z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 212 212" id="gitlab">
+    <path d="M12.3 74.7h54L43.3 3c-1-3.6-6.4-3.6-7.6 0L12.3 74.8z" />
+    <path d="M12.3 74.7L.5 111c-1 3.2 0 6.8 3 8.8l101.6 74-92.5-119z"/>
+    <path d="M105 193.7l-38.6-119h-54l92.7 119z"/>
+    <path d="M105 193.7l38.7-119H66.4l38.7 119z"/>
+    <path d="M105 193.7l38.7-119H198l-93 119z"/>
+    <path d="M198 74.7l11.6 36.2c1 3 0 6.6-3 8.6l-101.5 74 93-119z"/>
+    <path d="M198 74.7h-54.3L167 3c1.2-3.6 6.4-3.6 7.6 0L198 74.8z"/> 
+  </symbol>
+  <symbol viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="rss">
+    <circle cx="3.429" cy="20.571" r="3.429"></circle>
+    <path d="M11.429 24h4.57C15.999 15.179 8.821 8.001 0 8v4.572c6.302.001 11.429 5.126 11.429 11.428z"></path>
+    <path d="M24 24C24 10.766 13.234 0 0 0v4.571c10.714 0 19.43 8.714 19.43 19.429z"></path>
+  </symbol>
+  <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="linkedin">
+    <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h362c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zM181 406h-60V196h60zm0-240h-60v-60h60zm210 240h-60V286c0-16.54-13.46-30-30-30s-30 13.46-30 30v120h-60V196h60v11.309C286.719 202.422 296.93 196 316 196c40.691.043 75 36.547 75 79.688zm0 0"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 612 612" id="arrow">
+    <path d="M604.501 440.509L325.398 134.956c-5.331-5.357-12.423-7.627-19.386-7.27-6.989-.357-14.056 1.913-19.387 7.27L7.499 440.509c-9.999 10.024-9.999 26.298 0 36.323s26.223 10.024 36.222 0l262.293-287.164L568.28 476.832c9.999 10.024 26.222 10.024 36.221 0 9.999-10.023 9.999-26.298 0-36.323z"></path>
+  </symbol>
+  <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="carly">
+    <path d="M504.971 239.029L448 182.059V84c0-46.317-37.682-84-84-84h-44c-13.255 0-24 10.745-24 24s10.745 24 24 24h44c19.851 0 36 16.149 36 36v108c0 6.365 2.529 12.47 7.029 16.971L454.059 256l-47.029 47.029A24.002 24.002 0 0 0 400 320v108c0 19.851-16.149 36-36 36h-44c-13.255 0-24 10.745-24 24s10.745 24 24 24h44c46.318 0 84-37.683 84-84v-98.059l56.971-56.971c9.372-9.372 9.372-24.568 0-33.941zM112 192V84c0-19.851 16.149-36 36-36h44c13.255 0 24-10.745 24-24S205.255 0 192 0h-44c-46.318 0-84 37.683-84 84v98.059l-56.971 56.97c-9.373 9.373-9.373 24.568 0 33.941L64 329.941V428c0 46.317 37.682 84 84 84h44c13.255 0 24-10.745 24-24s-10.745-24-24-24h-44c-19.851 0-36-16.149-36-36V320c0-6.365-2.529-12.47-7.029-16.971L57.941 256l47.029-47.029A24.002 24.002 0 0 0 112 192z"></path>
+  </symbol>
+  <symbol viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="copy">
+    <path d="M23 2.75A2.75 2.75 0 0 0 20.25 0H8.75A2.75 2.75 0 0 0 6 2.75v13.5A2.75 2.75 0 0 0 8.75 19h11.5A2.75 2.75 0 0 0 23 16.25zM18.25 14.5h-7.5a.75.75 0 0 1 0-1.5h7.5a.75.75 0 0 1 0 1.5zm0-3h-7.5a.75.75 0 0 1 0-1.5h7.5a.75.75 0 0 1 0 1.5zm0-3h-7.5a.75.75 0 0 1 0-1.5h7.5a.75.75 0 0 1 0 1.5z"></path>
+    <path d="M8.75 20.5a4.255 4.255 0 0 1-4.25-4.25V2.75c0-.086.02-.166.025-.25H3.75A2.752 2.752 0 0 0 1 5.25v16A2.752 2.752 0 0 0 3.75 24h12a2.752 2.752 0 0 0 2.75-2.75v-.75z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.001 512.001" id="closeme">
+    <path d="M284.286 256.002L506.143 34.144c7.811-7.811 7.811-20.475 0-28.285-7.811-7.81-20.475-7.811-28.285 0L256 227.717 34.143 5.859c-7.811-7.811-20.475-7.811-28.285 0-7.81 7.811-7.811 20.475 0 28.285l221.857 221.857L5.858 477.859c-7.811 7.811-7.811 20.475 0 28.285a19.938 19.938 0 0 0 14.143 5.857 19.94 19.94 0 0 0 14.143-5.857L256 284.287l221.857 221.857c3.905 3.905 9.024 5.857 14.143 5.857s10.237-1.952 14.143-5.857c7.811-7.811 7.811-20.475 0-28.285L284.286 256.002z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="open-menu">
+    <path d="M492 236H20c-11.046 0-20 8.954-20 20s8.954 20 20 20h472c11.046 0 20-8.954 20-20s-8.954-20-20-20zm0-160H20C8.954 76 0 84.954 0 96s8.954 20 20 20h472c11.046 0 20-8.954 20-20s-8.954-20-20-20zm0 320H20c-11.046 0-20 8.954-20 20s8.954 20 20 20h472c11.046 0 20-8.954 20-20s-8.954-20-20-20z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="instagram">
+    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id=youtube>
+    <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="stackoverflow">
+    <path d="M21 27v-8h3v11H0V19h3v8h18z"></path><path d="M17.1.2L15 1.8l7.9 10.6 2.1-1.6L17.1.2zm3.7 14.7L10.6 6.4l1.7-2 10.2 8.5-1.7 2zM7.2 12.3l12 5.6 1.1-2.4-12-5.6-1.1 2.4zm-1.8 6.8l13.56 1.96.17-2.38-13.26-2.55-.47 2.97zM19 25H5v-3h14v3z"></path>
+  </symbol>
+</svg>
+
+<footer class="footer">
+  <div class="footer_inner wrap pale">
+    <img src='https://bengtan.com/images/logo.png' class="icon icon_2 transparent">
+    <p>Copyright 2021-<span class="year"></span> BENG TAN. All Rights Reserved</p><a class="to_top" href="#documentTop">
+  <svg class="icon">
+  <use xlink:href="#arrow"></use>
+</svg>
+</a>
+
+  </div>
+</footer>
+
+    <script type="text/javascript" src="https://bengtan.com/js/bundle.min.48fa905ac5f708cd2dceac23a468b062d6c96282a530545826072e265b7cdd156320cbd7e56ba938d8476da637c260b713b2f7dae8b7ce8d8647055082418dcc.js" integrity="sha512-SPqQWsX3CM0tzqwjpGiwYtbJYoKlMFRYJgcuJlt83RVjIMvX5WupONhHbaY3wmC3E7L32ui3zo2GRwVQgkGNzA==" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
