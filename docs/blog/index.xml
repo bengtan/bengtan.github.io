@@ -6,7 +6,52 @@
     <description>Recent content in Blog on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Thu, 18 Feb 2021 12:00:00 +0800</lastBuildDate><atom:link href="https://bengtan.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Feb 2021 11:00:00 +0800</lastBuildDate><atom:link href="https://bengtan.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Positioning isn&#39;t marketing. It&#39;s strategy</title>
+      <link>https://bengtan.com/blog/positioning-isnt-marketing-its-strategy/</link>
+      <pubDate>Fri, 26 Feb 2021 11:00:00 +0800</pubDate>
+      
+      <guid>https://bengtan.com/blog/positioning-isnt-marketing-its-strategy/</guid>
+      <description>
+        
+          &lt;p&gt;I was reading &lt;a href=&#34;http://www.aprildunford.com&#34;&gt;April Dunford&lt;/a&gt;&amp;rsquo;s book &lt;a href=&#34;http://www.aprildunford.com/obviously-awesome&#34;&gt;Obviously Awesome&lt;/a&gt; about product positioning and something struck me.&lt;/p&gt;
+&lt;p&gt;I thought I was reading a marketing book. Somehow I ended up reading a business strategy book instead. (And a very good one too.)&lt;/p&gt;
+&lt;p&gt;We engineers/developers/hackers/nerds tend to think of product positioning as something that &amp;lsquo;marketing&amp;rsquo; people do.&lt;/p&gt;
+&lt;p&gt;However, as I read through the book, it dawns on me that positioning has a core relationship with business/product strategy. It tells us what business or product development should be working on.&lt;/p&gt;
+&lt;p style=&#34;text-align: center;&#34;&gt;* * *&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s try a thought experiment.&lt;/p&gt;
+&lt;p&gt;Consider the following:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A startup produces a new database that can quickly find something in a very large collection of data — much faster than the incumbent databases on the market at the time. They try to sell the database but struggle to compete.&lt;/p&gt;
+&lt;p&gt;The startup pivots the database into a business intelligence tool. Suddenly they are competing against other business intelligence tools. Their product has a competitive advantage (ie. superior analysis capabilities) and sales takes off.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Does this sound like a marketing story? No, it doesn&amp;rsquo;t.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s strategy. The startup discovers a new use case and successfully re-positions into a new market.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s try another one:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A startup produces cloud-based ad-supported accounting software for small business owners. After three years, they had over 500,000 business customers. However, advertising revenue alone isn&amp;rsquo;t enough to grow.&lt;/p&gt;
+&lt;p&gt;The startup expands from accounting to financial services. They introduce new add-ons around their core product and charge fees for them.&lt;/p&gt;
+&lt;p&gt;The shift is successful and helped them to grow to over 4 million customers. They were then acquired for $537 million dollars.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Again, this is not a marketing story. This is a strategic re-positioning to target an adjacent market and capture more value.&lt;/p&gt;
+&lt;p&gt;One more:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A startup produces a new enterprise CRM but struggles to compete against the incumbent CRM. They listen closely to one of their model customers (an investment bank) and focus on that market segment. The startup pivots to being &amp;lsquo;CRM for investment banks&amp;rsquo;.&lt;/p&gt;
+&lt;p&gt;The pivot is successful. A few years later, they are acquired by the incumbent CRM company for $1.4 billion dollars.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The startup discovers a niche where it is successful and re-positions itself in that niche. (This is a &amp;lsquo;focus&amp;rsquo; strategy.)&lt;/p&gt;
+&lt;p style=&#34;text-align: center;&#34;&gt;* * *&lt;/p&gt;
+&lt;p&gt;These stories are from the book. They are case studies about product positioning.&lt;/p&gt;
+&lt;p&gt;But they&amp;rsquo;re not marketing stories. They&amp;rsquo;re stories about strategy and pivots.&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;re building a product, you need to consider positioning. Positioning tells you what to focus on.&lt;/p&gt;
+&lt;p&gt;Don&amp;rsquo;t just leave positioning for &amp;lsquo;marketing&amp;rsquo; to do.&lt;/p&gt;
+&lt;p&gt;Positioning is not marketing. It&amp;rsquo;s strategy.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
     <item>
       <title>Open secrets about Hacker News</title>
       <link>https://bengtan.com/blog/open-secrets-hacker-news/</link>
