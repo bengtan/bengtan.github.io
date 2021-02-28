@@ -6,7 +6,125 @@
     <description>Recent content on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Fri, 26 Feb 2021 11:00:00 +0800</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Feb 2021 12:00:00 +0800</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Email Cleaner: Clean tracking links and pixels from email newsletters</title>
+      <link>https://bengtan.com/blog/email-cleaner-clean-tracking-links-and-pixels/</link>
+      <pubDate>Sun, 28 Feb 2021 12:00:00 +0800</pubDate>
+      
+      <guid>https://bengtan.com/blog/email-cleaner-clean-tracking-links-and-pixels/</guid>
+      <description>
+        
+          &lt;p&gt;I&amp;rsquo;m supposed to be blogging instead of doing &lt;a href=&#34;https://bengtan.com/blog/app-startup-vs-content-startup/&#34;&gt;&amp;ldquo;app startup&amp;rdquo;&lt;/a&gt; things but I got sidetracked and built another side project (again).&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve been getting into email newsletters. Over the last month, I&amp;rsquo;ve gone from zero newsletters to eleven of them. My inbox is now overflowing with newsletters. Maybe I&amp;rsquo;ll have to cut back but that&amp;rsquo;s a story for another time.&lt;/p&gt;
+&lt;p&gt;I have a new pet hate: Links in email newsletters.&lt;/p&gt;
+&lt;p&gt;They are user-hostile. Substack is the worst. Their URLs look like this:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://email.substack.com/c/ejXDKM2OhCAMgJ9muI3hT3QOHPayr2EKVIesgwbquL794njbhEIhNP36eSCclnzYdSnEzm2gY0WbcC8zEmFmW8E8xGBlb1pljGTBdsJpLVksw5gRXxBnS3lDtm5ujh4oLulTIVvJnjbgCKC51hxawbuuxzCCcwHAo0CprrawhYjJo8U35mNJyGb7JFrLTX3d5Hdd-743CWjL2PjlVR8gU_qZLpoGLdre3LkUd87Vw9wrnZX1ymUN3XbtoxENjIYbFKBVq3wrxlF47oLolZNKonrcNC-bKwT-RzT4u1aKRBHmd8S99mTZOkwTQRL153TOfZKcYw_1fG0p0jFgAjdjuIzQJfbjaJgwYa7CwwBkhRGq75Xu-4fpLgVVmZKdFNUzqxxhqVXJ_uP4AyNKkNQ&#34;&gt;http://email.substack.com/c/ejXDKM2OhCAMgJ9muI3hT3QOHPayr2EKVIesgwbquL794njbhEIhNP36eSCclnzYdSnEzm2gY0WbcC8zEmFmW8E8xGBlb1pljGTBdsJpLVksw5gRXxBnS3lDtm5ujh4oLulTIVvJnjbgCKC51hxawbuuxzCCcwHAo0CprrawhYjJo8U35mNJyGb7JFrLTX3d5Hdd-743CWjL2PjlVR8gU_qZLpoGLdre3LkUd87Vw9wrnZX1ymUN3XbtoxENjIYbFKBVq3wrxlF47oLolZNKonrcNC-bKwT-RzT4u1aKRBHmd8S99mTZOkwTQRL153TOfZKcYw_1fG0p0jFgAjdjuIzQJfbjaJgwYa7CwwBkhRGq75Xu-4fpLgVVmZKdFNUzqxxhqVXJ_uP4AyNKkNQ&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;What is that, Substack?! Is that really a URL with 400+ characters?!&lt;/p&gt;
+&lt;p&gt;I have an ingrained habit of hovering over links. This allows me to see where it links to and decide whether to click on it.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s a good habit.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s also a security &amp;ldquo;best practice&amp;rdquo;. Hovering over a link helps to check whether it&amp;rsquo;s a phishing link.&lt;/p&gt;
+&lt;p&gt;Email newsletters have broken this. I have no idea where these user-hostile links go. For their own self interest, mailing list service providers have denied me a basic tenet of the web: Knowing what I&amp;rsquo;m clicking on before I click.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s also demeans the newsletter. A newsletter which purports to send me a &amp;lsquo;list of interesting links&amp;rsquo; is just sending me a list of crap because I&amp;rsquo;m not clicking on those I-have-no-idea-where-it&amp;rsquo;s-going links.&lt;/p&gt;
+&lt;p&gt;If the link was something like &lt;a href=&#34;http://www.google.com/url?sa=t&amp;amp;url=https://www.wikipedia.org/&amp;amp;usg=AOvVaw3ay7vaEtH0yTTYdDmrvinX&#34;&gt;http://www.google.com/url?sa=t&amp;amp;url=https://www.wikipedia.org/&amp;amp;usg=AOvVaw3ay7vaEtH0yTTYdDmrvinX&lt;/a&gt; I wouldn&amp;rsquo;t be as peeved because I can see where it links to.&lt;/p&gt;
+&lt;p&gt;But no, I don&amp;rsquo;t think they&amp;rsquo;ll compromise.&lt;/p&gt;
+&lt;p&gt;Not happy.&lt;/p&gt;
+&lt;p&gt;I set about trying to make the situation palatable. I asked &lt;a href=&#34;https://news.ycombinator.com/item?id=26188976&#34;&gt;here&lt;/a&gt;, &lt;a href=&#34;https://www.reddit.com/r/SomebodyMakeThis/comments/ln4dep/smt_hover_over_links_in_email_newsletters_and_see/&#34;&gt;here&lt;/a&gt;, and &lt;a href=&#34;https://www.indiehackers.com/post/17a17962db&#34;&gt;here&lt;/a&gt; but I didn&amp;rsquo;t find anything satisfactory.&lt;/p&gt;
+&lt;p&gt;So I built my own solution.&lt;/p&gt;
+&lt;h2 id=&#34;what-is-it&#34;&gt;What is it?&lt;/h2&gt;
+&lt;p&gt;I hooked a script up to an email address. Upon receiving an email, the script will replace tracking links with their destination URL, remove tracking pixels, and send it back to the sender.&lt;/p&gt;
+&lt;p&gt;Then, I set up a gmail filter to forward my newsletters to the script.&lt;/p&gt;
+&lt;p&gt;Yay!&lt;/p&gt;
+&lt;p&gt;Now, when I receive an email newsletter, gmail forwards it to the script. The script sends it back to me with nice clean URLs. Once again, I can see where links lead to before I decide whether to click.&lt;/p&gt;
+&lt;p&gt;Tracking parameters (ie. &lt;code&gt;utm_*&lt;/code&gt;) and tracking pixels are removed as well. (I don&amp;rsquo;t care strongly about this but it was easy to add so I did.)&lt;/p&gt;
+&lt;h2 id=&#34;email-cleaner&#34;&gt;Email Cleaner&lt;/h2&gt;
+&lt;p&gt;For lack of a better name, I&amp;rsquo;m calling it &lt;strong&gt;Email Cleaner&lt;/strong&gt;. &lt;strong&gt;It cleans crap from email newsletters&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;(Alternatively, I considered calling it &amp;lsquo;&lt;strong&gt;UntrackMe: Remove tracking from email newsletters&lt;/strong&gt;&amp;rsquo;. Which sounds better?)&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m letting others try it. Maybe other people find it useful too. If there&amp;rsquo;s enough interest, I&amp;rsquo;ll turn it into a proper side project.&lt;/p&gt;
+&lt;h2 id=&#34;getting-started&#34;&gt;Getting started&lt;/h2&gt;
+&lt;p&gt;To try Email Cleaner, forward an email newsletter to &lt;code&gt;email-cleaner@bengtan.com&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;In a minute or two, you should get the newsletter sent back to you (from &lt;code&gt;no-reply@bengtan.com&lt;/code&gt;) with cleaned links and tracking pixels removed.&lt;/p&gt;
+&lt;p&gt;If you decide you like it, you can set up your email program to automatically forward email newsletters to &lt;code&gt;email-cleaner@bengtan.com&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;How you do this depends on your email program so you&amp;rsquo;ll have to work it out youself.&lt;/p&gt;
+&lt;p&gt;Note: Please don&amp;rsquo;t set up your email program to automatically delete after forwarding. Since this is a new service, it&amp;rsquo;s a good idea to retain the original emails in case something goes wrong.&lt;/p&gt;
+&lt;h3 id=&#34;forwarding-loops&#34;&gt;Forwarding loops&lt;/h3&gt;
+&lt;p&gt;If your automatic forwarding configuration mistakenly forwards the cleaned email (from Email Cleaner) back to Email Cleaner, it will detect this and send you an email with the message &amp;ldquo;Infinite loop detected&amp;rdquo;. If you get such an email, please adjust your forwarding configuration so you don&amp;rsquo;t forward cleaned emails to Email Cleaner.&lt;/p&gt;
+&lt;p&gt;If you use gmail (like I do), this can be accomplished by adding the condition &lt;code&gt;-subject:[email-cleaner]&lt;/code&gt; to your forwarding filter.&lt;/p&gt;
+&lt;h2 id=&#34;how-it-works&#34;&gt;How it works&lt;/h2&gt;
+&lt;p&gt;Email Cleaner works as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It scans the email for links which match the following regular expressions:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;	&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\.list-manage\.com/track/click&amp;#39;&lt;/span&gt;,
+	&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;//click\.convertkit-mail\.com/&amp;#39;&lt;/span&gt;,
+	&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;//email\.substack.*/c/&amp;#39;&lt;/span&gt;,
+	&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;//apple\.co/&amp;#39;&lt;/span&gt;,
+	&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;//t\.co/&amp;#39;&lt;/span&gt;,
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;If a link matches, then it&amp;rsquo;s a tracking link. Email Cleaner crawls the link to see if it&amp;rsquo;s a 3xx redirect. If it is, then the link is replaced by the destination URL.
+&lt;ul&gt;
+&lt;li&gt;Any URL query parameters which are &lt;code&gt;mc_cid&lt;/code&gt;, &lt;code&gt;mc_eid&lt;/code&gt;, or start with &lt;code&gt;utm_&lt;/code&gt; are also removed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Then, Email Cleaner scans the email for tracking pixels. If any are found, it removes them.&lt;/li&gt;
+&lt;li&gt;Finally, the email is sent back to the sender.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Email Cleaner is quite safe and conservative. It will only crawl links which are obviously tracking links.&lt;/p&gt;
+&lt;p&gt;Email Cleaner currently handles three major mailing list service providers (MailChimp, ConvertKit, Substack). I&amp;rsquo;d happily add more. Just let me know.&lt;/p&gt;
+&lt;p&gt;Note that Email Cleaner doesn&amp;rsquo;t magically bypass the tracking links. Instead, it triggers all of them from a data centre somewhere. It&amp;rsquo;s privacy-by-obfuscation instead of privacy-by-abstention. But it does prevent your web browser/IP address/location from being leaked.&lt;/p&gt;
+&lt;h2 id=&#34;benefits&#34;&gt;Benefits&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Email newsletters are more user friendly. (I&amp;rsquo;m more inclined to click on a link if I see it&amp;rsquo;s a reputable website.)&lt;/li&gt;
+&lt;li&gt;Helps detect phishing attacks.&lt;/li&gt;
+&lt;li&gt;Better user privacy.&lt;/li&gt;
+&lt;li&gt;Plain text emails are readable again.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;plain-text-emails&#34;&gt;Plain text emails&lt;/h2&gt;
+&lt;p&gt;The last benefit was an unexpected side effect.&lt;/p&gt;
+&lt;p&gt;Whilst writing Email Cleaner, I discovered that plain text versions of email newsletters are completely unreadable.&lt;/p&gt;
+&lt;p&gt;They look something like this:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Most agree that the term Artificial Intelligence was codified at a Dartmouth workshop in 1956 [httр://email.substack.com/c/eJxdkc-OgyAQh5-m3Grkr3rgsJd9DQM4WlIFA2O7vv1O2-xlE2CSHzPhy0dwCEsup91zRfY6Rjx3sAmegAiF7BsUE71mvZJcKUa87qgTgpG4mVAAXjYuGssOZN3dEkeLMafPBpOMzFp1wluppHM9Z2FoQQQbnAqd8tx2A7_P2t1HSCNoeEM5cwKy6Blx3R7868F-qkFqjviMK_hom1ym2rrqmr5twVfecTZHLs9tziuJmrWMtqy6kJ0cGtrYoFoF1Aou-ShpCHRsnac9d4wz4MNDtNvuNrTjkzbwu1YNCaNd3hGOZsykaAdpQptonZyur2v3dT1tan7tKeJpIFm3gL954I31Q8hMkKBU3N5Y1FRR3vdc9P2guhtABcZZx2ilTKoOn-tW0v90_AEVdJLl]. At a conference five years earlier [httр://email.substack.com/c/eJxdkEtuhDAMhk8zWSLyBBZZVKp6jSghDkTDJCiYody-YdhV8kO2bPn3N1qEKZdTr3lDcgWD5wo6wbEtdQVEKOyoUMY4WdEbLY0RbLId90oJFus4F4DNxdViOYDth19jcBhzek8ILdjNDk5xrQxozWenoTNmkL2cvQoimFaZz7PumCKkABYeUM6cgK32hrjXi_y6iG9aIW_7QUS3WJGQm1wWSv2aXwVvMd1jWq7O5wOvmwsUQL26NF3_7qiNRStawVtBW-lODw1v3GxaA9wpqWUgxpmH1k-8l15IAXK4qLYevqILd97Az05sCaNbHxGeTcisWA9pQZc4dS4vG5RuLxkj1e1IEc8RkvMrTB9P-NH9NjcukKDQN0yjQ8sNl30vVd8PpvuIIZFSdIKTfUYcU6apZP9x_AIL9Jrk], however, the concepts were discussed in detail, just not named. &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Is that supposed to be readable?! (It&amp;rsquo;s not just Substack. The other providers are almost just as bad.)&lt;/p&gt;
+&lt;p&gt;Email Cleaner changes it to:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Most agree that the term Artificial Intelligence was codified at a Dartmouth workshop in 1956 [httрs://en.wikipedia.org/wiki/Dartmouth_workshop]. At a conference five years earlier [httрs://computerhistory.org/blog/thinking-about-machines-and-thinking/], however, the concepts were discussed in detail, just not named. &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;which is moderately readable.&lt;/p&gt;
+&lt;p&gt;It would be even better if it was:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Most agree that the term Artificial Intelligence was codified at a Dartmouth workshop in 1956 [0]. At a conference five years earlier [1], however, the concepts were discussed in detail, just not named. &lt;/p&gt;
+&lt;p&gt;[0] httрs://en.wikipedia.org/wiki/Dartmouth_workshop&lt;br /&gt;
+[1] httрs://computerhistory.org/blog/thinking-about-machines-and-thinking/&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;but that&amp;rsquo;s a story for another time. (I don&amp;rsquo;t know if it&amp;rsquo;s worth the effort to do this. Do many people still read emails in plain text?)&lt;/p&gt;
+&lt;h2 id=&#34;caveats&#34;&gt;Caveats&lt;/h2&gt;
+&lt;p&gt;Please note that Email Cleaner is only a proof of concept. It&amp;rsquo;s an experiment. I wouldn&amp;rsquo;t even call it an MVP.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s useful to me, but I don&amp;rsquo;t know if it&amp;rsquo;s useful for others. I&amp;rsquo;d like to find out.&lt;/p&gt;
+&lt;p&gt;I don&amp;rsquo;t know how long Email Cleaner will last since:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It&amp;rsquo;s vulnerable to spam (There&amp;rsquo;s no authentication or access control), and&lt;/li&gt;
+&lt;li&gt;It&amp;rsquo;s not scalable (It&amp;rsquo;s running on a tiny server).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Once the spam bots arrive, or too many people use it, it&amp;rsquo;ll probably have to stop.&lt;/p&gt;
+&lt;p&gt;Or if there&amp;rsquo;s sufficient interest, I&amp;rsquo;ll rewrite it into a proper side project.&lt;/p&gt;
+&lt;h2 id=&#34;privacy&#34;&gt;Privacy&lt;/h2&gt;
+&lt;p&gt;Please don&amp;rsquo;t forward any personal or private emails to Email Cleaner. Only forward publicly available email newsletters (Paid newsletters are okay).&lt;/p&gt;
+&lt;p&gt;All received emails go to Email Cleaner&amp;rsquo;s inbox. I hope to accumulate more test data with which to conduct further research on mailing list service providers and improve Email Cleaner.&lt;/p&gt;
+&lt;p&gt;There&amp;rsquo;s not really a privacy policy. This is an experiment.&lt;/p&gt;
+&lt;p&gt;If you forward emails to Email Cleaner, I consider that as your opt-in.&lt;/p&gt;
+&lt;p&gt;Anything you forward to Email Cleaner could be used to improve Email Cleaner.&lt;/p&gt;
+&lt;p&gt;OTOH, I don&amp;rsquo;t know anything about you anyway. All I have is an email address and what email newsletters you subscribe to (whatever can be inferred from that).&lt;/p&gt;
+&lt;h2 id=&#34;feedback&#34;&gt;Feedback&lt;/h2&gt;
+&lt;p&gt;Since this is a new and experimental service, please don&amp;rsquo;t expect it to be perfectly reliable nor correct. If you forward an email to Email Cleaner and don&amp;rsquo;t get a reply in a few minutes, maybe something broke. Please get in touch with me and I&amp;rsquo;d be happy to look into it.&lt;/p&gt;
+&lt;p&gt;If you have any questions, suggestions, criticisms, etc. — please also let me know. I&amp;rsquo;d be happy to talk.&lt;/p&gt;
+&lt;p&gt;I hope you like Email Cleaner! Thanks for reading!&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
     <item>
       <title>Positioning isn&#39;t marketing. It&#39;s strategy</title>
       <link>https://bengtan.com/blog/positioning-isnt-marketing-its-strategy/</link>
