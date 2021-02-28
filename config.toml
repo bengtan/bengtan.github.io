@@ -7,7 +7,7 @@ theme = "hugo-clarity"
 [params]
 author = "Beng Tan"
 description = "Beng Tan's personal blog where I write about software, tech, startups and random things."
-introDescription = "Hi! I'm a freelance [software engineer](/resume). I write about software, tech, startups and random things."
+# introDescription = "Hi! I'm a freelance [software engineer](/resume). I write about software, tech, startups and random things."
 introURL = false
 
 dateFormat = "2 Jan 2006"
@@ -30,10 +30,10 @@ ga_analytics = "G-VTEK0C8GRX"
   url = "/"
 
   [[menu.main]]
-  name = "Resume"
-  identifier = "resume"
+  name = "Blog"
+  identifier = "blog"
   weight = 300
-  url = "/resume/"
+  url = "/blog/"
 
   [[menu.social]]
     name = "github"

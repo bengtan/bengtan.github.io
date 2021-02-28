@@ -4,7 +4,7 @@ showDate: false
 ---
 
 * Name: Beng Tan
-* Email: ${github_username} + '1' + '@' + 'gmail' + ${dot_com}
+* Email: ${first_name} + '@' + ${domain}
 * Birth year: 1978
 * Location: Perth, Australia
 * Timezone: GMT+8 (all year around; no DST)
