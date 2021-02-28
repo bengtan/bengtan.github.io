@@ -20,8 +20,9 @@ If you're new here, start with one of these blog posts:
 
 My side projects:
 
-* [Gig'o'Books](https://www.gigobooks.com)
+* [Email Cleaner: Clean tracking links and pixels from email newsletters](/blog/email-cleaner-clean-tracking-links-and-pixels)
 * [CSS Named Colours Picker](/css-named-colours-picker)
+* [Gig'o'Books](https://www.gigobooks.com)
 
 I can be found on [github](https://github.com/bengtan) or [twitter](https://twitter.com/bengtanAU) or email at `${first_name} + '@' + ${domain}`.
 
