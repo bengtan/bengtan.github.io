@@ -3,8 +3,6 @@ title: "Beng Tan"
 showDate: false
 ---
 
-<div class="front-page">
-
 ![](/images/portrait.jpg)
 
 I'm Beng Tan, a freelance software engineer.
@@ -27,5 +25,3 @@ My side projects:
 I can be found on [github](https://github.com/bengtan) or [twitter](https://twitter.com/bengtanAU) or email at `${first_name} + '@' + ${domain}`.
 
 Look at my [resume](/resume).
-
-</div>

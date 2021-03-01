@@ -38,10 +38,11 @@ ul + p { padding-top: 1.3rem; }
 
 
 /***********************************************************
-* front page                                               *
+* home page                                                *
 ************************************************************/
 
-.front-page img { width: 120px; border-radius: 50%; }
+html.home { --choice-bg: var(--light); }
+.home .post_content img { width: 120px; border-radius: 50%; }
 
 
 /***********************************************************
