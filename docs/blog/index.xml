@@ -6,7 +6,101 @@
     <description>Recent content in Blog on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Sun, 28 Feb 2021 12:00:00 +0800</lastBuildDate><atom:link href="https://bengtan.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Mar 2021 12:00:00 +0800</lastBuildDate><atom:link href="https://bengtan.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Notes on: The Web’s Missing Interoperability</title>
+      <link>https://bengtan.com/blog/the-webs-missing-interoperability/</link>
+      <pubDate>Thu, 04 Mar 2021 12:00:00 +0800</pubDate>
+      
+      <guid>https://bengtan.com/blog/the-webs-missing-interoperability/</guid>
+      <description>
+        
+          &lt;p&gt;I was reading &lt;a href=&#34;https://stratechery.com/2021/the-webs-missing-interoperability/&#34;&gt;The Web’s Missing Interoperability&lt;/a&gt; from Stratechery (I&amp;rsquo;m an occasional reader) and, for some reason, it really resonated with me.&lt;/p&gt;
+&lt;p&gt;I took some notes (and made comments) for my own future reference.&lt;/p&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Web 2.0…refers to websites that emphasize user-generated content, ease of use, participatory culture and interoperability&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;That, though, points to Web 2.0’s failure: interoperability is nowhere to be found.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;A bit of misdirection. Missing interoperability is a recurring subtheme but web 2.0 is never mentioned again.&lt;/p&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;the idea of Twitter users being able to charge followers for special access makes all kinds of sense for Twitter the company.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Twitter&amp;rsquo;s Super Follows could be transformative. Why? Because it aligns the business model (cf Substack, games).&lt;/p&gt;
+&lt;p&gt;(There&amp;rsquo;s a story here. Maybe even bigger than this one.)&lt;/p&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;the most compelling apps for user-generated content tie creation and consumption into a tight loop, bound together with network effects and presented with a feed that neither creators nor consumers want to leave&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;the most challenging part of building a subscription business is customer acquisition&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;in a world where distribution is free the real cost is user acquisition&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Remember this.&lt;/p&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;hellip; Twitter is an obvious channel to do so&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Twitter&amp;rsquo;s social graph could be synergistic with Revue.&lt;/p&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;That is also why it is so important that Clubhouse incentivizes its users to import their contacts: the startup is bootstrapping a social network off of your phone’s address book,&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;in stark contrast to Meerkat, which directly imported your Twitter contacts, right up until the date when Twitter cut it off.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Twitter had learned its lesson from Instagram, which booted up its social network on top of the Twitter graph; Twitter eventually cut off Instagram in-line image sharing, but by then it was too late.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Clubhouse aggressively uploads your contacts because it is bootstrapping a social network/graph. It&amp;rsquo;s existential (to achieve network effects before the incumbents close in).&lt;/p&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Censorship and Competition&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Talks about censorship and then hyper-warp-jumps to &amp;hellip;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A better solution is more competition&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&amp;hellip; which leaves me disoriented and confused.&lt;/p&gt;
+&lt;p&gt;Two paragraphs later:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Still, that doesn’t help the “competition as an answer to censorship” problem&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Oh, is this what you were talking about? Why didn&amp;rsquo;t you say so earlier instead of confusing me?&lt;/p&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;we already have evidence about just how powerful it is when a service lets its social graph be exported, and how limiting it is when it doesn’t. To that end, it seems clear to me that the only way to build a direct competitor to any of these services, like Twitter, is to have direct access to the Twitter network.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;the solution is clear: force existing social networks to open up their social graphs.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The problem, of course, is privacy;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;One of the reasons why GDPR is such a disaster is that it makes it all but impossible for a new social media company to ever be started in Europe&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Privacy is like security. Security is a tradeoff against convenience. Privacy is a tradeoff against X. What is the best word for X?&lt;/p&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I want to see the social networking giant have more competition, not less, and I despair that the outcome of privacy laws like GDPR, or App Store-enforced policies from Apple, will be to damage Facebook on one hand, and destroy all of its long-term competitors on the other.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Benedict Evans has something &lt;a href=&#34;https://www.ben-evans.com/benedictevans/2021/1/17/speech-and-publishing&#34;&gt;similar to say&lt;/a&gt; too:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;By making it much harder to share user data between different properties, GDPR had a limited effect beyond inconvenience on Google and Facebook, who mostly keep this data inside one company, but made ad targeting across multiple websites harder and so reduced the ad revenue available to newspaper websites. What the competition regulator gives (or tries to), the privacy regulator takes away. Again - beware of unintended consequences.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Or is it tangential?&lt;/p&gt;
+        
+      </description>
+    </item>
+    
     <item>
       <title>Email Cleaner: Clean tracking links and pixels from email newsletters</title>
       <link>https://bengtan.com/blog/email-cleaner-clean-tracking-links-and-pixels/</link>
