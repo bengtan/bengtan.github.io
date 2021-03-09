@@ -9,7 +9,7 @@ date: 2021-02-10T12:00:00+08:00
 
 When it's in raw form like this ...
 
-![json as raw text](plaintext.jpg)
+![screenshot: json as raw text](plaintext.jpg)
 
 it's hard for a human to interpret.
 
@@ -29,11 +29,11 @@ https://raw.githubusercontent.com/bengtan/bengtan.github.io/main/content/css-nam
 
 If you click on the link with Firefox you get something human-unfriendly:
 
-![json as raw text](plaintext.jpg)
+![screenshot: json as raw text](plaintext.jpg)
 
 However, if you open a file with a `.json` extension on your local computer , you get ...
 
-![json in firefox json browser](json.png)
+![screenshot: json in firefox json browser](json.png)
 
 ... which is a nice and useful and human-friendly json browser with collapsible sections, pretty printing and **filtering**.
 

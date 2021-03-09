@@ -28,7 +28,7 @@ html[data-mode="dim"] .comments { border-top-color: var(--light); }
 // .scrollable triggers some weird firefox bug. Change it to something more conventional
 .scrollable { display: block; }
 
-img { box-shadow: 0 0 10px #88888888; }
+img[alt*="screenshot"] { box-shadow: 0 0 10px #88888888; }
 a img { max-width: 100%; } // Avoid .image-scalable trick in theme
 
 
