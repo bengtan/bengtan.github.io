@@ -24,9 +24,8 @@ Now, in truth, all businesses do a bit of both, but usually, a startup is domina
 
 (Note that I said 'most', not 'all'. This is just a heuristic, and sometimes heuristics break down.)
 
-Off the top of my head, here are some ...
+Off the top of my head, here are some **app startups**:
 
-**App startups**
 * Google search
 * Android
 * Tesla
@@ -36,9 +35,8 @@ Off the top of my head, here are some ...
 
 These startups produce and/or sell a technology. Usually, the technology is novel or not easy to reproduce.
 
-Here are some ...
+Here are some **content startups**:
 
-**Content startups**
 * BetaList
 * Product Hunt
 * Stratechery

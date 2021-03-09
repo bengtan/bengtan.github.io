@@ -13,6 +13,7 @@ Some stuff I found on the Internet.
 * A software engineer and usability expert realises that Windows suits him better and lists the tips and tweaks that ease him in the transition from MacOS to Windows.
 * Interesting comment: "a lot of people seem to be making the switch now".
 
+----
 
 **[I'm glad for using 1Password](https://marcel.is/1password/)** - Marcel Krčah (marcel.is)
 
@@ -20,11 +21,13 @@ Some stuff I found on the Internet.
   * Preventing a phishing attack, and
   * Limiting the damage of a compromised password.
 
+----
 
 **[The Internet of Trash](https://www.potaroo.net/ispcol/2021-02/iot.html)** - Geoff Huston (potaroo.net)
 
 * The chief scientist of APNIC foreshadows the long term problems caused by obsolescence and lack of software updates for hardware devices. He suggests there is market failure in dealing with this and that regulation may be needed to solve it.
 
+----
 
 **[How To Put Faith in UX Design](https://scottberkun.com/2021/put-faith-in-ux-design/)** - Scott Berkun (scottberkun.com)
 
@@ -32,6 +35,7 @@ Some stuff I found on the Internet.
 * Just read it for the parts (and pictures) about anglerfish (eww!!)
 * "Males of the species, who are much smaller, lack a functioning digestive system. To survive they must combine, or fuse-mate, with the females. ... And when each male latches on, it slowly loses organs it no longer needs. It loses its eyes and its fins, its kidneys, even its precious heart gets reabsorbed into its new host. It is no longer a creature itself. It is just a sexual appendage."
 
+----
 
 **[Cold Paths](https://timkellogg.me/blog/2021/01/29/cold-paths)** - Tim Kellogg (timkellogg.me)
 
@@ -39,6 +43,7 @@ Some stuff I found on the Internet.
 * "A cold path is a path through the code or situation that rarely happens. By contrast, hot paths happen frequently. You don’t find bugs in hot paths."
 * Interesting and thought-provoking.
 
+----
 
 **[Sequencing DNA in our Extra Bedroom](https://abarry.org/dna-sequencing-in-our-extra-bedroom/)** - Andrew J Barry (abarry.org)
 
@@ -46,18 +51,21 @@ Some stuff I found on the Internet.
 * After two or more days, the sequencing results indicate that they are "hosting viruses that are preying on the bacteria we're also hosting." Ew!!
 * Funny and a great light read.
 
+----
 
 **[Beware the Cult of Numeracy](https://blog.awaxman.com/beware-the-cult-of-numeracy)** - Adam Waxman (blog.awaxman.com)
 
 * A contrarian view about (over-)use of data and analytics in decision-making.
 * "the proliferation of data is putting more and more attention on short term and easy to measure metrics. In the short run this leads to stellar ... updates. However, in the long run it often frustrates users, depletes trust, and reduces brand loyalty."
 
+----
 
 **[What Companies Get Wrong about Remote Salaries](https://www.bautista.dev/remote-salaries/)** - Eduardo Bautista (bautista.dev)
 
 * A freelance software engineer in Mexico has his view on salaries at companies who hire remotely.
 * "I have learned that there are two types of companies that hire remotely. The first type looks to hire engineers at a cheaper rate. The second type wants to hire the best engineers. Be the latter."
 
+----
 
 **[I Sold 2 Niche Websites from My Portfolio (and I learned something)](https://milachervenkova.rocks/blog/how-to-sell-niche-website/)** - Mila Chervenkova (milachervenkova.rocks)
 
