@@ -1,6 +1,10 @@
 b, strong { font-weight: bold; }
 a:hover { text-decoration: underline; }
 
+h2, h3, h4, h5 { margin-bottom: 5px; }
+
+hr { background-color: #ccc; }
+
 button { padding: 0.25em 0.5em; border-radius: 0.5em; }
 html[data-mode="dim"] button:hover { color: var(--dark); background-color: var(--haze); }
 
@@ -31,6 +35,11 @@ html[data-mode="dim"] .comments { border-top-color: var(--light); }
 img[alt*="screenshot"] { box-shadow: 0 0 10px #88888888; }
 a img { max-width: 100%; } // Avoid .image-scalable trick in theme
 
+.excerpt_thumbnail img { margin-top: 0; }
+.excerpt_text {
+  p:first-of-type { padding-top: 0; }
+  margin-bottom: 0.8rem;
+}
 
 /***********************************************************
 * home page                                                *

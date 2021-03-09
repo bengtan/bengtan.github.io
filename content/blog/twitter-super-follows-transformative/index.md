@@ -1,5 +1,6 @@
 ---
 title: "Twitter's Super Follows could be transformative"
+thumbnail: "blog/twitter-super-follows-transformative/cycle2.svg"
 type: post
 date: 2021-03-09T12:00:00+08:00
 toc: true
