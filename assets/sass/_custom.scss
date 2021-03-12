@@ -49,6 +49,7 @@ a img { max-width: 100%; } // Avoid .image-scalable trick in theme
 ************************************************************/
 
 html.home { --choice-bg: var(--light); }
+html[data-mode="dim"].home { --choice-bg: var(--dark); }
 .home .post_content img { width: 120px; border-radius: 50%; }
 
 
