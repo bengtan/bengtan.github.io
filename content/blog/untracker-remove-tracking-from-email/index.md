@@ -37,7 +37,7 @@ It would be like 'Email Cleaner v2'.
 
 But I still want to monetise it somehow. (I know this can be controversial. Read more about it below.)
 
-So I'd like to talk about this and see what you, the readers, think.
+So I'd like to talk about this and see what you, the readers and potential users, think. It will help me guage whether this is viable.
 
 Even if you disagree with me, the discussion below about monetising open source is still interesting.
 
@@ -161,7 +161,7 @@ I hope this model strikes a good balance for everyone and nurtures both Untracke
 
 ## Other stuff
 
-Some other random information. Feel free to skip over any uninteresting bits.
+Some other random information. Skip over any uninteresting bits.
 
 ### Rewrite
 
@@ -225,7 +225,7 @@ Incidentally, here's a big 'Thank You!' to the users of Email Cleaner.
 
 They have provided me with new, previously un-represented, test cases. This has resulted in increased coverage of tracking links. The improvements will feed into Untracker.
 
-## Future and feedback
+## Hope
 
 I hope Untracker succeeds and many people find it useful.
 
@@ -233,9 +233,15 @@ I hope the sponsorship model turns out to be a good compromise between the tradi
 
 I also hope my thoughts about Payment Decision Points helps others 'crack the code' and replicate Caleb Porzio's so-far-unreplicated success with sponsorships. Was it insightful? Only time will tell.
 
-If you have any feedback, comments or questions, I'd love to hear it.
+## Feedback and validation
 
-This has been a long article so here's a refresher of potential topics.
+Disclaimer: I haven't done any of the above. I haven't started Untracker.
+
+So far, Untracker is just a bunch of ideas and an article &mdash; A proposal awaiting feedback and validation.
+
+I hope it generates a lot of interest, as that is a sure sign that I should proceed. But I can't be certain. This is why I'd like to ask for your feedback. If you have any feedback, comments or questions, I'd love to hear it.
+
+This has been a long article so here's a refresher of sub-topics.
 
 * What do you think about the name change to Untracker?
 * What do you think about Untracker (as a product)?
@@ -243,6 +249,6 @@ This has been a long article so here's a refresher of potential topics.
 * What do you think of the discussion about Github Sponsors and the Payment Decision Point?
 * What do you think about Untracker's freemium/monetisation/sponsorship model?
 
-Thanks for reading!
+To be notified of updates about Untracker, please subscribe to my newsletter (You can choose to be notified about Untracker only). I hope that my next article about Untracker will report some positive developments.
 
-(To be notified of updates about Untracker, please subscribe to my newsletter. You can choose to be notified about Untracker only.)
+Thanks for reading!
