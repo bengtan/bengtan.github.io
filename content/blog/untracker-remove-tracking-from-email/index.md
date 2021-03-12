@@ -1,9 +1,10 @@
 ---
-title: "Untracker: Remove trackers from email (newsletters)"
+title: "Untracker: Remove trackers from email newsletters"
 type: post
-date: 2021-03-11T12:00:00+08:00
-draft: true
+date: 2021-03-12T12:00:00+08:00
+featured: true
 toc: true
+tags: ["privacy"]
 ---
 
 ## Previously
@@ -224,8 +225,6 @@ Incidentally, here's a big 'Thank You!' to the users of Email Cleaner.
 
 They have provided me with new, previously un-represented, test cases. This has resulted in increased coverage of tracking links. The improvements will feed into Untracker.
 
-
-
 ## Future and feedback
 
 I hope Untracker succeeds and many people find it useful.
@@ -246,10 +245,4 @@ This has been a long article so here's a refresher of potential topics.
 
 Thanks for reading!
 
-
-
-
-
-<br /><br /><br /><br /><br />
-
-If you'd like to stay informed about Untracker, please subscribe to my newsletter.
+(To be notified of updates about Untracker, please subscribe to my newsletter. You can choose to be notified about Untracker only.)

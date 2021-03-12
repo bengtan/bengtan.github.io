@@ -4,7 +4,10 @@ type: post
 date: 2021-02-28T12:00:00+08:00
 featured: true
 toc: true
+tags: ["privacy"]
 ---
+
+*(UPDATE @2021-03-12: There is a [follow-up post](/blog/untracker-remove-tracking-from-email/))*
 
 I'm supposed to be blogging instead of doing ["app startup"](/blog/app-startup-vs-content-startup/) things but I got sidetracked and built another side project (again).
 

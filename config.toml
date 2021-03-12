@@ -48,6 +48,9 @@ ga_analytics = "G-VTEK0C8GRX"
     weight = 4
     url = "index.xml"
 
+[taxonomies]
+  tag = "tags"
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]

@@ -1,11 +1,15 @@
 <form
-action="https://buttondown.email/api/emails/embed-subscribe/{{ . }}"
+action="https://buttondown.email/api/emails/embed-subscribe/bengtan"
 method="post"
 target="popupwindow"
-onsubmit="window.open('https://buttondown.email/{{ . }}', 'popupwindow')"
+onsubmit="window.open('https://buttondown.email/bengtan', 'popupwindow')"
 class="embeddable-buttondown-form"
 >
-  <input type="email" name="email" id="bd-email" />
+  <label><input type="checkbox" name="tag" value="all" />Subscribe to all articles</label><br />
+  <label><input type="checkbox" name="tag" value="digests" />Subscribe to important articles and digests</label><br />
+  <label><input type="checkbox" name="tag" value="untracker" />Subscribe to articles about Untracker</label><br />
+
+  <input type="email" name="email" id="bd-email" placeholder="Enter your email" />
   <input type="hidden" value="1" name="embed" />
   <input type="submit" value="Subscribe" />
 </form>
