@@ -19,7 +19,10 @@ input[type=checkbox] { margin: 0 0.25em; }
   box-sizing: border-box;   // Some weird thing. Needed for the mobile menu to work.
 }
 
-.footer { color: var(--light); background: dimgrey; }
+.footer { color: var(--light); background: dimgrey;
+  .section { padding-bottom: 20px; margin-bottom: 20px; border-bottom: 1px dotted white; }
+  .icon { margin: 0; }
+}
 
 .content {  padding-top: 3em; }
 
