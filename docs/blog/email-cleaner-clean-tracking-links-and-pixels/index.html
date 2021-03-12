@@ -17,15 +17,15 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="I&rsquo;m supposed to be blogging instead of doing &ldquo;app startup&rdquo; things but I got sidetracked and built another side project (again).
-I&rsquo;ve …">
+<meta name="description" content="(UPDATE @2021-03-12: There is a follow-up post)
+I&rsquo;m supposed to be blogging instead of doing &ldquo;app startup&rdquo; things but I got sidetracked and …">
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
 <meta name="twitter:title" content="Email Cleaner: Clean tracking links and pixels from email newsletters" />
 <meta property="og:url" content="https://bengtan.com/blog/email-cleaner-clean-tracking-links-and-pixels/" />
 <meta property="og:title" content="Email Cleaner: Clean tracking links and pixels from email newsletters" />
-<meta property="og:description" content="I&rsquo;m supposed to be blogging instead of doing &ldquo;app startup&rdquo; things but I got sidetracked and built another side project (again).
-I&rsquo;ve …" />
+<meta property="og:description" content="(UPDATE @2021-03-12: There is a follow-up post)
+I&rsquo;m supposed to be blogging instead of doing &ldquo;app startup&rdquo; things but I got sidetracked and …" />
 <meta property="og:image" content="https://bengtan.com/images/logo.png" />
 <link rel="apple-touch-icon" href='https://bengtan.com/apple-touch-icon.png'>
 <link rel="icon" type="image/png" href='https://bengtan.com/favicon.ico'>
@@ -112,6 +112,8 @@ I&rsquo;ve …" />
 </svg>
     <span class="post_date">
       28 Feb 2021</span>
+      <a href='https://bengtan.com/tags/privacy' title="privacy" class="post_tag button button_translucent">privacy
+      </a>
 </div>
 
     
@@ -136,7 +138,8 @@ I&rsquo;ve …" />
     <li><a href="#feedback">Feedback</a></li>
   </ul>
 </nav>
-    <p>I&rsquo;m supposed to be blogging instead of doing <a href="/blog/app-startup-vs-content-startup/">&ldquo;app startup&rdquo;</a> things but I got sidetracked and built another side project (again).</p>
+    <p><em>(UPDATE @2021-03-12: There is a <a href="/blog/untracker-remove-tracking-from-email/">follow-up post</a>)</em></p>
+<p>I&rsquo;m supposed to be blogging instead of doing <a href="/blog/app-startup-vs-content-startup/">&ldquo;app startup&rdquo;</a> things but I got sidetracked and built another side project (again).</p>
 <p>I&rsquo;ve been getting into email newsletters. Over the last month, I&rsquo;ve gone from zero newsletters to eleven of them. My inbox is now overflowing with newsletters. Maybe I&rsquo;ll have to cut back but that&rsquo;s a story for another time.</p>
 <p>I have a new pet hate: Links in email newsletters.</p>
 <p>They are user-hostile. Substack is the worst. Their URLs look like this:</p>
@@ -256,11 +259,17 @@ I&rsquo;ve …" />
     <h2 class="mt-4">Featured Posts</h2>
     <ul>
       <li>
+        <a href="https://bengtan.com/blog/untracker-remove-tracking-from-email/" class="nav-link">Untracker: Remove trackers from email newsletters</a>
+      </li>
+      <li>
         <a href="https://bengtan.com/css-named-colours-picker/" class="nav-link">CSS Named Colours Picker</a>
       </li>
     </ul>
     <h2 class="mt-4">Recent Posts</h2>
     <ul class="flex-column">
+      <li>
+        <a href="https://bengtan.com/blog/untracker-remove-tracking-from-email/" class="nav-link">Untracker: Remove trackers from email newsletters</a>
+      </li>
       <li>
         <a href="https://bengtan.com/blog/twitter-super-follows-transformative/" class="nav-link">Twitter&#39;s Super Follows could be transformative</a>
       </li>
@@ -282,10 +291,18 @@ I&rsquo;ve …" />
       <li>
         <a href="https://bengtan.com/blog/recipe-for-websql/" class="nav-link">A recipe for recreating the functionality of Web SQL</a>
       </li>
-      <li>
-        <a href="https://bengtan.com/blog/app-startup-vs-content-startup/" class="nav-link">App Startup vs Content Startup</a>
-      </li>
     </ul>
+    <div>
+      <h2 class="mt-4 taxonomy" id="tags-section">Tags</h2>
+      <nav class="tags_nav">
+        <a href='https://bengtan.com/tags/privacy/' class="post_tag button button_translucent">
+          PRIVACY
+          <span class="button_tally">2</span>
+        </a>
+        
+        
+      </nav>
+    </div>
   </section>
 </aside>
 
@@ -356,7 +373,7 @@ I&rsquo;ve …" />
 
 <footer class="footer"><div class="section newsletters">
   <p>
-    To be notified of new articles by email, subscribe below. I only notify for important articles or digests.
+    To be notified of new articles by email, subscribe below.
   </p><form
 action="https://buttondown.email/api/emails/embed-subscribe/bengtan"
 method="post"
@@ -364,7 +381,11 @@ target="popupwindow"
 onsubmit="window.open('https://buttondown.email/bengtan', 'popupwindow')"
 class="embeddable-buttondown-form"
 >
-  <input type="email" name="email" id="bd-email" />
+  <label><input type="checkbox" name="tag" value="all" />Subscribe to all articles</label><br />
+  <label><input type="checkbox" name="tag" value="digests" />Subscribe to important articles and digests</label><br />
+  <label><input type="checkbox" name="tag" value="untracker" />Subscribe to articles about Untracker</label><br />
+
+  <input type="email" name="email" id="bd-email" placeholder="Enter your email" />
   <input type="hidden" value="1" name="embed" />
   <input type="submit" value="Subscribe" />
 </form>

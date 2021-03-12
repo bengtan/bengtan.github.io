@@ -193,7 +193,7 @@
 
 <footer class="footer"><div class="section newsletters">
   <p>
-    To be notified of new articles by email, subscribe below. I only notify for important articles or digests.
+    To be notified of new articles by email, subscribe below.
   </p><form
 action="https://buttondown.email/api/emails/embed-subscribe/bengtan"
 method="post"
@@ -201,7 +201,11 @@ target="popupwindow"
 onsubmit="window.open('https://buttondown.email/bengtan', 'popupwindow')"
 class="embeddable-buttondown-form"
 >
-  <input type="email" name="email" id="bd-email" />
+  <label><input type="checkbox" name="tag" value="all" />Subscribe to all articles</label><br />
+  <label><input type="checkbox" name="tag" value="digests" />Subscribe to important articles and digests</label><br />
+  <label><input type="checkbox" name="tag" value="untracker" />Subscribe to articles about Untracker</label><br />
+
+  <input type="email" name="email" id="bd-email" placeholder="Enter your email" />
   <input type="hidden" value="1" name="embed" />
   <input type="submit" value="Subscribe" />
 </form>

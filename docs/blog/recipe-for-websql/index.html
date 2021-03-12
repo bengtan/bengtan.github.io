@@ -275,6 +275,9 @@ Web SQL was a way for javascript (and web apps) to use a relational database (sp
     <h2 class="mt-4">Featured Posts</h2>
     <ul>
       <li>
+        <a href="https://bengtan.com/blog/untracker-remove-tracking-from-email/" class="nav-link">Untracker: Remove trackers from email newsletters</a>
+      </li>
+      <li>
         <a href="https://bengtan.com/blog/email-cleaner-clean-tracking-links-and-pixels/" class="nav-link">Email Cleaner: Clean tracking links and pixels from email newsletters</a>
       </li>
       <li>
@@ -283,6 +286,9 @@ Web SQL was a way for javascript (and web apps) to use a relational database (sp
     </ul>
     <h2 class="mt-4">Recent Posts</h2>
     <ul class="flex-column">
+      <li>
+        <a href="https://bengtan.com/blog/untracker-remove-tracking-from-email/" class="nav-link">Untracker: Remove trackers from email newsletters</a>
+      </li>
       <li>
         <a href="https://bengtan.com/blog/twitter-super-follows-transformative/" class="nav-link">Twitter&#39;s Super Follows could be transformative</a>
       </li>
@@ -304,10 +310,18 @@ Web SQL was a way for javascript (and web apps) to use a relational database (sp
       <li>
         <a href="https://bengtan.com/blog/reading-long-json-snippets/" class="nav-link">My go-to tool for reading long JSON snippets</a>
       </li>
-      <li>
-        <a href="https://bengtan.com/blog/app-startup-vs-content-startup/" class="nav-link">App Startup vs Content Startup</a>
-      </li>
     </ul>
+    <div>
+      <h2 class="mt-4 taxonomy" id="tags-section">Tags</h2>
+      <nav class="tags_nav">
+        <a href='https://bengtan.com/tags/privacy/' class="post_tag button button_translucent">
+          PRIVACY
+          <span class="button_tally">2</span>
+        </a>
+        
+        
+      </nav>
+    </div>
   </section>
 </aside>
 
@@ -378,7 +392,7 @@ Web SQL was a way for javascript (and web apps) to use a relational database (sp
 
 <footer class="footer"><div class="section newsletters">
   <p>
-    To be notified of new articles by email, subscribe below. I only notify for important articles or digests.
+    To be notified of new articles by email, subscribe below.
   </p><form
 action="https://buttondown.email/api/emails/embed-subscribe/bengtan"
 method="post"
@@ -386,7 +400,11 @@ target="popupwindow"
 onsubmit="window.open('https://buttondown.email/bengtan', 'popupwindow')"
 class="embeddable-buttondown-form"
 >
-  <input type="email" name="email" id="bd-email" />
+  <label><input type="checkbox" name="tag" value="all" />Subscribe to all articles</label><br />
+  <label><input type="checkbox" name="tag" value="digests" />Subscribe to important articles and digests</label><br />
+  <label><input type="checkbox" name="tag" value="untracker" />Subscribe to articles about Untracker</label><br />
+
+  <input type="email" name="email" id="bd-email" placeholder="Enter your email" />
   <input type="hidden" value="1" name="embed" />
   <input type="submit" value="Subscribe" />
 </form>
