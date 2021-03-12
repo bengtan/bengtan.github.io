@@ -14,7 +14,10 @@ input[type=checkbox] { margin: 0 0.25em; }
 .nav_brand { font-weight: bold; text-transform: uppercase;
   img { width: 36px; }
 }
-.nav_header { box-shadow: 0 2px 20px #33333388; }
+.nav_header {
+  box-shadow: 0 2px 20px #33333388;
+  box-sizing: border-box;   // Some weird thing. Needed for the mobile menu to work.
+}
 
 .footer { color: var(--light); background: dimgrey; }
 
