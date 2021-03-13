@@ -1,10 +1,10 @@
 ---
-title: "Untracker: Remove trackers from email newsletters"
+title: "Untracker: Uncloak tracking links and remove spy pixels from email newsletters"
 type: post
 date: 2021-03-12T12:00:00+08:00
 featured: true
 toc: true
-tags: ["privacy"]
+tags: ["privacy", "untracker"]
 ---
 
 ## Previously

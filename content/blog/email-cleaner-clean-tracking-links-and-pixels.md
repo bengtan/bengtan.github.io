@@ -4,7 +4,7 @@ type: post
 date: 2021-02-28T12:00:00+08:00
 featured: true
 toc: true
-tags: ["privacy"]
+tags: ["privacy", "untracker"]
 ---
 
 *(UPDATE @2021-03-12: There is a [follow-up post](/blog/untracker-remove-tracking-from-email/))*

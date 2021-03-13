@@ -13,12 +13,13 @@ If you're new here, start with one of these blog posts:
 
 * [A New Beginning](/blog/a-new-beginning)
 * [Open secrets about Hacker News](/blog/open-secrets-hacker-news)
+* [Untracker: Uncloak tracking links and remove spy pixels from email newsletters](/blog/untracker-remove-tracking-from-email/)
 
 ----
 
 My side projects:
 
-* [Email Cleaner: Clean tracking links and pixels from email newsletters](/blog/email-cleaner-clean-tracking-links-and-pixels)
+* [Untracker (v2)](/blog/untracker-remove-tracking-from-email/) / [Email Cleaner (v1)](/blog/email-cleaner-clean-tracking-links-and-pixels) &mdash; Uncloak tracking links and remove spy pixels from email newsletters
 * [CSS Named Colours Picker](/css-named-colours-picker)
 * [Gig'o'Books](https://www.gigobooks.com)
 

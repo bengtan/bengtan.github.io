@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>privacy on Beng Tan</title>
-    <link>https://bengtan.com/tags/privacy/</link>
-    <description>Recent content in privacy on Beng Tan</description>
+    <title>untracker on Beng Tan</title>
+    <link>https://bengtan.com/tags/untracker/</link>
+    <description>Recent content in untracker on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Fri, 12 Mar 2021 12:00:00 +0800</lastBuildDate><atom:link href="https://bengtan.com/tags/privacy/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Mar 2021 12:00:00 +0800</lastBuildDate><atom:link href="https://bengtan.com/tags/untracker/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Untracker: Uncloak tracking links and remove spy pixels from email newsletters</title>
       <link>https://bengtan.com/blog/untracker-remove-tracking-from-email/</link>
