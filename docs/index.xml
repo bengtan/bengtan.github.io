@@ -6,7 +6,48 @@
     <description>Recent content on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Fri, 12 Mar 2021 12:00:00 +0800</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Mar 2021 12:00:00 +0800</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A tour of sponsorware</title>
+      <link>https://bengtan.com/blog/tour-of-sponsorware/</link>
+      <pubDate>Tue, 16 Mar 2021 12:00:00 +0800</pubDate>
+      
+      <guid>https://bengtan.com/blog/tour-of-sponsorware/</guid>
+      <description>
+        
+          &lt;p&gt;Been reading into sponsorware to see how it could be used to fund open source. Here&amp;rsquo;s a bunch of links arranged in a semi-timeline.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Feb 2020 - &lt;a href=&#34;https://calebporzio.com/sponsorware&#34;&gt;Introducing Sponsorware: How A Small Open Source Package Increased My Salary By $11k in Two Days&lt;/a&gt; - The first post by Caleb Porzio that introduces the term.&lt;/p&gt;
+&lt;p&gt;17 Feb 2020 - &lt;a href=&#34;https://changelog.com/podcast/381&#34;&gt;The dawn of sponsorware&lt;/a&gt; - Caleb is featured on a podcast.&lt;/p&gt;
+&lt;p&gt;Mar 2020 - &lt;a href=&#34;https://github.com/sponsorware/docs&#34;&gt;Sponsorware&lt;/a&gt; repository is created.&lt;/p&gt;
+&lt;p&gt;09 May 2020 - &lt;a href=&#34;https://blog.schlein.net/why-sponsorware-is-not-the-answer/&#34;&gt;Why Sponsorware is not the answer to monetize open source&lt;/a&gt; - Disagrees with &amp;lsquo;sponsorware as early access&amp;rsquo; but agrees with &amp;lsquo;sponsorware as upselling&amp;rsquo;&lt;/p&gt;
+&lt;p&gt;Jun 2020 - &lt;a href=&#34;https://calebporzio.com/i-just-hit-dollar-100000yr-on-github-sponsors-heres-how-i-did-it&#34;&gt;I Just Hit $100k/yr On GitHub Sponsors! 🎉❤️ (How I Did It)&lt;/a&gt; [&lt;a href=&#34;https://news.ycombinator.com/item?id=23613719&#34;&gt;Hacker News comments&lt;/a&gt;] - The post that really ignited this space.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;The following are from the same author:&lt;/p&gt;
+&lt;p&gt;13 Oct 2020 - &lt;a href=&#34;https://leoloso.com/posts/rector-new-sponsor-graphql-api-for-wp/&#34;&gt;I got my 1st big sponsor for the GraphQL API for WordPress&lt;/a&gt; - Someone who got a $1400/month sponsor but it&amp;rsquo;s more a freelance gig than sponsorship.&lt;/p&gt;
+&lt;p&gt;24 Oct 2020 - &lt;a href=&#34;https://leoloso.com/posts/funding-wp-plugin-thru-sponsorware/&#34;&gt;Funding a plugin through sponsorware, how successful is it?&lt;/a&gt; - Not really, unless you have 10k subscribers like Caleb.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Other articles&lt;/p&gt;
+&lt;p&gt;17 Nov 2020 - &lt;a href=&#34;https://porchetta.industries/2020/11/17/And-Now-For-Something-Completely-Diffrent/&#34;&gt;And now for something completely different&amp;hellip;&lt;/a&gt; - An interesting take on sponsorware from the security sector.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Third-party middleware/services start appearing.&lt;/p&gt;
+&lt;p&gt;19 Oct 2020 - &lt;a href=&#34;https://gumroad.com/l/gumhub&#34;&gt;GumHub&lt;/a&gt; (posted on &lt;a href=&#34;https://www.producthunt.com/posts/gumhub&#34;&gt;Product Hunt&lt;/a&gt;) - Sell access to your GitHub repos with Gumroad. Not sponsorware &lt;em&gt;per se&lt;/em&gt; but similar.&lt;/p&gt;
+&lt;p&gt;Nov 2020 - &lt;a href=&#34;https://onlysponsors.dev/&#34;&gt;Only Sponsors&lt;/a&gt; [&lt;a href=&#34;https://news.ycombinator.com/item?id=25882021&#34;&gt;Hacker News comments&lt;/a&gt;] - Build a Salary with GitHub Sponsors - A middleware/service/community.&lt;/p&gt;
+&lt;p&gt;02 Jan 2021 - &lt;a href=&#34;https://sponsorware.neutron.so/&#34;&gt;Sponsorware for Github&lt;/a&gt; (posted on &lt;a href=&#34;https://www.producthunt.com/posts/sponsorware-for-github&#34;&gt;Product Hunt&lt;/a&gt;) - Another middleware/service. Huh? They have &lt;a href=&#34;https://github.com/sponsors/Neutron-Creative&#34;&gt;0 sponsors&lt;/a&gt;. Their dogfood doesn&amp;rsquo;t work every well then.&lt;/p&gt;
+&lt;p&gt;10 Feb 2021 - &lt;a href=&#34;https://opensheetmusicdisplay.org/2021/02/10/sponsorware-videos-screencasting-plugin/&#34;&gt;Sponsorware Screencasting WP Plugin&lt;/a&gt; - There&amp;rsquo;s even a WordPress plugin.&lt;/p&gt;
+&lt;p&gt;Dishonourable mention: &lt;a href=&#34;https://joinsponsorware.com/&#34;&gt;https://joinsponsorware.com/&lt;/a&gt; - Someone else trying to cash in but looks unfinished/abandoned? This is sloppy. Why put up a website that&amp;rsquo;s obviously incomplete and (worse) has inappropriate content?&lt;/p&gt;
+&lt;p&gt;Aside from Only Sponsors (which also offers a community), these services seem a bit dubious. It looks like they sell an access control service, but access control isn&amp;rsquo;t very hard anyway. What is their value proposition? Probably they are just trying to land grab early.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Github repositories&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/byt3bl33d3r/SponsorMonitor&#34;&gt;byt3bl33d3r/SponsorMonitor&lt;/a&gt; - Monitor Github Sponsors and automatically add/remove them to/from a Github Organization Team.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/jwright/sponsorware-bot&#34;&gt;jwright/sponsorware-bot&lt;/a&gt; - Automates actions based on activity from your GitHub sponsors. - Unmaintained/Unfinished?&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/grey-software/sponsorware&#34;&gt;grey-software/Sponsorware&lt;/a&gt; -  Technical guidance and tooling to allow open source developers to distribute software to their Github Sponsors.  - Looks like it&amp;rsquo;s just documentation only?
+Related: &lt;a href=&#34;https://gitmemory.com/issue/grey-software/sponsorware/1/689595158&#34;&gt;https://gitmemory.com/issue/grey-software/sponsorware/1/689595158&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/maticzav/sponsorsme&#34;&gt;maticzav/sponsorsme&lt;/a&gt; - A lightweight utility to check whether a user sponsors you.&lt;/p&gt;
+        
+      </description>
+    </item>
+    
     <item>
       <title>Untracker: Uncloak tracking links and remove spy pixels from email newsletters</title>
       <link>https://bengtan.com/blog/untracker-remove-tracking-from-email/</link>

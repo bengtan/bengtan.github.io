@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sponsorware on Beng Tan</title>
+    <link>https://bengtan.com/tags/sponsorware/</link>
+    <description>Recent content in sponsorware on Beng Tan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <lastBuildDate>Tue, 16 Mar 2021 12:00:00 +0800</lastBuildDate><atom:link href="https://bengtan.com/tags/sponsorware/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A tour of sponsorware</title>
+      <link>https://bengtan.com/blog/tour-of-sponsorware/</link>
+      <pubDate>Tue, 16 Mar 2021 12:00:00 +0800</pubDate>
+      
+      <guid>https://bengtan.com/blog/tour-of-sponsorware/</guid>
+      <description>
+        
+          &lt;p&gt;Been reading into sponsorware to see how it could be used to fund open source. Here&amp;rsquo;s a bunch of links arranged in a semi-timeline.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Feb 2020 - &lt;a href=&#34;https://calebporzio.com/sponsorware&#34;&gt;Introducing Sponsorware: How A Small Open Source Package Increased My Salary By $11k in Two Days&lt;/a&gt; - The first post by Caleb Porzio that introduces the term.&lt;/p&gt;
+&lt;p&gt;17 Feb 2020 - &lt;a href=&#34;https://changelog.com/podcast/381&#34;&gt;The dawn of sponsorware&lt;/a&gt; - Caleb is featured on a podcast.&lt;/p&gt;
+&lt;p&gt;Mar 2020 - &lt;a href=&#34;https://github.com/sponsorware/docs&#34;&gt;Sponsorware&lt;/a&gt; repository is created.&lt;/p&gt;
+&lt;p&gt;09 May 2020 - &lt;a href=&#34;https://blog.schlein.net/why-sponsorware-is-not-the-answer/&#34;&gt;Why Sponsorware is not the answer to monetize open source&lt;/a&gt; - Disagrees with &amp;lsquo;sponsorware as early access&amp;rsquo; but agrees with &amp;lsquo;sponsorware as upselling&amp;rsquo;&lt;/p&gt;
+&lt;p&gt;Jun 2020 - &lt;a href=&#34;https://calebporzio.com/i-just-hit-dollar-100000yr-on-github-sponsors-heres-how-i-did-it&#34;&gt;I Just Hit $100k/yr On GitHub Sponsors! 🎉❤️ (How I Did It)&lt;/a&gt; [&lt;a href=&#34;https://news.ycombinator.com/item?id=23613719&#34;&gt;Hacker News comments&lt;/a&gt;] - The post that really ignited this space.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;The following are from the same author:&lt;/p&gt;
+&lt;p&gt;13 Oct 2020 - &lt;a href=&#34;https://leoloso.com/posts/rector-new-sponsor-graphql-api-for-wp/&#34;&gt;I got my 1st big sponsor for the GraphQL API for WordPress&lt;/a&gt; - Someone who got a $1400/month sponsor but it&amp;rsquo;s more a freelance gig than sponsorship.&lt;/p&gt;
+&lt;p&gt;24 Oct 2020 - &lt;a href=&#34;https://leoloso.com/posts/funding-wp-plugin-thru-sponsorware/&#34;&gt;Funding a plugin through sponsorware, how successful is it?&lt;/a&gt; - Not really, unless you have 10k subscribers like Caleb.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Other articles&lt;/p&gt;
+&lt;p&gt;17 Nov 2020 - &lt;a href=&#34;https://porchetta.industries/2020/11/17/And-Now-For-Something-Completely-Diffrent/&#34;&gt;And now for something completely different&amp;hellip;&lt;/a&gt; - An interesting take on sponsorware from the security sector.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Third-party middleware/services start appearing.&lt;/p&gt;
+&lt;p&gt;19 Oct 2020 - &lt;a href=&#34;https://gumroad.com/l/gumhub&#34;&gt;GumHub&lt;/a&gt; (posted on &lt;a href=&#34;https://www.producthunt.com/posts/gumhub&#34;&gt;Product Hunt&lt;/a&gt;) - Sell access to your GitHub repos with Gumroad. Not sponsorware &lt;em&gt;per se&lt;/em&gt; but similar.&lt;/p&gt;
+&lt;p&gt;Nov 2020 - &lt;a href=&#34;https://onlysponsors.dev/&#34;&gt;Only Sponsors&lt;/a&gt; [&lt;a href=&#34;https://news.ycombinator.com/item?id=25882021&#34;&gt;Hacker News comments&lt;/a&gt;] - Build a Salary with GitHub Sponsors - A middleware/service/community.&lt;/p&gt;
+&lt;p&gt;02 Jan 2021 - &lt;a href=&#34;https://sponsorware.neutron.so/&#34;&gt;Sponsorware for Github&lt;/a&gt; (posted on &lt;a href=&#34;https://www.producthunt.com/posts/sponsorware-for-github&#34;&gt;Product Hunt&lt;/a&gt;) - Another middleware/service. Huh? They have &lt;a href=&#34;https://github.com/sponsors/Neutron-Creative&#34;&gt;0 sponsors&lt;/a&gt;. Their dogfood doesn&amp;rsquo;t work every well then.&lt;/p&gt;
+&lt;p&gt;10 Feb 2021 - &lt;a href=&#34;https://opensheetmusicdisplay.org/2021/02/10/sponsorware-videos-screencasting-plugin/&#34;&gt;Sponsorware Screencasting WP Plugin&lt;/a&gt; - There&amp;rsquo;s even a WordPress plugin.&lt;/p&gt;
+&lt;p&gt;Dishonourable mention: &lt;a href=&#34;https://joinsponsorware.com/&#34;&gt;https://joinsponsorware.com/&lt;/a&gt; - Someone else trying to cash in but looks unfinished/abandoned? This is sloppy. Why put up a website that&amp;rsquo;s obviously incomplete and (worse) has inappropriate content?&lt;/p&gt;
+&lt;p&gt;Aside from Only Sponsors (which also offers a community), these services seem a bit dubious. It looks like they sell an access control service, but access control isn&amp;rsquo;t very hard anyway. What is their value proposition? Probably they are just trying to land grab early.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Github repositories&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/byt3bl33d3r/SponsorMonitor&#34;&gt;byt3bl33d3r/SponsorMonitor&lt;/a&gt; - Monitor Github Sponsors and automatically add/remove them to/from a Github Organization Team.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/jwright/sponsorware-bot&#34;&gt;jwright/sponsorware-bot&lt;/a&gt; - Automates actions based on activity from your GitHub sponsors. - Unmaintained/Unfinished?&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/grey-software/sponsorware&#34;&gt;grey-software/Sponsorware&lt;/a&gt; -  Technical guidance and tooling to allow open source developers to distribute software to their Github Sponsors.  - Looks like it&amp;rsquo;s just documentation only?
+Related: &lt;a href=&#34;https://gitmemory.com/issue/grey-software/sponsorware/1/689595158&#34;&gt;https://gitmemory.com/issue/grey-software/sponsorware/1/689595158&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/maticzav/sponsorsme&#34;&gt;maticzav/sponsorsme&lt;/a&gt; - A lightweight utility to check whether a user sponsors you.&lt;/p&gt;
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Untracker: Uncloak tracking links and remove spy pixels from email newsletters</title>
+      <link>https://bengtan.com/blog/untracker-remove-tracking-from-email/</link>
+      <pubDate>Fri, 12 Mar 2021 12:00:00 +0800</pubDate>
+      
+      <guid>https://bengtan.com/blog/untracker-remove-tracking-from-email/</guid>
+      <description>
+        
+          &lt;h2 id=&#34;previously&#34;&gt;Previously&lt;/h2&gt;
+&lt;p&gt;A few weeks ago, I wrote Email Cleaner and started using it to clean tracking links and pixels from my email newsletters. It works well. I can hover over links (or long press for touch devices) and see the URL. I can click on them &lt;strong&gt;without being tracked&lt;/strong&gt;. I can protect myself from phishing.&lt;/p&gt;
+&lt;p&gt;When I &lt;a href=&#34;https://bengtan.com/blog/email-cleaner-clean-tracking-links-and-pixels/&#34;&gt;announced Email Cleaner&lt;/a&gt; to the world, I got &lt;a href=&#34;https://news.ycombinator.com/item?id=26293424&#34;&gt;some feedback&lt;/a&gt; from the great people at Hacker News. (I also posted to a couple of other places but didn&amp;rsquo;t get any comments.)&lt;/p&gt;
+&lt;p&gt;Two things stood out in the feedback.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;hellip; you get my Email address and newsletters I like. &amp;hellip; Now it is a question of trusting a random guy on the internet to be better and not sell my data to the highest bidder. Maybe open source could address this to some extend.&lt;/p&gt;
+&lt;p&gt;&amp;ndash; &lt;a href=&#34;https://news.ycombinator.com/item?id=26313017&#34;&gt;https://news.ycombinator.com/item?id=26313017&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;There were privacy concerns. Some didn&amp;rsquo;t like the idea of sending their email newsletters to a third party. Fair enough, I understand.&lt;/p&gt;
+&lt;p&gt;And:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;this [is] something that should be directly integrated into email clients, not something I would get a third party app for&lt;/p&gt;
+&lt;p&gt;&amp;ndash; &lt;a href=&#34;https://news.ycombinator.com/item?id=26300617&#34;&gt;https://news.ycombinator.com/item?id=26300617&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It was suggested that a service such as Email Cleaner should be integrated into the email client. I agree and disagree. It naturally belongs in the email system though not necessarily at the client side.&lt;/p&gt;
+&lt;p&gt;(I&amp;rsquo;m probably biased. Working with email clients is like fighting a multi-headed hydra. I don&amp;rsquo;t want to go there. 😊)&lt;/p&gt;
+&lt;p&gt;I came up with a new approach to address these concerns. I could rewrite Email Cleaner to be self-hosted, open source, and plug into mail servers.&lt;/p&gt;
+&lt;p&gt;It would be like &amp;lsquo;Email Cleaner v2&amp;rsquo;.&lt;/p&gt;
+&lt;p&gt;But I still want to monetise it somehow. (I know this can be controversial. Read more about it below.)&lt;/p&gt;
+&lt;p&gt;So I&amp;rsquo;d like to talk about this and see what you, the readers and potential users, think. It will help me guage whether this is viable.&lt;/p&gt;
+&lt;p&gt;Even if you disagree with me, the discussion below about monetising open source is still interesting.&lt;/p&gt;
+&lt;h2 id=&#34;proposal&#34;&gt;Proposal&lt;/h2&gt;
+&lt;p&gt;What is Email Cleaner v2?&lt;/p&gt;
+&lt;p&gt;Firstly, I&amp;rsquo;m going to change the name to Untracker. Emphasising the anti-tracking aspect seems to connect with users better. It&amp;rsquo;s still the same functionality as before but with different packaging and branding.&lt;/p&gt;
+&lt;p&gt;(From here on, Email Cleaner refers to the original SaaS service. Untracker refers to this new &amp;lsquo;v2&amp;rsquo; proposal.)&lt;/p&gt;
+&lt;p&gt;Untracker will be an &lt;strong&gt;open source&lt;/strong&gt; utility that can be plugged into &lt;strong&gt;self-hosted&lt;/strong&gt; email servers.&lt;/p&gt;
+&lt;p&gt;Untracker sits in front of an email mailbox (like a Mail Delivery Agent). When it receives an email, it processes the email by cleaning tracking links and pixels. (For an explanation of what cleaning involves, &lt;a href=&#34;https://bengtan.com/blog/email-cleaner-clean-tracking-links-and-pixels/&#34;&gt;please see the previous article&lt;/a&gt;.)&lt;/p&gt;
+&lt;p&gt;Then, depending on configuration, it can:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Send the cleaned email back to the sender, or&lt;/li&gt;
+&lt;li&gt;Send the cleaned email to a preconfigured email address, or&lt;/li&gt;
+&lt;li&gt;Deliver the cleaned email to the mailbox.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The first mode is how Email Cleaner currently works. Send an email newsletter to it and it will reply with the cleaned version. This mode uses a dedicated email address to reach the service. (For example, Email Cleaner uses &lt;code&gt;email-cleaner@bengtan.com&lt;/code&gt;.)&lt;/p&gt;
+&lt;p&gt;The second mode is a minor variation of the first. It sends to a preconfigured email address instead. This mode uses an intermediate email address (ie. &lt;code&gt;subscriptions@domain&lt;/code&gt;) which can act as a man-in-the-middle email forwarder.&lt;/p&gt;
+&lt;p&gt;The third mode delivers the cleaned email to the user&amp;rsquo;s inbox. Each email newsletter appears in the inbox twice: The original version and the cleaned version. This mode does not require an additional email address. It is the most exciting because it integrates closely with the email system.&lt;/p&gt;
+&lt;p&gt;Whatever the mode of operation, the emails stay on the server. They are not sent to a third party (ie. me).&lt;/p&gt;
+&lt;p&gt;Untracker requires that you self-host your own email server. If you&amp;rsquo;re not self-hosting, maybe you can find a friend who is. Your friend can configure Untracker in mode 1 or 2 and you can send your newsletters to it.&lt;/p&gt;
+&lt;p&gt;If you can&amp;rsquo;t find anyone to run Untracker for you, you can use the original Email Cleaner service (but you&amp;rsquo;d be sending your email newsletters to a third party ie. me).&lt;/p&gt;
+&lt;h2 id=&#34;monetisation&#34;&gt;Monetisation&lt;/h2&gt;
+&lt;p&gt;Self-hosted Untracker will be open source.&lt;/p&gt;
+&lt;p&gt;But I&amp;rsquo;ve already mentioned above that I want to monetise it somehow. This is important to me. I&amp;rsquo;m trying to &lt;a href=&#34;https://onlysponsors.dev/&#34;&gt;build a salary&lt;/a&gt; for myself so I can work full-time on open source or other projects.&lt;/p&gt;
+&lt;h2 id=&#34;the-problem-with-github-sponsors&#34;&gt;The problem with Github Sponsors&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/sponsors&#34;&gt;Github Sponsors&lt;/a&gt; looks like the way to go.&lt;/p&gt;
+&lt;p&gt;Unfortunately, there is a problem with Github Sponsors. It&amp;rsquo;s the same problem whenever payments are optional. The problem is human nature.&lt;/p&gt;
+&lt;p&gt;In theory, sponsorship (or synonymously, &amp;lsquo;donationware&amp;rsquo;) sounds great. In practice, the &amp;lsquo;conversion&amp;rsquo; rate is too low. I don&amp;rsquo;t have any hard metrics but I vaguely remember reading articles years ago. They cite the rate of donations to be some crazy low number like 0.001% or something. It&amp;rsquo;s just too low to be practical.&lt;/p&gt;
+&lt;p&gt;FWIW, I&amp;rsquo;ve also tried donationware in the past, and my experience corroborates with this. People just don&amp;rsquo;t donate.&lt;/p&gt;
+&lt;p&gt;I don&amp;rsquo;t blame people. If you&amp;rsquo;re not pushed to pay money for something, you usually don&amp;rsquo;t think about it. It&amp;rsquo;s just the way it is. &lt;strong&gt;Donationware doesn&amp;rsquo;t work unless it&amp;rsquo;s pushed in-your-face&lt;/strong&gt;. Massively in-your-face.&lt;/p&gt;
+&lt;p&gt;I see similar characteristics with Github Sponsors. When I look at developers who offer sponsorship, I often see unsustainably low sponsorship rates.&lt;/p&gt;
+&lt;p&gt;However, there is an outlier: The &lt;a href=&#34;https://calebporzio.com/i-just-hit-dollar-100000yr-on-github-sponsors-heres-how-i-did-it&#34;&gt;high profile case&lt;/a&gt; of Caleb Porzio, a developer who has &lt;a href=&#34;https://github.com/sponsors/calebporzio&#34;&gt;1370+ sponsors and $20k+/month&lt;/a&gt; (estimated) in sponsorships (and is still growing).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;calebporzio-sponsors.jpg&#34; alt=&#34;screenshot: calebporzio&amp;rsquo;s sponsors&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Compare this against a core developer of one of the most widely used javascript frameworks. This second developer has the &amp;lsquo;normal&amp;rsquo; low rate of sponsors. He has &lt;a href=&#34;https://github.com/sponsors/posva&#34;&gt;73 sponsors and $2k/month&lt;/a&gt; in sponsorships.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;posva-sponsors.png&#34; alt=&#34;screenshot: posva&amp;rsquo;s sponsors&#34;&gt;&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s a massive difference between Caleb and the second developer.&lt;/p&gt;
+&lt;p&gt;What accounts for the difference? Caleb has less github followers (2.6k vs 2.7k), more twitter followers (23.3k vs 10.8k) and a higher minimum sponsorship tier ($14 vs $1). These aren&amp;rsquo;t the reason. For example, they don&amp;rsquo;t explain the disparity in number of sponsors (1370 vs 73).&lt;/p&gt;
+&lt;h3 id=&#34;payment-decision-point&#34;&gt;Payment Decision Point&lt;/h3&gt;
+&lt;p&gt;I think the reason is hiding in plain sight: Caleb charges for value added content. He says so himself:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Sponsored Screencasts &amp;hellip; This is where the VAST majority of my sponsorships came from.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A few weeks later I added a new “private” group of screencasts for GitHub sponsors only. &amp;hellip; THIS is the secret sauce 🌶️.&lt;/p&gt;
+&lt;p&gt;&amp;ndash; &lt;a href=&#34;https://calebporzio.com/i-just-hit-dollar-100000yr-on-github-sponsors-heres-how-i-did-it&#34;&gt;https://calebporzio.com/i-just-hit-dollar-100000yr-on-github-sponsors-heres-how-i-did-it&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;His sponsorships aren&amp;rsquo;t really sponsorships in the usual sense of the word. Instead, they are payments for premium content.&lt;/p&gt;
+&lt;p&gt;This comes back to what I said above. Donationware doesn&amp;rsquo;t work unless it&amp;rsquo;s in-your-face. There is nothing more in-your-face than &amp;lsquo;you have to pay for this&amp;rsquo;.&lt;/p&gt;
+&lt;p&gt;People are paying Caleb because they want to sponsor him but also because they want content. I suspect the latter is much greater than the former.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s another statistic. During the few days between conceptualising and then writing this article, the number of his sponsors has gone from 1331 to 1370. That&amp;rsquo;s 39 new sponsors in a few days. Wow.&lt;/p&gt;
+&lt;p&gt;I wouldn&amp;rsquo;t expect such a high rate of new sponsors if it was purely to sponsor him per se. There&amp;rsquo;s something else going on.&lt;/p&gt;
+&lt;p style=&#34;text-align: center;&#34;&gt;* * *&lt;/p&gt;
+&lt;p&gt;Anyway. This makes me think.&lt;/p&gt;
+&lt;p&gt;If I want to make &amp;lsquo;sponsored open source&amp;rsquo; work, there has to be a payment for &lt;em&gt;something&lt;/em&gt;. And the &lt;em&gt;something&lt;/em&gt; has to be (somewhat) valuable.&lt;/p&gt;
+&lt;p&gt;There has to be a &amp;lsquo;Payment Decision Point&amp;rsquo; where potential sponsors are forced to confront the question &amp;lsquo;Oh, is this where I make a payment now?&amp;rsquo;. Otherwise people won&amp;rsquo;t think about it. They&amp;rsquo;ll move on.&lt;/p&gt;
+&lt;p&gt;To achieve sustainable sponsorship with Untracker, I have to put something behind a paywall.&lt;/p&gt;
+&lt;h2 id=&#34;untrackers-sponsorship-model&#34;&gt;Untracker&amp;rsquo;s sponsorship model&lt;/h2&gt;
+&lt;p&gt;Here&amp;rsquo;s the proposed sponsorship model with an in-built Payment Decision Point. I hope this will allow Untracker to be both open source and monetised.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A public repository will contain the compiled binary and entry level documentation.&lt;/li&gt;
+&lt;li&gt;The binary will be free for non-commercial use.&lt;/li&gt;
+&lt;li&gt;Source code and advanced documentation will be in a private repository accessible by sponsors only.&lt;/li&gt;
+&lt;li&gt;The source code will be open source. I&amp;rsquo;ve currently settled on the &lt;a href=&#34;https://www.gnu.org/licenses/agpl-3.0.en.html&#34;&gt;Affero General Public License Version 3&lt;/a&gt; (AGPL) license.&lt;/li&gt;
+&lt;li&gt;Sponsors are encouraged to build from source. Commercial usage is allowed under the open source license.&lt;/li&gt;
+&lt;li&gt;Sponsorship starts at $12 per month. Higher tiers are available for super fans and companies. I&amp;rsquo;ll regularly review the sponsorship tiers for suitability.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is a freemium model. Most people can use Untracker for free but sponsorship unlocks further benefits.&lt;/p&gt;
+&lt;p&gt;Sponsors get all the usual benefits of open source. They can inspect and modify the source code. They get access to support.&lt;/p&gt;
+&lt;p&gt;They can also redistribute the source code. I hope they don&amp;rsquo;t though I can&amp;rsquo;t enforce it. Redistribution would completely break this model.&lt;/p&gt;
+&lt;p&gt;I hope sponsors see value in continuing sponsorship. It pays for support, new features (see below) and ongoing maintenance. Maintenance will be required because this is a cat-and-mouse game with the mailing list providers. Once they learn about Untracker, I expect them to change their tracking links to try to avoid it.&lt;/p&gt;
+&lt;p&gt;For me, I get:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;To continue to work on Untracker, and&lt;/li&gt;
+&lt;li&gt;One component of my quest to build a salary for myself.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I hope this model strikes a good balance for everyone and nurtures both Untracker and the Untracker community.&lt;/p&gt;
+&lt;h2 id=&#34;other-stuff&#34;&gt;Other stuff&lt;/h2&gt;
+&lt;p&gt;Some other random information. Skip over any uninteresting bits.&lt;/p&gt;
+&lt;h3 id=&#34;rewrite&#34;&gt;Rewrite&lt;/h3&gt;
+&lt;p&gt;Untracker will be a completely new rewrite. The original Email Cleaner code has some hardcoded constants specific to my internal email setup and is unsuitable for publishing.&lt;/p&gt;
+&lt;p&gt;Untracker will be written in golang and compiles to a single CLI binary.&lt;/p&gt;
+&lt;h3 id=&#34;bypassing-tracking-entirely&#34;&gt;Bypassing tracking entirely&lt;/h3&gt;
+&lt;p&gt;I have one really great feature in mind.&lt;/p&gt;
+&lt;p&gt;Normally, the destination URL of a tracking link is discovered by crawling it. This triggers a one-off tracking event at the mailing list provider.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve since discovered that some mailing list providers encode the destination URL in the link itself. For these cases, Untracker can decode the URL without crawling, thus &lt;strong&gt;bypassing tracking&lt;/strong&gt; entirely.&lt;/p&gt;
+&lt;h3 id=&#34;other-features&#34;&gt;Other features&lt;/h3&gt;
+&lt;p&gt;Some other features I&amp;rsquo;d like to add:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Convert emails to plain text (or rather, just omit the HTML part) — The ultimate in privacy.&lt;/li&gt;
+&lt;li&gt;&amp;lsquo;Deep inspection&amp;rsquo; mode which crawls all links and images and report any which are trackers. Useful for detecting new, unknown trackers.&lt;/li&gt;
+&lt;li&gt;Crawling via a HTTP proxy (or tor!)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;one-time-sponsorship-as-a-payment&#34;&gt;One-time sponsorship as a payment&lt;/h3&gt;
+&lt;p&gt;A user could sponsor, download the source code, and then unsponsor. They&amp;rsquo;d be effectively &amp;lsquo;buying&amp;rsquo; the source code for $12. I&amp;rsquo;m fine with this. I don&amp;rsquo;t want to complicate the revenue model just to extract a bit more money.&lt;/p&gt;
+&lt;p&gt;But I hope that when they join, they like what they see and decide to stay.&lt;/p&gt;
+&lt;h3 id=&#34;open-source-not-open-contribution&#34;&gt;Open source, not open contribution&lt;/h3&gt;
+&lt;p&gt;I&amp;rsquo;ve currently decided not to accept source code patches. This is for a number of reasons.&lt;/p&gt;
+&lt;p&gt;I can restrain creeping featurism and keep the code tight, thus reducing long term maintenance burden and potential for burn-out.&lt;/p&gt;
+&lt;p&gt;It avoids any ambiguity over copyright of Untracker. I would like to retain copyright over it.&lt;/p&gt;
+&lt;p&gt;Some FLOSS contributors get upset when open source software (which has some community-contributed patches) is monetised or relicensed under a different software license. I don&amp;rsquo;t have an opinion on this argument but I&amp;rsquo;d like to avoid it entirely.&lt;/p&gt;
+&lt;p&gt;I hope I don&amp;rsquo;t sound unfriendly about this. I&amp;rsquo;d be happy for the community to get involved and post bug reports and feature requests. These activities are valuable too. Software development isn&amp;rsquo;t just coding.&lt;/p&gt;
+&lt;p&gt;If you do submit source code patches, I&amp;rsquo;d happily look at them but I&amp;rsquo;d rewrite them from scratch.&lt;/p&gt;
+&lt;h3 id=&#34;alternative-licensing&#34;&gt;Alternative licensing&lt;/h3&gt;
+&lt;p&gt;If any sponsors find the AGPL unsuitable for their use, please contact me and we can work something out.&lt;/p&gt;
+&lt;h3 id=&#34;untracking-regular-email&#34;&gt;Untracking regular email&lt;/h3&gt;
+&lt;p&gt;In theory, Untracker can untrack all email, not just newsletters. In practice, there might be some weird cases which break. For now, I recommend passing only newsletters through Untracker.&lt;/p&gt;
+&lt;p&gt;Expanding Untracker to handle all email is a possible long term goal.&lt;/p&gt;
+&lt;h3 id=&#34;original-email-cleaner-service&#34;&gt;Original Email Cleaner service&lt;/h3&gt;
+&lt;p&gt;I will continue to operate the original Email Cleaner service. I still use it myself. Maybe there is demand for a SaaS version of Untracker.&lt;/p&gt;
+&lt;p&gt;At some point, Email Cleaner will be powered by Untracker code instead of the old code. However, there is no need for existing users to take any action.&lt;/p&gt;
+&lt;p&gt;Incidentally, here&amp;rsquo;s a big &amp;lsquo;Thank You!&amp;rsquo; to the users of Email Cleaner.&lt;/p&gt;
+&lt;p&gt;They have provided me with new, previously un-represented, test cases. This has resulted in increased coverage of tracking links. The improvements will feed into Untracker.&lt;/p&gt;
+&lt;h2 id=&#34;hope&#34;&gt;Hope&lt;/h2&gt;
+&lt;p&gt;I hope Untracker succeeds and many people find it useful.&lt;/p&gt;
+&lt;p&gt;I hope the sponsorship model turns out to be a good compromise between the traditional tensions of open source vs monetisation. If it inspires others to attain more funding for open source software, then all the better.&lt;/p&gt;
+&lt;p&gt;I also hope my thoughts about Payment Decision Points helps others &amp;lsquo;crack the code&amp;rsquo; and replicate Caleb Porzio&amp;rsquo;s so-far-unreplicated success with sponsorships. Was it insightful? Only time will tell.&lt;/p&gt;
+&lt;h2 id=&#34;feedback-and-validation&#34;&gt;Feedback and validation&lt;/h2&gt;
+&lt;p&gt;Disclaimer: I haven&amp;rsquo;t done any of the above. I haven&amp;rsquo;t started Untracker.&lt;/p&gt;
+&lt;p&gt;So far, Untracker is just a bunch of ideas and an article — A proposal awaiting feedback and validation.&lt;/p&gt;
+&lt;p&gt;I hope it generates a lot of interest, as that is a sure sign that I should proceed. But I can&amp;rsquo;t be certain. This is why I&amp;rsquo;d like to ask for your feedback. If you have any feedback, comments or questions, I&amp;rsquo;d love to hear it.&lt;/p&gt;
+&lt;p&gt;This has been a long article so here&amp;rsquo;s a refresher of sub-topics.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What do you think about the name change to Untracker?&lt;/li&gt;
+&lt;li&gt;What do you think about Untracker (as a product)?&lt;/li&gt;
+&lt;li&gt;What do you think about Untracker being open source but requiring self-hosting?&lt;/li&gt;
+&lt;li&gt;What do you think of the discussion about Github Sponsors and the Payment Decision Point?&lt;/li&gt;
+&lt;li&gt;What do you think about Untracker&amp;rsquo;s freemium/monetisation/sponsorship model?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To be notified of updates about Untracker, please subscribe to my newsletter (You can choose to be notified about Untracker only). I hope that my next article about Untracker will report some positive developments.&lt;/p&gt;
+&lt;p&gt;Thanks for reading!&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
