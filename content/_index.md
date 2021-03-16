@@ -14,6 +14,7 @@ If you're new here, start with one of these blog posts:
 * [A New Beginning](/blog/a-new-beginning)
 * [Open secrets about Hacker News](/blog/open-secrets-hacker-news)
 * [Untracker: Uncloak tracking links and remove spy pixels from email newsletters](/blog/untracker-remove-tracking-from-email/)
+* [A tour of sponsorware](/blog/tour-of-sponsorware/)
 
 ----
 

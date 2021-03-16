@@ -4,7 +4,7 @@ type: post
 date: 2021-03-12T12:00:00+08:00
 featured: true
 toc: true
-tags: ["privacy", "untracker"]
+tags: ["privacy", "untracker", "sponsorware"]
 ---
 
 ## Previously
