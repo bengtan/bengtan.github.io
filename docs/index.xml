@@ -6,7 +6,34 @@
     <description>Recent content on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Tue, 16 Mar 2021 12:00:00 +0800</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Mar 2021 12:00:00 +0800</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using a proportional font for markdown</title>
+      <link>https://bengtan.com/blog/proportional-font-markdown/</link>
+      <pubDate>Sat, 20 Mar 2021 12:00:00 +0800</pubDate>
+      
+      <guid>https://bengtan.com/blog/proportional-font-markdown/</guid>
+      <description>
+        
+          &lt;p&gt;Two weeks ago, I switched to using a proportional font for editing markdown text. I&amp;rsquo;ve been using vscode&amp;rsquo;s inbuilt markdown previewer a lot. Continually staring at it&amp;rsquo;s proportionally spaced output probably triggered a flash of inspiration.&lt;/p&gt;
+&lt;p&gt;I figured markdown in a more readable font would be a nicer experience. And since I&amp;rsquo;ve started blogging, I&amp;rsquo;ve been writing a lot of prose in markdown so it makes sense to give it a try.&lt;/p&gt;
+&lt;p&gt;It took me a day or two to get used to it. But now, I like it, and I&amp;rsquo;m staying with it. Occasionally, the proportional spacing gets in the way, but overall, it&amp;rsquo;s been a great net positive. I encourage everyone to try it.&lt;/p&gt;
+&lt;p&gt;Fortunately for me, it&amp;rsquo;s easy to do this in vscode so it affects markdown files only. You want something like this in your &lt;code&gt;settings.json&lt;/code&gt; file:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;[markdown]&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;:&lt;/span&gt; {
+        &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;editor.fontFamily&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;-apple-system, BlinkMacSystemFont, &amp;#39;Segoe WPC&amp;#39;, &amp;#39;Segoe UI&amp;#39;, system-ui, &amp;#39;Ubuntu&amp;#39;, &amp;#39;Droid Sans&amp;#39;, sans-serif&amp;#34;&lt;/span&gt;,
+    }&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;,&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;where &lt;code&gt;fontFamily&lt;/code&gt; is a list of fonts. I just copied the &lt;code&gt;fontFamily&lt;/code&gt; value from the inbuilt markdown previewer.&lt;/p&gt;
+&lt;p&gt;Note that I use a proportional font for markdown only. I think this is a clear proposition.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m still using monospace for other stuff. I think proportional fonts for coding is not so clear cut. If you are interested in it, here&amp;rsquo;s some discussions from the past:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://softwareengineering.stackexchange.com/questions/5473&#34;&gt;Does anyone prefer proportional fonts?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://news.ycombinator.com/item?id=1056683&#34;&gt;Programming with proportional fonts is great&lt;/a&gt; (&lt;a href=&#34;https://web.archive.org/web/20130401074244/http://m-mz.posterous.com/programming-with-proportional&#34;&gt;web archive&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+        
+      </description>
+    </item>
+    
     <item>
       <title>A tour of sponsorware</title>
       <link>https://bengtan.com/blog/tour-of-sponsorware/</link>
