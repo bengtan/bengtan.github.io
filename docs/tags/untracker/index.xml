@@ -6,7 +6,33 @@
     <description>Recent content in untracker on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Fri, 12 Mar 2021 12:00:00 +0800</lastBuildDate><atom:link href="https://bengtan.com/tags/untracker/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Mar 2021 12:00:00 +0800</lastBuildDate><atom:link href="https://bengtan.com/tags/untracker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>email-untracker: Get rid of tracking links and spy pixels (self-hosted)</title>
+      <link>https://bengtan.com/blog/email-untracker/</link>
+      <pubDate>Tue, 23 Mar 2021 12:00:00 +0800</pubDate>
+      
+      <guid>https://bengtan.com/blog/email-untracker/</guid>
+      <description>
+        
+          &lt;p&gt;Following up on my &lt;a href=&#34;https://bengtan.com/blog/untracker-remove-tracking-from-email/&#34;&gt;previous post&lt;/a&gt;, I&amp;rsquo;d like to announce that email-untracker (or Untracker for short) is now available.&lt;/p&gt;
+&lt;p&gt;You can now run Untracker (on your own self-hosted mail server) for yourself and your friends. Get rid of tracking links and pixels in email newsletters without compromising your own privacy.&lt;/p&gt;
+&lt;p&gt;Or if you&amp;rsquo;re just curious, you can also use Untracker to scan individual emails and see what it discovers. This can be done on your computer and doesn&amp;rsquo;t require a mail server.&lt;/p&gt;
+&lt;p&gt;TL;DR: Go straight to the Github &lt;a href=&#34;https://github.com/bengtan/email-untracker&#34;&gt;repository&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;more-info&#34;&gt;More info&lt;/h2&gt;
+&lt;p&gt;Untracker is a sponsorware project hosted at Github. The public repository is &lt;a href=&#34;https://github.com/bengtan/email-untracker&#34;&gt;https://github.com/bengtan/email-untracker&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Currently, the binaries are &lt;a href=&#34;https://github.com/bengtan/email-untracker/releases&#34;&gt;publicly available&lt;/a&gt; but the source code is in a &lt;a href=&#34;https://github.com/bengtan/email-untracker-sponsorware/&#34;&gt;sponsors-only repository&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Once 75 sponsors have been reached, I&amp;rsquo;ll open source it and publish the code to the public repository.&lt;/p&gt;
+&lt;p&gt;(Why did I choose 75? I dunno, I just copied &lt;a href=&#34;https://calebporzio.com/sponsorware&#34;&gt;https://calebporzio.com/sponsorware&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;After that (and if the number of sponsors remains 75 or more), I will semi-regularly publish code from the sponsors-only repository to the public repository. (The sponsors-only repository will always have the latest code and newest features.)&lt;/p&gt;
+&lt;p&gt;There is a small change in licensing from what I originally proposed. The sponsors-only repository is licensed under a &amp;lsquo;source available&amp;rsquo; license to discourage redistribution.&lt;/p&gt;
+&lt;p&gt;Thank you for reading, and I hope you find Untracker useful!&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
     <item>
       <title>Untracker: Uncloak tracking links and remove spy pixels from email newsletters</title>
       <link>https://bengtan.com/blog/untracker-remove-tracking-from-email/</link>
