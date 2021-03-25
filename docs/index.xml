@@ -6,7 +6,26 @@
     <description>Recent content on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Tue, 23 Mar 2021 12:00:00 +0800</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Mar 2021 12:00:00 +0800</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reading List (2021-03-25)</title>
+      <link>https://bengtan.com/reading-list/20210325/</link>
+      <pubDate>Thu, 25 Mar 2021 12:00:00 +0800</pubDate>
+      
+      <guid>https://bengtan.com/reading-list/20210325/</guid>
+      <description>
+        
+          &lt;p&gt;A great breakdown (for the semi-technically inclined) of &lt;a href=&#34;https://wasteofserver.com/nft-exactly-as-they-are/&#34;&gt;what an NFT is&lt;/a&gt; (⭐⭐⭐⭐⭐) and a possible reason &lt;a href=&#34;https://www.nateliason.com/blog/nft-value&#34;&gt;why NFTs are valuable&lt;/a&gt; (⭐⭐⭐⭐).&lt;/p&gt;
+&lt;p&gt;Who would have thought that a &lt;a href=&#34;https://creatorcollabhouse.substack.com/p/how-ben-collins-built-a-google-sheets&#34;&gt;blog about Google Sheets could have 400k views per month&lt;/a&gt; (⭐⭐)?&lt;/p&gt;
+&lt;p&gt;A fun primer into &lt;a href=&#34;https://tonsky.me/blog/emoji/&#34;&gt;how emoji&amp;rsquo;s work&lt;/a&gt; (⭐⭐⭐⭐⭐) underneath (It&amp;rsquo;s more complicated than you thought). Every programmer needs to read this and know what a grapheme cluster is.&lt;/p&gt;
+&lt;p&gt;A scary and sobering &lt;a href=&#34;https://michelenasti.com/2021/01/28/no-sight-developer.html&#34;&gt;interview with a developer who is losing his sight&lt;/a&gt; (⭐⭐⭐). Wouldn&amp;rsquo;t wish it on anyone.&lt;/p&gt;
+&lt;p&gt;Anyone wanna &lt;a href=&#34;https://github.com/Daniel-Liu-c0deb0t/uwu&#34;&gt;uwu-ify text&lt;/a&gt; (⭐⭐⭐⭐)? (Warning: Extreme humour ahead.) But what does &lt;a href=&#34;https://studybreaks.com/tvfilm/the-origin-of-the-word-uwu/&#34;&gt;uwu&lt;/a&gt; (⭐⭐⭐) mean?&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://mccormick.cx/news/entries/what-i-learned-bootstrapping-side-projects-in-2020&#34;&gt;What I learned bootstrapping side projects in 2020&lt;/a&gt; (⭐⭐)&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
     <item>
       <title>email-untracker: Get rid of tracking links and spy pixels (self-hosted)</title>
       <link>https://bengtan.com/blog/email-untracker/</link>

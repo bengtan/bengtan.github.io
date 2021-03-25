@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en" data-figures="" class="page">
   <head>
-<title>Open secrets about Hacker News | Beng Tan</title>
+<title>Reading List (2021-03-25) | Beng Tan</title>
 <meta charset="utf-8">
 <meta name="generator" content="Hugo 0.80.0" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -17,18 +17,18 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="I spent a few days examining the mechanics of Hacker News (HN) and I discovered some open secrets. &ldquo;Open&rdquo; because they&rsquo;re not private. …">
+<meta name="description" content="A great breakdown (for the semi-technically inclined) of what an NFT is and a possible reason why NFTs are valuable. | Who would have thought that a blog about …">
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Open secrets about Hacker News" />
-<meta property="og:url" content="https://bengtan.com/blog/open-secrets-hacker-news/" />
-<meta property="og:title" content="Open secrets about Hacker News" />
-<meta property="og:description" content="I spent a few days examining the mechanics of Hacker News (HN) and I discovered some open secrets. &ldquo;Open&rdquo; because they&rsquo;re not private. …" />
+<meta name="twitter:title" content="Reading List (2021-03-25)" />
+<meta property="og:url" content="https://bengtan.com/reading-list/20210325/" />
+<meta property="og:title" content="Reading List (2021-03-25)" />
+<meta property="og:description" content="A great breakdown (for the semi-technically inclined) of what an NFT is and a possible reason why NFTs are valuable. | Who would have thought that a blog about …" />
 <meta property="og:image" content="https://bengtan.com/images/logo.png" />
 <link rel="apple-touch-icon" href='https://bengtan.com/apple-touch-icon.png'>
 <link rel="icon" type="image/png" href='https://bengtan.com/favicon.ico'>
 
-<link rel="canonical" href="https://bengtan.com/blog/open-secrets-hacker-news/">
+<link rel="canonical" href="https://bengtan.com/reading-list/20210325/">
 
     
 
@@ -106,161 +106,28 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Open secrets about Hacker News</h1><div class="post_meta">
+    <h1 class="post_title">Reading List (2021-03-25)</h1><div class="post_meta">
   
     <svg class="icon">
   <use xlink:href="#calendar"></use>
 </svg>
     <span class="post_date">
-      18 Feb 2021</span>
+      25 Mar 2021</span>
 </div>
 
     
 
     
-    
-    <h2>Overview</h2>
-    <nav id="TableOfContents">
-  <ul>
-    <li><a href="#sandbox-live-list-and-the-top30">Sandbox, Live List, and the Top30</a></li>
-    <li><a href="#making-the-front-page">Making the front page</a></li>
-    <li><a href="#upvote-conversion-rate">Upvote conversion rate</a></li>
-    <li><a href="#timing">Timing</a></li>
-    <li><a href="#most-stories-fail">Most stories &lsquo;fail&rsquo;</a></li>
-    <li><a href="#re-posting">Re-posting</a></li>
-    <li><a href="#dont-delete-and-re-post">Don&rsquo;t delete and re-post</a></li>
-    <li><a href="#text-posts-are-penalised">Text posts are penalised</a></li>
-    <li><a href="#show-hn">Show HN</a></li>
-    <li><a href="#karma">Karma</a></li>
-    <li><a href="#escape-velocity">Escape velocity</a></li>
-    <li><a href="#second-chance-pool">Second chance pool</a></li>
-    <li><a href="#vote-manipulation">Vote manipulation</a></li>
-    <li><a href="#dang">dang</a></li>
-    <li><a href="#random">Random</a></li>
-    <li><a href="#further-reading">Further reading</a></li>
-  </ul>
-</nav>
-    <p>I spent a few days examining the mechanics of Hacker News (HN) and I discovered some open secrets. &ldquo;Open&rdquo; because they&rsquo;re not private. &ldquo;Secret&rdquo; because they&rsquo;re not well known. One of them can triple the chances of a story reaching the front page.</p>
-<p>They are listed below with a sprinkling of my own analysis. Sources are included so you can explore further.</p>
-<h2 id="sandbox-live-list-and-the-top30">Sandbox, Live List, and the Top30</h2>
-<p>There are three parts of Hacker News which I&rsquo;m calling the Sandbox, the Live List and the Top30.</p>
-<p>The Top30 are the top 30 stories which appear on the <a href="https://news.ycombinator.com/new">front page</a> of <a href="https://news.ycombinator.com">Hacker News</a>. Stories with more points/upvotes are ranked higher. Stories which are older are ranked lower. An algorithm balances these two factors.</p>
-<p>The Live List is the rest of the top stories after the Top30. These appear on <a href="https://news.ycombinator.com/news?p=2">page two</a> and <a href="https://news.ycombinator.com/news?p=3">three</a> and so on.</p>
-<p>The Sandbox is the <a href="https://news.ycombinator.com/newest">&lsquo;new&rsquo;</a> section and lists all stories ranked by time. Newer stories appear higher.</p>
-<p>When a new story is posted, it is listed only in the sandbox. Once (or if) it has 5 points, then it also appears in the Live List.</p>
-<h2 id="making-the-front-page">Making the front page</h2>
-<p>A story needs to accumulate 5 points to appear in the Live List. Where it initially appears depends on how quickly it accumulated points. If points are acquired quickly enough, it appears high enough to be in the Top30. Otherwise, it appears at a lower position.</p>
-<p>Once a story appears on the Live List, it will have more exposure and acquire more points.</p>
-<p>Stories which begin life on the Live List on page two or three sometimes accumulate more points quickly enough to rise up to the Top30.</p>
-<h2 id="upvote-conversion-rate">Upvote conversion rate</h2>
-<p>The upvote conversion rate is the proportion of readers who upvote a story. It&rsquo;s a proxy for how strongly a story appeals to readers. More interesting stories will have a higher rate of upvotes.</p>
-<p>Whether a story (acquires 5 points and) escapes the sandbox depends on the rate and the number of page views.</p>
-<p><code>Chance of escaping sandbox = upvote conversion rate ✕ views</code></p>
-<p>Consider an example.</p>
-<p>A newly submitted story will get around 30 page views from being listed in the Sandbox (The actual number varies so let&rsquo;s just talk about averages). All stories start with one point. If it gets 4 additional upvotes, it will escape the Sandbox.</p>
-<p>In other words, the story must persuade 13.3% or more of readers to upvote. That&rsquo;s a pretty high conversion rate.</p>
-<p>In practice, most stories will rate much lower. Hence, some luck is needed: Either a transient boost in the conversion rate, or more page views.</p>
-<h2 id="timing">Timing</h2>
-<p>Timing affects how many times a sandboxed story is viewed.</p>
-<p><code>Views = number of users online / rate of new submissions</code></p>
-<p>But timing is not predictable in a reliable way.</p>
-<p>Posting a story during a busy period means more viewers and more chances for upvotes. But there are also more newer stories that push it down the Sandbox ranking too.</p>
-<p>The best time to post is when the ratio of viewers to new stories is highest. But no one knows with certainty when that happens.</p>
-<blockquote>
-<p>the analysis is probabilistic. You are not guaranteed to get onto the front page just by submitting on at a high-probability time.</p>
-<p>&hellip;</p>
-<p>There are game-theoric implications; the more people submitting at a time (weekday mornings), the less likely people will see your post on /new before it is pushed off the first page, and it is highly unlikely to get upvotes once it has fallen off the top 30 slots. (hence the repost/second chance rules)</p>
-<p>&ndash; <a href="https://news.ycombinator.com/item?id=11515207">https://news.ycombinator.com/item?id=11515207</a></p>
-</blockquote>
-<p><a href="https://i.imgur.com/MdUvMB9.png"><img src="MdUvMB9.png" alt="% of all Hacker News Submissions Which Receive 10+ Points"></a></p>
-<h2 id="most-stories-fail">Most stories &lsquo;fail&rsquo;</h2>
-<p>Most stories &lsquo;fail&rsquo; and have only one or two points.</p>
-<blockquote>
-<p>The median is either 1 (no upvotes) or 2 (just 1 upvote)</p>
-<p>&ndash; <a href="https://news.ycombinator.com/item?id=9864254">https://news.ycombinator.com/item?id=9864254</a></p>
-</blockquote>
-<p><a href="https://i.imgur.com/SN5BuAJ.png"><img src="SN5BuAJ.png" alt="Median Score of all Hacker News Submissions"></a></p>
-<p><a href="https://news.ycombinator.com/item?id=9864254">If your HN submission doesn&rsquo;t get any upvotes, don&rsquo;t worry about it</a>. Don&rsquo;t take it personally.</p>
-<p>For example, <a href="https://news.ycombinator.com/user?id=tptacek">tptacek</a> is one of the most well-known users on Hacker News. He has a <a href="https://news.ycombinator.com/item?id=23458896">pretty good track record of getting blog posts on the front page</a> yet his &lsquo;success&rsquo; rate is around 50%.</p>
-<h2 id="re-posting">Re-posting</h2>
-<p>Hacker News allows re-posts. This is not widely known.</p>
-<blockquote>
-<p>If a story has not had significant attention in the last year or so, a small number of reposts is ok. Otherwise we bury reposts as duplicates.</p>
-<p>&ndash; <a href="https://news.ycombinator.com/newsfaq.html">https://news.ycombinator.com/newsfaq.html</a></p>
-</blockquote>
-<p>Albeit, a &lsquo;small number&rsquo; is not defined.</p>
-<p>Personally, I&rsquo;d stay at 3. I&rsquo;d also wait at least a day between re-posts (and try re-posting at different time slots).</p>
-<p><strong>Re-posting can triple-or-more the chances of a story reaching the front page.</strong></p>
-<p>Here is a story that was posted six times:</p>
-<p><a href="https://hn.algolia.com/?dateRange=all&amp;page=0&amp;prefix=false&amp;query=https%3A%2F%2Fwww.lihaoyi.com%2Fpost%2FFromFirstPrinciplesWhyScala.html&amp;sort=byDate&amp;type=story">https://hn.algolia.com/?dateRange=all&amp;page=0&amp;prefix=false&amp;query=https%3A%2F%2Fwww.lihaoyi.com%2Fpost%2FFromFirstPrinciplesWhyScala.html&amp;sort=byDate&amp;type=story</a></p>
-<h2 id="dont-delete-and-re-post">Don&rsquo;t delete and re-post</h2>
-<p>The flip-side of re-posting is that delete-and-repost is not allowed.</p>
-<blockquote>
-<p>Please don&rsquo;t delete and repost the same story. Deletion is for things that shouldn&rsquo;t have been submitted in the first place.</p>
-<p>&ndash; <a href="https://news.ycombinator.com/newsfaq.html">https://news.ycombinator.com/newsfaq.html</a></p>
-</blockquote>
-<blockquote>
-<p>Don&rsquo;t do this.</p>
-<p>pg has said that this is a ban worthy offense. And I still see people doing it.</p>
-<p>&ndash; <a href="https://news.ycombinator.com/item?id=6861740">https://news.ycombinator.com/item?id=6861740</a></p>
-</blockquote>
-<h2 id="text-posts-are-penalised">Text posts are penalised</h2>
-<p>Submissions which are text and lack a URL (sometimes called a &lsquo;self post&rsquo;) have a ranking penalty applied. The factor has been estimated to be a 0.4 or 0.7 multiplier. (Source: <a href="https://news.ycombinator.com/item?id=1076633">Why you should submit your stuff as a blog posting</a>)</p>
-<p>If you must post text, consider posting a link and then submit the text as a comment.</p>
-<blockquote>
-<p>Posts without URLs get penalized, so you&rsquo;d be better off posting this with a link, then adding your text as a first comment in the new thread.</p>
-<p>&ndash; <a href="https://news.ycombinator.com/item?id=21874086">https://news.ycombinator.com/item?id=21874086</a></p>
-</blockquote>
-<h2 id="show-hn">Show HN</h2>
-<p>The Show HN section of Hacker News also has a <a href="https://news.ycombinator.com/shownew">sandbox</a> and it&rsquo;s own live <a href="https://news.ycombinator.com/show">&lsquo;Show&rsquo;</a> listing.</p>
-<blockquote>
-<p>Every Show HN appears on shownew. Once it clears a small points threshold, it will appear on the show page in the top bar.</p>
-<p>&ndash; <a href="https://news.ycombinator.com/showhn.html">https://news.ycombinator.com/showhn.html</a></p>
-</blockquote>
-<p>(I don&rsquo;t know what the points threshold for Show HN is.)</p>
-<p>A story which is posted to <a href="https://news.ycombinator.com/showhn.html">&lsquo;Show HN&rsquo;</a> appears in both sandboxes and has more opportunities to be upvoted.</p>
-<h2 id="karma">Karma</h2>
-<p><a href="https://news.ycombinator.com/item?id=23458656">Do posts by authors with more karma rank higher?</a> The answer is: No.</p>
-<h2 id="escape-velocity">Escape velocity</h2>
-<p>Taking into account all of the above:</p>
-<p><code>Chance of escaping sandbox = re-posts ✕ upvote conversion rate ✕ number of users online / rate of new submissions</code></p>
-<h2 id="second-chance-pool">Second chance pool</h2>
-<p>A small proportion of interesting stories which didn&rsquo;t attract enough upvotes are curated by the moderators.</p>
-<p>It is taken out of the sandbox and it&rsquo;s timestamp is artifically manipulated so it appears in the second half of the Top30. From there, it decays normally.</p>
-<blockquote>
-<p>Moderators and a small number of reviewer users comb the depths of /newest looking for stories that got overlooked but which the community might find interesting. Those go into a second-chance pool from which stories are randomly selected and lobbed onto the bottom part of the front page. This guarantees them a few minutes of attention. If they don&rsquo;t interest the community they soon fall off, but if they do, they get upvoted and stay on the front page.</p>
-<p>&ndash; <a href="https://news.ycombinator.com/item?id=11662380">https://news.ycombinator.com/item?id=11662380</a></p>
-</blockquote>
-<p>The implication? The Top30 is a combination of organically-upvoted stories and moderator-boosted stories.</p>
-<h2 id="vote-manipulation">Vote manipulation</h2>
-<p>Hacker News has software to detect vote manipulation (ie. asking friends to upvote).</p>
-<p><a href="https://news.ycombinator.com/item?id=22761897">Voting ring detection has been one of HN&rsquo;s priorities for over 12 years</a> and it&rsquo;s pretty good.</p>
-<blockquote>
-<p>HN&rsquo;s anti-voting-ring software is now so strict that the main thing we have to do is turn it off when a submission is good enough</p>
-<p>&ndash; <a href="https://news.ycombinator.com/item?id=15511238">https://news.ycombinator.com/item?id=15511238</a></p>
-</blockquote>
-<p>If you get past the voting ring detector, you won&rsquo;t get past the readers.</p>
-<p>Hacker News readers are very protective of the site. Stories which reach the Top30 via dubious means attract intense scrutiny. Sometimes even organically-upvoted stories are suspected.</p>
-<blockquote>
-<p>readers reacted negatively, even violently, to seeing junk on HN&rsquo;s front page. By &ldquo;junk&rdquo; I mean stories that were placed there randomly and that weren&rsquo;t of high-enough quality to otherwise be credible candidates for the front page. Basically, it was an &ldquo;ow my eyes&rdquo;, &ldquo;get that shit away from me&rdquo; effect.</p>
-<p>&hellip;</p>
-<p><strong>HN users have an intense emotional relationship with the front page</strong>. This shows up in the inevitable &ldquo;How is this on HN?&rdquo; comments when a story somehow violates the commenter&rsquo;s personal contract or mental model of HN. &hellip; lessons I drew from that experience: (1) people&rsquo;s relationship with HN is surprisingly personal</p>
-<p>&ndash; <a href="https://news.ycombinator.com/item?id=21868928">https://news.ycombinator.com/item?id=21868928</a> (emphasis added)</p>
-</blockquote>
-<h2 id="dang">dang</h2>
-<p>Hacker News is moderated mainly by <a href="https://news.ycombinator.com/user?id=dang">dang</a> aka Dan Gackle (pronounced &lsquo;Gackley&rsquo;). He&rsquo;s not of asian descent. But <a href="https://news.ycombinator.com/item?id=20643264">he</a> <a href="https://news.ycombinator.com/item?id=25054045">is</a> <a href="https://news.ycombinator.com/item?id=25049415">the</a> <a href="https://news.ycombinator.com/item?id=25049119">best</a> <a href="https://news.ycombinator.com/item?id=25056408">moderator</a> <a href="https://news.ycombinator.com/item?id=25048958">in</a> <a href="https://news.ycombinator.com/item?id=25051566">the</a> <a href="https://news.ycombinator.com/item?id=25052249">world</a>.</p>
-<h2 id="random">Random</h2>
-<p>The story &lsquo;Learn Git Branching&rsquo; has been posted almost 20 times across <a href="http://pcottle.github.io/learnGitBranching/">two</a> <a href="https://learngitbranching.js.org/">urls</a>. The distribution of points is <a href="https://news.ycombinator.com/from?site=pcottle.github.io">pretty</a> <a href="https://news.ycombinator.com/from?site=learngitbranching.js.org">random</a>.</p>
-<h2 id="further-reading">Further reading</h2>
-<ul>
-<li><a href="https://github.com/minimaxir/hacker-news-undocumented">A List of Hacker News&rsquo;s Undocumented Features and Behaviors</a></li>
-<li><a href="https://www.newyorker.com/news/letter-from-silicon-valley/the-lonely-work-of-moderating-hacker-news">The Lonely Work of Moderating Hacker News</a> (<a href="https://news.ycombinator.com/item?id=20643052">comments</a> and more <a href="https://news.ycombinator.com/item?id=25048415">comments</a>)</li>
-<li><a href="https://github.com/cheeaun/awesome-hacker-news">Awesome Hacker News</a> - A collection of awesome Hacker News apps, libraries, resources and shiny things</li>
-</ul>
+    <p>A great breakdown (for the semi-technically inclined) of <a href="https://wasteofserver.com/nft-exactly-as-they-are/">what an NFT is</a> (⭐⭐⭐⭐⭐) and a possible reason <a href="https://www.nateliason.com/blog/nft-value">why NFTs are valuable</a> (⭐⭐⭐⭐).</p>
+<p>Who would have thought that a <a href="https://creatorcollabhouse.substack.com/p/how-ben-collins-built-a-google-sheets">blog about Google Sheets could have 400k views per month</a> (⭐⭐)?</p>
+<p>A fun primer into <a href="https://tonsky.me/blog/emoji/">how emoji&rsquo;s work</a> (⭐⭐⭐⭐⭐) underneath (It&rsquo;s more complicated than you thought). Every programmer needs to read this and know what a grapheme cluster is.</p>
+<p>A scary and sobering <a href="https://michelenasti.com/2021/01/28/no-sight-developer.html">interview with a developer who is losing his sight</a> (⭐⭐⭐). Wouldn&rsquo;t wish it on anyone.</p>
+<p>Anyone wanna <a href="https://github.com/Daniel-Liu-c0deb0t/uwu">uwu-ify text</a> (⭐⭐⭐⭐)? (Warning: Extreme humour ahead.) But what does <a href="https://studybreaks.com/tvfilm/the-origin-of-the-word-uwu/">uwu</a> (⭐⭐⭐) mean?</p>
+<p><a href="https://mccormick.cx/news/entries/what-i-learned-bootstrapping-side-projects-in-2020">What I learned bootstrapping side projects in 2020</a> (⭐⭐)</p>
 
 <div class="comments">
     
-        <a href="https://twitter.com/search?q=https%3a%2f%2fbengtan.com%2fblog%2fopen-secrets-hacker-news%2f">Discuss on Twitter</a>
+        <a href="https://twitter.com/search?q=https%3a%2f%2fbengtan.com%2freading-list%2f20210325%2f">Discuss on Twitter</a>
     
 </div>
 
@@ -284,9 +151,6 @@
     <h2 class="mt-4">Recent Posts</h2>
     <ul class="flex-column">
       <li>
-        <a href="https://bengtan.com/reading-list/20210325/" class="nav-link">Reading List (2021-03-25)</a>
-      </li>
-      <li>
         <a href="https://bengtan.com/blog/email-untracker/" class="nav-link">email-untracker: Get rid of tracking links and spy pixels (self-hosted)</a>
       </li>
       <li>
@@ -306,6 +170,9 @@
       </li>
       <li>
         <a href="https://bengtan.com/blog/email-cleaner-clean-tracking-links-and-pixels/" class="nav-link">Email Cleaner: Clean tracking links and pixels from email newsletters</a>
+      </li>
+      <li>
+        <a href="https://bengtan.com/blog/positioning-isnt-marketing-its-strategy/" class="nav-link">Positioning isn&#39;t marketing. It&#39;s strategy</a>
       </li>
     </ul>
     <div>
