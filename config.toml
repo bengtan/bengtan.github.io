@@ -32,8 +32,14 @@ ga_analytics = "G-VTEK0C8GRX"
   [[menu.main]]
   name = "Blog"
   identifier = "blog"
-  weight = 300
+  weight = 200
   url = "/blog/"
+
+  [[menu.main]]
+  name = "Reading Lists"
+  identifier = "reading-list"
+  weight = 300
+  url = "/reading-list/"
 
   [[menu.social]]
     name = "github"
