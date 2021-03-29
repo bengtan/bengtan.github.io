@@ -6,7 +6,116 @@
     <description>Recent content in Reading Lists on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Thu, 25 Mar 2021 12:00:00 +0800</lastBuildDate><atom:link href="https://bengtan.com/reading-list/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 Mar 2021 12:00:00 +0800</lastBuildDate><atom:link href="https://bengtan.com/reading-list/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reading List (2021-03-29)</title>
+      <link>https://bengtan.com/reading-list/20210329/</link>
+      <pubDate>Mon, 29 Mar 2021 12:00:00 +0800</pubDate>
+      
+      <guid>https://bengtan.com/reading-list/20210329/</guid>
+      <description>
+        
+          &lt;h2 id=&#34;technical&#34;&gt;#technical&lt;/h2&gt;
+&lt;p&gt;⭐⭐⭐⭐ &lt;a href=&#34;https://www.newyorker.com/magazine/2021/03/29/what-data-cant-do&#34;&gt;What Data Can’t Do&lt;/a&gt; (Mar 2021)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Whenever you try to force the real world to do something that can be counted, unintended consequences abound.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;once a useful number becomes a measure of success, it ceases to be a useful number. This is known as Goodhart’s law, and it reminds us that the human world can move once you start to measure it.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Uzbek cotton pickers, judged on the weight of their harvest, would soak their cotton in water to make it heavier.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;when America’s first transcontinental railroad was built, in the eighteen-sixties, companies were paid per mile of track. So a section outside Omaha, Nebraska, was laid down in a wide arc, rather than a straight line, adding several unnecessary (yet profitable) miles to the rails.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Numbers don’t lie, except when they do. Harford is right to say that statistics can be used to illuminate the world with clarity and precision. They can help remedy our human fallibilities. What’s easy to forget is that statistics can amplify these fallibilities, too. As Stone reminds us, “To count well, we need humility to know what can’t or shouldn’t be counted.”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;⭐⭐⭐⭐ &lt;a href=&#34;https://brianschrader.com/archive/why-all-my-servers-have-an-8gb-empty-file/&#34;&gt;Why All My Servers Have an 8GB Empty File&lt;/a&gt; (Mar 2021) — Even if this isn&amp;rsquo;t for you, it&amp;rsquo;s still a brilliant example of lateral thinking.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;As of last year, all of my servers have an 8GB empty spacer.img file that does absolutely nothing except take up space. That way in a moment of full-disk crisis I can simply delete it and buy myself some critical time to debug and fix the problem. 8GB is a significant amount of space, but storage is cheap enough these days that hoarding that much space is basically unnoticeable&amp;hellip; until I really need it. Then it makes all the difference in the world.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;⭐⭐⭐ &lt;a href=&#34;https://blog.thea.codes/opinions-after-a-decade/&#34;&gt;Opinions after a decade of professional software engineering&lt;/a&gt; (Feb 2021)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Code isn&amp;rsquo;t even close to the most important thing about software engineering.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Software and software engineering are inherently political.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Communication skills and empathy are the most important skills for any engineering discipline. It doesn&amp;rsquo;t matter how brilliant you are if you can&amp;rsquo;t understand the needs of others, can&amp;rsquo;t communicate your ideas, and can&amp;rsquo;t work with other people.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;It is our moral responsibly to create and use technology to empower instead of oppress.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Being involved with a community is the best way to grow and learn.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&amp;hellip; and others&lt;/p&gt;
+&lt;p&gt;⭐⭐⭐ &lt;a href=&#34;https://github.com/BBVA/kapow&#34;&gt;https://github.com/BBVA/kapow&lt;/a&gt; — Convert internal server or network data into a HTTP API. Duct tape for the internet.&lt;/p&gt;
+&lt;p&gt;⭐⭐⭐ &lt;a href=&#34;https://blog.cryptohack.org/twitter-secrets&#34;&gt;Recovering a full PEM Private Key when half of it is redacted&lt;/a&gt; (Mar 2021) — Do not share private information online. Partial redaction is not safe. You have been warned.&lt;/p&gt;
+&lt;p&gt;⭐⭐ &lt;a href=&#34;https://blog.ohmysmtp.com/blog/your-emails-are-not-gdpr-compliant/&#34;&gt;Your emails are probably not GDPR compliant&lt;/a&gt; (Mar 2021) — Spy pixels!&lt;/p&gt;
+&lt;h2 id=&#34;indie-biz&#34;&gt;#indie biz&lt;/h2&gt;
+&lt;p&gt;⭐⭐⭐ &lt;a href=&#34;https://medium.com/@ErezDruk/a-simple-recipe-for-startup-execution-2706a8f894cf&#34;&gt;A Simple Recipe for Startup Execution&lt;/a&gt; (Mar 2021) — Crystallise your priorities&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Execution = Speed * Focus * Prioritization (or SFP)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Speed — learn as fast as possible by iterating as fast as possible&lt;/li&gt;
+&lt;li&gt;Focus — do one hard thing at a time&lt;/li&gt;
+&lt;li&gt;Prioritization — work on what’s most important right now&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;⭐⭐⭐ &lt;a href=&#34;https://www.bluelabellabs.com/blog/how-much-does-it-cost-to-make-an-app-in-2021-infographic/&#34;&gt;How Much Does it Cost to Make an App in 2021? [Infographic]&lt;/a&gt; — The numbers aren&amp;rsquo;t as interesting as pointing out that development is just one step of many.&lt;/p&gt;
+&lt;p&gt;⭐⭐ &lt;a href=&#34;https://javierfuent.es/blog/Lessons-promoting-side-project/&#34;&gt;What I learned promoting my first side project as an engineer&lt;/a&gt; (Mar 2021)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Resources I found useful&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Screely: A really simple and easy way to make the screenshots of your product look good. I used it for the product hunt launch.&lt;/li&gt;
+&lt;li&gt;CodeImg: Same idea as screely but for code. I used it for the Twitter thread where I explained how I built it.&lt;/li&gt;
+&lt;li&gt;Diagram of product hunt launch: A great overview with all the rules of thumb when launching in Product Hunt&lt;/li&gt;
+&lt;li&gt;Photopea: Free simpler version of photoshop in your browser. I used it to create a simple logo and to add text to the screenshots from screely.&lt;/li&gt;
+&lt;li&gt;copy.ai: GPT-3 powered copywriting. It helps to brainstorm different ways you can communicate your product. I used it to get ideas for the product hunt description.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;science&#34;&gt;#science&lt;/h2&gt;
+&lt;p&gt;⭐⭐⭐ &lt;a href=&#34;https://www.nationalgeographic.com/science/article/scientists-spot-a-space-hurricane-for-the-first-time&#34;&gt;Scientists spot a &amp;lsquo;space hurricane&amp;rsquo; for the first time&lt;/a&gt; (Mar 2021)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;An international team of scientists may have finally figured it out. These spots could be the northern lights rotating in an unorthodox spiral shape similar to the familiar shape of a hurricane—a phenomenon the team has dubbed a “space hurricane.”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;But finding just one is exciting enough for now. “As humans, we think we know a lot about the universe and our own planet and what is around us,” Oksavik says. “And then we discover something we didn’t expect.”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;⭐⭐ &lt;a href=&#34;https://ai.facebook.com/blog/ai-names-colors-much-as-humans-do/&#34;&gt;AI names colors much as humans do&lt;/a&gt; (Mar, 2021)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;the way we use words to represent different colors is remarkably consistent. For example, many languages have two distinct words for red and orange, but no language has many distinct commonly used words for various tonalities of orange.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;cutting-edge AI systems behave similarly. When &amp;hellip; tasked with creating a way to communicate &amp;hellip; what colors they see, they develop systems that balance complexity and accuracy much as people do.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We also found that &amp;hellip; to be an optimal solution, it must use discrete symbols rather than continuous sounds. &amp;hellip; Is it possible that our languages can be optimally structured only if they are made up of discrete symbols rather than, say, continuous whistling?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;life&#34;&gt;#life&lt;/h2&gt;
+&lt;p&gt;⭐⭐⭐ &lt;a href=&#34;https://savvytokyo.com/ikigai-japanese-concept-finding-purpose-life/&#34;&gt;Ikigai: The Japanese Concept Of Finding Purpose In Life And How This Age-Old Ideology Can Help You Find Happiness&lt;/a&gt; (Jan 2020)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Enter ikigai, the age-old Japanese ideology that’s long been associated with the nation’s long life expectancy. A combination of the Japanese words “iki” (生き), which translates to “life,” and “gai” (甲斐), which is used to describe value or worth, ikigai is all about finding joy in life through purpose.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;⭐⭐⭐ &lt;a href=&#34;https://param.codes/2021/notetaking/&#34;&gt;Notetaking for fun and profit&lt;/a&gt; (Mar 2021)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Writing things down helps me remember things better because it means that I’m not endlessly consuming words, I’m also producing something, even if it is just a few sentences rephrasing the text I read. Once you produce something about a topic, you know it much better.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Another interesting benefit I’ve had with writing notes is that the &lt;em&gt;amount&lt;/em&gt; of content I produce has quite dramatically increased. &amp;hellip; I write a lot more. &amp;hellip; I have a feeling the archive will be quite valuable to me a few years down the line.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;random&#34;&gt;#random&lt;/h2&gt;
+&lt;p&gt;⭐ &lt;a href=&#34;https://www.macrumors.com/2021/03/24/steve-jobs-employment-questionnaire/&#34;&gt;Job Application Filled Out by Steve Jobs in 1973 Sells for $222,400&lt;/a&gt; (Mar 2021) — Quick! Burn it and sell the NFT!&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
     <item>
       <title>Reading List (2021-03-25)</title>
       <link>https://bengtan.com/reading-list/20210325/</link>
