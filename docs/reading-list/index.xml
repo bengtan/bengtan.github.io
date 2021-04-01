@@ -6,7 +6,96 @@
     <description>Recent content in Reading Lists on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Mon, 29 Mar 2021 12:00:00 +0800</lastBuildDate><atom:link href="https://bengtan.com/reading-list/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Apr 2021 09:00:00 +0800</lastBuildDate><atom:link href="https://bengtan.com/reading-list/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reading List (2021-04-01)</title>
+      <link>https://bengtan.com/reading-list/20210401/</link>
+      <pubDate>Thu, 01 Apr 2021 09:00:00 +0800</pubDate>
+      
+      <guid>https://bengtan.com/reading-list/20210401/</guid>
+      <description>
+        
+          &lt;h2 id=&#34;technical&#34;&gt;#technical&lt;/h2&gt;
+&lt;p&gt;⭐⭐⭐⭐ &lt;a href=&#34;https://fasterthanli.me/articles/pin-and-suffering&#34;&gt;Pin and suffering&lt;/a&gt; (Mar 2021) — A different kind of tutorial about async Rust.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I&amp;rsquo;d like to think that my understanding of &amp;ldquo;async Rust&amp;rdquo; has increased over the past year or so. I&amp;rsquo;m 100% onboard with the basic principle: I would like to handle thousands of concurrent tasks using a handful of threads. That sounds great!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;⭐⭐⭐ &lt;a href=&#34;https://arctype.com/blog/json-in-postgresql/&#34;&gt;Forget SQL vs NoSQL - Get the Best of Both Worlds with JSON in PostgreSQL&lt;/a&gt; (Jan 2021)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Learn how to use JSON with PostgreSQL to create a schema for any situation. Follow examples of storing JSON data, querying it, and avoiding anti-patterns.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;⭐⭐⭐ &lt;a href=&#34;https://mbuffett.com/posts/qr-code-hitchhikers-guide/&#34;&gt;How Much of the Hitchhiker&amp;rsquo;s Guide to the Galaxy Can You Fit on a QR Code?&lt;/a&gt; (Mar 2021)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I&amp;rsquo;ve been dealing with QR codes recently, as one of my side projects generates them, and I got curious about how much data you can really fit in a QR code.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;⭐⭐⭐ &lt;a href=&#34;https://thenewstack.io/souped-up-gopher-project-geminis-plan-to-revolutionize-internet-browsing/&#34;&gt;Souped-Up Gopher: Project Gemini’s Plan to Revolutionize Internet Browsing&lt;/a&gt; (Mar 2021)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A team of highly motivated and principled developers is quietly building an entirely new web of content, served by different servers and accessed with an entirely new kind of software.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;⭐⭐ &lt;a href=&#34;https://adamzerner.bearblog.dev/think-like-an-educator-about-code-quality/&#34;&gt;Think like an educator about code quality&lt;/a&gt; (Mar 2021)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;It&amp;rsquo;s been said a thousand times: code is for humans to read, not for machines to execute. However, writing code that is easy for humans to read is much easier said than done. It&amp;rsquo;s something that takes years to learn, and decades to master.&lt;/p&gt;
+&lt;p&gt;I think I might be able to offer a shortcut though: think like an educator about code quality.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;science&#34;&gt;#science&lt;/h2&gt;
+&lt;p&gt;⭐⭐⭐⭐ &lt;a href=&#34;https://www.nature.com/articles/d41586-021-00782-w&#34;&gt;First known gene transfer from plant to insect identified&lt;/a&gt; (Mar 2021)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Discovery that a whitefly uses a stolen plant gene to elude its host’s defences may offer a route to new pest-control strategies.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;⭐⭐⭐⭐ &lt;a href=&#34;https://phys.org/news/2021-03-ancient-genomes-decline-scythians.html&#34;&gt;Ancient genomes trace the origin and decline of the Scythians&lt;/a&gt; (Mar 2021)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Generally thought of as fierce horse warriors, the Scythians were a multitude of Iron Age cultures who ruled the Eurasian steppe, playing a major role in Eurasian history. A new study published in Science Advances analyzes genome-wide data for 111 ancient individuals spanning the Central Asian Steppe from the first millennia BCE and CE. The results reveal new insights into the genetic events associated with the origins, development and decline of the steppe&amp;rsquo;s legendary Scythians.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;⭐⭐⭐ &lt;a href=&#34;https://www.sciencealert.com/the-shifting-hues-of-sleeping-octopuses-indicate-a-second-sleep-state&#34;&gt;We Have The First-Ever Confirmation of Alternating Sleep States in an Octopus&lt;/a&gt; (Mar 2021)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The flickering colors of a sleeping octopus seem to indicate something akin to an REM sleep state, scientists have found.&lt;/p&gt;
+&lt;p&gt;In fact, as octopuses snooze, they distinctly cycle between two major sleep states, quiet and active. This discovery suggests not only that an active sleep state evolved separately in vertebrates and cephalopods, but also that, just like terrestrial vertebrates, octopuses might be able to dream.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;⭐⭐⭐ &lt;a href=&#34;https://bollu.github.io/mathemagic/jacobian/index.html&#34;&gt;The Jacobian, geometrically&lt;/a&gt; (Mar 2021)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In this article, I&amp;rsquo;m going to motivate a geometric quantity known as the Jacobian you may have seen in multivariable calculus. It shows up without explanation when one solves multiple integrals; little explanation is given to what it means . At the end of reading this, if you knew what a Jacobian is, you&amp;rsquo;ll have a sense of what it really means. If you didn&amp;rsquo;t, even better &amp;mdash; you&amp;rsquo;ll learn what the Jacobian is!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;⭐⭐⭐ &lt;a href=&#34;https://www.theguardian.com/us-news/2021/mar/26/california-condor-reintroduced-yurok-tribe&#34;&gt;Endangered condors return to northern California skies after nearly a century&lt;/a&gt; (Mar 2021)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;After a century of absence, the endangered California condor is set to return to the skies of the Pacific north-west.&lt;/p&gt;
+&lt;p&gt;The condor once soared from British Columbia to Mexico, but habitat loss, overhunting and, most significantly, poisoning from hunting ammunition drove the birds to near extinction.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;⭐⭐ &lt;a href=&#34;https://www.sciencealert.com/giant-demon-ducks-of-doom-had-to-squish-in-their-brains-despite-their-massive-heads&#34;&gt;These Huge &amp;lsquo;Demon Ducks&amp;rsquo; With Squished Brains Were an Extreme Evolutionary Experiment&lt;/a&gt; (Mar 2021)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Back when mega wombats, sheep-sized echidnas, and marsupial lions roamed the ancient lands of Australia, there also lived a gigantic flightless bird. Known by some as the &amp;lsquo;demon duck of doom&amp;rsquo;, Dromornis stirtoni is described by paleontologist Trevor Worthy as an &amp;ldquo;extreme evolutionary experiment&amp;rdquo;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;life&#34;&gt;#life&lt;/h2&gt;
+&lt;p&gt;⭐⭐⭐ &lt;a href=&#34;https://levels.io/contact-me/&#34;&gt;Why I&amp;rsquo;m unreachable and maybe you should be too&lt;/a&gt; (Mar 2021) — A good problem to have.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;You may have noticed it&amp;rsquo;s practically impossible to contact me. I did that on purpose so I can spend my time how I want to spend it. I don&amp;rsquo;t really use email and I have my private message inboxes on every platform closed. And they have been like that for years.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;⭐⭐⭐ &lt;a href=&#34;https://smarter.blog/always-be-writing/&#34;&gt;Always be writing&lt;/a&gt; (Feb 2021)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Always be writing, if possible everyday, and if possible on the internet for everyone to read. Writing is a valuable skill worth cultivating. It helps you think better, opens up new opportunities for yourself, and others will benefit from your writing.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;⭐⭐⭐ &lt;a href=&#34;https://www.theatlantic.com/technology/archive/2021/03/numtot-tinder-dating-site-transit-nerds/618434/&#34;&gt;There’s a Better Way to Date Online — If You Like Trains&lt;/a&gt; (Mar 2021)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Inside NUMTinder, a Facebook dating group exclusively for people who are really into public transit.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;⭐⭐ &lt;a href=&#34;https://www.wired.com/story/sleep-procrastination-psychology-tips/&#34;&gt;Why You Stay Up So Late, Even When You Know You Shouldn’t&lt;/a&gt; (Mar 2021)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;There are certain traits that lend themselves to &amp;lsquo;revenge bedtime procrastination&amp;rsquo;. There’s also a way out.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;random&#34;&gt;#random&lt;/h2&gt;
+&lt;p&gt;⭐⭐⭐ &lt;a href=&#34;http://bentilly.blogspot.com/2010/08/analysis-vs-algebra-predicts-eating.html?m=1&#34;&gt;Analysis vs Algebra predicts eating corn?&lt;/a&gt; (Aug 2010)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I like learning about odd connections between disparate things.  This probably is the oddest example that I know.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;⭐⭐ &lt;a href=&#34;https://www.spectator.co.uk/article/the-beauty-of-the-ampersand-and-other-keyboard-symbols&#34;&gt;The beauty of the ampersand and other keyboard symbols&lt;/a&gt; (Mar 2021)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Claire Cock-Starkey’s guide to glyphs and punctuation marks is, by turns, scholarly, poetic, philosophical and funny&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;⭐ &lt;a href=&#34;http://www.jdawiseman.com/PricingMoney.html&#34;&gt;Pricing Money: the whole book&lt;/a&gt; (Nov 2019) — The text of Pricing Money, J. D. A Wiseman, Wiley (2001) with some updates from 2019. Off-topic but may be useful for some.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
     <item>
       <title>Reading List (2021-03-29)</title>
       <link>https://bengtan.com/reading-list/20210329/</link>
