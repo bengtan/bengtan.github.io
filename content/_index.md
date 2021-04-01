@@ -9,12 +9,11 @@ I'm Beng Tan, a freelance software engineer.
 
 This is my [blog](/blog). I write about software, tech, startups and random things.
 
-If you're new here, start with one of these blog posts:
+If you're new here, start with the latest [**Reading List**](/reading-list) or one of these blog posts:
 
 * [A New Beginning](/blog/a-new-beginning)
 * [Open secrets about Hacker News](/blog/open-secrets-hacker-news)
 * [email-untracker: Get rid of tracking links and spy pixels (self-hosted)](/blog/email-untracker)
-* [A tour of sponsorware](/blog/tour-of-sponsorware/)
 
 ----
 
