@@ -6,7 +6,80 @@
     <description>Recent content in Reading Lists on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Thu, 01 Apr 2021 09:00:00 +0800</lastBuildDate><atom:link href="https://bengtan.com/reading-list/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Apr 2021 09:00:00 +0800</lastBuildDate><atom:link href="https://bengtan.com/reading-list/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reading List (2021-04-13)</title>
+      <link>https://bengtan.com/reading-list/20210413/</link>
+      <pubDate>Tue, 13 Apr 2021 09:00:00 +0800</pubDate>
+      
+      <guid>https://bengtan.com/reading-list/20210413/</guid>
+      <description>
+        
+          &lt;h2 id=&#34;technical&#34;&gt;#technical&lt;/h2&gt;
+&lt;p&gt;⭐⭐⭐ &lt;a href=&#34;https://www.hackerfactor.com/blog/index.php?/archives/918-Hotlinking-and-Cool-Exploits.html&#34;&gt;Hotlinking and Cool Exploits&lt;/a&gt; (Apr 2021)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Last month I mentioned that I had a spammer who was hotlinking his spam&amp;rsquo;s pictures to my FotoForensics service. As a result, I ended up implementing a way to detect hotlinking. This allows me to prevent the pictures from appearing in their spam emails.&lt;/p&gt;
+&lt;p&gt;I started automating the detection of hotlinked images and immediately caught nearly a dozen people who were using my service as a generic image hosting site.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;It&amp;rsquo;s easy enough to say that hotlinking is bad due to bandwidth theft. However, it&amp;rsquo;s also very bad from a security view; hotlinking from an application &amp;hellip; can potentially compromise your company&amp;rsquo;s internal network.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;⭐⭐⭐ &lt;a href=&#34;https://www.lastweekinaws.com/blog/nobody-cares-about-the-operating-system-anymore/&#34;&gt;Nobody Cares About the Operating System Anymore&lt;/a&gt; (April 2021)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We’re officially in a post-OS world. Thanks to the cloud, customers are past a point of caring what operating system their workloads run on.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;⭐⭐⭐ &lt;a href=&#34;https://boilingsteam.com/openttd-went-to-steam-to-solve-a-hard-problem/&#34;&gt;OpenTTD Went to Steam to Solve a Hard Problem&lt;/a&gt; (Apr 2021)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;OpenTTD, the free and open-source software recreation of Transport Tycoon Deluxe, has been a popular game for a long time, but recently something unusual happened. The team behind the project decided to release the game on Steam (still free as always) and this has changed everything. Let me explain why this matters.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;⭐⭐⭐ &lt;a href=&#34;https://thenewstack.io/rust-vs-go-why-theyre-better-together/&#34;&gt;Rust vs. Go: Why They’re Better Together&lt;/a&gt; (Mar 2021)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;For most companies and users, Go is the right default option. Its performance is strong, Go is easy to adopt, and Go’s highly modular nature makes it particularly good for situations where requirements are changing or evolving. As your product matures, and requirements stabilize, there may be opportunities to have large wins from marginal increases in performance. In these cases, using Rust to maximize performance may well be worth the initial investment.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;⭐⭐⭐ &lt;a href=&#34;https://sites.google.com/a/athaydes.com/renato-athaydes/posts/fearlessconcurrencyhowclojurerustponyerlanganddartletyouachievethat&#34;&gt;Fearless concurrency: how Clojure, Rust, Pony, Erlang and Dart let you achieve that.&lt;/a&gt; (Feb 2021)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Anyone who has written any concurrent code &amp;hellip; knows that it&amp;rsquo;s really hard to get it right using the low-level tools like locks and semaphores.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I don&amp;rsquo;t intend to give an extensive analysis of each solution, or make a formal comparison between them. My intention is to simply explain the basics of each solution and how they can be used in practice so that other developers may have an easier time understanding them and deciding which solution, or language, might be better applicable to their particular problems.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;science&#34;&gt;#science&lt;/h2&gt;
+&lt;p&gt;⭐⭐⭐⭐ &lt;a href=&#34;https://www.abc.net.au/news/2021-04-09/trees-that-bleed-metal-could-help-power-the-future/100051066&#34;&gt;How farming plants that contain metal could help power the future&lt;/a&gt; (Apr 2021)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;These plants suck metals from the soil at amazing rates. Scientists hope farming the plants could provide an environmentally-friendly alternative to mining. &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;life&#34;&gt;#life&lt;/h2&gt;
+&lt;p&gt;⭐⭐⭐⭐ &lt;a href=&#34;https://www.drorpoleg.com/the-ponzi-career/&#34;&gt;The Ponzi Career&lt;/a&gt; (Apr 2021)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The future of work is a pyramid scheme, where every person sells his favorite person to the next person.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;⭐⭐⭐ &lt;a href=&#34;https://www.wired.com/story/healing-power-javascript-code-programming/&#34;&gt;The Healing Power of JavaScript&lt;/a&gt; (Apr 2021)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;For some of us—isolates, happy in the dark—code is therapy, an escape and a path to hope in a troubled world.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;⭐⭐⭐ &lt;a href=&#34;https://eugeneyan.com/writing/imposter-syndrome/&#34;&gt;How to Live with Chronic Imposter Syndrome&lt;/a&gt; (Apr 2021)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;More education, achievements, and awards don&amp;rsquo;t shoo away imposter syndrome. Here&amp;rsquo;s what might help.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;⭐⭐ &lt;a href=&#34;https://pacurar.dev/how-i-started-my-programming-journey/&#34;&gt;How I started my programming journey&lt;/a&gt; (April 2021)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I always had a thing for computers now that I think about it. I was maybe 5 years old when my dad bought a 386 computer with MS-DOS on it and I was blown away by it. I used to have two “games” in MS-DOS that I could play: a starship shooting bullets and floating&amp;hellip;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;random&#34;&gt;#random&lt;/h2&gt;
+&lt;p&gt;⭐⭐⭐⭐ &lt;a href=&#34;https://www.newyorker.com/tech/annals-of-technology/the-cicadas-love-affair-with-prime-numbers&#34;&gt;The Cicada’s Love Affair With Prime Numbers&lt;/a&gt; (May 2013)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;cicadas with a prime-numbered life cycle had the most successful evolutionary strategy. If we discount those cicadas with life cycles of ten years or fewer (as being too close to predator life cycles), we find that the most successful emergence rates for cyber cicadas are thirteen and seventeen years—precisely what we find in the wild.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;⭐⭐⭐ &lt;a href=&#34;https://erkal.github.io/elm-3d-playground-exploration/red-faced-cube/&#34;&gt;The Red Faced Cube&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Tour the board, resting once only on every cell and ending with the cube red side up in the northeast corner.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;⭐⭐ &lt;a href=&#34;https://virtocean.com&#34;&gt;VirtOcean: Sea and ocean sounds noise generator&lt;/a&gt; - Nice and relaxing. Put it on a big screen somewhere.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
     <item>
       <title>Reading List (2021-04-01)</title>
       <link>https://bengtan.com/reading-list/20210401/</link>
