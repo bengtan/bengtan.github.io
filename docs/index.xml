@@ -6,7 +6,43 @@
     <description>Recent content on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Wed, 14 Apr 2021 09:00:00 +0800</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Apr 2021 09:00:00 +0800</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reading List (2021-04-16)</title>
+      <link>https://bengtan.com/reading-list/20210416/</link>
+      <pubDate>Fri, 16 Apr 2021 09:00:00 +0800</pubDate>
+      
+      <guid>https://bengtan.com/reading-list/20210416/</guid>
+      <description>
+        
+          &lt;p&gt;Welcome to this edition of Reading List, a curation of interesting stories and links from tech, indie business, science and life. I&amp;rsquo;m trying out a new format.&lt;/p&gt;
+&lt;h2 id=&#34;tech&#34;&gt;#tech&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://httptoolkit.tech/blog/http-search-method/&#34;&gt;Defining a new HTTP method: HTTP SEARCH&lt;/a&gt;&lt;/strong&gt; — The IETF drafted a new HTTP method for requesting complicated queries which are cumbersome with existing methods. For example, a web app could send &lt;code&gt;SELECT username, email WHERE DATEDIFF(DAY, GETDATE(), signup_date) &amp;gt; 7&lt;/code&gt; to the back-end. This could be the start of something great.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://omarshehata.me/notebook/how_to_turn_an_image_black_and_white&#34;&gt;How to turn an image black and white&lt;/a&gt;&lt;/strong&gt; — Converting an image into grayscale seems like a simple calculation. But if you did it naively, you&amp;rsquo;d be wrong. Human eyes aren&amp;rsquo;t equally sensitive to all colours. Instead, take ~70% of green, ~20% red, and the rest is blue. This interactive web page lets you experiment and see for yourself.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://jvns.ca/blog/2021/04/03/what-problems-do-people-solve-with-strace/&#34;&gt;What problems do people solve with strace?&lt;/a&gt;&lt;/strong&gt; — strace is a command-line tool that shows how a program interacts with the operating system. It&amp;rsquo;s a simple idea that has a surprisingly wide range of uses. See how people solve problems with strace.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.clever-cloud.com/blog/engineering/2021/04/12/introduction-to-biscuit/&#34;&gt;Biscuit, the foundation for your authorization systems&lt;/a&gt;&lt;/strong&gt; — Cookies and JWTs (JSON web tokens) are two widely used techniques for managing authentication and authorisation. Biscuit, a new type of token, improves on these and adds new capabilities.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.smashingmagazine.com/2021/02/things-you-can-do-with-css-today/&#34;&gt;Things You Can Do With CSS Today&lt;/a&gt;&lt;/strong&gt; (Feb 2021) — CSS keeps evolving and getting better. This article looks into masonry layout (ie. Pinterest-like), :is selector, clamp(), ch and ex units, updated text decoration, and a few other useful CSS properties. All with interactive examples.&lt;/p&gt;
+&lt;h2 id=&#34;indie-biz&#34;&gt;#indie biz&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.isaaclien.com/blog/the-founding-story-of-grandpad&#34;&gt;The Founding Story of GrandPad&lt;/a&gt;&lt;/strong&gt; — How to have video calls with your grandma, create a hardware startup, and get one million users. All at the same time. An awesome behind-the-scenes story with lots of lessons.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://staysaasy.com/leadership/2021/04/12/the-intangible-skills-you-cant-interview-for.html&#34;&gt;The Intangible Skills You Can&amp;rsquo;t Interview For&lt;/a&gt;&lt;/strong&gt; — Many intangible attributes go into building a great company that are just as important as hard skills. These intangibles are easy to observe on the job, but hard to measure in an interview. If you see these intangibles in yourself, consider how you can use them to further your career.&lt;/p&gt;
+&lt;h2 id=&#34;science&#34;&gt;#science&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.cbc.ca/radio/quirks/scientists-create-the-simplest-cell-with-only-bare-essentials-for-life-and-reproduction-1.5980420&#34;&gt;Scientists create the simplest cell with only bare essentials for life and reproduction&lt;/a&gt;&lt;/strong&gt; — The result of this work was a new synthetic organism capable of reproduction, with a total of 480 genes. About half of the 480 genes in their new minimal cell are involved in chromosome maintenance and the production of proteins, about a quarter are involved in cell metabolism.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://backreaction.blogspot.com/2021/04/does-universe-have-higher-dimensions.html&#34;&gt;Does the Universe have Higher Dimensions? Part 1&lt;/a&gt;&lt;/strong&gt; — The idea that space has more than three dimensions may sound entirely nuts, but it’s a question that physicists have seriously studied for more than a century.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.quantamagazine.org/new-genomic-study-of-placenta-finds-deep-links-to-cancer-20210408/&#34;&gt;New Genomic Study of Placenta Finds Deep Links to Cancer&lt;/a&gt;&lt;/strong&gt; — Researchers have long noted similarities between cancers and the placenta — in how they evade the immune system, their invasion tactics and the set of chemical tags on their cells’ DNA. The placenta must invade the uterine lining of the mother, tap into the mother’s blood supply and create its own network of blood vessels — all of which cancerous cells do as well.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.bbc.com/future/article/20210412-the-genetic-mistakes-that-could-shape-our-species&#34;&gt;The genetic mistakes that could shape our species&lt;/a&gt;&lt;/strong&gt; — Let&amp;rsquo;s say that we do end up with artificial mistakes in the human gene pool. Exactly how permanent could they become? Could new mutations created today still be washing around in 10,000 years?&lt;/p&gt;
+&lt;h2 id=&#34;life&#34;&gt;#life&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.tomshardware.com/how-to/building-ikigai-all-wood-case-mod&#34;&gt;Building Ikigai, My Award-Winning Wooden PC Mod&lt;/a&gt;&lt;/strong&gt; — A beautiful hand-made PC case that is water cooled and combines my love of handmade wood joinery, and Japanese design aesthetics. It also uses CNC machining techniques and integrates the water cooling and electrical systems. I also wanted to keep the case open to show off every component, making sure that every angle of the case was aesthetically pleasing.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://nymag.com/intelligencer/2021/04/confessions-overnight-tech-millionaire.html&#34;&gt;Confessions of an Overnight Millionaire&lt;/a&gt;&lt;/strong&gt; — One millennial tech worker on the verge of unexpected wealth shared what was going through her mind.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://jerseyfonseca.com/blogs/eyestrain&#34;&gt;Reducing Eye Strain&lt;/a&gt;&lt;/strong&gt; (Jan 2021) — I do want to claim that making some of these adjustments will make for a more comfortable experience. With the amount of time that we spend on our devices, I believe that making the experience as comfortable as possible is essential.&lt;/p&gt;
+&lt;h2 id=&#34;random&#34;&gt;#random&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.stavros.io/posts/keyyyyyyyys/&#34;&gt;Keyyyyyyyys!&lt;/a&gt;&lt;/strong&gt; — A one-handed, holdable, wireless 5-key keyboard for those times when you have to maintain eye contact. What?!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://larsch.github.io/2021/04/12/this-pdf-file-has-2-million-pages.html&#34;&gt;This 1301 byte PDF file has 2 million pages&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://www.isc.meiji.ac.jp/~kokichis/ambiguousc/ambiguouscylindere.html&#34;&gt;&amp;ldquo;Ambiguous Objects&amp;rdquo; that change their appearances in a mirror&lt;/a&gt;&lt;/strong&gt; — I found a class of objects that change the appearances when they are reflected in a mirror. Of course, the shape of an object should not change even if it is reflected in a mirror. So the change of the appearance is a kind of optical illusion.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
     <item>
       <title>Status update (2021-04-14)</title>
       <link>https://bengtan.com/blog/status-update-20210414/</link>

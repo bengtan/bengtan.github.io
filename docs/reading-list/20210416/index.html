@@ -1,8 +1,8 @@
 
 <!DOCTYPE html>
-<html lang="en" data-figures="" class="home">
+<html lang="en" data-figures="" class="page">
   <head>
-<title>Beng Tan</title>
+<title>Reading List (2021-04-16) | Beng Tan</title>
 <meta charset="utf-8">
 <meta name="generator" content="Hugo 0.80.0" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -16,20 +16,19 @@
 </script>
 <meta property="og:locale" content="en" />
 
-<meta property="og:type" content="website">
-<meta name="description" content="Beng Tan&#39;s personal blog where I write about software, tech, startups and random things.">
+<meta property="og:type" content="article">
+<meta name="description" content="Defining a new HTTP method | How to turn an image black and white | What problems do people solve with strace | Biscuit, the foundation for your authorization …">
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Beng Tan" />
-<meta property="og:url" content="https://bengtan.com/" />
-<meta property="og:title" content="Beng Tan" />
-<meta property="og:description" content="Beng Tan&#39;s personal blog where I write about software, tech, startups and random things." />
+<meta name="twitter:title" content="Reading List (2021-04-16)" />
+<meta property="og:url" content="https://bengtan.com/reading-list/20210416/" />
+<meta property="og:title" content="Reading List (2021-04-16)" />
+<meta property="og:description" content="Defining a new HTTP method | How to turn an image black and white | What problems do people solve with strace | Biscuit, the foundation for your authorization …" />
 <meta property="og:image" content="https://bengtan.com/images/logo.png" />
 <link rel="apple-touch-icon" href='https://bengtan.com/apple-touch-icon.png'>
 <link rel="icon" type="image/png" href='https://bengtan.com/favicon.ico'>
 
-<link rel="canonical" href="https://bengtan.com/">
-<link rel="alternate" type="application/rss+xml" href="https://bengtan.com/index.xml" title="Beng Tan" />
+<link rel="canonical" href="https://bengtan.com/reading-list/20210416/">
 
     
 
@@ -66,7 +65,7 @@
       
         
 
-  <div class="nav_parent nav_active">
+  <div class="nav_parent">
     <a href="https://bengtan.com/" class="nav_item" title="About">About </a>
   </div>
   <div class="nav_parent">
@@ -107,31 +106,47 @@
   
 <div class="grid-inverse wrap content">
   <article class="post_content">
-    <h1 class="post_title">Beng Tan</h1><div class="post_meta">
+    <h1 class="post_title">Reading List (2021-04-16)</h1><div class="post_meta">
   
+    <svg class="icon">
+  <use xlink:href="#calendar"></use>
+</svg>
+    <span class="post_date">
+      16 Apr 2021</span>
 </div>
 
     
 
     
-    <p><img src="/images/portrait.jpg" alt=""></p>
-<p>I&rsquo;m Beng Tan, a freelance software engineer.</p>
-<p>This is my <a href="/blog">blog</a>. I write about software, tech, startups and random things.</p>
-<p>If you&rsquo;re new here, start with the latest <a href="/reading-list"><strong>Reading List</strong></a> or one of these blog posts:</p>
-<ul>
-<li><a href="/blog/a-new-beginning">A New Beginning</a></li>
-<li><a href="/blog/open-secrets-hacker-news">Open secrets about Hacker News</a></li>
-<li><a href="/blog/email-untracker">email-untracker: Get rid of tracking links and spy pixels (self-hosted)</a></li>
-</ul>
-<hr>
-<p>My side projects:</p>
-<ul>
-<li><a href="/blog/email-untracker">Untracker (v2)</a> / <a href="/blog/email-cleaner-clean-tracking-links-and-pixels">Email Cleaner (v1)</a> — Uncloak tracking links and remove spy pixels from email newsletters</li>
-<li><a href="/css-named-colours-picker">CSS Named Colours Picker</a></li>
-<li><a href="https://www.gigobooks.com">Gig&rsquo;o&rsquo;Books</a></li>
-</ul>
-<p>I can be found on <a href="https://github.com/bengtan">github</a> or <a href="https://twitter.com/bengtanAU">twitter</a> or email at <code>${first_name} + '@' + ${domain}</code>.</p>
-<p>Look at my <a href="/resume">resume</a>.</p>
+    <p>Welcome to this edition of Reading List, a curation of interesting stories and links from tech, indie business, science and life. I&rsquo;m trying out a new format.</p>
+<h2 id="tech">#tech</h2>
+<p><strong><a href="https://httptoolkit.tech/blog/http-search-method/">Defining a new HTTP method: HTTP SEARCH</a></strong> — The IETF drafted a new HTTP method for requesting complicated queries which are cumbersome with existing methods. For example, a web app could send <code>SELECT username, email WHERE DATEDIFF(DAY, GETDATE(), signup_date) &gt; 7</code> to the back-end. This could be the start of something great.</p>
+<p><strong><a href="https://omarshehata.me/notebook/how_to_turn_an_image_black_and_white">How to turn an image black and white</a></strong> — Converting an image into grayscale seems like a simple calculation. But if you did it naively, you&rsquo;d be wrong. Human eyes aren&rsquo;t equally sensitive to all colours. Instead, take ~70% of green, ~20% red, and the rest is blue. This interactive web page lets you experiment and see for yourself.</p>
+<p><strong><a href="https://jvns.ca/blog/2021/04/03/what-problems-do-people-solve-with-strace/">What problems do people solve with strace?</a></strong> — strace is a command-line tool that shows how a program interacts with the operating system. It&rsquo;s a simple idea that has a surprisingly wide range of uses. See how people solve problems with strace.</p>
+<p><strong><a href="https://www.clever-cloud.com/blog/engineering/2021/04/12/introduction-to-biscuit/">Biscuit, the foundation for your authorization systems</a></strong> — Cookies and JWTs (JSON web tokens) are two widely used techniques for managing authentication and authorisation. Biscuit, a new type of token, improves on these and adds new capabilities.</p>
+<p><strong><a href="https://www.smashingmagazine.com/2021/02/things-you-can-do-with-css-today/">Things You Can Do With CSS Today</a></strong> (Feb 2021) — CSS keeps evolving and getting better. This article looks into masonry layout (ie. Pinterest-like), :is selector, clamp(), ch and ex units, updated text decoration, and a few other useful CSS properties. All with interactive examples.</p>
+<h2 id="indie-biz">#indie biz</h2>
+<p><strong><a href="https://www.isaaclien.com/blog/the-founding-story-of-grandpad">The Founding Story of GrandPad</a></strong> — How to have video calls with your grandma, create a hardware startup, and get one million users. All at the same time. An awesome behind-the-scenes story with lots of lessons.</p>
+<p><strong><a href="https://staysaasy.com/leadership/2021/04/12/the-intangible-skills-you-cant-interview-for.html">The Intangible Skills You Can&rsquo;t Interview For</a></strong> — Many intangible attributes go into building a great company that are just as important as hard skills. These intangibles are easy to observe on the job, but hard to measure in an interview. If you see these intangibles in yourself, consider how you can use them to further your career.</p>
+<h2 id="science">#science</h2>
+<p><strong><a href="https://www.cbc.ca/radio/quirks/scientists-create-the-simplest-cell-with-only-bare-essentials-for-life-and-reproduction-1.5980420">Scientists create the simplest cell with only bare essentials for life and reproduction</a></strong> — The result of this work was a new synthetic organism capable of reproduction, with a total of 480 genes. About half of the 480 genes in their new minimal cell are involved in chromosome maintenance and the production of proteins, about a quarter are involved in cell metabolism.</p>
+<p><strong><a href="https://backreaction.blogspot.com/2021/04/does-universe-have-higher-dimensions.html">Does the Universe have Higher Dimensions? Part 1</a></strong> — The idea that space has more than three dimensions may sound entirely nuts, but it’s a question that physicists have seriously studied for more than a century.</p>
+<p><strong><a href="https://www.quantamagazine.org/new-genomic-study-of-placenta-finds-deep-links-to-cancer-20210408/">New Genomic Study of Placenta Finds Deep Links to Cancer</a></strong> — Researchers have long noted similarities between cancers and the placenta — in how they evade the immune system, their invasion tactics and the set of chemical tags on their cells’ DNA. The placenta must invade the uterine lining of the mother, tap into the mother’s blood supply and create its own network of blood vessels — all of which cancerous cells do as well.</p>
+<p><strong><a href="https://www.bbc.com/future/article/20210412-the-genetic-mistakes-that-could-shape-our-species">The genetic mistakes that could shape our species</a></strong> — Let&rsquo;s say that we do end up with artificial mistakes in the human gene pool. Exactly how permanent could they become? Could new mutations created today still be washing around in 10,000 years?</p>
+<h2 id="life">#life</h2>
+<p><strong><a href="https://www.tomshardware.com/how-to/building-ikigai-all-wood-case-mod">Building Ikigai, My Award-Winning Wooden PC Mod</a></strong> — A beautiful hand-made PC case that is water cooled and combines my love of handmade wood joinery, and Japanese design aesthetics. It also uses CNC machining techniques and integrates the water cooling and electrical systems. I also wanted to keep the case open to show off every component, making sure that every angle of the case was aesthetically pleasing.</p>
+<p><strong><a href="https://nymag.com/intelligencer/2021/04/confessions-overnight-tech-millionaire.html">Confessions of an Overnight Millionaire</a></strong> — One millennial tech worker on the verge of unexpected wealth shared what was going through her mind.</p>
+<p><strong><a href="https://jerseyfonseca.com/blogs/eyestrain">Reducing Eye Strain</a></strong> (Jan 2021) — I do want to claim that making some of these adjustments will make for a more comfortable experience. With the amount of time that we spend on our devices, I believe that making the experience as comfortable as possible is essential.</p>
+<h2 id="random">#random</h2>
+<p><strong><a href="https://www.stavros.io/posts/keyyyyyyyys/">Keyyyyyyyys!</a></strong> — A one-handed, holdable, wireless 5-key keyboard for those times when you have to maintain eye contact. What?!</p>
+<p><strong><a href="https://larsch.github.io/2021/04/12/this-pdf-file-has-2-million-pages.html">This 1301 byte PDF file has 2 million pages</a></strong></p>
+<p><strong><a href="http://www.isc.meiji.ac.jp/~kokichis/ambiguousc/ambiguouscylindere.html">&ldquo;Ambiguous Objects&rdquo; that change their appearances in a mirror</a></strong> — I found a class of objects that change the appearances when they are reflected in a mirror. Of course, the shape of an object should not change even if it is reflected in a mirror. So the change of the appearance is a kind of optical illusion.</p>
+
+<div class="comments">
+    
+        <a href="https://twitter.com/search?q=https%3a%2f%2fbengtan.com%2freading-list%2f20210416%2f">Discuss on Twitter</a>
+    
+</div>
 
 
   </article>
@@ -153,9 +168,6 @@
     <h2 class="mt-4">Recent Posts</h2>
     <ul class="flex-column">
       <li>
-        <a href="https://bengtan.com/reading-list/20210416/" class="nav-link">Reading List (2021-04-16)</a>
-      </li>
-      <li>
         <a href="https://bengtan.com/blog/status-update-20210414/" class="nav-link">Status update (2021-04-14)</a>
       </li>
       <li>
@@ -175,6 +187,9 @@
       </li>
       <li>
         <a href="https://bengtan.com/blog/proportional-font-markdown/" class="nav-link">Using a proportional font for markdown</a>
+      </li>
+      <li>
+        <a href="https://bengtan.com/blog/tour-of-sponsorware/" class="nav-link">A tour of sponsorware</a>
       </li>
     </ul>
     <div>
