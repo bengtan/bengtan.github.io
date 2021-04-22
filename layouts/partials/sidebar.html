@@ -18,7 +18,7 @@
     <ul>
       {{- range . }}
       <li>
-        <a href="{{ .Permalink }}" class="nav-link">{{ .Title }}</a>
+        <a href="{{ if isset .Params "location" }}{{ .Params.location }}{{ else }}{{ .Permalink }}{{ end }}" class="nav-link">{{ .Title }}</a>
       </li>
       {{- end }}
     </ul>
@@ -28,7 +28,7 @@
       {{- $recent := default 8 $s.numberOfRecentPosts }}
       {{- range first $recent $posts }}
       <li>
-        <a href="{{ .Permalink }}" class="nav-link">{{ .Title }}</a>
+        <a href="{{ if isset .Params "location" }}{{ .Params.location }}{{ else }}{{ .Permalink }}{{ end }}" class="nav-link">{{ .Title }}</a>
       </li>
       {{- end }}
     </ul>

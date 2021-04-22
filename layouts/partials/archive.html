@@ -5,7 +5,11 @@
 <div class="grid-inverse wrap content">
   <ul class="posts" id="posts">
     {{- range (.Paginate $pages).Pages }}
-      {{ partial "excerpt" . }}
+      {{ if isset .Params "location" }}
+        {{ partial "location" . }}
+      {{ else }}
+        {{ partial "excerpt" . }}
+      {{ end }}
     {{- end }}
     <li>
       {{- template "_internal/pagination.html" . }}
