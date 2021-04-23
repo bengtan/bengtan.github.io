@@ -24,6 +24,7 @@ input[type=checkbox] { margin: 0 0.25em; }
 .footer { color: var(--light); background: dimgrey;
   .section { padding-bottom: 20px; margin-bottom: 20px; border-bottom: 1px dotted white; }
   .icon { margin: 0; }
+  a { text-decoration: underline; }
 }
 
 .content {  padding-top: 3em; }

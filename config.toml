@@ -25,21 +25,18 @@ ga_analytics = "G-VTEK0C8GRX"
 [menu]
   [[menu.main]]
   name = "About"
-  identifier = "about"
   weight = 100
   url = "/about"
 
   [[menu.main]]
   name = "Blog"
-  identifier = "blog"
   weight = 200
   url = "/blog/"
 
   [[menu.main]]
-  name = "Reading Lists"
-  identifier = "reading-list"
+  name = "Newsletter"
   weight = 300
-  url = "/reading-list/"
+  url = "/newsletter/"
 
   [[menu.social]]
     name = "github"
