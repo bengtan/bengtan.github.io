@@ -1,23 +1,19 @@
 <li class="post_item">
-  <div class="excerpt">
-    <div class="excerpt_header">
+  <div class="location">
+    <div class="location_header">
       <h3 class="post_link">
         <a href="{{ .Params.location }}">{{ .Title  }}</a>
       </h3>
     </div>
     {{ if or (isset .Params "summary") (isset .Params "abstract") (.Summary) }}
-      <div class="excerpt_footer">
-        <div>
-          <div class="excerpt_text">
-            {{ if .Params.summary }}
-              {{ .Params.summary }}
-            {{ else if .Params.abstract }}
-              {{ .Params.abstract }}
-            {{ else if .Summary }}
-              {{ truncate 320 .Summary }}
-            {{ end }}
-          </div>
-        </div>
+      <div class="location_text">
+        {{ if .Params.summary }}
+          {{ .Params.summary }}
+        {{ else if .Params.abstract }}
+          {{ .Params.abstract }}
+        {{ else if .Summary }}
+          {{ truncate 320 .Summary }}
+        {{ end }}
       </div>
     {{ end }}
   </div>

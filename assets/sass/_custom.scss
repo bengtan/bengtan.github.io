@@ -47,11 +47,15 @@ a img { max-width: 100%; } // Avoid .image-scalable trick in theme
 
 .post_content ul ul { padding-top: 0; padding-bottom: 0; }
 
+.post_link { margin-top: 0; }
 .excerpt_thumbnail img { margin-top: 0; }
 .excerpt_text {
   p:first-of-type { padding-top: 0; }
   margin-bottom: 0.8rem;
 }
+.excerpt_footer { padding-bottom: 1rem; }
+
+.location { padding: 1rem; }
 
 
 /***********************************************************
