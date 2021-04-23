@@ -1,3 +1,32 @@
 {{ define "main" }}
-  {{- partial "archive" . }}
+{{- $s := .Site.Params }}
+{{- $p := .Params }}
+<div class="{{ if ne $p.singleColumn true }}grid-inverse {{ end }}wrap content">
+  <div>
+    <article class="post_content">
+      {{- $t := .Title }}
+      <h1 class="post_title">{{ $t }}</h1>
+      {{ with $p.featureImage }}
+      <img src="{{ . }}" class="image_featured" alt="{{ $t }}">
+      {{ end }}
+      {{ if $p.toc }}
+      <h2>{{ T "overview" }}</h2>
+      {{ .TableOfContents }}
+      {{ end }}
+      {{- .Content }}
+      {{- $showComments := true }}
+      {{- if eq $s.comments false }}
+        {{- $showComments = false }}
+      {{- else if eq $p.comments false }}
+        {{- $showComments = false }}
+      {{- end }}
+      {{- if ne $showComments false }}
+        {{- partial "comments" . }}
+      {{- end }}
+      {{- partial "i18nlist" . }}
+    </article>
+    {{- partial "archive" . }}
+  </div>
+  {{- partial "sidebar" . }}
+</div>
 {{ end }}
