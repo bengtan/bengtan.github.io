@@ -2,7 +2,7 @@
 title: Reading List (2021-04-01)
 url: reading-list/20210401
 date: 2021-04-01T09:00:00+08:00
-type: post
+# type: post
 summary: Pin and suffering | Forget SQL vs NoSQL | How Much Can You Fit on a QR Code? | Project Gemini’s Plan to Revolutionize Internet Browsing | First known gene transfer from plant to insect identified | Ancient genomes trace the origin and decline of the Scythians | Alternating Sleep States in an Octopus | The Jacobian, geometrically | Endangered condors return to northern California skies | Why I'm unreachable | Always be writing | There’s a Better Way to Date Online | Analysis vs Algebra predicts eating corn?
 ---
 

@@ -2,7 +2,7 @@
 title: Reading List (2021-02-12)
 url: reading-list/20210212
 date: 2021-02-12T12:00:00+08:00
-type: post
+# type: post
 summary: Switching to Windows | I'm glad for using 1Password | The Internet of Trash | How To Put Faith in UX Design | Cold Paths | Sequencing DNA in our Extra Bedroom | Beware the Cult of Numeracy | What Companies Get Wrong about Remote Salaries | I Sold 2 Niche Websites from My Portfolio (and I learned something)
 ---
 

@@ -2,7 +2,7 @@
 title: Reading List (2021-03-25)
 url: reading-list/20210325
 date: 2021-03-25T12:00:00+08:00
-type: post
+# type: post
 summary: A great breakdown (for the semi-technically inclined) of what an NFT is and a possible reason why NFTs are valuable. | Who would have thought that a blog about Google Sheets could have 400k views per month? | A fun primer into how emoji's work underneath. | Anyone wanna uwu-ify text? But what does uwu mean? | What I learned bootstrapping side projects in 2020.
 ---
 

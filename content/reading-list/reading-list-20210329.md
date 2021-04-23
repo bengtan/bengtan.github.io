@@ -2,7 +2,7 @@
 title: Reading List (2021-03-29)
 url: reading-list/20210329
 date: 2021-03-29T12:00:00+08:00
-type: post
+# type: post
 summary: What Data Can’t Do | Why All My Servers Have an 8GB Empty File | Opinions after a decade of professional software engineering | kapow | Recovering a full PEM Private Key | A Simple Recipe for Startup Execution | How Much Does it Cost to Make an App in 2021 | Scientists spot a 'space hurricane' for the first time | Notetaking for fun and profit
 ---
 

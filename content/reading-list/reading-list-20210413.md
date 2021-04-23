@@ -2,7 +2,7 @@
 title: Reading List (2021-04-13)
 url: reading-list/20210413
 date: 2021-04-13T09:00:00+08:00
-type: post
+# type: post
 summary: Hotlinking and Cool Exploits | Nobody Cares About the OS Anymore | OpenTTD Went to Steam to Solve a Hard Problem | Rust vs. Go | Fearless concurrency | How farming plants that contain metal could help power the future | The Ponzi Career | The Healing Power of JavaScript | How to Live with Chronic Imposter Syndrome | How I started my programming journey | The Cicada’s Love Affair With Prime Numbers | The Red Faced Cube | VirtOcean - Sea and ocean sounds noise generator
 ---
 

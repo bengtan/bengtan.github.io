@@ -25,9 +25,9 @@ ga_analytics = "G-VTEK0C8GRX"
 [menu]
   [[menu.main]]
   name = "About"
-  identifier = "home"
+  identifier = "about"
   weight = 100
-  url = "/"
+  url = "/about"
 
   [[menu.main]]
   name = "Blog"

@@ -2,7 +2,7 @@
 title: Reading List (2021-04-16)
 url: reading-list/20210416
 date: 2021-04-16T09:00:00+08:00
-type: post
+# type: post
 summary: Defining a new HTTP method | How to turn an image black and white | What problems do people solve with strace | Biscuit, the foundation for your authorization systems | Things You Can Do With CSS Today | The Founding Story of GrandPad | The Intangible Skills You Can't Interview For | The simplest cell with only bare essentials for life and reproduction | Does the Universe have Higher Dimensions? | New Genomic Study of Placenta Finds Deep Links to Cancer | The genetic mistakes that could shape our species | Building Ikigai, My Award-Winning Wooden PC Mod | Confessions of an Overnight Millionaire | Reducing Eye Strain | Keyyyyyyyys! | This 1301 byte PDF file has 2 million pages | "Ambiguous Objects" that change their appearances in a mirror
 ---
 

@@ -26,7 +26,7 @@
     <h2 class="mt-4">{{ T "recent_posts" }}</h2>
     <ul class="flex-column">
       {{- $recent := default 8 $s.numberOfRecentPosts }}
-      {{- range first $recent $posts }}
+      {{- range first $recent $allposts }}
       <li>
         <a href="{{ if isset .Params "location" }}{{ .Params.location }}{{ else }}{{ .Permalink }}{{ end }}" class="nav-link">{{ .Title }}</a>
       </li>
