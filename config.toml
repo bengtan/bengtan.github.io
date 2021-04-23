@@ -54,6 +54,16 @@ ga_analytics = "G-VTEK0C8GRX"
     weight = 4
     url = "index.xml"
 
+  [[menu.links]]
+    name = "Substack"
+    weight = 1
+    url = "https://interestingthings.bengtan.com"
+
+  [[menu.links]]
+    name = "Reading Lists"
+    weight = 2
+    url = "/reading-list/"
+
 [taxonomies]
   tag = "tags"
 
