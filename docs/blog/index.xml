@@ -6,7 +6,41 @@
     <description>Recent content in Blog on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Wed, 14 Apr 2021 09:00:00 +0800</lastBuildDate><atom:link href="https://bengtan.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Apr 2021 09:00:00 +0800</lastBuildDate><atom:link href="https://bengtan.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I started a newsletter of Interesting Things</title>
+      <link>https://bengtan.com/blog/interesting-things/</link>
+      <pubDate>Mon, 26 Apr 2021 09:00:00 +0800</pubDate>
+      
+      <guid>https://bengtan.com/blog/interesting-things/</guid>
+      <description>
+        
+          &lt;p&gt;As I alluded in my &lt;a href=&#34;https://bengtan.com/blog/status-update-20210414/&#34;&gt;status update&lt;/a&gt;, I&amp;rsquo;ve been setting up an &lt;a href=&#34;https://interestingthings.bengtan.com&#34;&gt;email newsletter&lt;/a&gt;. Finally it&amp;rsquo;s ready and I posted the &lt;a href=&#34;https://interestingthings.bengtan.com/p/issue-1&#34;&gt;first issue&lt;/a&gt; last Friday.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve named it &lt;strong&gt;Interesting Things&lt;/strong&gt; because it&amp;rsquo;s a curation of interesting stories and links from tech, indie business, science, and adjacents. Basically, stuff that I find interesting.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s what I wrote &lt;a href=&#34;https://interestingthings.bengtan.com/about&#34;&gt;about&lt;/a&gt; it:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Interesting Things is mainly developer-oriented since it&amp;rsquo;s a curation of stuff that I read. However, there&amp;rsquo;s enough things that, I hope, there&amp;rsquo;s something for everyone.&lt;/p&gt;
+&lt;p&gt;I try to stay away from stories which are somewhat political.&lt;/p&gt;
+&lt;p&gt;I tend to omit things which have already been rehashed by tech news websites. Instead, I prefer stories from the trenches/coalface/grassroots of people actually doing stuff.&lt;/p&gt;
+&lt;p&gt;Since I dabble in side projects, there&amp;rsquo;s also stories about the business of technology. But again, not mainstream news nor big tech. More &amp;lsquo;indie&amp;rsquo; (for lack of a better word).&lt;/p&gt;
+&lt;p&gt;I include some science stories since I think technical-oriented people are casually interested in science. I know I am.&lt;/p&gt;
+&lt;p&gt;I hope you&amp;rsquo;ll like Interesting Things. You probably don&amp;rsquo;t have the same set of interests that I do, but hopefully, you&amp;rsquo;ll find some good stuff here.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;and:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Also, don&amp;rsquo;t forget to subscribe. It&amp;rsquo;s free.&lt;/p&gt;
+&lt;p&gt;If you subscribe, you won&amp;rsquo;t miss out on any of Interesting Things. Even if you only read Interesting Things on the web, the subscription will notify you when a new issue comes out (and then you can delete the email).&lt;/p&gt;
+&lt;p&gt;And I confess &amp;hellip; If you subscribe, then I know how many people are reading. This is important to me.&lt;/p&gt;
+&lt;p&gt;So if you read Interesting Things, please subscribe.&lt;/p&gt;
+&lt;p&gt;Thank you!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;For various reasons (which I may explain in a future post), I chose to use Substack.&lt;/p&gt;
+&lt;p&gt;The newsletter is at &lt;a href=&#34;https://interestingthings.bengtan.com&#34;&gt;https://interestingthings.bengtan.com&lt;/a&gt;. I hope you find it interesting!&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
     <item>
       <title>Status update (2021-04-14)</title>
       <link>https://bengtan.com/blog/status-update-20210414/</link>

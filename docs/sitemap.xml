@@ -3,17 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://bengtan.com/blog/</loc>
+    <lastmod>2021-04-26T09:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bengtan.com/blog/interesting-things/</loc>
+    <lastmod>2021-04-26T09:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bengtan.com/</loc>
+    <lastmod>2021-04-26T09:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://bengtan.com/links/interesting-things-001/</loc>
     <lastmod>2021-04-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://bengtan.com/links/</loc>
-    <lastmod>2021-04-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bengtan.com/</loc>
     <lastmod>2021-04-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -25,11 +35,6 @@
   <url>
     <loc>https://bengtan.com/reading-list/</loc>
     <lastmod>2021-04-16T09:00:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bengtan.com/blog/</loc>
-    <lastmod>2021-04-14T09:00:00+08:00</lastmod>
   </url>
   
   <url>
