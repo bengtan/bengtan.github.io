@@ -6,7 +6,54 @@
     <description>Recent content in Personal website of Beng Tan on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Mon, 26 Apr 2021 09:00:00 +0800</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Apr 2021 15:00:00 +0800</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to use markdown if markdown is not supported</title>
+      <link>https://bengtan.com/blog/how-to-use-markdown-not-supported-substack/</link>
+      <pubDate>Fri, 30 Apr 2021 15:00:00 +0800</pubDate>
+      
+      <guid>https://bengtan.com/blog/how-to-use-markdown-not-supported-substack/</guid>
+      <description>
+        
+          &lt;p&gt;I recently launched a &lt;a href=&#34;https://interestingthings.bengtan.com&#34;&gt;Substack newsletter&lt;/a&gt; and was disappointed to discover that Substack didn&amp;rsquo;t support markdown. I write a lot of text and markdown is my preferred format. It would be nice if Substack could integrate into my workflow.&lt;/p&gt;
+&lt;p&gt;Well, maybe it can.&lt;/p&gt;
+&lt;p&gt;I discovered a way to use markdown with Substack. Actually, it&amp;rsquo;s not just Substack. This technique might work for any rich text editor.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s a bit of a hack but it works very well for me. YMMV and you&amp;rsquo;ll need to test your own variations.&lt;/p&gt;
+&lt;p&gt;The trick is:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Write your content in a markdown editor.&lt;/li&gt;
+&lt;li&gt;Preview/render it.&lt;/li&gt;
+&lt;li&gt;Copy and paste the rendered output into the rich text editor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For example, I use VS Code:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I write my newsletter in a markdown file.&lt;/li&gt;
+&lt;li&gt;Preview it in VS Code&amp;rsquo;s markdown previewer.&lt;/li&gt;
+&lt;li&gt;Copy and paste the preview output into Substack&amp;rsquo;s editor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And it works! Links, quotes, headings, bullets, formatting etc., are all preserved.&lt;/p&gt;
+&lt;p&gt;Of course, this won&amp;rsquo;t work for some types of content ie. images or tables. I&amp;rsquo;ll need to enter and format those manually.&lt;/p&gt;
+&lt;p&gt;But since text is 99% of my usage, it&amp;rsquo;s actually a very good work-around. I can write in markdown and then easily transfer to Substack.&lt;/p&gt;
+&lt;p&gt;You don&amp;rsquo;t necessarily have to use VS Code. I just tested this with github&amp;rsquo;s text editor (which can render markdown) and the copy-and-paste into Substack&amp;rsquo;s editor works as well. Try it with your favourite markdown editor and see if it works for you too.&lt;/p&gt;
+&lt;p&gt;(PS: This reminds me of people who write articles in Office and copy-paste it into a CMS. I used to look down on such practices. Now I&amp;rsquo;m the one doing it. 😀)&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Interesting Things #2 — Can you trust floating-point arithmetic on Apple Silicon?</title>
+      <link>https://interestingthings.bengtan.com/p/issue-2</link>
+      <pubDate>Fri, 30 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bengtan.com/links/interesting-things-002/</guid>
+      <description>
+        
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>I started a newsletter of Interesting Things</title>
       <link>https://bengtan.com/blog/interesting-things/</link>
