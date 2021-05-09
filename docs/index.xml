@@ -15,7 +15,7 @@
       <guid>https://bengtan.com/blog/how-to-use-markdown-not-supported-substack/</guid>
       <description>
         
-          &lt;p&gt;I recently launched a &lt;a href=&#34;https://interestingthings.bengtan.com&#34;&gt;Substack newsletter&lt;/a&gt; and was disappointed to discover that Substack didn&amp;rsquo;t support markdown. I write a lot of text and markdown is my preferred format. It would be nice if Substack could integrate into my workflow.&lt;/p&gt;
+          &lt;p&gt;I recently launched a &lt;a href=&#34;https://bengtan.com/newsletter&#34;&gt;Substack newsletter&lt;/a&gt; and was disappointed to discover that Substack didn&amp;rsquo;t support markdown. I write a lot of text and markdown is my preferred format. It would be nice if Substack could integrate into my workflow.&lt;/p&gt;
 &lt;p&gt;Well, maybe it can.&lt;/p&gt;
 &lt;p&gt;I discovered a way to use markdown with Substack. Actually, it&amp;rsquo;s not just Substack. This technique might work for any rich text editor.&lt;/p&gt;
 &lt;p&gt;It&amp;rsquo;s a bit of a hack but it works very well for me. YMMV and you&amp;rsquo;ll need to test your own variations.&lt;/p&gt;
@@ -43,13 +43,88 @@
     
     <item>
       <title>Interesting Things #2 — Can you trust floating-point arithmetic on Apple Silicon?</title>
-      <link>https://interestingthings.bengtan.com/p/issue-2</link>
+      <link>https://bengtan.com/interesting-things/002/</link>
       <pubDate>Fri, 30 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bengtan.com/links/interesting-things-002/</guid>
+      <guid>https://bengtan.com/interesting-things/002/</guid>
       <description>
         
-          
+          &lt;p&gt;Hi!&lt;/p&gt;
+&lt;p&gt;Welcome to the second edition of Interesting Things, a curation of interesting stories and links from tech, indie business, science, and adjacents.&lt;/p&gt;
+&lt;p&gt;These are things I came across during my Internet wanderings. I find them interesting, and I hope you do too.&lt;/p&gt;
+&lt;p&gt;I don&amp;rsquo;t know what happened this week but I came across a LOT of stuff (60!). I didn&amp;rsquo;t do anything different so perhaps it&amp;rsquo;s just a statistical anomaly.&lt;/p&gt;
+&lt;p&gt;In any case, happy reading!&lt;/p&gt;
+&lt;h2 id=&#34;tech&#34;&gt;#tech&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://eclecticlight.co/2021/04/22/can-you-trust-floating-point-arithmetic-on-apple-silicon/?utm_source=bengtan.com&#34;&gt;Can you trust floating-point arithmetic on Apple Silicon?&lt;/a&gt;&lt;/strong&gt; — Surprisingly, it&amp;rsquo;s wrong on both Intel and Apple Silicon, but wrong in the same way. And that&amp;rsquo;s alright.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://lea.verou.me/2020/04/lch-colors-in-css-what-why-and-how/?utm_source=bengtan.com&#34;&gt;LCH colors in CSS: what, why, and how?&lt;/a&gt;&lt;/strong&gt; (April 2020) — Lightness-Chroma-Hue (aka HCL) has a wider gamut and is better aligned with human perception.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://bottosson.github.io/posts/colorwrong/?utm_source=bengtan.com&#34;&gt;How software gets color wrong&lt;/a&gt;&lt;/strong&gt; (Dec 2020) — The reason is that color processing in most software is based on how CRT displays in the 1990s worked.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://devblogs.microsoft.com/commandline/wslg-architecture/?utm_source=bengtan.com&#34;&gt;Windows Subsystem for Linux GUI Architecture&lt;/a&gt;&lt;/strong&gt; — A look at the linux GUI stack within Windows.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.gruntwork.io/introducing-git-xargs-an-open-source-tool-to-update-multiple-github-repos-753f9f3675ec?utm_source=bengtan.com&#34;&gt;Introducing git-xargs: an open source tool to update multiple GitHub repos&lt;/a&gt;&lt;/strong&gt; — With a single command.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://spectrum.ieee.org/tech-talk/artificial-intelligence/machine-learning/the-state-of-ai-in-15-graphs?utm_source=bengtan.com&#34;&gt;15 Graphs You Need to See to Understand AI in 2021&lt;/a&gt;&lt;/strong&gt; — If you want a birds eye view about jobs, publications, diversity, and more.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.copetti.org/writings/consoles/playstation-portable/?utm_source=bengtan.com&#34;&gt;PlayStation Portable Architecture&lt;/a&gt;&lt;/strong&gt; — A comprehensive write-up of the gaming console from yesteryear.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://syslog.ravelin.com/2fa-is-missing-a-key-feature-c781c3861db?utm_source=bengtan.com&#34;&gt;2FA is missing a key feature&lt;/a&gt;&lt;/strong&gt; — When my 2FA code is entered incorrectly I’d like to know about it.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://timdaub.github.io/2021/04/22/nft-sleepminting-beeple-provenance/?utm_source=bengtan.com&#34;&gt;What Is Sleepminting And Will It Ruin NFT Provenance?&lt;/a&gt;&lt;/strong&gt; — Someone found a way to partially forge NFTs. &lt;a href=&#34;https://news.artnet.com/opinion/sleepminting-nftheft-monsieur-personne-1960744?utm_source=bengtan.com&#34;&gt;News&lt;/a&gt;. &lt;a href=&#34;https://nftheft.com/?utm_source=bengtan.com&#34;&gt;More info&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.poberezkin.com/posts/2021-04-21-what-i-wish-somebody-told-me-when-i-was-learning-Haskell.html?utm_source=bengtan.com&#34;&gt;What I wish somebody told me when I was learning Haskell&lt;/a&gt;&lt;/strong&gt; — If Haskell is such an advanced and effective language why do we not see a much wider commercial adoption?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://world.hey.com/joaoqalves/disasters-i-ve-seen-in-a-microservices-world-a9137a51?utm_source=bengtan.com&#34;&gt;Disasters I&amp;rsquo;ve seen in a microservices world&lt;/a&gt;&lt;/strong&gt; — Too much microservices.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://darekkay.com/blog/avif-images/?utm_source=bengtan.com&#34;&gt;Web developer&amp;rsquo;s guide to AVIF images&lt;/a&gt;&lt;/strong&gt; — The next iteration of image file formats.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/returntocorp/semgrep?utm_source=bengtan.com&#34;&gt;semgrep&lt;/a&gt;&lt;/strong&gt; — Language-aware code search and analysis tool.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.microsoft.com/en-us/microsoft-365/blog/2021/04/28/beyond-calibri-finding-microsofts-next-default-font/?utm_source=bengtan.com&#34;&gt;Beyond Calibri: Finding Microsoft’s next default font&lt;/a&gt;&lt;/strong&gt; — We’ve commissioned five original, custom fonts to eventually be the default. Meet Tenorite, Bierstadt, Skeena, Seaford, and Grandview.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://towardsdatascience.com/geometric-foundations-of-deep-learning-94cdd45b451d?utm_source=bengtan.com&#34;&gt;Geometric foundations of Deep Learning&lt;/a&gt;&lt;/strong&gt; — An attempt to unify a broad class of ML problems from the perspectives of symmetry and invariance.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.tomshardware.com/news/cherry-mx-ultra-low-profile-switches-tested?utm_source=bengtan.com&#34;&gt;Cherry’s First Mechanical Laptop Switches Improved My Typing Speed, Comfort&lt;/a&gt;&lt;/strong&gt; — Mechanical keyboard &amp;hellip; on a laptop.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://text.causal.agency/017-unpasswords.txt?utm_source=bengtan.com&#34;&gt;Unpasswords&lt;/a&gt;&lt;/strong&gt; (Feb 2021) — Go password-less. Use email instead.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.shhdharmen.me/lets-light-it-up?utm_source=bengtan.com&#34;&gt;Let&amp;rsquo;s light it 🔥 up!&lt;/a&gt;&lt;/strong&gt; — Cute animation using emoji as sprites. Non-javascript. &lt;a href=&#34;https://blog.shhdharmen.me/animation-can-make-wave-much-more-than-emoji?utm_source=bengtan.com&#34;&gt;Another one&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.aaronbieber.com/2021/04/23/blinding-my-roomba.html?utm_source=bengtan.com&#34;&gt;Blinding My Roomba&lt;/a&gt;&lt;/strong&gt; — To make it work better.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://vermaden.wordpress.com/2021/04/28/ghost-in-the-shell-part-5/?utm_source=bengtan.com&#34;&gt;Ghost in the Shell – Part 5&lt;/a&gt;&lt;/strong&gt; — Some useful CLI tips.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://nicotsou.com/dom-issues/?utm_source=bengtan.com&#34;&gt;Why People Are Afraid Of The DOM?&lt;/a&gt;&lt;/strong&gt; — Gently explaining an oddity of web development for people who &lt;em&gt;aren&amp;rsquo;t&lt;/em&gt; web developers.&lt;/p&gt;
+&lt;h2 id=&#34;indie-biz&#34;&gt;#indie biz&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://jdnoc.com/factory/?utm_source=bengtan.com&#34;&gt;The Factory Is The Product&lt;/a&gt;&lt;/strong&gt; — Getting better at making the thing makes the thing better.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://pory.io/blog/pory-turns-1-our-journey-to-100k-in-mrr?utm_source=bengtan.com&#34;&gt;Pory turns 1 - Our in transit journey to 100k in MRR 🥳&lt;/a&gt;&lt;/strong&gt; — A no-code tool for creating sites using Airtable.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.kracov.co/writing/billboards?utm_source=bengtan.com&#34;&gt;What I Learned Buying Billboards for a Startup&lt;/a&gt;&lt;/strong&gt; — Anecdotes for first time buyers of outdoor advertising.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://steveblank.com/2021/04/20/the-secret-to-the-minimum-viable-product/?utm_source=bengtan.com&#34;&gt;A Path to the Minimum Viable Product&lt;/a&gt;&lt;/strong&gt; — An MVP tree is a way of methodically breaking your mission into smaller components and formulating MVP candidates.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.craigkerstiens.com/2021/04/27/top-5-product-and-management-skills-sql-excel-clear-communication-story-prioritization/?utm_source=bengtan.com&#34;&gt;Top 5 Product and Management skills&lt;/a&gt;&lt;/strong&gt; — SQL, Excel, Clear Communication, Story, Prioritization.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://highalpha.com/why-every-founder-should-sell-before-they-have-a-product/?utm_source=bengtan.com&#34;&gt;Why Every Founder Should Sell Before They Have a Product&lt;/a&gt;&lt;/strong&gt; — The best learning happens with customers.&lt;/p&gt;
+&lt;h2 id=&#34;science&#34;&gt;#science&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.nature.com/articles/d41586-021-00971-7?utm_source=bengtan.com&#34;&gt;Large-scale origami locks into place under pressure&lt;/a&gt;&lt;/strong&gt; — A new method for designing large enclosures that can be deployed and locked into shape through inflation.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.quantamagazine.org/new-neural-networks-solve-hardest-equations-faster-than-ever-20210419/?utm_source=bengtan.com&#34;&gt;Latest Neural Nets Solve World’s Hardest Equations Faster Than Ever Before&lt;/a&gt;&lt;/strong&gt; — New approaches to solve entire families of partial differential equations and make it easier to model complicated systems.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.npr.org/2021/04/21/989333092/the-secret-mission-to-unearth-part-of-a-142-year-old-experiment?utm_source=bengtan.com&#34;&gt;The Secret Mission To Unearth Part Of A 142-Year-Old Experiment&lt;/a&gt;&lt;/strong&gt; — An unusual long-term experiment started in 1879 and is handed from one generation to the next.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://mars.nasa.gov/news/8926/nasas-perseverance-mars-rover-extracts-first-oxygen-from-red-planet/?utm_source=bengtan.com&#34;&gt;NASA&amp;rsquo;s Perseverance Mars Rover Extracts First Oxygen From Red Planet&lt;/a&gt;&lt;/strong&gt; — Another step on the way to future human exploration of the Red Planet.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.susanrigetti.com/physics?utm_source=bengtan.com&#34;&gt;So You Want to Learn Physics, Second Edition&lt;/a&gt;&lt;/strong&gt; — If you are inspired and want to learn physics but don&amp;rsquo;t know where to start.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.susanrigetti.com/philosophy?utm_source=bengtan.com&#34;&gt;So You Want to Study Philosophy&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.sciencemag.org/news/2021/04/dolphins-learn-names-their-friends-form-teams-first-animal-kingdom?utm_source=bengtan.com&#34;&gt;Dolphins learn the ‘names’ of their friends to form teams&lt;/a&gt;&lt;/strong&gt; — The marine mammals have a sense of team membership.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://undark.org/2021/04/07/getting-sick-for-medical-research/?utm_source=bengtan.com&#34;&gt;Getting Sick for the Sake of Advancing Medical Research&lt;/a&gt;&lt;/strong&gt; — The first Covid-19 human challenge trial has begun in the U.K. Here’s what past trials have been like for participants.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.vice.com/en/article/bvz8ba/underwater-volcanoes-generate-enough-energy-to-power-the-entire-us-study-finds?utm_source=bengtan.com&#34;&gt;Underwater Volcanoes Generate Enough Energy to Power the Entire US&lt;/a&gt;&lt;/strong&gt; — These powerful eruptions can teach us about how life may have formed on Earth.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.telegraph.co.uk/health-fitness/body/why-sun-makes-us-feel-happy-good-mood-science/?utm_source=bengtan.com&#34;&gt;The science of why the sun makes us feel so happy&lt;/a&gt;&lt;/strong&gt; — After a winter spent indoors, time in the sunshine is just what the doctor ordered.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.nature.com/articles/d41586-021-01086-9?utm_source=bengtan.com&#34;&gt;These cellular clocks help explain why elephants are bigger than mice&lt;/a&gt;&lt;/strong&gt; — Tiny timekeepers in our cells might govern body size, lifespan and ageing.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.quantamagazine.org/high-energy-cosmic-ray-sources-mapped-out-for-the-first-time-20210427/?utm_source=bengtan.com&#34;&gt;Cosmic Map of Ultrahigh-Energy Particles Points to Long-Hidden Treasures&lt;/a&gt;&lt;/strong&gt; — How to identify the colossal monsters that create ultrahigh-energy cosmic rays?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.reuters.com/world/middle-east/egyptologists-uncover-rare-tombs-before-pharaohs-2021-04-28/?utm_source=bengtan.com&#34;&gt;Middle East Egyptologists uncover rare tombs from before the Pharaohs&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.scientificamerican.com/article/octopus-teachers-demonstrate-they-feel-emotional-pain/?utm_source=bengtan.com&#34;&gt;Octopus ‘Teachers’ Demonstrate They Feel Emotional Pain&lt;/a&gt;&lt;/strong&gt; — Octopi have feelings too.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.theguardian.com/world/2021/apr/25/deep-time-team-ends-40-days-underground-in-french-cave?utm_source=bengtan.com&#34;&gt;15 French volunteers leave cave after 40 days without daylight or clocks&lt;/a&gt;&lt;/strong&gt; — Two thirds wanted to stay longer. &lt;a href=&#34;https://www.bbc.com/news/world-europe-56875801?utm_source=bengtan.com&#34;&gt;Another link&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.abc.net.au/news/health/2021-04-25/lithium-psychiatry-mood-disorders-bipolar-suicide-treatment/100071034?utm_source=bengtan.com&#34;&gt;The history of lithium, and its remarkable impact on mood disorders&lt;/a&gt;&lt;/strong&gt; — It&amp;rsquo;s taken, in the form of a pill, by thousands of people every day.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.quantamagazine.org/how-the-immune-system-protects-the-brain-20210428/?utm_source=bengtan.com&#34;&gt;A Backdoor Lets the Immune System Monitor the Brain&lt;/a&gt;&lt;/strong&gt; — A newfound hub of immune system activity at the back of the brain solves a century-old puzzle.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.quantamagazine.org/the-puzzling-power-of-simple-arithmetic-20210420/?utm_source=bengtan.com&#34;&gt;The Puzzling Power of Simple Arithmetic&lt;/a&gt;&lt;/strong&gt; — Playing with arithmetic can lead us to unexpected and profound discoveries.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.newyorker.com/magazine/2021/04/26/do-brain-implants-change-your-identity?utm_source=bengtan.com&#34;&gt;Do Brain Implants Change Your Identity?&lt;/a&gt;&lt;/strong&gt; — Yes, but it&amp;rsquo;s complicated.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.theguardian.com/news/2021/apr/27/the-clockwork-universe-is-free-will-an-illusion?utm_source=bengtan.com&#34;&gt;The clockwork universe: is free will an illusion?&lt;/a&gt;&lt;/strong&gt; — A growing chorus of scientists and philosophers argue that free will does not exist. Could they be right?&lt;/p&gt;
+&lt;h2 id=&#34;life&#34;&gt;#life&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.nytimes.com/2021/04/21/technology/welcome-to-the-yolo-economy.html?utm_source=bengtan.com&#34;&gt;Welcome to the YOLO Economy&lt;/a&gt;&lt;/strong&gt; — Burned out and flush with savings, some workers are quitting stable jobs in search of postpandemic adventure.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://joshuaspodek.com/month-6-day-1-fridge-still-off-happy-earth-day?utm_source=bengtan.com&#34;&gt;Month 6, Day 1: Fridge still off (Happy Earth Day)&lt;/a&gt;&lt;/strong&gt; — This person tries living without a fridge. It&amp;rsquo;s been six months and counting.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://spectrum.ieee.org/geek-life/profiles/from-winzips-to-cat-gifs-jacob-zivs-algorithms-have-powered-decades-of-compression?utm_source=bengtan.com&#34;&gt;Jacob Ziv’s Algorithms Have Powered Decades of Compression&lt;/a&gt;&lt;/strong&gt; — The story of Jacob Ziv and the abridged history of compression.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://zeynepevecen.com/surpass-your-life/?utm_source=bengtan.com&#34;&gt;Do Things That Will Surpass Your Life&lt;/a&gt;&lt;/strong&gt; — Lately, the fact that I’m going to die one day very much bothered me.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://prithviraj.me/dont-consume-news-in-the-morning/?utm_source=bengtan.com&#34;&gt;Don&amp;rsquo;t consume news in the morning&lt;/a&gt;&lt;/strong&gt; — You are more productive and you will get more work done at the beginning of your day.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://trms.me/the-best-note-taking-method-is-the-one-you-have-with-you/?utm_source=bengtan.com&#34;&gt;The Best Note-Taking Method is the One You Have with You&lt;/a&gt;&lt;/strong&gt; — A lesson from photography to the world of note-taking.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://bzg.fr/en/on-using-to-do-lists-efficiently/?utm_source=bengtan.com&#34;&gt;On using to-do lists efficiently&lt;/a&gt;&lt;/strong&gt; — Principles I gathered from years of (mis)using to-do lists.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://durmonski.com/psychology/impostor-syndrome/?utm_source=bengtan.com&#34;&gt;Impostor Syndrome: The Reason You Feel Like a Fraud&lt;/a&gt;&lt;/strong&gt; — Feeling like a fraud? Like an impostor? We all do. But we shouldn&amp;rsquo;t.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://amirbolous.com/posts/doers/?utm_source=bengtan.com&#34;&gt;Talkers and doers&lt;/a&gt;&lt;/strong&gt; — Whenever I find myself talking and not doing, I do myself a huge favor. I shut the hell up.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.businessinsider.com/miss-excel-microsoft-tiktok-instagram-influencer-six-figures-2021-4?utm_source=bengtan.com&#34;&gt;A Microsoft Excel influencer is making 6 figures from her unconventional way of teaching spreadsheet hacks, tips, and tricks&lt;/a&gt;&lt;/strong&gt; — aka Miss Excel.&lt;/p&gt;
+&lt;h2 id=&#34;random&#34;&gt;#random&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://jhiblog.org/2021/04/07/quandaries-of-quinine/?utm_source=bengtan.com&#34;&gt;Quandaries of Quinine&lt;/a&gt;&lt;/strong&gt; — A medicinal commonly available in tonic water has a disputed history.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://peterlyons.com/problog/2021/04/squeezebox-keyboard/?utm_source=bengtan.com&#34;&gt;Squeezebox Keyboard&lt;/a&gt;&lt;/strong&gt; — Another wacky custom-made split ergonomic keyboard.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://sourcetarget.email/editions/31/?utm_source=bengtan.com&#34;&gt;bridges, maps &amp;amp; memories&lt;/a&gt;&lt;/strong&gt; — Historical network visualizations over maps, a map of Reddit and a new website.&lt;/p&gt;
+&lt;h2 id=&#34;end&#34;&gt;#end&lt;/h2&gt;
+&lt;p&gt;If you enjoyed these stories, I&amp;rsquo;d love it if you shared this newsletter with a friend or two.&lt;/p&gt;
+&lt;p&gt;And should you come across anything interesting in your wanderings, please email or tweet me! I&amp;rsquo;d love to give them some exposure too.&lt;/p&gt;
+&lt;p&gt;Happy reading!
+Beng&lt;/p&gt;
+
         
       </description>
     </item>
@@ -62,9 +137,9 @@
       <guid>https://bengtan.com/blog/interesting-things/</guid>
       <description>
         
-          &lt;p&gt;As I alluded in my &lt;a href=&#34;https://bengtan.com/blog/status-update-20210414/&#34;&gt;status update&lt;/a&gt;, I&amp;rsquo;ve been setting up an &lt;a href=&#34;https://interestingthings.bengtan.com&#34;&gt;email newsletter&lt;/a&gt;. Finally it&amp;rsquo;s ready and I posted the &lt;a href=&#34;https://interestingthings.bengtan.com/p/issue-1&#34;&gt;first issue&lt;/a&gt; last Friday.&lt;/p&gt;
+          &lt;p&gt;As I alluded in my &lt;a href=&#34;https://bengtan.com/blog/status-update-20210414/&#34;&gt;status update&lt;/a&gt;, I&amp;rsquo;ve been setting up an &lt;a href=&#34;https://bengtan.com/newsletter&#34;&gt;email newsletter&lt;/a&gt;. Finally it&amp;rsquo;s ready and I posted the &lt;a href=&#34;https://bengtan.com/interesting-things/001&#34;&gt;first issue&lt;/a&gt; last Friday.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;ve named it &lt;strong&gt;Interesting Things&lt;/strong&gt; because it&amp;rsquo;s a curation of interesting stories and links from tech, indie business, science, and adjacents. Basically, stuff that I find interesting.&lt;/p&gt;
-&lt;p&gt;Here&amp;rsquo;s what I wrote &lt;a href=&#34;https://interestingthings.bengtan.com/about&#34;&gt;about&lt;/a&gt; it:&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s what I wrote about it:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Interesting Things is mainly developer-oriented since it&amp;rsquo;s a curation of stuff that I read. However, there&amp;rsquo;s enough things that, I hope, there&amp;rsquo;s something for everyone.&lt;/p&gt;
 &lt;p&gt;I try to stay away from stories which are somewhat political.&lt;/p&gt;
@@ -81,8 +156,10 @@
 &lt;p&gt;So if you read Interesting Things, please subscribe.&lt;/p&gt;
 &lt;p&gt;Thank you!&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;For various reasons (which I may explain in a future post), I chose to use Substack.&lt;/p&gt;
-&lt;p&gt;The newsletter is at &lt;a href=&#34;https://interestingthings.bengtan.com&#34;&gt;https://interestingthings.bengtan.com&lt;/a&gt;. I hope you find it interesting!&lt;/p&gt;
+&lt;p&gt;&lt;s&gt;For various reasons (which I may explain in a future post), I chose to use Substack.&lt;/s&gt;&lt;/p&gt;
+&lt;!--
+The newsletter is at https://interestingthings.bengtan.com. I hope you find it interesting!
+--&gt;
 
         
       </description>
@@ -90,15 +167,50 @@
     
     <item>
       <title>Interesting Things #1 — The Adjacent Possible</title>
-      <link>https://interestingthings.bengtan.com/p/issue-1</link>
+      <link>https://bengtan.com/interesting-things/001/</link>
       <pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bengtan.com/links/interesting-things-001/</guid>
+      <guid>https://bengtan.com/interesting-things/001/</guid>
       <description>
         
           &lt;p&gt;Welcome to the very first edition of Interesting Things, a curation of interesting stories and links from tech, indie business, science, and adjacents.&lt;/p&gt;
 &lt;p&gt;These are things I came across during my Internet wanderings. I find them interesting, and I hope you do too. Enjoy!&lt;/p&gt;
-
+&lt;h2 id=&#34;tech&#34;&gt;#tech&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://sirupsen.com/adjacent-possible/?utm_source=bengtan.com&#34;&gt;The Adjacent Possible&lt;/a&gt;&lt;/strong&gt; (May 2020) — Each technology or innovation enables new possibilities in adjacent areas. When multiple disparate enablers exert influence in the same adjacent area, then breakthroughs can arise seemingly out of nowhere.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://spectrum.ieee.org/tech-talk/semiconductors/processors/morpheus-turns-a-cpu-into-a-rubiks-cube-to-defeat-hackers?utm_source=bengtan.com&#34;&gt;Morpheus Turns a CPU Into a Rubik’s Cube to Defeat Hackers&lt;/a&gt;&lt;/strong&gt; — Encrypting pointers and rotating the key every 100 milliseconds makes it hack-resistant. It would have stopped Spectre and Meltdown with only a 10% overhead.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://serokell.io/blog/rust-in-production-meilisearch?utm_source=bengtan.com&#34;&gt;Rust in Production: MeiliSearch&lt;/a&gt;&lt;/strong&gt; — Read a real-life experience with Rust and discover tips for your own open source project.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.theodo.com/2021/04/library-tree-shaking/?utm_source=bengtan.com&#34;&gt;How To Make Tree Shakeable Libraries&lt;/a&gt;&lt;/strong&gt; — Write javascript so that unused code can be excluded, and how to verify it.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.kchung.co/faster-python-with-go-shared-objects/?utm_source=bengtan.com&#34;&gt;Faster Python with Go shared objects (the easy way)&lt;/a&gt;&lt;/strong&gt; — A python developer wanted faster code and wrote it in Go instead.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.infoworld.com/article/3614850/no-one-wants-to-manage-kubernetes-anymore.html?utm_source=bengtan.com&#34;&gt;No one wants to manage Kubernetes anymore&lt;/a&gt;&lt;/strong&gt; — More and more companies decide they don&amp;rsquo;t want to deal with the complexity of managing server clusters in-house.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://victorribeiro.com/pixelPhysics/?utm_source=bengtan.com&#34;&gt;Pixel Physics&lt;/a&gt;&lt;/strong&gt; — Physics simulated by cellular automata. Play with pixels and see them falling down.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://trekhleb.dev/blog/2021/content-aware-image-resizing-in-javascript/?utm_source=bengtan.com&#34;&gt;Content-aware image resizing in JavaScript&lt;/a&gt;&lt;/strong&gt; — A demonstration of how the Seam Carving algorithm works. It&amp;rsquo;s a bit like magic.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.philipotoole.com/7-years-of-open-source-database-development-lessons-learned/?utm_source=bengtan.com&#34;&gt;Lessons learned from seven years of open-source database development&lt;/a&gt;&lt;/strong&gt; — I started a lightweight, open-source, distributed relational database for fun, but it’s since become something more serious.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://a16z.com/2021/04/02/nfts-readings-resources/?utm_source=bengtan.com&#34;&gt;NFT Canon&lt;/a&gt;&lt;/strong&gt; — A list of readings and resources on all things NFTs, curated by a16z.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://ai.facebook.com/blog/shedding-light-on-fairness-in-ai-with-a-new-data-set/?utm_source=bengtan.com&#34;&gt;Shedding light on fairness in AI with a new data set&lt;/a&gt;&lt;/strong&gt; — Facebook publishes a dataset of of 45,186 human face-to-face videos with an emphasis on fairness and diversity across age, gender, skin tone, &amp;amp; ambient lighting.&lt;/p&gt;
+&lt;h2 id=&#34;indie-biz&#34;&gt;#indie biz&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://ruizhidong.com/evaluating-side-hustles/?utm_source=bengtan.com&#34;&gt;Evaluating Side Hustles&lt;/a&gt;&lt;/strong&gt; — An affiliate SaaS site was built and sold 18 months later for $150,000 (estimated). Let&amp;rsquo;s look at the numbers. (Independent case study)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.johnnunemaker.com/speakerdeck/?utm_source=bengtan.com&#34;&gt;How to build an app, get acquired by GitHub, buy an app back from GitHub and then sell it again&lt;/a&gt;&lt;/strong&gt; — The story of Speaker Deck.&lt;/p&gt;
+&lt;h2 id=&#34;science&#34;&gt;#science&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.nytimes.com/2021/04/13/science/ants-brains-queen.html?utm_source=bengtan.com&#34;&gt;These Ants Shrink Their Brains for a Chance to Become Queen&lt;/a&gt;&lt;/strong&gt; — If their bids at motherhood fail, they can then regrow their brains. &lt;a href=&#34;https://www.nationalgeographic.com/animals/article/indian-jumping-ants-shrink-and-regrow-brains?utm_source=bengtan.com&#34;&gt;Another link&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.theverge.com/2021/4/12/22380581/northrop-grumman-mev-2-satellite-servicing-intelsat-mrv-docked?utm_source=bengtan.com&#34;&gt;A robotic spacecraft just latched onto an active satellite in orbit&lt;/a&gt;&lt;/strong&gt; — By providing renewed power and navigation control, the lifespan has been extended for five more years.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://backreaction.blogspot.com/2021/04/does-universe-have-higher-dimensions_0529669649.html?utm_source=bengtan.com&#34;&gt;Does the Universe have higher dimensions? Part 2&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.theguardian.com/environment/2021/mar/20/our-biggest-challenge-lack-of-imagination-the-scientists-turning-the-desert-green?utm_source=bengtan.com&#34;&gt;The scientists turning the desert green&lt;/a&gt;&lt;/strong&gt; (Mar 2021) — In China, scientists have turned vast swathes of arid land into a lush oasis. Now a team of maverick engineers want to do the same to the Sinai.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.theguardian.com/environment/2021/apr/15/whitest-ever-paint-could-help-cool-heating-earth-study-shows?utm_source=bengtan.com&#34;&gt;Whitest-ever paint could help cool heating Earth, study shows&lt;/a&gt;&lt;/strong&gt; — New paint reflects 98% of sunlight as well as radiating infrared heat into space, reducing need for air conditioning&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://3dprintingindustry.com/news/scientists-3d-print-graphene-aerogels-that-purify-water-at-scale-188753/?utm_source=bengtan.com&#34;&gt;Scientists 3D print graphene aerogels that purify water at scale&lt;/a&gt;&lt;/strong&gt; — The novel material is capable of removing dyes, metals and organic solvents from drinking water with 100% efficiency.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.quantamagazine.org/graphenes-new-twist-reveals-superconductivitys-secrets-20210316/?utm_source=bengtan.com&#34;&gt;A New Twist Reveals Superconductivity’s Secrets&lt;/a&gt;&lt;/strong&gt; (Mar 2021) — An unexpected superconductor was beginning to look like a fluke, but a new theory and a second discovery have revealed that emergent quasiparticles may be behind the effect.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.seattletimes.com/business/seattle-startup-sends-laser-equipped-robots-to-zap-weeds-on-farmland/?utm_source=bengtan.com&#34;&gt;Laser-equipped robots that zap weeds on farmland&lt;/a&gt;&lt;/strong&gt; — The machine is the latest form of automation to arrive in agriculture.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://theconversation.com/bridges-highways-scaffolds-how-the-amazing-engineering-of-army-ants-can-make-us-smarter-creators-158326?utm_source=bengtan.com&#34;&gt;Bridges, highways, scaffolds: The amazing engineering of army ants&lt;/a&gt;&lt;/strong&gt; — How these tiny, blind ants manage to coordinate these dynamic constructions remains largely unknown, but a new study brings us closer to the answer.&lt;/p&gt;
+&lt;h2 id=&#34;life&#34;&gt;#life&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://ideolalia.com/essays/trapped-in-the-technologist-factory.html?utm_source=bengtan.com&#34;&gt;Trapped in the technologist factory&lt;/a&gt;&lt;/strong&gt; — Reflections on working in the software industry.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://theconversation.com/napping-in-the-afternoon-can-improve-memory-and-alertness-heres-why-154423?utm_source=bengtan.com&#34;&gt;Napping in the afternoon can improve memory and alertness – here’s why&lt;/a&gt;&lt;/strong&gt; (Feb 2021)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.ondrejmarkus.com/system-that-works/?utm_source=bengtan.com&#34;&gt;How to (finally) find a productivity system that works for you&lt;/a&gt;&lt;/strong&gt; — Figuring this out unstuck me from chasing the perfect method and focus on what really matters – getting things done.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://carl.flax.ie/dothingstellpeople.html?utm_source=bengtan.com&#34;&gt;Do things, tell people&lt;/a&gt;&lt;/strong&gt; — These are the only things you need to do to be successful.&lt;/p&gt;
+&lt;h2 id=&#34;random&#34;&gt;#random&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://antonz.org/dataviz-guide/?utm_source=bengtan.com&#34;&gt;Data Visualization Guide&lt;/a&gt;&lt;/strong&gt; — A guide for producing infographics and data visualisations based on the works of Edward Tufte and Stephen Few.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.window-swap.com/Window?utm_source=bengtan.com&#34;&gt;WindowSwap&lt;/a&gt;&lt;/strong&gt; — Look out of other people&amp;rsquo;s windows.&lt;/p&gt;
+&lt;h2 id=&#34;end&#34;&gt;#end&lt;/h2&gt;
+&lt;p&gt;If you enjoyed these stories, I&amp;rsquo;d love it if you shared this newsletter with a friend or two.&lt;/p&gt;
+&lt;p&gt;And should you come across anything interesting in your wanderings, please email or tweet me! I&amp;rsquo;d love to give them some exposure too.&lt;/p&gt;
         
       </description>
     </item>
@@ -370,7 +482,9 @@ Related: &lt;a href=&#34;https://gitmemory.com/issue/grey-software/sponsorware/1
 &lt;li&gt;What do you think of the discussion about Github Sponsors and the Payment Decision Point?&lt;/li&gt;
 &lt;li&gt;What do you think about Untracker&amp;rsquo;s freemium/monetisation/sponsorship model?&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;To be notified of updates about Untracker, please subscribe to my newsletter (You can choose to be notified about Untracker only). I hope that my next article about Untracker will report some positive developments.&lt;/p&gt;
+&lt;!--
+To be notified of updates about Untracker, please subscribe to my newsletter (You can choose to be notified about Untracker only). I hope that my next article about Untracker will report some positive developments.
+--&gt;
 &lt;p&gt;Thanks for reading!&lt;/p&gt;
 
         

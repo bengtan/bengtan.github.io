@@ -120,18 +120,18 @@ I also curate a newsletter of …" />
     <p><img src="/images/portrait.jpg" style="width: 120px; border-radius: 50%;" /></p>
 <p>I&rsquo;m Beng Tan, a freelance software engineer.</p>
 <p>This is my <a href="/blog">blog</a>. I write about software, tech, startups and random things.</p>
-<p>I also curate a newsletter of <a href="https://interestingthings.bengtan.com">interesting stories and links</a> from tech, indie business, science, and adjacents.</p>
+<p>I also curate a newsletter of <a href="/newsletter">interesting stories and links</a> from tech, indie business, science, and adjacents.</p>
 <p>If you&rsquo;re new here, start with one of these blog posts:</p>
 <ul>
 <li><a href="/blog/interesting-things/">I started a newsletter of Interesting Things</a></li>
 <li><a href="/blog/a-new-beginning">A New Beginning</a></li>
 <li><a href="/blog/open-secrets-hacker-news">Open secrets about Hacker News</a></li>
-<li><a href="/blog/email-untracker">email-untracker: Get rid of tracking links and spy pixels (self-hosted)</a></li>
 </ul>
+<!--* [email-untracker: Get rid of tracking links and spy pixels (self-hosted)](/blog/email-untracker)-->
 <hr>
 <p>My side projects:</p>
 <ul>
-<li><a href="https://interestingthings.bengtan.com">Interesting Things</a> newsletter</li>
+<li><a href="/newsletter">Interesting Things</a> newsletter</li>
 <li><a href="/css-named-colours-picker">CSS Named Colours Picker</a></li>
 <li><a href="/blog/email-untracker">Untracker (v2)</a> / <a href="/blog/email-cleaner-clean-tracking-links-and-pixels">Email Cleaner (v1)</a> — Uncloak tracking links and remove spy pixels from email newsletters</li>
 <li><a href="https://www.gigobooks.com">Gig&rsquo;o&rsquo;Books</a></li>
@@ -150,9 +150,6 @@ I also curate a newsletter of …" />
         <a href="https://bengtan.com/blog/interesting-things/" class="nav-link">I started a newsletter of Interesting Things</a>
       </li>
       <li>
-        <a href="https://bengtan.com/blog/email-untracker/" class="nav-link">email-untracker: Get rid of tracking links and spy pixels (self-hosted)</a>
-      </li>
-      <li>
         <a href="https://bengtan.com/css-named-colours-picker/" class="nav-link">CSS Named Colours Picker</a>
       </li>
     </ul>
@@ -162,13 +159,13 @@ I also curate a newsletter of …" />
         <a href="https://bengtan.com/blog/how-to-use-markdown-not-supported-substack/" class="nav-link">How to use markdown if markdown is not supported</a>
       </li>
       <li>
-        <a href="https://interestingthings.bengtan.com/p/issue-2" class="nav-link">Interesting Things #2 — Can you trust floating-point arithmetic on Apple Silicon?</a>
+        <a href="https://bengtan.com/interesting-things/002/" class="nav-link">Interesting Things #2 — Can you trust floating-point arithmetic on Apple Silicon?</a>
       </li>
       <li>
         <a href="https://bengtan.com/blog/interesting-things/" class="nav-link">I started a newsletter of Interesting Things</a>
       </li>
       <li>
-        <a href="https://interestingthings.bengtan.com/p/issue-1" class="nav-link">Interesting Things #1 — The Adjacent Possible</a>
+        <a href="https://bengtan.com/interesting-things/001/" class="nav-link">Interesting Things #1 — The Adjacent Possible</a>
       </li>
       <li>
         <a href="https://bengtan.com/reading-list/20210416/" class="nav-link">Reading List (2021-04-16)</a>
@@ -181,15 +178,6 @@ I also curate a newsletter of …" />
       </li>
       <li>
         <a href="https://bengtan.com/reading-list/20210401/" class="nav-link">Reading List (2021-04-01)</a>
-      </li>
-    </ul>
-    <h2 class="mt-4">Links</h2>
-    <ul class="flex-column">
-      <li>
-        <a href="https://interestingthings.bengtan.com" class="nav-link">Substack</a>
-      </li>
-      <li>
-        <a href="/reading-list/" class="nav-link">Reading Lists</a>
       </li>
     </ul>
     <div>
@@ -282,7 +270,26 @@ I also curate a newsletter of …" />
 
 
 <footer class="footer">
-  <p>For new content, <a href="/newsletter">subscribe by email</a> or <a href="https://twitter.com/bengtanAU">follow me</a> on twitter.</p>
+  <p>Subscribe to one or both for more content:</p>
+    <form
+action="https://buttondown.email/api/emails/embed-subscribe/bengtan"
+method="post"
+target="popupwindow"
+onsubmit="window.open('https://buttondown.email/bengtan', 'popupwindow')"
+class="embeddable-buttondown-form"
+>
+  <label><input type="checkbox" name="tag" value="interesting-things" /> Subscribe to <strong>Interesting Things</strong> newsletter</label><br />
+  <label><input type="checkbox" name="tag" value="blog" /> Subscribe to blog posts</label><br />
+  
+
+  <input type="email" name="email" id="bd-email" placeholder="Enter your email address" />
+  <input type="hidden" value="1" name="embed" />
+  <input type="submit" value="Subscribe" />
+</form>
+
+  <p>
+    <a href="/newsletter">More info about subscriptions</a> or <a href="https://twitter.com/bengtanAU">follow me</a> on twitter.
+  </p>
   <div class="footer_inner wrap pale">
     <img src='https://bengtan.com/images/logo.png' class="icon icon_2 transparent" alt="Beng Tan">
     <p>Copyright&nbsp;2021-&nbsp;<span class="year"></span>&nbsp;BENG TAN. All Rights Reserved</p><a class="to_top" href="#documentTop">

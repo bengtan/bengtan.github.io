@@ -195,7 +195,26 @@
 
 
 <footer class="footer">
-  <p>For new content, <a href="/newsletter">subscribe by email</a> or <a href="https://twitter.com/bengtanAU">follow me</a> on twitter.</p>
+  <p>Subscribe to one or both for more content:</p>
+    <form
+action="https://buttondown.email/api/emails/embed-subscribe/bengtan"
+method="post"
+target="popupwindow"
+onsubmit="window.open('https://buttondown.email/bengtan', 'popupwindow')"
+class="embeddable-buttondown-form"
+>
+  <label><input type="checkbox" name="tag" value="interesting-things" /> Subscribe to <strong>Interesting Things</strong> newsletter</label><br />
+  <label><input type="checkbox" name="tag" value="blog" /> Subscribe to blog posts</label><br />
+  
+
+  <input type="email" name="email" id="bd-email" placeholder="Enter your email address" />
+  <input type="hidden" value="1" name="embed" />
+  <input type="submit" value="Subscribe" />
+</form>
+
+  <p>
+    <a href="/newsletter">More info about subscriptions</a> or <a href="https://twitter.com/bengtanAU">follow me</a> on twitter.
+  </p>
   <div class="footer_inner wrap pale">
     <img src='https://bengtan.com/images/logo.png' class="icon icon_2 transparent" alt="Beng Tan">
     <p>Copyright&nbsp;2021-&nbsp;<span class="year"></span>&nbsp;BENG TAN. All Rights Reserved</p><a class="to_top" href="#documentTop">

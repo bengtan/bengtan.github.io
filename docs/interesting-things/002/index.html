@@ -1,0 +1,361 @@
+
+<!DOCTYPE html>
+<html lang="en" data-figures="" class="page">
+  <head>
+<title>Interesting Things #2 — Can you trust floating-point arithmetic on Apple Silicon? | Beng Tan</title>
+<meta charset="utf-8">
+<meta name="generator" content="Hugo 0.80.0" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VTEK0C8GRX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-VTEK0C8GRX');
+</script>
+<meta property="og:locale" content="en" />
+
+<meta property="og:type" content="article">
+<meta name="description" content="I don&rsquo;t know what happened this week but I came across a LOT of stuff (60!). I didn&rsquo;t do anything different so perhaps it&rsquo;s just a statistical …">
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:creator" content="">
+<meta name="twitter:title" content="Interesting Things #2 — Can you trust floating-point arithmetic on Apple Silicon?" />
+<meta property="og:url" content="https://bengtan.com/interesting-things/002/" />
+<meta property="og:title" content="Interesting Things #2 — Can you trust floating-point arithmetic on Apple Silicon?" />
+<meta property="og:description" content="I don&rsquo;t know what happened this week but I came across a LOT of stuff (60!). I didn&rsquo;t do anything different so perhaps it&rsquo;s just a statistical …" />
+<meta property="og:image" content="https://bengtan.com/images/logo.png" />
+<link rel="apple-touch-icon" href='https://bengtan.com/apple-touch-icon.png'>
+<link rel="icon" type="image/png" href='https://bengtan.com/favicon.ico'>
+
+<link rel="canonical" href="https://bengtan.com/interesting-things/002/">
+
+    
+
+    
+    
+    <link rel="preload" href="https://bengtan.com/css/styles.771ea8fa8391ac3a48ef4b0ad629ad05f367256e62aa33c951a79249dd9cd5604e77f048bcf7b258e8290760ba9331638d2320db1474c57b691e26d37fed302e.css" integrity = "sha512-dx6o&#43;oORrDpI70sK1imtBfNnJW5iqjPJUaeSSd2c1WBOd/BIvPeyWOgpB2C6kzFjjSMg2xR0xXtpHibTf&#43;0wLg==" as="style" crossorigin="anonymous">
+    <link rel="preload" href="https://bengtan.com/js/bundle.min.5e1a3765dfd54e2fbb0c387bf8706a9b2c62392ffda4f88eb75000448e09a2b6a0303ad28b4c5f6e16b84c7e11d1f3248a9709d4835ae29e64c39f9dc38dfbef.js" as="script" integrity=
+    "sha512-Xho3Zd/VTi&#43;7DDh7&#43;HBqmyxiOS/9pPiOt1AARI4JoragMDrSi0xfbha4TH4R0fMkipcJ1INa4p5kw5&#43;dw4377w==" crossorigin="anonymous">
+
+    
+    <link rel="stylesheet" type="text/css" href="https://bengtan.com/css/styles.771ea8fa8391ac3a48ef4b0ad629ad05f367256e62aa33c951a79249dd9cd5604e77f048bcf7b258e8290760ba9331638d2320db1474c57b691e26d37fed302e.css" integrity="sha512-dx6o&#43;oORrDpI70sK1imtBfNnJW5iqjPJUaeSSd2c1WBOd/BIvPeyWOgpB2C6kzFjjSMg2xR0xXtpHibTf&#43;0wLg==" crossorigin="anonymous">
+    
+  </head>
+  
+  
+    
+  
+  <body data-code="100" data-lines="false" id="documentTop">
+
+<header class="nav_header" >
+  <nav class="nav"><a href='https://bengtan.com/' class="nav_brand nav_item" title="Beng Tan">
+  <img src="https://bengtan.com/images/logo.png" class="logo" alt="Beng Tan">
+  <div class="nav_close">
+    <div><svg class="icon">
+  <use xlink:href="#open-menu"></use>
+</svg><svg class="icon">
+  <use xlink:href="#closeme"></use>
+</svg></div>
+  </div>
+</a>
+    <div class='nav_body nav_body_right'>
+      
+      
+      
+        
+
+  <div class="nav_parent">
+    <a href="https://bengtan.com/about" class="nav_item" title="About">About </a>
+  </div>
+  <div class="nav_parent">
+    <a href="https://bengtan.com/blog/" class="nav_item" title="Blog">Blog </a>
+  </div>
+  <div class="nav_parent">
+    <a href="https://bengtan.com/newsletter/" class="nav_item" title="Newsletter">Newsletter </a>
+  </div>
+      
+<div class='follow'>
+  <a href="https://github.com/bengtan">
+    <svg class="icon">
+  <use xlink:href="#github"></use>
+</svg>
+  </a>
+  <a href="https://twitter.com/bengtanAU">
+    <svg class="icon">
+  <use xlink:href="#twitter"></use>
+</svg>
+  </a>
+    
+  <a href="https://bengtan.com/index.xml">
+    <svg class="icon">
+  <use xlink:href="#rss"></use>
+</svg>
+  </a>
+<div class="color_mode">
+  <input type="checkbox" class="color_choice" id="mode">
+</div>
+
+</div>
+
+    </div>
+  </nav>
+</header>
+
+    <main>
+  
+<div class="grid-inverse wrap content">
+  <article class="post_content">
+    <h1 class="post_title">Interesting Things #2 — Can you trust floating-point arithmetic on Apple Silicon?</h1><div class="post_meta">
+  
+    <svg class="icon">
+  <use xlink:href="#calendar"></use>
+</svg>
+    <span class="post_date">
+      30 Apr 2021</span>
+</div>
+
+    
+
+    
+    <p>Hi!</p>
+<p>Welcome to the second edition of Interesting Things, a curation of interesting stories and links from tech, indie business, science, and adjacents.</p>
+<p>These are things I came across during my Internet wanderings. I find them interesting, and I hope you do too.</p>
+<p>I don&rsquo;t know what happened this week but I came across a LOT of stuff (60!). I didn&rsquo;t do anything different so perhaps it&rsquo;s just a statistical anomaly.</p>
+<p>In any case, happy reading!</p>
+<h2 id="tech">#tech</h2>
+<p><strong><a href="https://eclecticlight.co/2021/04/22/can-you-trust-floating-point-arithmetic-on-apple-silicon/?utm_source=bengtan.com">Can you trust floating-point arithmetic on Apple Silicon?</a></strong> — Surprisingly, it&rsquo;s wrong on both Intel and Apple Silicon, but wrong in the same way. And that&rsquo;s alright.</p>
+<p><strong><a href="https://lea.verou.me/2020/04/lch-colors-in-css-what-why-and-how/?utm_source=bengtan.com">LCH colors in CSS: what, why, and how?</a></strong> (April 2020) — Lightness-Chroma-Hue (aka HCL) has a wider gamut and is better aligned with human perception.</p>
+<p><strong><a href="https://bottosson.github.io/posts/colorwrong/?utm_source=bengtan.com">How software gets color wrong</a></strong> (Dec 2020) — The reason is that color processing in most software is based on how CRT displays in the 1990s worked.</p>
+<p><strong><a href="https://devblogs.microsoft.com/commandline/wslg-architecture/?utm_source=bengtan.com">Windows Subsystem for Linux GUI Architecture</a></strong> — A look at the linux GUI stack within Windows.</p>
+<p><strong><a href="https://blog.gruntwork.io/introducing-git-xargs-an-open-source-tool-to-update-multiple-github-repos-753f9f3675ec?utm_source=bengtan.com">Introducing git-xargs: an open source tool to update multiple GitHub repos</a></strong> — With a single command.</p>
+<p><strong><a href="https://spectrum.ieee.org/tech-talk/artificial-intelligence/machine-learning/the-state-of-ai-in-15-graphs?utm_source=bengtan.com">15 Graphs You Need to See to Understand AI in 2021</a></strong> — If you want a birds eye view about jobs, publications, diversity, and more.</p>
+<p><strong><a href="https://www.copetti.org/writings/consoles/playstation-portable/?utm_source=bengtan.com">PlayStation Portable Architecture</a></strong> — A comprehensive write-up of the gaming console from yesteryear.</p>
+<p><strong><a href="https://syslog.ravelin.com/2fa-is-missing-a-key-feature-c781c3861db?utm_source=bengtan.com">2FA is missing a key feature</a></strong> — When my 2FA code is entered incorrectly I’d like to know about it.</p>
+<p><strong><a href="https://timdaub.github.io/2021/04/22/nft-sleepminting-beeple-provenance/?utm_source=bengtan.com">What Is Sleepminting And Will It Ruin NFT Provenance?</a></strong> — Someone found a way to partially forge NFTs. <a href="https://news.artnet.com/opinion/sleepminting-nftheft-monsieur-personne-1960744?utm_source=bengtan.com">News</a>. <a href="https://nftheft.com/?utm_source=bengtan.com">More info</a>.</p>
+<p><strong><a href="https://www.poberezkin.com/posts/2021-04-21-what-i-wish-somebody-told-me-when-i-was-learning-Haskell.html?utm_source=bengtan.com">What I wish somebody told me when I was learning Haskell</a></strong> — If Haskell is such an advanced and effective language why do we not see a much wider commercial adoption?</p>
+<p><strong><a href="https://world.hey.com/joaoqalves/disasters-i-ve-seen-in-a-microservices-world-a9137a51?utm_source=bengtan.com">Disasters I&rsquo;ve seen in a microservices world</a></strong> — Too much microservices.</p>
+<p><strong><a href="https://darekkay.com/blog/avif-images/?utm_source=bengtan.com">Web developer&rsquo;s guide to AVIF images</a></strong> — The next iteration of image file formats.</p>
+<p><strong><a href="https://github.com/returntocorp/semgrep?utm_source=bengtan.com">semgrep</a></strong> — Language-aware code search and analysis tool.</p>
+<p><strong><a href="https://www.microsoft.com/en-us/microsoft-365/blog/2021/04/28/beyond-calibri-finding-microsofts-next-default-font/?utm_source=bengtan.com">Beyond Calibri: Finding Microsoft’s next default font</a></strong> — We’ve commissioned five original, custom fonts to eventually be the default. Meet Tenorite, Bierstadt, Skeena, Seaford, and Grandview.</p>
+<p><strong><a href="https://towardsdatascience.com/geometric-foundations-of-deep-learning-94cdd45b451d?utm_source=bengtan.com">Geometric foundations of Deep Learning</a></strong> — An attempt to unify a broad class of ML problems from the perspectives of symmetry and invariance.</p>
+<p><strong><a href="https://www.tomshardware.com/news/cherry-mx-ultra-low-profile-switches-tested?utm_source=bengtan.com">Cherry’s First Mechanical Laptop Switches Improved My Typing Speed, Comfort</a></strong> — Mechanical keyboard &hellip; on a laptop.</p>
+<p><strong><a href="https://text.causal.agency/017-unpasswords.txt?utm_source=bengtan.com">Unpasswords</a></strong> (Feb 2021) — Go password-less. Use email instead.</p>
+<p><strong><a href="https://blog.shhdharmen.me/lets-light-it-up?utm_source=bengtan.com">Let&rsquo;s light it 🔥 up!</a></strong> — Cute animation using emoji as sprites. Non-javascript. <a href="https://blog.shhdharmen.me/animation-can-make-wave-much-more-than-emoji?utm_source=bengtan.com">Another one</a>.</p>
+<p><strong><a href="https://blog.aaronbieber.com/2021/04/23/blinding-my-roomba.html?utm_source=bengtan.com">Blinding My Roomba</a></strong> — To make it work better.</p>
+<p><strong><a href="https://vermaden.wordpress.com/2021/04/28/ghost-in-the-shell-part-5/?utm_source=bengtan.com">Ghost in the Shell – Part 5</a></strong> — Some useful CLI tips.</p>
+<p><strong><a href="https://nicotsou.com/dom-issues/?utm_source=bengtan.com">Why People Are Afraid Of The DOM?</a></strong> — Gently explaining an oddity of web development for people who <em>aren&rsquo;t</em> web developers.</p>
+<h2 id="indie-biz">#indie biz</h2>
+<p><strong><a href="https://jdnoc.com/factory/?utm_source=bengtan.com">The Factory Is The Product</a></strong> — Getting better at making the thing makes the thing better.</p>
+<p><strong><a href="https://pory.io/blog/pory-turns-1-our-journey-to-100k-in-mrr?utm_source=bengtan.com">Pory turns 1 - Our in transit journey to 100k in MRR 🥳</a></strong> — A no-code tool for creating sites using Airtable.</p>
+<p><strong><a href="https://www.kracov.co/writing/billboards?utm_source=bengtan.com">What I Learned Buying Billboards for a Startup</a></strong> — Anecdotes for first time buyers of outdoor advertising.</p>
+<p><strong><a href="https://steveblank.com/2021/04/20/the-secret-to-the-minimum-viable-product/?utm_source=bengtan.com">A Path to the Minimum Viable Product</a></strong> — An MVP tree is a way of methodically breaking your mission into smaller components and formulating MVP candidates.</p>
+<p><strong><a href="https://www.craigkerstiens.com/2021/04/27/top-5-product-and-management-skills-sql-excel-clear-communication-story-prioritization/?utm_source=bengtan.com">Top 5 Product and Management skills</a></strong> — SQL, Excel, Clear Communication, Story, Prioritization.</p>
+<p><strong><a href="https://highalpha.com/why-every-founder-should-sell-before-they-have-a-product/?utm_source=bengtan.com">Why Every Founder Should Sell Before They Have a Product</a></strong> — The best learning happens with customers.</p>
+<h2 id="science">#science</h2>
+<p><strong><a href="https://www.nature.com/articles/d41586-021-00971-7?utm_source=bengtan.com">Large-scale origami locks into place under pressure</a></strong> — A new method for designing large enclosures that can be deployed and locked into shape through inflation.</p>
+<p><strong><a href="https://www.quantamagazine.org/new-neural-networks-solve-hardest-equations-faster-than-ever-20210419/?utm_source=bengtan.com">Latest Neural Nets Solve World’s Hardest Equations Faster Than Ever Before</a></strong> — New approaches to solve entire families of partial differential equations and make it easier to model complicated systems.</p>
+<p><strong><a href="https://www.npr.org/2021/04/21/989333092/the-secret-mission-to-unearth-part-of-a-142-year-old-experiment?utm_source=bengtan.com">The Secret Mission To Unearth Part Of A 142-Year-Old Experiment</a></strong> — An unusual long-term experiment started in 1879 and is handed from one generation to the next.</p>
+<p><strong><a href="https://mars.nasa.gov/news/8926/nasas-perseverance-mars-rover-extracts-first-oxygen-from-red-planet/?utm_source=bengtan.com">NASA&rsquo;s Perseverance Mars Rover Extracts First Oxygen From Red Planet</a></strong> — Another step on the way to future human exploration of the Red Planet.</p>
+<p><strong><a href="https://www.susanrigetti.com/physics?utm_source=bengtan.com">So You Want to Learn Physics, Second Edition</a></strong> — If you are inspired and want to learn physics but don&rsquo;t know where to start.</p>
+<p><strong><a href="https://www.susanrigetti.com/philosophy?utm_source=bengtan.com">So You Want to Study Philosophy</a></strong></p>
+<p><strong><a href="https://www.sciencemag.org/news/2021/04/dolphins-learn-names-their-friends-form-teams-first-animal-kingdom?utm_source=bengtan.com">Dolphins learn the ‘names’ of their friends to form teams</a></strong> — The marine mammals have a sense of team membership.</p>
+<p><strong><a href="https://undark.org/2021/04/07/getting-sick-for-medical-research/?utm_source=bengtan.com">Getting Sick for the Sake of Advancing Medical Research</a></strong> — The first Covid-19 human challenge trial has begun in the U.K. Here’s what past trials have been like for participants.</p>
+<p><strong><a href="https://www.vice.com/en/article/bvz8ba/underwater-volcanoes-generate-enough-energy-to-power-the-entire-us-study-finds?utm_source=bengtan.com">Underwater Volcanoes Generate Enough Energy to Power the Entire US</a></strong> — These powerful eruptions can teach us about how life may have formed on Earth.</p>
+<p><strong><a href="https://www.telegraph.co.uk/health-fitness/body/why-sun-makes-us-feel-happy-good-mood-science/?utm_source=bengtan.com">The science of why the sun makes us feel so happy</a></strong> — After a winter spent indoors, time in the sunshine is just what the doctor ordered.</p>
+<p><strong><a href="https://www.nature.com/articles/d41586-021-01086-9?utm_source=bengtan.com">These cellular clocks help explain why elephants are bigger than mice</a></strong> — Tiny timekeepers in our cells might govern body size, lifespan and ageing.</p>
+<p><strong><a href="https://www.quantamagazine.org/high-energy-cosmic-ray-sources-mapped-out-for-the-first-time-20210427/?utm_source=bengtan.com">Cosmic Map of Ultrahigh-Energy Particles Points to Long-Hidden Treasures</a></strong> — How to identify the colossal monsters that create ultrahigh-energy cosmic rays?</p>
+<p><strong><a href="https://www.reuters.com/world/middle-east/egyptologists-uncover-rare-tombs-before-pharaohs-2021-04-28/?utm_source=bengtan.com">Middle East Egyptologists uncover rare tombs from before the Pharaohs</a></strong></p>
+<p><strong><a href="https://www.scientificamerican.com/article/octopus-teachers-demonstrate-they-feel-emotional-pain/?utm_source=bengtan.com">Octopus ‘Teachers’ Demonstrate They Feel Emotional Pain</a></strong> — Octopi have feelings too.</p>
+<p><strong><a href="https://www.theguardian.com/world/2021/apr/25/deep-time-team-ends-40-days-underground-in-french-cave?utm_source=bengtan.com">15 French volunteers leave cave after 40 days without daylight or clocks</a></strong> — Two thirds wanted to stay longer. <a href="https://www.bbc.com/news/world-europe-56875801?utm_source=bengtan.com">Another link</a>.</p>
+<p><strong><a href="https://www.abc.net.au/news/health/2021-04-25/lithium-psychiatry-mood-disorders-bipolar-suicide-treatment/100071034?utm_source=bengtan.com">The history of lithium, and its remarkable impact on mood disorders</a></strong> — It&rsquo;s taken, in the form of a pill, by thousands of people every day.</p>
+<p><strong><a href="https://www.quantamagazine.org/how-the-immune-system-protects-the-brain-20210428/?utm_source=bengtan.com">A Backdoor Lets the Immune System Monitor the Brain</a></strong> — A newfound hub of immune system activity at the back of the brain solves a century-old puzzle.</p>
+<p><strong><a href="https://www.quantamagazine.org/the-puzzling-power-of-simple-arithmetic-20210420/?utm_source=bengtan.com">The Puzzling Power of Simple Arithmetic</a></strong> — Playing with arithmetic can lead us to unexpected and profound discoveries.</p>
+<p><strong><a href="https://www.newyorker.com/magazine/2021/04/26/do-brain-implants-change-your-identity?utm_source=bengtan.com">Do Brain Implants Change Your Identity?</a></strong> — Yes, but it&rsquo;s complicated.</p>
+<p><strong><a href="https://www.theguardian.com/news/2021/apr/27/the-clockwork-universe-is-free-will-an-illusion?utm_source=bengtan.com">The clockwork universe: is free will an illusion?</a></strong> — A growing chorus of scientists and philosophers argue that free will does not exist. Could they be right?</p>
+<h2 id="life">#life</h2>
+<p><strong><a href="https://www.nytimes.com/2021/04/21/technology/welcome-to-the-yolo-economy.html?utm_source=bengtan.com">Welcome to the YOLO Economy</a></strong> — Burned out and flush with savings, some workers are quitting stable jobs in search of postpandemic adventure.</p>
+<p><strong><a href="https://joshuaspodek.com/month-6-day-1-fridge-still-off-happy-earth-day?utm_source=bengtan.com">Month 6, Day 1: Fridge still off (Happy Earth Day)</a></strong> — This person tries living without a fridge. It&rsquo;s been six months and counting.</p>
+<p><strong><a href="https://spectrum.ieee.org/geek-life/profiles/from-winzips-to-cat-gifs-jacob-zivs-algorithms-have-powered-decades-of-compression?utm_source=bengtan.com">Jacob Ziv’s Algorithms Have Powered Decades of Compression</a></strong> — The story of Jacob Ziv and the abridged history of compression.</p>
+<p><strong><a href="https://zeynepevecen.com/surpass-your-life/?utm_source=bengtan.com">Do Things That Will Surpass Your Life</a></strong> — Lately, the fact that I’m going to die one day very much bothered me.</p>
+<p><strong><a href="https://prithviraj.me/dont-consume-news-in-the-morning/?utm_source=bengtan.com">Don&rsquo;t consume news in the morning</a></strong> — You are more productive and you will get more work done at the beginning of your day.</p>
+<p><strong><a href="https://trms.me/the-best-note-taking-method-is-the-one-you-have-with-you/?utm_source=bengtan.com">The Best Note-Taking Method is the One You Have with You</a></strong> — A lesson from photography to the world of note-taking.</p>
+<p><strong><a href="https://bzg.fr/en/on-using-to-do-lists-efficiently/?utm_source=bengtan.com">On using to-do lists efficiently</a></strong> — Principles I gathered from years of (mis)using to-do lists.</p>
+<p><strong><a href="https://durmonski.com/psychology/impostor-syndrome/?utm_source=bengtan.com">Impostor Syndrome: The Reason You Feel Like a Fraud</a></strong> — Feeling like a fraud? Like an impostor? We all do. But we shouldn&rsquo;t.</p>
+<p><strong><a href="https://amirbolous.com/posts/doers/?utm_source=bengtan.com">Talkers and doers</a></strong> — Whenever I find myself talking and not doing, I do myself a huge favor. I shut the hell up.</p>
+<p><strong><a href="https://www.businessinsider.com/miss-excel-microsoft-tiktok-instagram-influencer-six-figures-2021-4?utm_source=bengtan.com">A Microsoft Excel influencer is making 6 figures from her unconventional way of teaching spreadsheet hacks, tips, and tricks</a></strong> — aka Miss Excel.</p>
+<h2 id="random">#random</h2>
+<p><strong><a href="https://jhiblog.org/2021/04/07/quandaries-of-quinine/?utm_source=bengtan.com">Quandaries of Quinine</a></strong> — A medicinal commonly available in tonic water has a disputed history.</p>
+<p><strong><a href="https://peterlyons.com/problog/2021/04/squeezebox-keyboard/?utm_source=bengtan.com">Squeezebox Keyboard</a></strong> — Another wacky custom-made split ergonomic keyboard.</p>
+<p><strong><a href="https://sourcetarget.email/editions/31/?utm_source=bengtan.com">bridges, maps &amp; memories</a></strong> — Historical network visualizations over maps, a map of Reddit and a new website.</p>
+<h2 id="end">#end</h2>
+<p>If you enjoyed these stories, I&rsquo;d love it if you shared this newsletter with a friend or two.</p>
+<p>And should you come across anything interesting in your wanderings, please email or tweet me! I&rsquo;d love to give them some exposure too.</p>
+<p>Happy reading!
+Beng</p>
+
+  </article>
+<aside class="sidebar">
+  <section class="sidebar_inner">
+    
+    <h2 class="mt-4">Featured Posts</h2>
+    <ul>
+      <li>
+        <a href="https://bengtan.com/blog/interesting-things/" class="nav-link">I started a newsletter of Interesting Things</a>
+      </li>
+      <li>
+        <a href="https://bengtan.com/css-named-colours-picker/" class="nav-link">CSS Named Colours Picker</a>
+      </li>
+    </ul>
+    <h2 class="mt-4">Recent Posts</h2>
+    <ul class="flex-column">
+      <li>
+        <a href="https://bengtan.com/blog/how-to-use-markdown-not-supported-substack/" class="nav-link">How to use markdown if markdown is not supported</a>
+      </li>
+      <li>
+        <a href="https://bengtan.com/blog/interesting-things/" class="nav-link">I started a newsletter of Interesting Things</a>
+      </li>
+      <li>
+        <a href="https://bengtan.com/interesting-things/001/" class="nav-link">Interesting Things #1 — The Adjacent Possible</a>
+      </li>
+      <li>
+        <a href="https://bengtan.com/reading-list/20210416/" class="nav-link">Reading List (2021-04-16)</a>
+      </li>
+      <li>
+        <a href="https://bengtan.com/blog/status-update-20210414/" class="nav-link">Status update (2021-04-14)</a>
+      </li>
+      <li>
+        <a href="https://bengtan.com/reading-list/20210413/" class="nav-link">Reading List (2021-04-13)</a>
+      </li>
+      <li>
+        <a href="https://bengtan.com/reading-list/20210401/" class="nav-link">Reading List (2021-04-01)</a>
+      </li>
+      <li>
+        <a href="https://bengtan.com/reading-list/20210329/" class="nav-link">Reading List (2021-03-29)</a>
+      </li>
+    </ul>
+    <div>
+      <h2 class="mt-4 taxonomy" id="tags-section">Tags</h2>
+      <nav class="tags_nav">
+        <a href='https://bengtan.com/tags/privacy/' class="post_tag button button_translucent">
+          PRIVACY
+          <span class="button_tally">3</span>
+        </a>
+        
+        <a href='https://bengtan.com/tags/sponsorware/' class="post_tag button button_translucent">
+          SPONSORWARE
+          <span class="button_tally">3</span>
+        </a>
+        
+        <a href='https://bengtan.com/tags/untracker/' class="post_tag button button_translucent">
+          UNTRACKER
+          <span class="button_tally">3</span>
+        </a>
+        
+        
+      </nav>
+    </div>
+  </section>
+</aside>
+
+  
+</div>
+    </main><svg width="0" height="0" class="hidden">
+  <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="facebook">
+    <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.001 18.001" id="twitter">
+    <path d="M15.891 4.013c.808-.496 1.343-1.173 1.605-2.034a8.68 8.68 0 0 1-2.351.861c-.703-.756-1.593-1.14-2.66-1.14-1.043 0-1.924.366-2.643 1.078a3.56 3.56 0 0 0-1.076 2.605c0 .309.039.585.117.819-3.076-.105-5.622-1.381-7.628-3.837-.34.601-.51 1.213-.51 1.846 0 1.301.549 2.332 1.645 3.089-.625-.053-1.176-.211-1.645-.47 0 .929.273 1.705.82 2.388a3.623 3.623 0 0 0 2.115 1.291c-.312.08-.641.118-.979.118-.312 0-.533-.026-.664-.083.23.757.664 1.371 1.291 1.841a3.652 3.652 0 0 0 2.152.743C4.148 14.173 2.625 14.69.902 14.69c-.422 0-.721-.006-.902-.038 1.697 1.102 3.586 1.649 5.676 1.649 2.139 0 4.029-.542 5.674-1.626 1.645-1.078 2.859-2.408 3.639-3.974a10.77 10.77 0 0 0 1.172-4.892v-.468a7.788 7.788 0 0 0 1.84-1.921 8.142 8.142 0 0 1-2.11.593z"
+      ></path>
+  </symbol>
+  <symbol aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="mail">
+    <path  d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="calendar">
+    <path d="M452 40h-24V0h-40v40H124V0H84v40H60C26.916 40 0 66.916 0 100v352c0 33.084 26.916 60 60 60h392c33.084 0 60-26.916 60-60V100c0-33.084-26.916-60-60-60zm20 412c0 11.028-8.972 20-20 20H60c-11.028 0-20-8.972-20-20V188h432v264zm0-304H40v-48c0-11.028 8.972-20 20-20h24v40h40V80h264v40h40V80h24c11.028 0 20 8.972 20 20v48z"></path>
+    <path d="M76 230h40v40H76zm80 0h40v40h-40zm80 0h40v40h-40zm80 0h40v40h-40zm80 0h40v40h-40zM76 310h40v40H76zm80 0h40v40h-40zm80 0h40v40h-40zm80 0h40v40h-40zM76 390h40v40H76zm80 0h40v40h-40zm80 0h40v40h-40zm80 0h40v40h-40zm80-80h40v40h-40z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="github">
+    <path d="M255.968 5.329C114.624 5.329 0 120.401 0 262.353c0 113.536 73.344 209.856 175.104 243.872 12.8 2.368 17.472-5.568 17.472-12.384 0-6.112-.224-22.272-.352-43.712-71.2 15.52-86.24-34.464-86.24-34.464-11.616-29.696-28.416-37.6-28.416-37.6-23.264-15.936 1.728-15.616 1.728-15.616 25.696 1.824 39.2 26.496 39.2 26.496 22.848 39.264 59.936 27.936 74.528 21.344 2.304-16.608 8.928-27.936 16.256-34.368-56.832-6.496-116.608-28.544-116.608-127.008 0-28.064 9.984-51.008 26.368-68.992-2.656-6.496-11.424-32.64 2.496-68 0 0 21.504-6.912 70.4 26.336 20.416-5.696 42.304-8.544 64.096-8.64 21.728.128 43.648 2.944 64.096 8.672 48.864-33.248 70.336-26.336 70.336-26.336 13.952 35.392 5.184 61.504 2.56 68 16.416 17.984 26.304 40.928 26.304 68.992 0 98.72-59.84 120.448-116.864 126.816 9.184 7.936 17.376 23.616 17.376 47.584 0 34.368-.32 62.08-.32 70.496 0 6.88 4.608 14.88 17.6 12.352C438.72 472.145 512 375.857 512 262.353 512 120.401 397.376 5.329 255.968 5.329z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 212 212" id="gitlab">
+    <path d="M12.3 74.7h54L43.3 3c-1-3.6-6.4-3.6-7.6 0L12.3 74.8z" />
+    <path d="M12.3 74.7L.5 111c-1 3.2 0 6.8 3 8.8l101.6 74-92.5-119z"/>
+    <path d="M105 193.7l-38.6-119h-54l92.7 119z"/>
+    <path d="M105 193.7l38.7-119H66.4l38.7 119z"/>
+    <path d="M105 193.7l38.7-119H198l-93 119z"/>
+    <path d="M198 74.7l11.6 36.2c1 3 0 6.6-3 8.6l-101.5 74 93-119z"/>
+    <path d="M198 74.7h-54.3L167 3c1.2-3.6 6.4-3.6 7.6 0L198 74.8z"/> 
+  </symbol>
+  <symbol viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="rss">
+    <circle cx="3.429" cy="20.571" r="3.429"></circle>
+    <path d="M11.429 24h4.57C15.999 15.179 8.821 8.001 0 8v4.572c6.302.001 11.429 5.126 11.429 11.428z"></path>
+    <path d="M24 24C24 10.766 13.234 0 0 0v4.571c10.714 0 19.43 8.714 19.43 19.429z"></path>
+  </symbol>
+  <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="linkedin">
+    <path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h362c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zM181 406h-60V196h60zm0-240h-60v-60h60zm210 240h-60V286c0-16.54-13.46-30-30-30s-30 13.46-30 30v120h-60V196h60v11.309C286.719 202.422 296.93 196 316 196c40.691.043 75 36.547 75 79.688zm0 0"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 612 612" id="arrow">
+    <path d="M604.501 440.509L325.398 134.956c-5.331-5.357-12.423-7.627-19.386-7.27-6.989-.357-14.056 1.913-19.387 7.27L7.499 440.509c-9.999 10.024-9.999 26.298 0 36.323s26.223 10.024 36.222 0l262.293-287.164L568.28 476.832c9.999 10.024 26.222 10.024 36.221 0 9.999-10.023 9.999-26.298 0-36.323z"></path>
+  </symbol>
+  <symbol viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="carly">
+    <path d="M504.971 239.029L448 182.059V84c0-46.317-37.682-84-84-84h-44c-13.255 0-24 10.745-24 24s10.745 24 24 24h44c19.851 0 36 16.149 36 36v108c0 6.365 2.529 12.47 7.029 16.971L454.059 256l-47.029 47.029A24.002 24.002 0 0 0 400 320v108c0 19.851-16.149 36-36 36h-44c-13.255 0-24 10.745-24 24s10.745 24 24 24h44c46.318 0 84-37.683 84-84v-98.059l56.971-56.971c9.372-9.372 9.372-24.568 0-33.941zM112 192V84c0-19.851 16.149-36 36-36h44c13.255 0 24-10.745 24-24S205.255 0 192 0h-44c-46.318 0-84 37.683-84 84v98.059l-56.971 56.97c-9.373 9.373-9.373 24.568 0 33.941L64 329.941V428c0 46.317 37.682 84 84 84h44c13.255 0 24-10.745 24-24s-10.745-24-24-24h-44c-19.851 0-36-16.149-36-36V320c0-6.365-2.529-12.47-7.029-16.971L57.941 256l47.029-47.029A24.002 24.002 0 0 0 112 192z"></path>
+  </symbol>
+  <symbol viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="copy">
+    <path d="M23 2.75A2.75 2.75 0 0 0 20.25 0H8.75A2.75 2.75 0 0 0 6 2.75v13.5A2.75 2.75 0 0 0 8.75 19h11.5A2.75 2.75 0 0 0 23 16.25zM18.25 14.5h-7.5a.75.75 0 0 1 0-1.5h7.5a.75.75 0 0 1 0 1.5zm0-3h-7.5a.75.75 0 0 1 0-1.5h7.5a.75.75 0 0 1 0 1.5zm0-3h-7.5a.75.75 0 0 1 0-1.5h7.5a.75.75 0 0 1 0 1.5z"></path>
+    <path d="M8.75 20.5a4.255 4.255 0 0 1-4.25-4.25V2.75c0-.086.02-.166.025-.25H3.75A2.752 2.752 0 0 0 1 5.25v16A2.752 2.752 0 0 0 3.75 24h12a2.752 2.752 0 0 0 2.75-2.75v-.75z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.001 512.001" id="closeme">
+    <path d="M284.286 256.002L506.143 34.144c7.811-7.811 7.811-20.475 0-28.285-7.811-7.81-20.475-7.811-28.285 0L256 227.717 34.143 5.859c-7.811-7.811-20.475-7.811-28.285 0-7.81 7.811-7.811 20.475 0 28.285l221.857 221.857L5.858 477.859c-7.811 7.811-7.811 20.475 0 28.285a19.938 19.938 0 0 0 14.143 5.857 19.94 19.94 0 0 0 14.143-5.857L256 284.287l221.857 221.857c3.905 3.905 9.024 5.857 14.143 5.857s10.237-1.952 14.143-5.857c7.811-7.811 7.811-20.475 0-28.285L284.286 256.002z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="open-menu">
+    <path d="M492 236H20c-11.046 0-20 8.954-20 20s8.954 20 20 20h472c11.046 0 20-8.954 20-20s-8.954-20-20-20zm0-160H20C8.954 76 0 84.954 0 96s8.954 20 20 20h472c11.046 0 20-8.954 20-20s-8.954-20-20-20zm0 320H20c-11.046 0-20 8.954-20 20s8.954 20 20 20h472c11.046 0 20-8.954 20-20s-8.954-20-20-20z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="instagram">
+    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id=youtube>
+    <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="stackoverflow">
+    <path d="M21 27v-8h3v11H0V19h3v8h18z"></path><path d="M17.1.2L15 1.8l7.9 10.6 2.1-1.6L17.1.2zm3.7 14.7L10.6 6.4l1.7-2 10.2 8.5-1.7 2zM7.2 12.3l12 5.6 1.1-2.4-12-5.6-1.1 2.4zm-1.8 6.8l13.56 1.96.17-2.38-13.26-2.55-.47 2.97zM19 25H5v-3h14v3z"></path>
+  </symbol>
+</svg>
+
+
+<footer class="footer">
+  <p>Subscribe to one or both for more content:</p>
+    <form
+action="https://buttondown.email/api/emails/embed-subscribe/bengtan"
+method="post"
+target="popupwindow"
+onsubmit="window.open('https://buttondown.email/bengtan', 'popupwindow')"
+class="embeddable-buttondown-form"
+>
+  <label><input type="checkbox" name="tag" value="interesting-things" /> Subscribe to <strong>Interesting Things</strong> newsletter</label><br />
+  <label><input type="checkbox" name="tag" value="blog" /> Subscribe to blog posts</label><br />
+  
+
+  <input type="email" name="email" id="bd-email" placeholder="Enter your email address" />
+  <input type="hidden" value="1" name="embed" />
+  <input type="submit" value="Subscribe" />
+</form>
+
+  <p>
+    <a href="/newsletter">More info about subscriptions</a> or <a href="https://twitter.com/bengtanAU">follow me</a> on twitter.
+  </p>
+  <div class="footer_inner wrap pale">
+    <img src='https://bengtan.com/images/logo.png' class="icon icon_2 transparent" alt="Beng Tan">
+    <p>Copyright&nbsp;2021-&nbsp;<span class="year"></span>&nbsp;BENG TAN. All Rights Reserved</p><a class="to_top" href="#documentTop">
+  <svg class="icon">
+  <use xlink:href="#arrow"></use>
+</svg>
+</a>
+
+  </div>
+</footer>
+
+    <script type="text/javascript" src="https://bengtan.com/js/bundle.min.5e1a3765dfd54e2fbb0c387bf8706a9b2c62392ffda4f88eb75000448e09a2b6a0303ad28b4c5f6e16b84c7e11d1f3248a9709d4835ae29e64c39f9dc38dfbef.js" integrity="sha512-Xho3Zd/VTi&#43;7DDh7&#43;HBqmyxiOS/9pPiOt1AARI4JoragMDrSi0xfbha4TH4R0fMkipcJ1INa4p5kw5&#43;dw4377w==" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
