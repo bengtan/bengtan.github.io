@@ -4,7 +4,7 @@ type: post
 date: 2021-04-30T15:00:00+08:00
 ---
 
-I recently launched a [Substack newsletter](https://interestingthings.bengtan.com) and was disappointed to discover that Substack didn't support markdown. I write a lot of text and markdown is my preferred format. It would be nice if Substack could integrate into my workflow.
+I recently launched a [Substack newsletter](/newsletter) and was disappointed to discover that Substack didn't support markdown. I write a lot of text and markdown is my preferred format. It would be nice if Substack could integrate into my workflow.
 
 Well, maybe it can.
 

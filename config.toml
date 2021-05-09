@@ -11,7 +11,7 @@ description = "Beng Tan's personal blog where I write about software, tech, star
 introURL = false
 
 dateFormat = "2 Jan 2006"
-mainSections = ["post"]
+mainSections = ["post", "newsletter"]
 since = 2021
 mobileNavigation = "right"
 showShare = false
@@ -50,16 +50,6 @@ ga_analytics = "G-VTEK0C8GRX"
     name = "rss"
     weight = 4
     url = "index.xml"
-
-  [[menu.links]]
-    name = "Substack"
-    weight = 1
-    url = "https://interestingthings.bengtan.com"
-
-  [[menu.links]]
-    name = "Reading Lists"
-    weight = 2
-    url = "/reading-list/"
 
 [taxonomies]
   tag = "tags"

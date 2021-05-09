@@ -32,14 +32,6 @@
       </li>
       {{- end }}
     </ul>
-    <h2 class="mt-4">Links</h2>
-    <ul class="flex-column">
-      {{- range .Site.Menus.links }}
-      <li>
-        <a href="{{ .URL }}" class="nav-link">{{ .Name }}</a>
-      </li>
-      {{- end }}
-    </ul>
     {{- $tagsLimit := (default 100 $s.numberOfTagsShown) }}
     {{- range $key, $value := .Site.Taxonomies }}
     {{- if gt $value 0 }}

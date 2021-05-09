@@ -2,7 +2,6 @@
 title: "email-untracker: Get rid of tracking links and spy pixels (self-hosted)"
 type: post
 date: 2021-03-23T12:00:00+08:00
-featured: true
 tags: ["privacy", "untracker", "sponsorware"]
 ---
 

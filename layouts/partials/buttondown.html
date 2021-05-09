@@ -5,11 +5,13 @@ target="popupwindow"
 onsubmit="window.open('https://buttondown.email/bengtan', 'popupwindow')"
 class="embeddable-buttondown-form"
 >
-  <label><input type="checkbox" name="tag" value="all" />Subscribe to all articles</label><br />
-  <label><input type="checkbox" name="tag" value="digests" />Subscribe to important articles and digests</label><br />
-  <label><input type="checkbox" name="tag" value="untracker" />Subscribe to articles about Untracker</label><br />
+  <label><input type="checkbox" name="tag" value="interesting-things" /> Subscribe to <strong>Interesting Things</strong> newsletter</label><br />
+  <label><input type="checkbox" name="tag" value="blog" /> Subscribe to blog posts</label><br />
+  <!--
+  <label><input type="checkbox" name="tag" value="nop" /> I'm not a human. Don't send me anything</label><br />
+  -->
 
-  <input type="email" name="email" id="bd-email" placeholder="Enter your email" />
+  <input type="email" name="email" id="bd-email" placeholder="Enter your email address" />
   <input type="hidden" value="1" name="embed" />
   <input type="submit" value="Subscribe" />
 </form>

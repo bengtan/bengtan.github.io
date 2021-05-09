@@ -248,6 +248,8 @@ This has been a long article so here's a refresher of sub-topics.
 * What do you think of the discussion about Github Sponsors and the Payment Decision Point?
 * What do you think about Untracker's freemium/monetisation/sponsorship model?
 
+<!--
 To be notified of updates about Untracker, please subscribe to my newsletter (You can choose to be notified about Untracker only). I hope that my next article about Untracker will report some positive developments.
+-->
 
 Thanks for reading!

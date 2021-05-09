@@ -3,16 +3,21 @@ title: "Newsletter"
 showDate: false
 ---
 
-## Interesting Things
+There are two subscription options.
 
-**Interesting Things** is a curation of interesting stories and links from tech, indie business, science, and adjacents. The newsletter is at https://interestingthings.bengtan.com.
+* **Interesting Things** newsletter &mdash; A curation of interesting stories and links from tech, indie business, science, and adjacent topics. I send out the email newsletter every Friday and then post it to the [web archive](/interesting-things/) sometime after.
+* **Blog posts** &mdash; About one article per month.
 
-## This website
-
-Alternatively, to be notified of new website postings by email, subscribe below. You can choose to subscribe to a subset only.
+Please subscribe to one or both below.
 
 {{< partial "buttondown" >}}
 
-## or else ...
+Alternatively, you can get the same content throughout the week by [following me](https://twitter.com/bengtanAU) on twitter.
 
-<a href="https://twitter.com/bengtanAU">Follow me</a> on twitter.
+----
+
+**Notes**
+
+Subscribing is risk free. You can unsubscribe anytime.
+
+If you want to change your options, just unsubscribe and re-subscribe. Or else, [contact me](/about).
