@@ -5,7 +5,7 @@ showDate: false
 
 There are two subscription options.
 
-* **Interesting Things** newsletter &mdash; A curation of interesting stories and links from tech, indie business, science, and adjacent topics. I send out the email newsletter every Friday and then post it to the [web archive](/interesting-things/) sometime after.
+* **Interesting Things** newsletter &mdash; A curation of interesting stories and links from tech, indie business, science, and adjacent topics. I send out the email newsletter every Friday and then post it to the [web archive](/interesting-things/) one or two weeks after.
 * **Blog posts** &mdash; About one article per month.
 
 Please subscribe to one or both below.
