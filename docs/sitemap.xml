@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://bengtan.com/</loc>
+    <lastmod>2021-04-30T15:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://bengtan.com/blog/</loc>
     <lastmod>2021-04-30T15:00:00+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://bengtan.com/blog/how-to-use-markdown-not-supported-substack/</loc>
-    <lastmod>2021-04-30T15:00:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bengtan.com/</loc>
     <lastmod>2021-04-30T15:00:00+08:00</lastmod>
   </url>
   
@@ -171,6 +171,10 @@
   
   <url>
     <loc>https://bengtan.com/resume/</loc>
+  </url>
+  
+  <url>
+    <loc>https://bengtan.com/newsletter/thankyou/</loc>
   </url>
   
 </urlset>
