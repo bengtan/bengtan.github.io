@@ -61,6 +61,10 @@ a img { max-width: 100%; } // Avoid .image-scalable trick in theme
 
 .location { padding: 1rem; }
 
+.embeddable-buttondown-form {
+  label { display: block; }
+}
+
 
 /***********************************************************
 * css named colours picker                                 *
