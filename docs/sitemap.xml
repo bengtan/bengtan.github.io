@@ -166,6 +166,10 @@
   </url>
   
   <url>
+    <loc>https://bengtan.com/newsletter/confirmed/</loc>
+  </url>
+  
+  <url>
     <loc>https://bengtan.com/newsletter/</loc>
   </url>
   
@@ -175,6 +179,10 @@
   
   <url>
     <loc>https://bengtan.com/newsletter/thankyou/</loc>
+  </url>
+  
+  <url>
+    <loc>https://bengtan.com/newsletter/unsubscribed/</loc>
   </url>
   
 </urlset>
