@@ -63,6 +63,7 @@ a img { max-width: 100%; } // Avoid .image-scalable trick in theme
 
 .embeddable-buttondown-form {
   label { display: block; }
+  label.nop { display: none; }
 }
 
 
