@@ -1,4 +1,4 @@
 ---
-title: "Personal website of Beng Tan"
+title: "bengtan.com"
 showDate: false
 ---

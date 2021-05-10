@@ -2,7 +2,6 @@
 title: "I started a newsletter of Interesting Things"
 type: post
 date: 2021-04-26T9:00:00+08:00
-featured: true
 ---
 
 As I alluded in my [status update](/blog/status-update-20210414/), I've been setting up an [email newsletter](/newsletter). Finally it's ready and I posted the [first issue](/interesting-things/001) last Friday.
