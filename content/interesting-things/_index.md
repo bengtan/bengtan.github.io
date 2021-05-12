@@ -3,4 +3,4 @@ title: "Interesting Things"
 aliases: ["reading-list"]
 ---
 
-This is a web archive of the **Interesting Things** newsletter.
+This is a (somewhat delayed) web archive of **Interesting Things**, an email newsletter. 

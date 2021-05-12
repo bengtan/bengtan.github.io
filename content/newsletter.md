@@ -10,7 +10,7 @@ There are two subscription options.
 
 Please subscribe to one or both below.
 
-{{< partial "buttondown" >}}
+{{< partial "buttondown" "/newsletter" >}}
 
 Alternatively, you can get the same content throughout the week by [following me](https://twitter.com/bengtanAU) on twitter.
 
