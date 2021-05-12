@@ -17,13 +17,13 @@
 <meta property="og:locale" content="en" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="This is a web archive of the Interesting Things newsletter.">
+<meta name="description" content="This is a (somewhat delayed) web archive of Interesting Things, an email newsletter.">
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
 <meta name="twitter:title" content="Interesting Things" />
 <meta property="og:url" content="https://bengtan.com/interesting-things/" />
 <meta property="og:title" content="Interesting Things" />
-<meta property="og:description" content="This is a web archive of the Interesting Things newsletter." />
+<meta property="og:description" content="This is a (somewhat delayed) web archive of Interesting Things, an email newsletter." />
 <meta property="og:image" content="https://bengtan.com/images/logo.png" />
 <link rel="apple-touch-icon" href='https://bengtan.com/apple-touch-icon.png'>
 <link rel="icon" type="image/png" href='https://bengtan.com/favicon.ico'>
@@ -109,7 +109,7 @@
     <article class="post_content">
       <h1 class="post_title">Interesting Things</h1>
       
-      <p>This is a web archive of the <strong>Interesting Things</strong> newsletter.</p>
+      <p>This is a (somewhat delayed) web archive of <strong>Interesting Things</strong>, an email newsletter.</p>
 
 
     </article>
@@ -505,13 +505,14 @@
     <form
 action="https://buttondown.email/api/emails/embed-subscribe/bengtan"
 method="post"
-target="popupwindow"
-onsubmit="window.open('https://buttondown.email/bengtan', 'popupwindow')"
 class="embeddable-buttondown-form"
 >
   <label class="interesting-things"><input type="checkbox" name="tag" value="interesting-things" /> Subscribe to <strong>Interesting Things</strong> newsletter</label>
   <label class="blog"><input type="checkbox" name="tag" value="blog" /> Subscribe to blog posts</label>
   <label class="nop"><input type="checkbox" name="tag" value="nop" /> I'm not a human. Don't send me anything</label>
+
+  <input type="hidden" name="tag" value="web" />
+  
 
   <input type="email" name="email" id="bd-email" placeholder="Enter your email address" />
   <input type="hidden" value="1" name="embed" />

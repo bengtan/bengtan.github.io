@@ -199,13 +199,14 @@
     <form
 action="https://buttondown.email/api/emails/embed-subscribe/bengtan"
 method="post"
-target="popupwindow"
-onsubmit="window.open('https://buttondown.email/bengtan', 'popupwindow')"
 class="embeddable-buttondown-form"
 >
   <label class="interesting-things"><input type="checkbox" name="tag" value="interesting-things" /> Subscribe to <strong>Interesting Things</strong> newsletter</label>
   <label class="blog"><input type="checkbox" name="tag" value="blog" /> Subscribe to blog posts</label>
   <label class="nop"><input type="checkbox" name="tag" value="nop" /> I'm not a human. Don't send me anything</label>
+
+  <input type="hidden" name="tag" value="web" />
+  
 
   <input type="email" name="email" id="bd-email" placeholder="Enter your email address" />
   <input type="hidden" value="1" name="embed" />
