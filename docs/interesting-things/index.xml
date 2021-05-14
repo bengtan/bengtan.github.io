@@ -6,7 +6,119 @@
     <description>Recent content in Interesting Things on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Fri, 30 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/interesting-things/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/interesting-things/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Interesting Things #4 — Superhistory, Not Superintelligence</title>
+      <link>https://bengtan.com/interesting-things/004/</link>
+      <pubDate>Fri, 14 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bengtan.com/interesting-things/004/</guid>
+      <description>
+        
+          &lt;p&gt;Not public yet. &lt;a href=&#34;https://bengtan.com/newsletter&#34;&gt;Subscribe&lt;/a&gt; to get it in your inbox.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Interesting Things #3 — JavaScript optimizing compiler</title>
+      <link>https://bengtan.com/interesting-things/003/</link>
+      <pubDate>Fri, 07 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bengtan.com/interesting-things/003/</guid>
+      <description>
+        
+          &lt;p&gt;Welcome to the third edition of Interesting Things, a curation of interesting stories and links from tech, indie business, science, and adjacents.&lt;/p&gt;
+&lt;p&gt;These are things I came across during my Internet wanderings. I find them interesting, and I hope you do too. Enjoy!&lt;/p&gt;
+&lt;h2 id=&#34;tech&#34;&gt;#tech&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://medium.com/leaningtech/a-javascript-optimizing-compiler-3fd3f49bd071&#34;&gt;A JavaScript optimizing compiler&lt;/a&gt;&lt;/strong&gt; — Transpiling from javascript to C++, optimising it and transpiling back to javascript resulted in faster performance.&lt;/p&gt;
+&lt;!-- @carlop54002226 --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.blog/2021-04-29-scaling-monorepo-maintenance/&#34;&gt;Scaling monorepo maintenance&lt;/a&gt;&lt;/strong&gt; — Modularising an internal git index increased speed by 6 times.&lt;/p&gt;
+&lt;!-- @ttaylorr_b --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://software.rajivprab.com/2021/04/26/experiences-working-with-an-outsourced-dev-shop/&#34;&gt;Experiences working with an Outsourced Dev Shop&lt;/a&gt;&lt;/strong&gt; — If there was one constant from all of their failures, it was their utter refusal to take responsibility for any of it.&lt;/p&gt;
+&lt;!-- @rajivprab --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://stopa.io/post/279&#34;&gt;Applications from the Future&lt;/a&gt;&lt;/strong&gt; — An exploration of what future web applications could evolve to.&lt;/p&gt;
+&lt;!-- @stopachka --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://kislayverma.com/programming/why-programmers-dont-write-documentation/&#34;&gt;Why programmers don’t write documentation&lt;/a&gt;&lt;/strong&gt; — We don&amp;rsquo;t write documentation because writing clearly is extremely hard.&lt;/p&gt;
+&lt;!-- @kislayverma --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.johndcook.com/blog/2021/04/29/reinventing-rng/&#34;&gt;Evolution of random number generators&lt;/a&gt;&lt;/strong&gt; — Prime powers have a kinda chaotic pattern in their bits. We bootstrap this idea into a good random number generator, recapitulating history.&lt;/p&gt;
+&lt;!-- @JohnDCook --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://jrsinclair.com/articles/2021/rethinking-the-javascript-ternary-operator/&#34;&gt;Rethinking the JavaScript ternary operator&lt;/a&gt;&lt;/strong&gt; (Mar 2021) — Lots of people treat the ternary operator with suspicion. What if there&amp;rsquo;s more to ternaries than meets the eye?&lt;/p&gt;
+&lt;!-- @jrsinclair --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.fpcomplete.com/blog/pains-path-parsing/&#34;&gt;The Pains of Path Parsing&lt;/a&gt;&lt;/strong&gt; — A semi-deep dive into the finer points of path parsing and rendering in web applications&lt;/p&gt;
+&lt;!-- @snoyberg --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://wp.josh.com/2021/04/21/build-a-live-scrolling-tickertape/&#34;&gt;Build a giant live scrolling tickertape display from WS2812B Neopixels and an Arduino Uno&lt;/a&gt;&lt;/strong&gt; — Display live scrolling sports scores, crypto prices, or hot tweets on the side of your favorite newspaper building.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://markboulton.co.uk/journal/problem-space-shipping-space/&#34;&gt;Problem space. Shipping space.&lt;/a&gt;&lt;/strong&gt; — I’ve always made it a point to have one meeting a week focused on production.&lt;/p&gt;
+&lt;!-- @markboulton --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.royalsloth.eu/posts/how-much-traffic-comes-from-the-front-page-of-hackernews/&#34;&gt;How much traffic comes from the front page of Hacker News?&lt;/a&gt;&lt;/strong&gt; — Hopefully this post will shed some light on this topic.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://mmazzarolo.com/blog/2021-05-01-open-sourcing-remotebear/&#34;&gt;Open-sourcing Remotebear, a remote jobs aggregator&lt;/a&gt;&lt;/strong&gt; — See how someone else built their app.&lt;/p&gt;
+&lt;!-- @mazzarolomatteo --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://brianschrader.com/archive/easy-and-ethical-traffic-monitoring-with-goaccess/&#34;&gt;Easy and Ethical Traffic Monitoring with GoAccess&lt;/a&gt;&lt;/strong&gt; — If you&amp;rsquo;re looking for an easy solution and you&amp;rsquo;re conscious of user privacy, try one of these.&lt;/p&gt;
+&lt;!-- @sonicrocketman --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://markodenic.com/css-generators/&#34;&gt;CSS Generators&lt;/a&gt;&lt;/strong&gt; — CSS generators can avoid some time-consuming tasks.&lt;/p&gt;
+&lt;!-- @denicmarko --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://jmw.name/projects/linear-clock/&#34;&gt;Linear Clock: Solar&lt;/a&gt;&lt;/strong&gt; — A clock that shows a progress bar measuring the percentage of the day elapsed since sunrise.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://mattnakama.com/blog/go-branchless-coding/&#34;&gt;Branchless Coding in Go&lt;/a&gt;&lt;/strong&gt; — Why does this matter? Performance and security.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://wejn.org/2021/05/putting-old-temp-clock-on-steroids/&#34;&gt;Putting an old digital clock (with an outdoor thermometer) on steroids&lt;/a&gt;&lt;/strong&gt; — Reverse engineering a thermometer sensor and replacing it with modern hardware.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://ggcarvalho.dev/posts/montecarlo/&#34;&gt;The art of solving problems with Monte Carlo simulations&lt;/a&gt;&lt;/strong&gt; — Using the power of randomness to answer scientific questions.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://staysaasy.com/product/2021/05/02/competition.html&#34;&gt;Competitive Analysis For Product Engineers&lt;/a&gt;&lt;/strong&gt; — One of the most useful skills that an engineer can have.&lt;/p&gt;
+&lt;!-- @staysaasy --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://mkarliner.medium.com/the-process-is-not-the-product-the-new-agile-anti-manifesto-d3e23023b466&#34;&gt;The Process is not the Product&lt;/a&gt;&lt;/strong&gt; (Feb 2021) — The Software Methodology Anti-Manifesto. Leading not Managing. Dialog not Dictation&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://elixir-lang.org/blog/2021/04/02/marketing-and-sales-intelligence-with-elixir-at-pepsico/&#34;&gt;Marketing and sales intelligence with Elixir at PepsiCo&lt;/a&gt;&lt;/strong&gt; (Apr 2021) — A case study of how Elixir is being used in production.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://betterprogramming.pub/why-every-developer-should-start-programming-with-c-39b3a87392bf&#34;&gt;Why Every Developer Should Start Programming With C&lt;/a&gt;&lt;/strong&gt; — Let me explain why learning C is the best choice.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.royalsloth.eu/posts/the-compiler-will-optimize-that-away/&#34;&gt;The compiler will optimize that away&lt;/a&gt;&lt;/strong&gt; (Apr 2021) — Industry best practices still revolve around object oriented programming which does not perform well on modern hardware.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://doordash.engineering/2021/05/04/migrating-from-python-to-kotlin-for-our-backend-services/&#34;&gt;Migrating From Python to Kotlin for Our Backend Services&lt;/a&gt;&lt;/strong&gt; — We needed to find a new tech stack. Learn how we compared all the options and chose Kotlin.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://dystroy.org/blog/sql-in-html/&#34;&gt;A SQL database and an interactive grapher in a single HTML file&lt;/a&gt;&lt;/strong&gt; — Generate stand-alone HTML files embedding everything from the database to the query engine and grapher.&lt;/p&gt;
+&lt;!-- @DenysSeguret --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://incolumitas.com/2021/03/13/tcp-ip-fingerprinting-for-vpn-and-proxy-detection/&#34;&gt;TCP/IP Fingerprinting for VPN and Proxy Detection&lt;/a&gt;&lt;/strong&gt; (Mar 2021) — TCP/IP fingerprinting becomes interesting again from a security perspective.&lt;/p&gt;
+&lt;!-- @incolumitas_ --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://www.falkoriemenschneider.de/a__2021-05-10__Six-years-of-professional-Clojure-development.html&#34;&gt;Six years of professional Clojure development&lt;/a&gt;&lt;/strong&gt; — Listing some of the strengths and weaknesses in everyday real-life use of the language and its ecosystem.&lt;/p&gt;
+&lt;!-- @friemens --&gt;
+&lt;h2 id=&#34;indie-biz&#34;&gt;#indie biz&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://entrepreneurshandbook.co/my-startup-failed-six-years-ago-ive-been-hiding-from-my-shame-ever-since-921f2c60226e&#34;&gt;My Startup Failed Six Years Ago. I’ve Been Hiding from My Shame Ever Since.&lt;/a&gt;&lt;/strong&gt; — Millions of people listened to my startup’s story. This is what happened after everything fell apart.&lt;/p&gt;
+&lt;!-- @laurenikay --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://andreschweighofer.com/career/is-a-computer-science-side-project-worth-the-effort/&#34;&gt;Is a computer science side project worth the effort?&lt;/a&gt;&lt;/strong&gt; — You spend most of your day in front of a screen already. Why start a side project?&lt;/p&gt;
+&lt;!-- @fidrelity --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://rootsofprogress.org/a-career-path-for-invention&#34;&gt;We need a career path for invention&lt;/a&gt;&lt;/strong&gt; — While science and business have functioning career paths, invention does not.&lt;/p&gt;
+&lt;!-- @rootsofprogress --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://review.firstround.com/counterintuitive-lessons-on-how-to-get-better-as-you-scale-from-twilio%27s-jeff-lawson&#34;&gt;Counterintuitive Lessons on How to Get Better as You Scale&lt;/a&gt;&lt;/strong&gt; — Twilio CEO and co-founder Jeff Lawson shares a set of unconventional company building lessons.&lt;/p&gt;
+&lt;!-- @firstround --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://mashable.com/article/selling-google-spreadsheets-trend/&#34;&gt;Creators are making bank selling Google spreadsheets&lt;/a&gt;&lt;/strong&gt; — Indie makers are generating tens of thousands of dollars by selling info products built on Google Sheets, Notion, and Airtable.&lt;/p&gt;
+&lt;!-- @mattbinder --&gt;
+&lt;h2 id=&#34;science&#34;&gt;#science&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://arstechnica.com/science/2021/04/lots-of-viruses-have-a-distinct-form-of-dna-with-its-own-base/&#34;&gt;Dozens of viruses seem to use a different DNA base&lt;/a&gt;&lt;/strong&gt; — Odd form of DNA helps viruses resist their host&amp;rsquo;s defenses.&lt;/p&gt;
+&lt;!-- @j_timmer --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.livescience.com/plain-of-jars-burial-site-true-age.html&#34;&gt;&amp;lsquo;Plain of Jars&amp;rsquo;, one of the most mysterious archaeological sites, reveals its true age&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://ciechanow.ski/internal-combustion-engine/&#34;&gt;Internal Combustion Engine&lt;/a&gt;&lt;/strong&gt; — A stunning explanation of how these everyday, yet intricate, devices work. Lots of beautiful interactive diagrams.&lt;/p&gt;
+&lt;!-- @bciechanowski --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://mars.nasa.gov/technology/helicopter/status/298/what-were-learning-about-ingenuitys-flight-control-and-aerodynamic-performance/&#34;&gt;What We’re Learning About Ingenuity’s Flight Control and Aerodynamic Performance&lt;/a&gt;&lt;/strong&gt; — The helicopter relies on a set of flight control algorithms that were developed before Ingenuity was even launched to Mars.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.hackster.io/news/researchers-recycle-lithium-ion-batteries-via-simple-electrolysis-and-restore-near-new-performance-889354168c52&#34;&gt;Researchers Recycle Lithium-Ion Batteries via Simple Electrolysis&lt;/a&gt;&lt;/strong&gt; — Batteries can be restored to almost new condition without the need to crush, dissolve, or melt their materials.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.nytimes.com/2021/04/27/magazine/global-life-span.html&#34;&gt;How Humanity Gave Itself an Extra Life&lt;/a&gt;&lt;/strong&gt; — Between 1920 and 2020, the average human life span doubled. How did we do it?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.newyorker.com/magazine/2021/05/10/persuading-the-body-to-regenerate-its-limbs&#34;&gt;Persuading the Body to Regenerate Its Limbs&lt;/a&gt;&lt;/strong&gt; — Deer can regrow their antlers, and humans can replace their liver. What else might be possible?&lt;/p&gt;
+&lt;!-- @SilverJacket --&gt;
+&lt;h2 id=&#34;life&#34;&gt;#life&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://nautil.us/issue/99/universality/what-makes-music-universal&#34;&gt;What Makes Music Universal&lt;/a&gt;&lt;/strong&gt; — Music brings us together to show us how different we are.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.iflscience.com/health-and-medicine/the-man-who-put-his-head-inside-a-particle-accelerator-while-it-was-switched-on/&#34;&gt;The Man Who Put His Head Inside A Particle Accelerator While It Was Switched On&lt;/a&gt;&lt;/strong&gt; — At first, he felt no pain. He knew what had happened, as he had seen a light “brighter than a thousand Suns&amp;quot;. Remarkably, he did not die.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.bbc.com/future/article/20210428-what-is-the-worlds-sexiest-accent&#34;&gt;Can you make yourself sound more attractive?&lt;/a&gt;&lt;/strong&gt; — Many nationalities recognise that there is a tone of voice that is instantly alluring, but do some speakers have an unfair advantage?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.swyx.io/8020/&#34;&gt;80/20 is the new Half-Ass&lt;/a&gt;&lt;/strong&gt; — Don&amp;rsquo;t spend your life spraying 20% effort all over the place only to look back and wonder why you never hit 100% on anything.&lt;/p&gt;
+&lt;!-- @swyx --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.artofmanliness.com/articles/the-incredible-underrated-allen-wrench/&#34;&gt;The Incredible, Underrated Allen Wrench&lt;/a&gt;&lt;/strong&gt; — Six contact surfaces means less chance of slipping and stripping. This may also be why an Allen wrench feels strangely more satisfying.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://svenschnieders.com/on-wasting-time&#34;&gt;On Wasting Time&lt;/a&gt;&lt;/strong&gt; — To come up with great ideas, one has to waste a great amount of time.&lt;/p&gt;
+&lt;!-- @SvenSchnieders --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.bbc.com/news/business-56915767&#34;&gt;The company where colleagues decide your salary&lt;/a&gt;&lt;/strong&gt; — A software firm in Argentina is trying a radical experiment in employee transparency and democracy.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://lithub.com/on-the-link-between-great-thinking-and-obsessive-walking/&#34;&gt;On the Link Between Great Thinking and Obsessive Walking&lt;/a&gt;&lt;/strong&gt; — Why does walking help us think?&lt;/p&gt;
+&lt;h2 id=&#34;random&#34;&gt;#random&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.reddit.com/r/MapPorn/comments/n11o5i/world_map_of_borders/&#34;&gt;Hand-drawn world map of borders&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.mazette.net&#34;&gt;Mazette&lt;/a&gt;&lt;/strong&gt; — Mesmerizing mazes. Let the maze decide for you.&lt;/p&gt;
+&lt;h2 id=&#34;end&#34;&gt;#end&lt;/h2&gt;
+&lt;p&gt;If you enjoyed these stories, please subscribe (if you haven&amp;rsquo;t already). Or else, &lt;a href=&#34;https://twitter.com/bengtanAU&#34;&gt;follow me on twitter&lt;/a&gt; to get the same content throughout the week.&lt;/p&gt;
+&lt;p&gt;Also, I&amp;rsquo;d love it if you shared this newsletter with a friend or two.&lt;/p&gt;
+&lt;p&gt;Have a great weekend!&lt;/p&gt;
+        
+      </description>
+    </item>
+    
     <item>
       <title>Interesting Things #2 — Can you trust floating-point arithmetic on Apple Silicon?</title>
       <link>https://bengtan.com/interesting-things/002/</link>
