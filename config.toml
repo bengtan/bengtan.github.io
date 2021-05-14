@@ -51,6 +51,11 @@ ga_analytics = "G-VTEK0C8GRX"
     weight = 4
     url = "index.xml"
 
+  [[menu.links]]
+    name = "Interesting Things"
+    weight = 1
+    url = "/interesting-things"
+
 [taxonomies]
   tag = "tags"
 
