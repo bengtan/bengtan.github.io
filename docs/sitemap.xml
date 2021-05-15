@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://bengtan.com/</loc>
-    <lastmod>2021-05-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://bengtan.com/interesting-things/</loc>
     <lastmod>2021-05-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://bengtan.com/interesting-things/004/</loc>
+    <lastmod>2021-05-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bengtan.com/</loc>
     <lastmod>2021-05-14T00:00:00+00:00</lastmod>
   </url>
   
@@ -79,26 +79,6 @@
   
   <url>
     <loc>https://bengtan.com/blog/email-untracker/</loc>
-    <lastmod>2021-03-23T12:00:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bengtan.com/tags/privacy/</loc>
-    <lastmod>2021-03-23T12:00:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bengtan.com/tags/sponsorware/</loc>
-    <lastmod>2021-03-23T12:00:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bengtan.com/tags/</loc>
-    <lastmod>2021-03-23T12:00:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bengtan.com/tags/untracker/</loc>
     <lastmod>2021-03-23T12:00:00+08:00</lastmod>
   </url>
   
@@ -185,6 +165,10 @@
   
   <url>
     <loc>https://bengtan.com/resume/</loc>
+  </url>
+  
+  <url>
+    <loc>https://bengtan.com/tags/</loc>
   </url>
   
   <url>
