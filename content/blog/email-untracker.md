@@ -2,7 +2,7 @@
 title: "email-untracker: Get rid of tracking links and spy pixels (self-hosted)"
 type: post
 date: 2021-03-23T12:00:00+08:00
-tags: ["privacy", "untracker", "sponsorware"]
+# tags: ["privacy", "untracker", "sponsorware"]
 ---
 
 Following up on my [previous post](/blog/untracker-remove-tracking-from-email/), I'd like to announce that email-untracker (or Untracker for short) is now available.

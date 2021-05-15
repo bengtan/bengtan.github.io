@@ -3,7 +3,7 @@ title: "Email Cleaner: Clean tracking links and pixels from email newsletters"
 type: post
 date: 2021-02-28T12:00:00+08:00
 toc: true
-tags: ["privacy", "untracker"]
+# tags: ["privacy", "untracker"]
 ---
 
 *(UPDATE @2021-03-12: There is a [follow-up post](/blog/untracker-remove-tracking-from-email/))*

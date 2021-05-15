@@ -2,7 +2,7 @@
 title: "A tour of sponsorware"
 type: post
 date: 2021-03-16T12:00:00+08:00
-tags: ["sponsorware"]
+# tags: ["sponsorware"]
 ---
 
 Been reading into sponsorware to see how it could be used to fund open source. Here's a bunch of links arranged in a semi-timeline.
