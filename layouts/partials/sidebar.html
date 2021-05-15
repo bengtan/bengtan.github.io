@@ -23,6 +23,8 @@
       {{- end }}
     </ul>
     {{- end }}
+
+    <!--
     {{ if not .IsPage }}
     <h2 class="mt-4">{{ T "recent_posts" }}</h2>
     <ul class="flex-column">
@@ -34,7 +36,9 @@
       {{- end }}
     </ul>
     {{- end }}
+    -->
 
+    <!--
     <h2 class="mt-4">Links</h2>
     <ul class="flex-column">
       {{- range .Site.Menus.links }}
@@ -43,6 +47,7 @@
       </li>
       {{- end }}
     </ul>
+    -->
 
     {{ if not .IsPage }}
     {{- $tagsLimit := (default 100 $s.numberOfTagsShown) }}

@@ -38,6 +38,11 @@ ga_analytics = "G-VTEK0C8GRX"
   weight = 300
   url = "/newsletter/"
 
+  [[menu.main]]
+  name = "Interesting Things"
+  weight = 400
+  url = "/interesting-things/"
+
   [[menu.social]]
     name = "github"
     weight = 1
@@ -50,11 +55,6 @@ ga_analytics = "G-VTEK0C8GRX"
     name = "rss"
     weight = 4
     url = "index.xml"
-
-  [[menu.links]]
-    name = "Interesting Things"
-    weight = 1
-    url = "/interesting-things"
 
 [taxonomies]
   tag = "tags"
