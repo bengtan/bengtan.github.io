@@ -3,7 +3,7 @@ title: "About"
 showDate: false
 ---
 
-<img src="/images/portrait.jpg" style="width: 120px; border-radius: 50%;" />
+<img src="/images/portrait.jpg" style="width: 120px; border-radius: 50%; float: left; margin-right: 1em;" />
 
 I'm Beng Tan, a freelance software engineer.
 
@@ -11,9 +11,9 @@ This is my [blog](/blog). I write about software, tech, startups and random thin
 
 I also curate a newsletter of [interesting stories and links](/newsletter) from tech, indie business, science, and adjacents.
 
-If you're new here, start with one of these blog posts:
+<p style="clear: both;">If you're new here, start with one of these:</p>
 
-* [I started a newsletter of Interesting Things](/blog/interesting-things/)
+* [A recent edition of Interesting Things](/newsletter/sample/)
 * [A New Beginning](/blog/a-new-beginning)
 * [Open secrets about Hacker News](/blog/open-secrets-hacker-news)
 <!--* [email-untracker: Get rid of tracking links and spy pixels (self-hosted)](/blog/email-untracker)-->
