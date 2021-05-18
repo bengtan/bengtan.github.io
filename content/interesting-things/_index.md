@@ -1,5 +1,6 @@
 ---
 title: "Interesting Things"
+shareImage: /images/interestingthings.png
 aliases: ["reading-list"]
 ---
 
