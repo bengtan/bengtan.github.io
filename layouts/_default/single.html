@@ -9,14 +9,16 @@
 {{- end }}
 {{- $image := $scratch.Get "image" }}
 {{- $bg := absLangURL (path.Join "images" $image) }}
-<div class="{{ if ne $p.singleColumn true }}grid-inverse {{ end }}wrap content">
+<div class="{{ if ne $p.singleColumn true }}grid-inverse {{ end }}wrap content content-{{ $p.type }}">
   <article class="post_content">
     {{- $t := .Title }}
     <h1 class="post_title">{{ $t }}</h1>
     {{- partial "post-meta" . }}
     {{ partial "share" . }}
-    {{ with $p.featureImage }}
-    <img src="{{ . }}" class="image_featured" alt="{{ $t }}">
+    {{ if $p.featureImage }}
+    <img src="{{ $p.featureImage }}" class="image_featured" alt="{{ $t }}">
+    {{ else if $p.thumbnail }}
+    <img src="{{ $p.thumbnail }}" class="float_left">
     {{ end }}
     {{ if $p.toc }}
     <h2>{{ T "overview" }}</h2>
