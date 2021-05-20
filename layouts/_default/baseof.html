@@ -1,5 +1,6 @@
 {{- $s := .Site.Params }}
 {{- $p := .Params }}
+{{- if not (isset .Params "location") }}
 <!DOCTYPE html>
 <html lang="{{ .Lang }}" data-figures="{{ $p.figurePositionShow }}"{{ if .IsPage }} class="page"{{ end }}{{ if .IsHome }} class="home"{{ end }}{{ with $s.enforceLightMode }} data-mode="lit"{{ end }}{{ with $s.enforceDarkMode }} data-mode="dim"{{ end }}>
   <head>
@@ -78,3 +79,4 @@
     {{ partial "hooks/body-end.html" . }}
   </body>
 </html>
+{{- end -}}
