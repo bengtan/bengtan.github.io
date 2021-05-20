@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://bengtan.com/blog/</loc>
+    <lastmod>2021-05-20T09:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bengtan.com/</loc>
+    <lastmod>2021-05-20T09:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bengtan.com/blog/substack-then-buttondown/</loc>
+    <lastmod>2021-05-20T09:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://bengtan.com/interesting-things/</loc>
     <lastmod>2021-05-14T00:00:00+00:00</lastmod>
   </url>
@@ -13,18 +28,8 @@
   </url>
   
   <url>
-    <loc>https://bengtan.com/</loc>
-    <lastmod>2021-05-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://bengtan.com/interesting-things/003/</loc>
     <lastmod>2021-05-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bengtan.com/blog/</loc>
-    <lastmod>2021-04-30T15:00:00+08:00</lastmod>
   </url>
   
   <url>
