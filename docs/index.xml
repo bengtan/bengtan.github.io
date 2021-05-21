@@ -6,7 +6,21 @@
     <description>Recent content in Recent Posts on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Thu, 20 May 2021 09:00:00 +0800</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Interesting Things #5 — The Last CPU</title>
+      <link>https://bengtan.com/interesting-things/005/</link>
+      <pubDate>Fri, 21 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bengtan.com/interesting-things/005/</guid>
+      <description>
+        
+          &lt;p&gt;Not public yet. &lt;a href=&#34;https://bengtan.com/newsletter&#34;&gt;Subscribe&lt;/a&gt; to get it in your inbox now!&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
     <item>
       <title>Why I chose Substack but then quickly moved to Buttondown</title>
       <link>https://bengtan.com/blog/substack-then-buttondown/</link>
@@ -129,7 +143,124 @@ Reflections on substack
       <guid>https://bengtan.com/interesting-things/004/</guid>
       <description>
         
-          &lt;p&gt;Not public yet. &lt;a href=&#34;https://bengtan.com/newsletter&#34;&gt;Subscribe&lt;/a&gt; to get it in your inbox.&lt;/p&gt;
+          &lt;p&gt;Hi!&lt;/p&gt;
+&lt;p&gt;Welcome to the fourth edition of Interesting Things, a curation of interesting stories and links from tech, indie business, science, and adjacents.&lt;/p&gt;
+&lt;p&gt;(Housekeeping: I recently moved this newsletter from Substack. This is the first edition to be sent out via Buttondown.)&lt;/p&gt;
+&lt;p&gt;The following are things I came across during my Internet wanderings. I find them interesting, and I hope you do too.&lt;/p&gt;
+&lt;p&gt;Happy reading!&lt;/p&gt;
+&lt;h2 id=&#34;tech&#34;&gt;#tech&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://breakingsmart.substack.com/p/superhistory-not-superintelligence&#34;&gt;Superhistory, Not Superintelligence&lt;/a&gt;&lt;/strong&gt; — Simpler algorithms and more data do better than more complex algorithms with less data. What are the implications?&lt;/p&gt;
+&lt;!-- @vgr --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://mjg59.dreamwidth.org/56917.html&#34;&gt;More doorbell adventures&lt;/a&gt;&lt;/strong&gt; — Reverse-engineering an internet-enabled doorbell and discovering the code is &amp;hellip; meh.&lt;/p&gt;
+&lt;!-- @mjg59 --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://explained-from-first-principles.com/email/&#34;&gt;Email explained from first principles&lt;/a&gt;&lt;/strong&gt; — Modern email is a patchwork of protocols and extensions. Here is one article to understand them all.&lt;/p&gt;
+&lt;!-- @ExplainedFrom1P --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://pythonspeed.com/articles/python-extension-performance/&#34;&gt;The hidden performance overhead of Python C extensions&lt;/a&gt;&lt;/strong&gt; (Apr 2021) — Rewriting python code in a compiled extension is sometimes actually slower.&lt;/p&gt;
+&lt;!-- @itamarst --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://cpojer.net/posts/dependency-managers-dont-manage-your-dependencies&#34;&gt;Dependency Managers Don’t Manage Your Dependencies&lt;/a&gt;&lt;/strong&gt; — Manage front end dependencies yourself instead.&lt;/p&gt;
+&lt;!-- @cpojer --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://betterprogramming.pub/apparently-you-can-use-route53-as-a-blazingly-fast-database-dd416b56b005&#34;&gt;Apparently, You Can Use DNS as a Blazingly Fast Database&lt;/a&gt;&lt;/strong&gt; (Mar 2021) — Possible but not advised.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://pncnmnp.github.io/blogs/oss-guide.html&#34;&gt;General Guide For Exploring Large Open Source Codebases&lt;/a&gt;&lt;/strong&gt; — A general guide to help people with open source contributions.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.jcline.org/blog/fedora/graphics/hdr/2021/05/07/hdr-in-linux-p1.html&#34;&gt;HDR: Part 1&lt;/a&gt;&lt;/strong&gt; — In this post I’ll cover what high dynamic range (HDR) is and why we care about it.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://markodenic.com/github-repositories/&#34;&gt;GitHub repositories to improve skills&lt;/a&gt;&lt;/strong&gt; (Dec 2020) — Free programming books, algorithms, public APIs, and much more.&lt;/p&gt;
+&lt;!-- @denicmarko --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://tpetry.me/20210507-how-to-optimize-order-by-random&#34;&gt;How to optimize ORDER BY RANDOM()&lt;/a&gt;&lt;/strong&gt; — Selecting some random rows is an SQL antipattern as databases don’t have optimizations for this use case.&lt;/p&gt;
+&lt;!-- @tobias_petry --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://deepu.tech/my-second-impression-of-rust/&#34;&gt;My second impression of Rust and why I think it&amp;rsquo;s the best general-purpose language!&lt;/a&gt;&lt;/strong&gt; — You won’t appreciate Rust unless you spend a few weeks building something with it.&lt;/p&gt;
+&lt;!-- @deepu105 --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.dannyguo.com/blog/what-i-learned-by-relearning-html&#34;&gt;What I Learned by Relearning HTML&lt;/a&gt;&lt;/strong&gt; — I wondered what I was missing by never learning HTML in a comprehensive way. So I decided to relearn it and discover my unknown unknowns.&lt;/p&gt;
+&lt;!-- @dannyguo --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://jerue.org/blog/lessons-on-writing-javascript-and-react-from-clojurescript/&#34;&gt;Lessons On Writing JavaScript and React From ClojureScript&lt;/a&gt;&lt;/strong&gt; — ClojureScript has unlocked whole new levels of productivity in JavaScript and React.&lt;/p&gt;
+&lt;!-- @rjerue --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.brainonfire.net/blog/2021/05/06/cryptographic-shuffle/&#34;&gt;Cryptographic shuffle&lt;/a&gt;&lt;/strong&gt; — What if I needed to shuffle a list (or traverse it in a shuffled manner) but couldn&amp;rsquo;t hold the whole thing in memory?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://jemma.dev/blog/gc-compaction&#34;&gt;Ruby Garbage Collection Deep Dive: Compaction&lt;/a&gt;&lt;/strong&gt; — Compaction is the solution to fragmentation. Well okay, but what’s wrong with fragmentation? What is compaction solving?&lt;/p&gt;
+&lt;!-- @JemmaIssroff --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.pinecone.io/learn/vector-database/&#34;&gt;Reimagining Databases for Vector Embeddings&lt;/a&gt;&lt;/strong&gt; — How is a vector database different from a conventional database?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://jakearchibald.com/2021/io-site-perf/&#34;&gt;Performance-testing the Google I/O site&lt;/a&gt;&lt;/strong&gt; — Imagine if a restaurant told you: &amp;lsquo;We spend 20 minutes cooking everything you might possibly ask for so when you pick something, we can give it to you instantly&amp;rsquo;.&lt;/p&gt;
+&lt;!-- @jaffathecake #javascript #webdev #frontend #frontenddev #webdevelopment --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.securityjourney.com/post/how-performance-became-the-nemesis-of-the-secure-python-code&#34;&gt;How Performance Became the Nemesis of the Secure Python Code&lt;/a&gt;&lt;/strong&gt; — Nothing forecasts the future of a programming language better than the epos of its community. For Python, one word dominates: performance.&lt;/p&gt;
+&lt;!-- @dkotik #python #coding --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://dev.to/this-is-learning/components-are-pure-overhead-hpm&#34;&gt;Components are Pure Overhead&lt;/a&gt;&lt;/strong&gt; — I explore the cost of components in JavaScript frameworks and ask whether components are just overhead?&lt;/p&gt;
+&lt;!-- @RyanCarniato #javascript #webdev #react #svelte --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://dropbox.tech/infrastructure/boosting-dropbox-upload-speed&#34;&gt;Boosting Dropbox upload speed and improving Windows’ TCP stack&lt;/a&gt;&lt;/strong&gt; — As a result, Microsoft improved the Windows implementation of the TCP RACK-TLP algorithm and its resilience to packet reordering.&lt;/p&gt;
+&lt;!-- @SaveTheRbtz #tcp --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://zverok.github.io/blog/2021-05-06-how-to-spellcheck.html&#34;&gt;I forgot how to spellcheck&lt;/a&gt;&lt;/strong&gt; — My project has ultimately failed. All I am left with is some insights on the spellchecking problem and I am sharing them now.&lt;/p&gt;
+&lt;!-- @zverok --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.notebookcheck.net/Chia-mining-can-allegedly-wreck-a-512-GB-SSD-in-forty-days.538566.0.html&#34;&gt;Chia mining can allegedly wreck a 512 GB SSD in forty days&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.ufried.com/blog/api_concept_spill/&#34;&gt;Avoiding concept spill in API design&lt;/a&gt;&lt;/strong&gt; (Apr 2021) — Assuming an understanding of internal concepts in order to use an API significantly increases the user’s cognitive load.&lt;/p&gt;
+&lt;!-- @ufried #api --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.cloudflare.com/ssh-raspberry-pi-400-cloudflare-tunnel-auditable-terminal/&#34;&gt;SSHing to my Raspberry Pi 400 from a browser, with Cloudflare Tunnel and Auditable Terminal&lt;/a&gt;&lt;/strong&gt; — Using Cloudflare Tunnel and Auditable Terminal to connect to a Pi 400 at my home network using nothing more than a browser.&lt;/p&gt;
+&lt;!-- @jgrahamc --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/sidkshatriya/me/blob/master/004-A-debugger-is-born.md&#34;&gt;55,000+ lines of Rust code later: A debugger is born!&lt;/a&gt;&lt;/strong&gt; — The Record &amp;amp; Debug Tool (rd), a record/replay debugger written in Rust, has entered alpha.&lt;/p&gt;
+&lt;!-- #rust --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.potaroo.net/ispcol/2021-05/headers.html&#34;&gt;Transport vs Network&lt;/a&gt;&lt;/strong&gt; — In today’s public Internet it appears to matter a lot that the transport protocol header is visible to the network.&lt;/p&gt;
+&lt;!-- #tcpip --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.coltonbrown.com/the-game-that-almost-died-during-covid-and-how-i-made-it-an-app-fa485eed546e&#34;&gt;The game that almost died during COVID and how I made it an app&lt;/a&gt;&lt;/strong&gt; — A reflection on 1 year of writeydrawey.&lt;/p&gt;
+&lt;!-- @coltontbrown --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.imore.com/someone-mailed-airtag-themselves-see-if-they-could-track-its-route&#34;&gt;Someone mailed an AirTag to themselves to see if they could track its route&lt;/a&gt;&lt;/strong&gt; — Capturing it&amp;rsquo;s location every 2 minutes, I am trying to figure out the route of a letter by regular mail.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.philnewton.net/blog/distraction-free-writing-with-emacs/&#34;&gt;Distraction free writing with Emacs&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;!-- @sodaware #emacs #orgmode --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://dmitry.gr/?r=05.Projects&amp;amp;proj=30.%20Reverse%20Engineering%20an%20Unknown%20Microcontroller&#34;&gt;Reverse Engineering an Unknown Microcontroller&lt;/a&gt;&lt;/strong&gt; — From nothing to a full SDK in one week flat!&lt;/p&gt;
+&lt;!-- @dmitrygr --&gt;
+&lt;h2 id=&#34;indie-biz&#34;&gt;#indie biz&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://mslotnick.substack.com/p/a-unified-theory-of-lowno-code-middleware&#34;&gt;a unified theory of low/no code, middleware, and the future of enterprise applications&lt;/a&gt;&lt;/strong&gt; (Feb 2021) — Why is Salesforce unbundling itself? What are the implications for the future of enterprise software?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://growth.design/case-studies/clubhouse-user-retention/&#34;&gt;The Psychology of Clubhouse&amp;rsquo;s User Retention (&amp;hellip;and Churn)&lt;/a&gt;&lt;/strong&gt; — A semi-humourous case study into the psychology of user retention. Via &lt;a href=&#34;https://theslice.co&#34;&gt;TheSlice&lt;/a&gt;.&lt;/p&gt;
+&lt;!-- @growthdotdesign --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.economist.com/briefing/2021/05/08/the-new-rules-of-the-creator-economy&#34;&gt;The new rules of the creator economy&lt;/a&gt;&lt;/strong&gt; — Social media platforms used to get most of their content for free. That dynamic is changing.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.ondrej.co/post/dont-build-products-build-relationships&#34;&gt;Don&amp;rsquo;t build products, build relationships&lt;/a&gt;&lt;/strong&gt; — In order to validate your product idea, you have to first forget about it and start building relationships.&lt;/p&gt;
+&lt;!-- @oprostrednik #startup #startups #product #startupideas --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.joshpitzalis.com/frequency/&#34;&gt;Do you know how often people have the problem you help them solve?&lt;/a&gt;&lt;/strong&gt; — The natural frequency of the problem your product solves helps gauge what’s too little and what’s too much.&lt;/p&gt;
+&lt;!-- @joshpitzalis #startup --&gt;
+&lt;h2 id=&#34;science&#34;&gt;#science&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.sciencealert.com/quantum-entanglement-has-now-been-directly-observed-at-a-larger-macroscopic-scale&#34;&gt;Quantum Entanglement Has Now Been Directly Observed at a Larger Macroscopic Scale&lt;/a&gt;&lt;/strong&gt; — Another link: &lt;a href=&#34;https://www.nature.com/articles/d41586-021-01223-4&#34;&gt;Minuscule drums push the limits of quantum weirdness&lt;/a&gt;&lt;/p&gt;
+&lt;!-- @davidnield --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.wired.com/story/sharks-use-the-earths-magnetic-field-like-a-compass/&#34;&gt;Sharks Use the Earth’s Magnetic Field Like a Compass&lt;/a&gt;&lt;/strong&gt; — Someone finally figured out how to prove these animals rely on magnetic sensing to migrate across oceans.&lt;/p&gt;
+&lt;!-- @atsaraharrison --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.smithsonianmag.com/smart-news/archaeologists-uncover-bronze-age-settlement-switzerland-180977651/&#34;&gt;3,000-Year-Old Submerged Settlement Discovered in Switzerland&lt;/a&gt;&lt;/strong&gt; — Humans may have inhabited the Lake Lucerne area 2,000 years earlier than previously thought&lt;/p&gt;
+&lt;!-- @IsisDavisMarks --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.newscientist.com/article/2277050-measuring-time-accurately-increases-the-entropy-in-the-universe/&#34;&gt;Measuring time accurately increases the entropy in the universe&lt;/a&gt;&lt;/strong&gt; — The better a clock is at timekeeping, the more entropy it will produce in the form of heat.&lt;/p&gt;
+&lt;!-- @DownHereOnEarth --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.quantamagazine.org/how-gravity-is-a-double-copy-of-other-forces-20210504/&#34;&gt;How Gravity Is a Double Copy of Other Forces&lt;/a&gt;&lt;/strong&gt; — An enigmatic connection between the forces of nature is allowing physicists to explore gravity’s quantum side.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.bbc.com/news/business-56843149&#34;&gt;Mind-boggling magnets could unlock plentiful power&lt;/a&gt;&lt;/strong&gt; — Powerful magnets are bringing nuclear fusion a step closer.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.quantamagazine.org/how-mathematicians-use-homology-to-make-sense-of-topology-20210511/&#34;&gt;How Mathematicians Use Homology to Make Sense of Topology&lt;/a&gt;&lt;/strong&gt; — Originally devised as a rigorous means of counting holes, homology provides a scaffolding for mathematical ideas.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://edition.cnn.com/2021/05/11/world/jupiter-new-images-scn/index.html&#34;&gt;New images of Jupiter reveal some of the planet&amp;rsquo;s mysterious features&lt;/a&gt;&lt;/strong&gt; — Unique atmospheric features of the gas giant include superstorms, cyclones and the Great Red Spot.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.nytimes.com/2021/05/11/science/seeds-germinated-michigan-state.html&#34;&gt;One of the World’s Longest-Running Experiments Sends Up Sprouts&lt;/a&gt;&lt;/strong&gt; — After lying dormant in buried bottles for 142 years, 11 seeds germinated after scientists planted them.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://arstechnica.com/science/2021/05/neural-implant-lets-paralyzed-person-type-by-imagining-writing/&#34;&gt;Neural implant lets paralyzed person type by imagining writing&lt;/a&gt;&lt;/strong&gt; — A paralyzed individual hit 90 characters per minute, 99% accuracy.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://mailchi.mp/0d9c51072475/the-promise-and-perils-of-insect-farming&#34;&gt;The Promise and Perils of Insect Farming&lt;/a&gt;&lt;/strong&gt; — Insect farming is on the rise. The industry is now building insect farms on a huge new scale.&lt;/p&gt;
+&lt;h2 id=&#34;life&#34;&gt;#life&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://dl.acm.org/doi/pdf/10.1145/3309074.3309076&#34;&gt;Privacy Implications of Accelerometer Data&lt;/a&gt;&lt;/strong&gt; — Accelerometer data from smartphones can reveal location, passwords, body features, age, gender, level of intoxication, driving style, and reconstruct words. &lt;a href=&#34;https://www.reddit.com/r/Physics/comments/n5ghpm/researchers_found_that_accelerometer_data_from/&#34;&gt;Reddit&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.wired.com/story/ai-fueled-dungeon-game-got-much-darker/&#34;&gt;It Began as an AI-Fueled Dungeon Game. It Got Much Darker&lt;/a&gt;&lt;/strong&gt; — The game touted its use of the GPT-3 text generator. Then the algorithm started to generate disturbing stories.&lt;/p&gt;
+&lt;!-- @tsimonite --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://piet.me/my-email-workflow-in-fastmail/&#34;&gt;My email workflow in Fastmail&lt;/a&gt;&lt;/strong&gt; — Customising your email setup to be less noisy and more productive.&lt;/p&gt;
+&lt;!-- @pietvanzoen --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://tedium.co/2021/05/07/linux-live-cd-history/&#34;&gt;Boot Vector&lt;/a&gt;&lt;/strong&gt; — A history of the live CD form factor that changed linux forever.&lt;/p&gt;
+&lt;!-- @shortformernie --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.wired.com/story/wolf-tree-world-wide-web/&#34;&gt;The Wolf Tree and the World Wide Web&lt;/a&gt;&lt;/strong&gt; — Reflections on parenting, climate change, and the networks at the heart of the forest.&lt;/p&gt;
+&lt;!-- @DrSuzanneSimard --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.calnewport.com/blog/2021/05/06/the-neuroscience-of-busyness/&#34;&gt;The Neuroscience of Busyness&lt;/a&gt;&lt;/strong&gt; — We’re biased towards doing more than doing less.&lt;/p&gt;
+&lt;!-- #productivity --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://dcurt.is/contribution-and-abundance&#34;&gt;Contribution and abundance&lt;/a&gt;&lt;/strong&gt; — A remarkable response to a question about joy and happiness.&lt;/p&gt;
+&lt;!-- @dcurtis --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.notboring.co/p/the-great-online-game&#34;&gt;The Great Online Game&lt;/a&gt;&lt;/strong&gt; — How to Win the Internet.&lt;/p&gt;
+&lt;!-- @packyM --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.eff.org/deeplinks/2021/05/japans-rikunabi-scandal-shows-dangers-privacy-law-loopholes&#34;&gt;Japan’s Rikunabi Scandal Shows The Dangers of Privacy Law Loopholes&lt;/a&gt;&lt;/strong&gt; — A job-seeking platform calculated and sold algorithmic scores which predicted how likely individual job applicants would decline a job offer.&lt;/p&gt;
+&lt;!-- #privacy --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://eftegarie.com/how-i-overcame-my-hatred-for-small-talk/&#34;&gt;How I overcame my hatred for small talk&lt;/a&gt;&lt;/strong&gt; — There are generic questions that you can ask new people, which often lead to interesting stories.&lt;/p&gt;
+&lt;!-- @aminozuur --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://thomasorus.com/personal-systems-productivity-and-slippers.html&#34;&gt;Personal systems, productivity, and slippers&lt;/a&gt;&lt;/strong&gt; — A reflection on personal tooling and how people have different expectations about them.&lt;/p&gt;
+&lt;!-- @thomasorus #productivity --&gt;
+&lt;h2 id=&#34;random&#34;&gt;#random&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://gridentify.com/&#34;&gt;GRIDENTIFY&lt;/a&gt;&lt;/strong&gt; — A tiny online puzzle game.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://kottke.org/21/05/low-poly-landscapes&#34;&gt;Low Poly Landscapes&lt;/a&gt;&lt;/strong&gt; — These look like half-finished renderings by the machine that&amp;rsquo;s simulating our universe.&lt;/p&gt;
+&lt;!-- @kottke --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.morphingmatter.cs.cmu.edu/projects/morphing-pasta-and-beyond&#34;&gt;Flatpack of morphing pasta for sustainable food packaging and greener cooking&lt;/a&gt;&lt;/strong&gt; — Flatpacked pasta that inflates itself during cooking. Yes, really!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.historytoday.com/archive/history-matters/feather-her-cap&#34;&gt;A Feather in her Cap&lt;/a&gt;&lt;/strong&gt; — A global trade in feathers, with London at its heart, saw hundreds of millions of birds killed every year. Emily Williamson waged a long and furious campaign against it.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.nature.com/immersive/d41586-021-01121-9/index.html&#34;&gt;Black holes, buckyballs and boxing hares — April’s best science images&lt;/a&gt;&lt;/strong&gt; — The month’s sharpest science shots, selected by Nature’s photo team.&lt;/p&gt;
+&lt;h2 id=&#34;end&#34;&gt;#end&lt;/h2&gt;
+&lt;p&gt;If you enjoyed these stories, I&amp;rsquo;d love it if you shared this newsletter with a friend or two.&lt;/p&gt;
+&lt;p&gt;And should you come across anything interesting in your wanderings, please email or tweet me! I&amp;rsquo;d love to give them some exposure too.&lt;/p&gt;
+&lt;p&gt;Happy reading!&lt;br&gt;
+Beng&lt;/p&gt;
 
         
       </description>
