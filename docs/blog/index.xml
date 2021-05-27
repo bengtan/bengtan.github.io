@@ -6,7 +6,390 @@
     <description>Recent content in Blog on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Thu, 20 May 2021 09:00:00 +0800</lastBuildDate><atom:link href="https://bengtan.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 May 2021 12:00:00 +0800</lastBuildDate><atom:link href="https://bengtan.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What&#39;s in email tracking links and pixels?</title>
+      <link>https://bengtan.com/blog/whats-in-email-tracking-links-and-pixels/</link>
+      <pubDate>Thu, 27 May 2021 12:00:00 +0800</pubDate>
+      
+      <guid>https://bengtan.com/blog/whats-in-email-tracking-links-and-pixels/</guid>
+      <description>
+        
+          &lt;p&gt;This is an investigation into the techniques used by some email (newsletter) providers to track their readers&#39; activity. It attempts to deconstruct tracking links and pixels and highlight the data that is being collected.&lt;/p&gt;
+&lt;p&gt;Some of this work occurred during the development of email-untracker. The rest of it occurred as part of this article. It covers mailing list providers that I have personally encountered: Mailchimp, ConvertKit, Substack and other Mailgun retailers.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;TL;DR:&lt;/strong&gt; Mailchimp and ConvertKit were successfully analysed. Substack and Mailgun required reverse engineering and only yielded partial results (Assistance requested!). There&amp;rsquo;s also some extra commentary in the appendix.&lt;/p&gt;
+&lt;h2 id=&#34;mailchimp&#34;&gt;Mailchimp&lt;/h2&gt;
+&lt;h3 id=&#34;tracking-links&#34;&gt;Tracking links&lt;/h3&gt;
+&lt;p&gt;Mailchimp&amp;rsquo;s tracking links are of the form &lt;code&gt;https://??.us?.list-manage.com/track/click?u=??&amp;amp;id=??&amp;amp;e=??&lt;/code&gt; and contain three identifiers: &lt;code&gt;u&lt;/code&gt;, &lt;code&gt;id&lt;/code&gt; and &lt;code&gt;e&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;For example, the following is a link that appears at the top of a recent email newsletter I received:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;https://pointer.us9.list-manage.com/track/click?u&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;e9492ff27d760c578a39d0675&amp;amp;id&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;6085259441&amp;amp;e&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;626d6fa0c9
+&lt;span style=&#34;color:#75715e&#34;&gt;# redirects to:&lt;/span&gt;
+https://www.pointer.io/?utm_source&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;Pointer&amp;amp;utm_campaign&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;d184bdae50-ISSUE_228&amp;amp;utm_medium&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;email&amp;amp;utm_term&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;0_6ba2b83261-d184bdae50-606996230
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Near the bottom of the same email, there is a similar looking (ie. same anchor text) link:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;https://pointer.us9.list-manage.com/track/click?u&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;e9492ff27d760c578a39d0675&amp;amp;id&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;1624638cad&amp;amp;e&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;626d6fa0c9
+&lt;span style=&#34;color:#75715e&#34;&gt;# redirects to:&lt;/span&gt;
+https://www.pointer.io/?utm_source&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;Pointer&amp;amp;utm_campaign&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;d184bdae50-ISSUE_228&amp;amp;utm_medium&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;email&amp;amp;utm_term&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;0_6ba2b83261-d184bdae50-606996230
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Mailchimp&amp;rsquo;s links are straightforward and there are no surprises. By comparing links across different subscribers and issues of the same publication, the following can be inferred:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;u&lt;/code&gt; is the mailchimp account id of the publisher&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;id&lt;/code&gt; is a link id that is unique per issue. Notice that the two links above point to the same destination URL but have different &lt;code&gt;id&lt;/code&gt; values.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;e&lt;/code&gt; is the subscriber id. This number stays the same across different issues of the same publication. It differs if the email is sent to a different email address.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;When you click on a mailchimp tracking link, mailchimp knows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Which link you clicked on (and from which email) and&lt;/li&gt;
+&lt;li&gt;Your subscriber id&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Furthermore, mailchimp validates/requires all three IDs. If any of those three values are incorrect, the tracking link doesn&amp;rsquo;t work (ie. something other than a 30x HTTP code is returned).&lt;/p&gt;
+&lt;!-- tell how to get archive? --&gt;
+&lt;h3 id=&#34;tracking-pixel&#34;&gt;Tracking pixel&lt;/h3&gt;
+&lt;p&gt;Mailchimp&amp;rsquo;s tracking pixel looks like this.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;img&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://pointer.us9.list-manage.com/track/open.php?u=e9492ff27d760c578a39d0675&amp;amp;id=d184bdae50&amp;amp;e=626d6fa0c9&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;height&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;1&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;width&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;1&amp;#34;&lt;/span&gt;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;It embeds the publisher id &lt;code&gt;u&lt;/code&gt; and the subscriber id &lt;code&gt;e&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;In this case &lt;code&gt;id&lt;/code&gt; appears to be a publication or issue identifier (ie. Notice &lt;code&gt;d184bdae50&lt;/code&gt; appears in the &lt;code&gt;utm_campaign&lt;/code&gt; and &lt;code&gt;utm_term&lt;/code&gt; variables in the destination URLs above).&lt;/p&gt;
+&lt;h2 id=&#34;convertkit&#34;&gt;ConvertKit&lt;/h2&gt;
+&lt;h3 id=&#34;tracking-links-1&#34;&gt;Tracking links&lt;/h3&gt;
+&lt;p&gt;ConvertKit&amp;rsquo;s tracking links are of the form &lt;code&gt;https://click.convertkit-mail.com/&amp;lt;a&amp;gt;/&amp;lt;b&amp;gt;/&amp;lt;c&amp;gt;&lt;/code&gt; with parts: &lt;code&gt;a&lt;/code&gt;, &lt;code&gt;b&lt;/code&gt; and &lt;code&gt;c&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;For example, here is a link that appears in a recent email I received:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;https://click.convertkit-mail.com/k0u30rg2pds6hqzw2vtl/48hvheh0nlk28rcx/aHR0cHM6Ly9sb25nLXdhdGVyLTIyMS5jay5wYWdlLzU4NDJjNTQ0OTM&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;
+&lt;span style=&#34;color:#75715e&#34;&gt;# redirects to:&lt;/span&gt;
+https://long-water-221.ck.page/5842c54493
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Let&amp;rsquo;s try to work out what the parts are.&lt;/p&gt;
+&lt;p&gt;Part &lt;code&gt;c&lt;/code&gt; immediately stands out because it looks like base64. Let&amp;rsquo;s attempt to decode it.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;aHR0cHM6Ly9sb25nLXdhdGVyLTIyMS5jay5wYWdlLzU4NDJjNTQ0OTM&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;
+&lt;span style=&#34;color:#75715e&#34;&gt;# base64 decodes to:&lt;/span&gt;
+https://long-water-221.ck.page/5842c54493
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Yep, it is. The destination URL is base64 encoded and embedded in the tracking link as part &lt;code&gt;c&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;What about &lt;code&gt;a&lt;/code&gt; and &lt;code&gt;b&lt;/code&gt;? There&amp;rsquo;s probably an email or subscriber id in there.&lt;/p&gt;
+&lt;p&gt;Searching for the text &lt;code&gt;k0u30rg2pds6hqzw2vtl&lt;/code&gt; in the email shows that it&amp;rsquo;s in every tracking link. But it also appears in the headers:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;Message-ID: &amp;lt;k0u30rg2pds6hqzw2vtl@convertkit-mail.com&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Ah! Part &lt;code&gt;a&lt;/code&gt; is the email id.&lt;/p&gt;
+&lt;p&gt;That only leaves &lt;code&gt;b&lt;/code&gt; to be deciphered. I get stuck for a while trying to guess what &lt;code&gt;b&lt;/code&gt; might be.&lt;/p&gt;
+&lt;p&gt;Then, on a whim, I try changing some values and poking ConvertKit. This is the baseline:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;https://click.convertkit-mail.com/k0u30rg2pds6hqzw2vtl/48hvheh0nlk28rcx/aHR0cHM6Ly9sb25nLXdhdGVyLTIyMS5jay5wYWdlLzU4NDJjNTQ0OTM&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;
+&lt;span style=&#34;color:#75715e&#34;&gt;# redirects to:&lt;/span&gt;
+https://long-water-221.ck.page/5842c54493
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Okay. Let&amp;rsquo;s tamper with the base64 in part &lt;code&gt;c&lt;/code&gt;. I&amp;rsquo;ll just change one letter and see what happens (I change the last &lt;code&gt;M&lt;/code&gt; to &lt;code&gt;m&lt;/code&gt;).&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;https://click.convertkit-mail.com/k0u30rg2pds6hqzw2vtl/48hvheh0nlk28rcx/aHR0cHM6Ly9sb25nLXdhdGVyLTIyMS5jay5wYWdlLzU4NDJjNTQ0OTm&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;
+&lt;span style=&#34;color:#75715e&#34;&gt;# redirects to:&lt;/span&gt;
+https://long-water-221.ck.page/5842c54493
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Huh? Even though part &lt;code&gt;c&lt;/code&gt; now base64-decodes to &lt;code&gt;https://long-water-221.ck.page/5842c54499&lt;/code&gt;, it still redirecting to &lt;code&gt;https://long-water-221.ck.page/5842c54493&lt;/code&gt; (Notice the last character is different). Something&amp;rsquo;s not right.&lt;/p&gt;
+&lt;p&gt;I tamper with &lt;code&gt;c&lt;/code&gt; some more.&lt;/p&gt;
+&lt;p&gt;I discover that it doesn&amp;rsquo;t matter what &lt;code&gt;c&lt;/code&gt; is. As long as it&amp;rsquo;s at least 4 characters and valid base64, the tracking link will redirect to the correct URL.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;https://click.convertkit-mail.com/k0u30rg2pds6hqzw2vtl/48hvheh0nlk28rcx/aHR0
+https://click.convertkit-mail.com/k0u30rg2pds6hqzw2vtl/48hvheh0nlk28rcx/&lt;span style=&#34;color:#f92672&#34;&gt;====&lt;/span&gt;
+https://click.convertkit-mail.com/k0u30rg2pds6hqzw2vtl/48hvheh0nlk28rcx/1234
+&lt;span style=&#34;color:#75715e&#34;&gt;# all redirects to:&lt;/span&gt;
+https://long-water-221.ck.page/5842c54493
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;So &amp;hellip; &lt;code&gt;c&lt;/code&gt; embeds the destination URL in the tracking link but it&amp;rsquo;s not actually used.&lt;/p&gt;
+&lt;p&gt;Which means that something else must be used to identify the destination URL. Well, there&amp;rsquo;s only &lt;code&gt;b&lt;/code&gt; left so it must be &lt;code&gt;b&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s recap:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;a&lt;/code&gt; is the email id. The &lt;code&gt;Message-ID&lt;/code&gt; email header is supposed to be unique for each individual email.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;b&lt;/code&gt; is a link or URL id.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;c&lt;/code&gt; is the destination URL but it&amp;rsquo;s not actually used by ConvertKit to compute the redirect.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;When you click on a tracking link, ConvertKit knows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Which link was clicked (&lt;code&gt;b&lt;/code&gt;), and which email the link appears in (&lt;code&gt;a&lt;/code&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Since &lt;code&gt;a&lt;/code&gt; is unique, presumably ConvertKit uses it to find out which subscriber did the clicking.&lt;/p&gt;
+&lt;h3 id=&#34;tracking-pixel-1&#34;&gt;Tracking pixel&lt;/h3&gt;
+&lt;p&gt;ConvertKit&amp;rsquo;s tracking pixel looks like this:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;img&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://open.convertkit-mail.com/k0u30rg2pds6hqzw2vtl&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;alt&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;It embeds part &lt;code&gt;a&lt;/code&gt;. Ah, this confirms that &lt;code&gt;a&lt;/code&gt; is sufficient to identify the subscriber.&lt;/p&gt;
+&lt;h3 id=&#34;comments&#34;&gt;Comments&lt;/h3&gt;
+&lt;p&gt;Why embed the destination URL but not use it? My guess is that it&amp;rsquo;s a fallback measure. If the server side database of tracking links is down, ConvertKit can fallback to using &lt;code&gt;c&lt;/code&gt; as the destination URL.&lt;/p&gt;
+&lt;h2 id=&#34;substack-and-other-mailgun-retailers&#34;&gt;Substack (and other Mailgun retailers)&lt;/h2&gt;
+&lt;h3 id=&#34;tracking-links-2&#34;&gt;Tracking links&lt;/h3&gt;
+&lt;p&gt;Substack has the most unfriendly and user-hostile tracking links that I&amp;rsquo;ve seen. It&amp;rsquo;s a single undecipherable blob. Here&amp;rsquo;s an example:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;http://email.substack1.exponentialview.co/c/eJxdkEuOhCAQhk_TLI1VIOqCxWz6GoZHaZOx0WDZPc7pB9vdJARSCfU_Pm-ZpiUfZl02Fuc18LGSSfTeZmKmLPaN8hCDwU43UmsUwbTglEIRt2HMRE8bZ8N5J7Hubo7eclzSZwMbFA8DUtV9b0MgqJUf0bmuRtQBGvQtBXfZ2j1ESp4MvSgfSyIxmwfzepNfN7yXw-945qn88iyT_S3GIhqsEYpaUW7apq-gsqOuNYFVspG-gXEEX7sAnXQokWR_U_W2u42t_4aKftbilDja-RXpXbRFNo7SxDZB-Tmd3U7Hs9pQ3ueeIh8DJetmCldrvuB9OAwTJcoFahgsG9Agu06qrut1e9UsWCS2CIWlKDnCUraS-ZfjD2RriM4
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;At first, I thought the blob might be a JWT because the first few characters look similar (All JWTs start with &lt;code&gt;eyJ...&lt;/code&gt;) but it&amp;rsquo;s not. When I put it through a base64 decoder, it still looks like gibberish.&lt;/p&gt;
+&lt;p&gt;So either it&amp;rsquo;s not base64 or it&amp;rsquo;s base64 with a custom alphabet or it&amp;rsquo;s base64 encoding a binary data structure.&lt;/p&gt;
+&lt;p&gt;It really looks like base64 so I experimented with custom alphabets. And didn&amp;rsquo;t get anywhere.&lt;/p&gt;
+&lt;p&gt;Alright, I don&amp;rsquo;t know what these blobs are but let&amp;rsquo;s see if I can do some side-channel analysis.&lt;/p&gt;
+&lt;p&gt;I notice there&amp;rsquo;s a correlation between the blob length and the length of the destination URL. I redirected a random selection of links and noted down the length of the blob and the URL. And graphed them.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;URL length&lt;/th&gt;
+&lt;th&gt;Blob length (Substack)&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;24&lt;/td&gt;
+&lt;td&gt;379&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;24&lt;/td&gt;
+&lt;td&gt;386&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;56&lt;/td&gt;
+&lt;td&gt;399&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;83&lt;/td&gt;
+&lt;td&gt;427&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;106&lt;/td&gt;
+&lt;td&gt;443&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;131&lt;/td&gt;
+&lt;td&gt;470&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;217&lt;/td&gt;
+&lt;td&gt;602&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;288&lt;/td&gt;
+&lt;td&gt;646&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;img src=&#34;substack-blob-length.png&#34; alt=&#34;URL length vs blob length (Substack)&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Yep, there&amp;rsquo;s a correlation. A longer URL results in a longer blob. But it&amp;rsquo;s a bit fuzzy instead of being perfectly deterministic.&lt;/p&gt;
+&lt;p&gt;If it&amp;rsquo;s base64 (which has 33% overhead), each extra character in the URL should increase the blob length by 1.33 characters.&lt;/p&gt;
+&lt;p&gt;Surprisingly, it&amp;rsquo;s not. The gradient in the graph is roughly 1. Each extra character in the URL results in, roughly, an extra character in the blob. This is odd. They managed to do base64 with no overhead?? I put this aside for now and see what else I can find.&lt;/p&gt;
+&lt;p&gt;How large would the blob be if the URL was an empty string? This would be the value of the y-intercept &amp;hellip; which the graph shows to be about 360. A zero-length URL would be encoded in a blob of 360 characters. In other words, there&amp;rsquo;s about 360 characters of other non-URL stuff in the blob.&lt;/p&gt;
+&lt;p style=&#34;text-align: center;&#34;&gt;* * *&lt;/p&gt;
+&lt;p&gt;At some point, I discover that these links aren&amp;rsquo;t generated by Substack but by Mailgun. Mailgun is an outbound email provider that companies use to send out email. Mailgun is a wholesaler and its customers, such as Substack, are retailers.&lt;/p&gt;
+&lt;p&gt;The tracking links are implemented by Mailgun. Mailgun does the tracking and posts the data to the retailer.&lt;/p&gt;
+&lt;p&gt;By happy coincidence, I find out that Buttondown, my email newsletter provider, also uses Mailgun. So I can actually generate these blobs myself and even insert my own plaintext. Fun!&lt;/p&gt;
+&lt;p&gt;My email newsletters don&amp;rsquo;t have tracking links as I disable email tracking with Buttondown. However, to investigate this, I temporarily enabled email tracking. For example:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;http://email.bengtan.com/c/eJyNjL0OgzAQg5-GbKBcOAIZMrRQXgPl7ygShKpN1dcvoA4dkezBlj97jc5CDWzSggvglcDdyAsoUMq277oOhbreBLQZchvimEws3Lqwu3YKFDlFHBvHq5q7WoVgSKETEoUnNut7So9XVl4y0W_6w7fEnvpXwHY9Lmaaj-OkS6iDNEQ5J0k5-mBz6wPlpkJHjTJGQcXsO6U1-vUTh7Czw-TPgcf61PQLUtRVuw
+&lt;span style=&#34;color:#75715e&#34;&gt;# redirects to:&lt;/span&gt;
+https://bengtan.com/
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;I created some links, and took the same length measurements.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;URL length&lt;/th&gt;
+&lt;th&gt;Blob length (Buttondown)&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;20&lt;/td&gt;
+&lt;td&gt;230&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;28&lt;/td&gt;
+&lt;td&gt;239&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;39&lt;/td&gt;
+&lt;td&gt;256&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;47&lt;/td&gt;
+&lt;td&gt;259&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;50&lt;/td&gt;
+&lt;td&gt;264&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;62&lt;/td&gt;
+&lt;td&gt;275&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;71&lt;/td&gt;
+&lt;td&gt;286&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;74&lt;/td&gt;
+&lt;td&gt;283&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;img src=&#34;buttondown-blob-length.png&#34; alt=&#34;URL length vs blob length (Buttondown)&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The findings are similar. The gradient is roughly 1.&lt;/p&gt;
+&lt;p&gt;But Buttondown&amp;rsquo;s blobs are shorter than Substack. The y-intercept is about 210. Buttondown&amp;rsquo;s blobs have 210 characters of non-URL stuff. (Whereas Substack has 360.)&lt;/p&gt;
+&lt;p&gt;Substack&amp;rsquo;s blobs have about 150 more characters than Buttondown. Why the discrepancy?&lt;/p&gt;
+&lt;p&gt;Looking at the email headers gives a clue. It turns out user-defined variables can be passed to Mailgun via a custom &lt;code&gt;X-Mailgun-Variables&lt;/code&gt; header.&lt;/p&gt;
+&lt;p&gt;Substack&amp;rsquo;s emails have a header like this:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;X-Mailgun-Variables: &lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;category&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;post&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;email_generated_at&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;1619322434978&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;is_freemail&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;true&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;publication_id&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;2252&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;post_audience&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;everyone&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;post_id&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;35529220&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;pub_community_enabled&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;true&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;user_id&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;28653662&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;post_type&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;newsletter&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;subdomain&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;exponentialview&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;whereas Buttondown has this:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;X-Mailgun-Variables: &lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;buttondown_email_id&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;b70ec467-2a0e-4170-8198-38a501b49ad9&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;email&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;b70ec467-2a0e-4170-8198-38a501b49ad9&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;(BTW, That&amp;rsquo;s a very interesting email header. Substack is leaking out how many writers, articles, and subscribers it has.)&lt;/p&gt;
+&lt;p&gt;The difference in length between two? 163 characters. That&amp;rsquo;s close enough to 150 for me to say that it accounts for the discrepancy.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s recap. When you click on a tracking link, I speculate you are sending to Mailgun:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The destination URL,&lt;/li&gt;
+&lt;li&gt;Whatever is in &lt;code&gt;X-Mailgun-Variables&lt;/code&gt;,&lt;/li&gt;
+&lt;li&gt;And some other unknown stuff which is taking up the rest of the 90 characters in the blob.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Unfortunately, I don&amp;rsquo;t know what the rest of the blob contains.&lt;/p&gt;
+&lt;h3 id=&#34;minimal-server-side-data&#34;&gt;Minimal server side data&lt;/h3&gt;
+&lt;p&gt;During this research, I found this link:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://feedback.mailgun.com/forums/156243-feature-requests/suggestions/3996829-shorten-tracking-urls&#34;&gt;https://feedback.mailgun.com/forums/156243-feature-requests/suggestions/3996829-shorten-tracking-urls&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;which asks:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The current URLs used for tracking link clicks are quite long. Offering a way to shorten them via Bit.ly or perhaps an custom shortened URL would be helpful.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;and is replied:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We did it once and were faced with the need to store gigantic amount of the data that we had to support forever. We&amp;rsquo;d like to avoid doing that actually.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This conversation suggests that Mailgun minimises the amount of tracking data it stores on the server side. Which sort-of agrees with my speculation that a bunch of tracking data is embedded in the (client side) blob.&lt;/p&gt;
+&lt;h3 id=&#34;compression&#34;&gt;Compression&lt;/h3&gt;
+&lt;p&gt;In an effort to work out the encoding, I emailed myself a link with repeating text in the URL. Presuming it&amp;rsquo;s base64, I expected to see repeating characters in the blob which I could use to iteratively work out the encoding.&lt;/p&gt;
+&lt;p&gt;I was surprised again.&lt;/p&gt;
+&lt;p&gt;Here are the URLs and the effect on blog length.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;URL&lt;/th&gt;
+&lt;th&gt;URL length&lt;/th&gt;
+&lt;th&gt;Blob length (Buttondown)&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://bengtan.com/&#34;&gt;https://bengtan.com/&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;20&lt;/td&gt;
+&lt;td&gt;230&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://bengtan.com/?nonce=a&#34;&gt;https://bengtan.com/?nonce=a&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;28&lt;/td&gt;
+&lt;td&gt;239&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://bengtan.com/?nonce=aaaaaaaaaaaaaaaaaaaa&#34;&gt;https://bengtan.com/?nonce=aaaaaaaaaaaaaaaaaaaa&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;47&lt;/td&gt;
+&lt;td&gt;243&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://bengtan.com/?nonce=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa&#34;&gt;Like above but with 30 a&amp;rsquo;s&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;57&lt;/td&gt;
+&lt;td&gt;243&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://bengtan.com/?nonce=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa&#34;&gt;Like above but with 90 a&amp;rsquo;s&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;117&lt;/td&gt;
+&lt;td&gt;250&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Adding &lt;code&gt;?nonce=a&lt;/code&gt; increased the blob by 9 characters. As expected. Then the lengths get a bit weird.&lt;/p&gt;
+&lt;p&gt;Adding 19 &lt;code&gt;a&lt;/code&gt;&amp;rsquo;s increased the blob by 4 characters. Adding another 10 didn&amp;rsquo;t increase the blob at all. Finally, adding 60 more increased the blob by 7 characters.&lt;/p&gt;
+&lt;p&gt;Guess what&amp;rsquo;s happening? Compression. All those extra repeating &lt;code&gt;a&lt;/code&gt; characters are being compressed.&lt;/p&gt;
+&lt;p&gt;Remember when I said that, with base64, I expected each URL character to be represented in 1.33 blob characters but it was actually stored in 1 blob character? Compression would explain this too.&lt;/p&gt;
+&lt;p&gt;I suspect the blob is a (json?) data structure which is compressed and then base64-encoded.&lt;/p&gt;
+&lt;p&gt;Unfortunately, I&amp;rsquo;m haven&amp;rsquo;t bit-bashed compression algorithms enough that I can recognise which algorithm is being used. And this is where I got up to.&lt;/p&gt;
+&lt;p&gt;Maybe a expert in compression can help me out? Does anyone recognise this bitstream?&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;eJyNjL0OgzAQg5-GbKBcOAIZMrRQXgPl7ygShKpN1dcvoA4dkezBlj97jc5CDWzSggvglcDdyAsoUMq277oOhbreBLQZchvimEws3Lqwu3YKFDlFHBvHq5q7WoVgSKETEoUnNut7So9XVl4y0W_6w7fEnvpXwHY9Lmaaj-OkS6iDNEQ5J0k5-mBz6wPlpkJHjTJGQcXsO6U1-vUTh7Czw-TPgcf61PQLUtRVuw
+&lt;span style=&#34;color:#75715e&#34;&gt;# base64-decodes to:&lt;/span&gt;
+00000000: 789c 8d8c bd0e &lt;span style=&#34;color:#ae81ff&#34;&gt;8330&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1083&lt;/span&gt; 919b &lt;span style=&#34;color:#ae81ff&#34;&gt;2817&lt;/span&gt; 0e00  x......0....&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;...
+00000010: 864c ad14 &lt;span style=&#34;color:#ae81ff&#34;&gt;1780&lt;/span&gt; f97b ca04 a12a &lt;span style=&#34;color:#ae81ff&#34;&gt;9375&lt;/span&gt; 75cb  .L.....&lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;...*.uu.
+00000020: e803 &lt;span style=&#34;color:#ae81ff&#34;&gt;8764&lt;/span&gt; 7b30 658f dee3 &lt;span style=&#34;color:#ae81ff&#34;&gt;7390&lt;/span&gt; 835b 34a0  ...d&lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;0e...s..&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;4.
+00000030: 82f8 &lt;span style=&#34;color:#ae81ff&#34;&gt;2570&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3772&lt;/span&gt; 02ca &lt;span style=&#34;color:#ae81ff&#34;&gt;1432&lt;/span&gt; adbb ee83 a16e  ..%p7r...2.....n
+00000040: b781 2d06 5c86 f8a6 130b 372e ac2e dd82  ..-.&lt;span style=&#34;color:#ae81ff&#34;&gt;\.&lt;/span&gt;....7.....
+00000050: 850e &lt;span style=&#34;color:#ae81ff&#34;&gt;5147&lt;/span&gt; 06f1 eae6 aed6 a158 &lt;span style=&#34;color:#ae81ff&#34;&gt;1228&lt;/span&gt; 44c4  ..QG.......X.&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;D.
+00000060: a149 cdba ded2 a3d5 d597 8cb4 5bac 3b7c  .I..........&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;.;|
+00000070: 49ef a57c &lt;span style=&#34;color:#ae81ff&#34;&gt;0763&lt;/span&gt; d2e6 69a8 ce91 2ea2 0cd1  I..|.c..i.......
+00000080: 10e4 9d24 e660 73eb 03e5 a642 478d &lt;span style=&#34;color:#ae81ff&#34;&gt;3246&lt;/span&gt;  ...$.&lt;span style=&#34;color:#e6db74&#34;&gt;`&lt;/span&gt;s....BG.2F
+00000090: 41c5 ec3b a535 bd44 e1ec 2cf0 4cf8 1c7f  A..;.5.D..,.L...
+000000a0: ad4f 40b5 2d45 5bb0 0a                   .O@.-E&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;..
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Maybe at a future point, I&amp;rsquo;ll try to work out what the compression algorithm is. Then I can finally decode the blob and report what those unknown 90 characters are.&lt;/p&gt;
+&lt;h3 id=&#34;tracking-pixel-2&#34;&gt;Tracking pixel&lt;/h3&gt;
+&lt;p&gt;When email tracking is enabled, Mailgun inserts a tracking pixel that looks like this:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;img&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;width&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;1px&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;height&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;1px&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;alt&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;http://email.substack1.exponentialview.co/o/eJxdkElywyAQRU8Tliq6xSAWnIViaClUZKRCyLZuH2xnlW3X6z9F32jZ6mX37WjsPKi6nCxOSo5KIaObz6tbqFDtYHK-WVBgRkQxCqMnlqyGIASyfLi50pu3rZ7E9jOsOfqWt_KWRIns2846gDEkERP3ClJIEwGQ4BrBhzixVw7nz5SpRLJ0p3pthVi2yBG4QMlHoQEGGCQEwqhmjsFIUnKGSUxcj1oGDkqZL8GPMxzNxx8Y6Ll3mdKyX--ZHkPcWLWBytJ8gU4ur-D9evsEaNdOttDjWKk1qqx99umdXGduZ8ntclR8WCn91X299Z6jlGgQOeveaeuqxf7z_gWiInyJ&amp;#34;&lt;/span&gt;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This blob uses the same encoding as tracking links so I don&amp;rsquo;t know what&amp;rsquo;s in it.&lt;/p&gt;
+&lt;h3 id=&#34;additional-tracking-pixel-substack&#34;&gt;Additional tracking pixel (Substack)&lt;/h3&gt;
+&lt;p&gt;Not content with Mailgun&amp;rsquo;s tracking pixel, Substack inserts its own tracking pixel. That&amp;rsquo;s right, Substack newsletters have &lt;strong&gt;two&lt;/strong&gt; tracking pixels. The additional pixel looks like this:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;img&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://mailgun.substack.com/api/v1/email/open?token=eyJtIjoiPDIwMjEwNDI1MDM0NzExLjEuNTFiZTJjNmYwMmI5NWU2NWYxODQ4MDczNzViMDE2NjlAc3Vic3RhY2sxLmV4cG9uZW50aWFsdmlldy5jbz4iLCJ1IjoyODY1MzY2MiwiciI6InVzZXJuYW1lQGdtYWlsLmNvbSIsImQiOiJzdWJzdGFjazEuZXhwb25lbnRpYWx2aWV3LmNvIiwicCI6MzU1MjkyMjAsInMiOjIyNTIsImMiOiJwb3N0IiwiZiI6dHJ1ZSwiaWF0IjoxNjE5MzIyNDM1LCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIiwiYWxnIjoiSFMyNTYifQ.vAYcwftZOlLog-1-ieICCkPBko6HEXFr42wa7Ooao6M&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;alt&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;width&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;1&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;height&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;1&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;border&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;0&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;style&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;height:1px !important;width:1px !important;border-width:0 !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !important;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;&amp;#34;&lt;/span&gt;/&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This one embeds a JWT. Decoding it results in this info:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;{
+  &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;m&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;lt;20210425034711.1.51be2c6f02b95e65f184807375b01669@substack1.exponentialview.co&amp;gt;&amp;#34;&lt;/span&gt;,
+  &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;u&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;28653662&lt;/span&gt;,
+  &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;r&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;username@gmail.com&amp;#34;&lt;/span&gt;,
+  &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;d&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;substack1.exponentialview.co&amp;#34;&lt;/span&gt;,
+  &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;p&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;35529220&lt;/span&gt;,
+  &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;s&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;2252&lt;/span&gt;,
+  &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;c&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;post&amp;#34;&lt;/span&gt;,
+  &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;f&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;,
+  &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;iat&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1619322435&lt;/span&gt;,
+  &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;iss&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;pub-0&amp;#34;&lt;/span&gt;,
+  &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;sub&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;eo&amp;#34;&lt;/span&gt;,
+  &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;alg&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;HS256&amp;#34;&lt;/span&gt;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Make of that what you will.&lt;/p&gt;
+&lt;h2 id=&#34;what-data-is-collected&#34;&gt;What data is collected?&lt;/h2&gt;
+&lt;p&gt;It&amp;rsquo;s evident that email tracking occurs but what data is actually being collected?&lt;/p&gt;
+&lt;p&gt;Fortunately, Mailgun&amp;rsquo;s &lt;a href=&#34;https://documentation.mailgun.com/en/latest/api-events.html#event-structure&#34;&gt;documentation&lt;/a&gt; gives us a clue. When a tracked email is opened, or a tracking link is clicked, it posts an event to the retailer. This is an example of what&amp;rsquo;s in the event.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;{
+  &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;event&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;opened&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;or&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;clicked&amp;#34;&lt;/span&gt;,
+  &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;id&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;G5zMz2ysS6OxZ2C8xb2Tqg&amp;#34;&lt;/span&gt;,
+  &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;timestamp&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1377075564.094891&lt;/span&gt;,
+  &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;log-level&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;info&amp;#34;&lt;/span&gt;,
+  &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;recipient&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;recipient@example.com&amp;#34;&lt;/span&gt;,
+  &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;geolocation&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; {
+    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;country&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;US&amp;#34;&lt;/span&gt;,
+    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;region&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;TX&amp;#34;&lt;/span&gt;,
+    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;city&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Austin&amp;#34;&lt;/span&gt;
+  },
+  &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;tags&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; [],
+  &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;url&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;http://example.com/signup&amp;#34;&lt;/span&gt;,  &lt;span style=&#34;color:#75715e&#34;&gt;// Only in &amp;#34;clicked&amp;#34; events
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;  &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;ip&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;123.123.123.321&amp;#34;&lt;/span&gt;,
+  &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;campaigns&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; [],
+  &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;user-variables&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; {},
+  &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;client-info&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; {
+    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;client-type&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;browser&amp;#34;&lt;/span&gt;,
+    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;client-os&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Linux&amp;#34;&lt;/span&gt;,
+    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;device-type&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;desktop&amp;#34;&lt;/span&gt;,
+    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;client-name&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Chromium&amp;#34;&lt;/span&gt;,
+    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;user-agent&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/28.0.1500.71 Chrome/28.0.1500.71 Safari/537.36&amp;#34;&lt;/span&gt;
+  },
+  &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;message&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; {
+    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;headers&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; {
+      &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;message-id&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;20130821085807.30688.67706@samples.mailgun.org&amp;#34;&lt;/span&gt;
+    }
+  },
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This is the list of data:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;An ID that identifies the email that was opened or clicked.&lt;/li&gt;
+&lt;li&gt;Subscriber identifier&lt;/li&gt;
+&lt;li&gt;URL (if it was a tracking link)&lt;/li&gt;
+&lt;li&gt;Whatever the service provider injects into &lt;code&gt;tags&lt;/code&gt;, &lt;code&gt;campaigns&lt;/code&gt; or &lt;code&gt;user-variables&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;IP adddress&lt;/li&gt;
+&lt;li&gt;Timestamp&lt;/li&gt;
+&lt;li&gt;Location&lt;/li&gt;
+&lt;li&gt;Browser (which can be used to infer what device and OS you&amp;rsquo;re using)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Whilst this example is for Mailgun, we should expect that other providers like Mailchimp and ConvertKit do similar things.&lt;/p&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;I hope you have found this article informative. Unfortunately I wasn&amp;rsquo;t able to fully decode Mailgun&amp;rsquo;s tracking links (I could do with some help from a compression expert). Maybe if I have time in the future I can revisit it.&lt;/p&gt;
+&lt;p&gt;Thank you for reading.&lt;/p&gt;
+&lt;p&gt;(I have some more comments below but they are somewhat off-topic. Feel free to skip it.)&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;appendix&#34;&gt;Appendix&lt;/h2&gt;
+&lt;h3 id=&#34;finding-out-the-destination-url-of-a-tracking-link&#34;&gt;Finding out the destination URL of a tracking link&lt;/h3&gt;
+&lt;p&gt;An easy way to find out the destination URL of a tracking link is by using wget:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;wget -O /dev/null --max-redirect&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;https://pointer.us9.list-manage.com/track/click?u=e9492ff27d760c578a39d0675&amp;amp;id=6085259441&amp;amp;e=626d6fa0c9&amp;#39;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;(Remember to put the tracking link in quotes.)&lt;/p&gt;
+&lt;h3 id=&#34;bypassing-tracking-links&#34;&gt;Bypassing tracking links&lt;/h3&gt;
+&lt;p&gt;In those cases where the destination URL is embedded into a tracking link, it&amp;rsquo;s possible to avoid tracking by decoding the destination URL and navigating to it directly. This is true for ConvertKit and could be true for Mailgun retailers like Substack (when or if I eventually work out the decoding).&lt;/p&gt;
+&lt;p&gt;This is a feature that, if there was enough demand, I could add to email-untracker.&lt;/p&gt;
+&lt;h3 id=&#34;observations-on-software-architecture&#34;&gt;Observations on software architecture&lt;/h3&gt;
+&lt;p&gt;It&amp;rsquo;s interesting how the implementation of tracking links reflects software architecture.&lt;/p&gt;
+&lt;p&gt;(Note: The following is all my own speculation.)&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s well known that Mailchimp implements sharding (Accounts are spread out over different data centers ie. &lt;code&gt;us1&lt;/code&gt; to &lt;code&gt;us9&lt;/code&gt;). Sharding is probably why their links require a mailchimp account id — So the server knows which shard to query for destination URLs.&lt;/p&gt;
+&lt;p&gt;ConvertKit doesn&amp;rsquo;t use sharding. Their tracking links are all stored in one place. But achieving 100% uptime of a global database is hard so there is a fallback method (ie. Get the destination URL from &lt;code&gt;c&lt;/code&gt;) if the database is down.&lt;/p&gt;
+&lt;p&gt;Mailgun takes a different aproach. It doesn&amp;rsquo;t store tracking links in a database at all. Instead, the data is embedded in the tracking link&amp;rsquo;s blob on the client side and sent to the server when clicked.&lt;/p&gt;
+&lt;p&gt;This is a much more scalable technique because it doesn&amp;rsquo;t require access to a single point of failure (ie. the database). The downside is that the blobs are extremely long and user-unfriendly.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
     <item>
       <title>Why I chose Substack but then quickly moved to Buttondown</title>
       <link>https://bengtan.com/blog/substack-then-buttondown/</link>
