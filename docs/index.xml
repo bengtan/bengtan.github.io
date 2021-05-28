@@ -6,7 +6,21 @@
     <description>Recent content in Recent Posts on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Thu, 27 May 2021 12:00:00 +0800</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Interesting Things #6 — Esoteric languages and sleep sort</title>
+      <link>https://bengtan.com/interesting-things/006-private/</link>
+      <pubDate>Fri, 28 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bengtan.com/interesting-things/006-private/</guid>
+      <description>
+        
+          &lt;p&gt;Not public yet. &lt;a href=&#34;https://bengtan.com/newsletter&#34;&gt;Subscribe&lt;/a&gt; to get it in your inbox now!&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
     <item>
       <title>What&#39;s in email tracking links and pixels?</title>
       <link>https://bengtan.com/blog/whats-in-email-tracking-links-and-pixels/</link>
@@ -398,7 +412,115 @@ https://bengtan.com/
       <guid>https://bengtan.com/interesting-things/005/</guid>
       <description>
         
-          &lt;p&gt;Not public yet. &lt;a href=&#34;https://bengtan.com/newsletter&#34;&gt;Subscribe&lt;/a&gt; to get it in your inbox now!&lt;/p&gt;
+          &lt;p&gt;Hi!&lt;/p&gt;
+&lt;p&gt;Welcome to the fifth edition of Interesting Things, a curation of interesting stories and links from tech, indie business, science, and adjacents.&lt;/p&gt;
+&lt;p&gt;The following are things I came across during my Internet wanderings. I find them interesting, and I hope you do too.&lt;/p&gt;
+&lt;p&gt;Happy reading!&lt;/p&gt;
+&lt;h2 id=&#34;tech&#34;&gt;#tech&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://sigops.org/s/conferences/hotos/2021/papers/hotos21-s01-nider.pdf&#34;&gt;The Last CPU&lt;/a&gt;&lt;/strong&gt; [pdf] — As more and more work is offloaded to specialised hardware, should there still be a CPU?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.cloudflare.com/doom-multiplayer-workers/&#34;&gt;Multiplayer Doom on Cloudflare Workers&lt;/a&gt;&lt;/strong&gt; — What if we ported Doom multiplayer to the edge network?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://kocienda.micro.blog/2021/05/09/stopping-time-an.html&#34;&gt;Stopping Time: An Appreciation of Objective-C&lt;/a&gt;&lt;/strong&gt; — Savoring one small piece of it one last time before it disappears.&lt;/p&gt;
+&lt;!-- @kocienda --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://astralcodexten.substack.com/p/welcome-to-the-terrible-world-of&#34;&gt;Welcome To The Terrible World Of Prescription-Only Apps&lt;/a&gt;&lt;/strong&gt; — Get ready for apps which cost $899 and require a doctor&amp;rsquo;s prescription (!).&lt;/p&gt;
+&lt;!-- @slatestarcodex --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://aws.amazon.com/blogs/opensource/innovating-with-rust/&#34;&gt;Innovating with Rust&lt;/a&gt;&lt;/strong&gt; — How Amazon uses, and contributes to, Rust.&lt;/p&gt;
+&lt;!-- #rust --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.fluvio.io/blog/2021/05/bors-confident-merges/&#34;&gt;Increasing our development confidence and productivity with Bors&lt;/a&gt;&lt;/strong&gt; — How a little GitHub bot keeps our Rust project passing CI in master 100% of the time.&lt;/p&gt;
+&lt;!-- @RazzleRustacean #rust --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://news.mit.edu/2021/system-cleans-messy-data-tables-automatically-0511&#34;&gt;New system cleans messy data tables automatically&lt;/a&gt;&lt;/strong&gt; — A new machine learning system uses probabilistic programming to clean dirty datasets and tell you how confident its answers are.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://turriate.com/articles/modern-javascript-everything-you-missed-over-10-years&#34;&gt;Modern Javascript: Everything you missed over the last 10 years&lt;/a&gt;&lt;/strong&gt; —  I didn&amp;rsquo;t cover everything that’s changed over the last decade, just the items I find most useful.&lt;/p&gt;
+&lt;!-- @sandrot #javascript #js --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.waleedkhan.name/port-python-to-rust/&#34;&gt;Incrementally porting a small Python project to Rust&lt;/a&gt;&lt;/strong&gt; (Apr 2021) — I ported the project one module at a time, rather than all at once.&lt;/p&gt;
+&lt;!-- #python #rust --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://css-doodle.com/shapes/&#34;&gt;Discover CSS polygon shapes&lt;/a&gt;&lt;/strong&gt; — Discover new CSS polygon shapes generated with css-doodle and mathematical functions.&lt;/p&gt;
+&lt;!-- @yuanchuan23 #css #webdev --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://pvk.ca/Blog/2021/05/14/baseline-implementations-should-be-predictable/&#34;&gt;Baseline implementations should be predictable&lt;/a&gt;&lt;/strong&gt; — Unpredictable code with special cases can perform well on benchmarks, but it’s hard to tell the difference from real workloads.&lt;/p&gt;
+&lt;!-- @pkhuong --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://iamsafts.com/posts/postgres-gin-performance/&#34;&gt;Debugging random slow writes in PostgreSQL&lt;/a&gt;&lt;/strong&gt; (Apr 2021) — Understanding and mitigating randomly slow writes in PostgreSQL.&lt;/p&gt;
+&lt;!-- @iamsafts #postgresql --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://developers.redhat.com/blog/2021/05/12/mostly-harmless-an-account-of-pseudo-normal-floating-point-numbers/&#34;&gt;Mostly harmless: An account of pseudo-normal floating point numbers&lt;/a&gt;&lt;/strong&gt; — Pseudo-normal numbers represent a gap in floating point number classification in the long double format.&lt;/p&gt;
+&lt;!-- siddhesh_p #security --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://swiftrocks.com/how-necessary-are-the-programming-fundamentals.html&#34;&gt;How necessary are the programming fundamentals?&lt;/a&gt;&lt;/strong&gt; — We&amp;rsquo;ll introduce the field of algorithms and data structures and show why large companies like Google and Apple are so focused on it.&lt;/p&gt;
+&lt;!-- @rockbruno_ #coding #programming --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://partsbox.com/blog/wireless-charging-for-a-hp-25-calculator-05-2021.html&#34;&gt;Weekend hacking: wireless charging for a HP-25 calculator&lt;/a&gt;&lt;/strong&gt; — Calculator from 1975? Meet modern wireless charging.&lt;/p&gt;
+&lt;!-- @PartsBoxIO #hardware --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://cpufun.substack.com/p/atomics-in-aarch64&#34;&gt;Atomics in AArch64&lt;/a&gt;&lt;/strong&gt; — We’ll look at the performance of a simple atomic operation on a couple of Arm AArch64 machines.&lt;/p&gt;
+&lt;!-- @JimCownie --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://domevents.dev/&#34;&gt;DOM Events&lt;/a&gt;&lt;/strong&gt; — Learn how the DOM Event system works through exploration.&lt;/p&gt;
+&lt;!-- @alexandereardon #webdev #frontend --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://mediamachine.io/blog/art-and-science-of-a-great-video-thumbnail/&#34;&gt;The art and science of a great video thumbnail&lt;/a&gt;&lt;/strong&gt; — What makes a great thumbnail and how to extract them from videos?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.grouparoo.com/blog/varchar-191&#34;&gt;Why do database columns have a character length of 191?&lt;/a&gt;&lt;/strong&gt; — 191 is such an odd number. How did we get here?&lt;/p&gt;
+&lt;!-- @EvanTahler --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.robenkleene.com/2021/05/16/codespaces/&#34;&gt;Codespaces: GitHub&amp;rsquo;s Play for a Remote Development Future&lt;/a&gt;&lt;/strong&gt; — See discussion about remote development halfway through the text.&lt;/p&gt;
+&lt;!-- robenkleene #coding #programming --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://frontstuff.io/no-utility-classes-arent-the-same-as-inline-styles&#34;&gt;No, Utility Classes Aren&amp;rsquo;t the Same As Inline Styles&lt;/a&gt;&lt;/strong&gt; — A discussion and contrast of two CSS patterns.&lt;/p&gt;
+&lt;!-- @frontstuff_io #css #frontend --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://jvns.ca/blog/2021/05/17/how-to-look-at-the-stack-in-gdb/&#34;&gt;How to look at the stack with gdb&lt;/a&gt;&lt;/strong&gt; — A quick walkthrough of how you can use gdb to look at the stack of a C or Rust program.&lt;/p&gt;
+&lt;!-- @b0rk #coding #debugging #programming --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.technologyreview.com/2021/05/14/1024918/language-models-gpt3-search-engine-google/&#34;&gt;Language models like GPT-3 could herald a new type of search engine&lt;/a&gt;&lt;/strong&gt; — A new idea from researchers could make web search more like talking to human experts.&lt;/p&gt;
+&lt;!-- #ai #gpt3 --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://martinheinz.dev/blog/49&#34;&gt;The Easiest Way to Debug Kubernetes Workloads&lt;/a&gt;&lt;/strong&gt; — kubectl debug, a new command, injects a special type of container into problematic Pods and allows you to debug.&lt;/p&gt;
+&lt;!-- @Martin_Heinz_ #devops #kubernetes --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://spin.atomicobject.com/2021/05/12/code-quality-metrics/&#34;&gt;Code Quality Metrics Are Guides, Not Goals&lt;/a&gt;&lt;/strong&gt; — Measure code quality with metrics, but use the metrics to discover potential opportunities to improve.&lt;/p&gt;
+&lt;!-- @zigg #coding #programming --&gt;
+&lt;h2 id=&#34;indie-biz&#34;&gt;#indie biz&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://tinyprojects.dev/posts/selling_tiny_internet_projects_for_fun_and_profit&#34;&gt;Selling Tiny Internet Projects For Fun and Profit&lt;/a&gt;&lt;/strong&gt; — How I sold my project Earlyname, how much I sold it for, and how to sell tiny internet projects.&lt;/p&gt;
+&lt;!-- @tinyprojectsdev #indiehacker --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://onlineornot.com/two-months-on-how-onlineornot-is-going&#34;&gt;Two months in: How the SaaS that was built in 7 days is going&lt;/a&gt;&lt;/strong&gt; — A lot of new developers give up a month later when they fail to net a single upvote. I&amp;rsquo;m playing a different, long-term game.&lt;/p&gt;
+&lt;!-- @RozenMD --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.joshpitzalis.com/6m/&#34;&gt;How many people continue to use your product six months after they sign up?&lt;/a&gt;&lt;/strong&gt; — Before you can begin measuring the number of people who use your app you have to define what &amp;lsquo;using your app&amp;rsquo; means.&lt;/p&gt;
+&lt;!-- @joshpitzalis #startup #product --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://agamm.medium.com/the-next-small-thing-micro-communities-6d572b1f16ec&#34;&gt;Micro-Communities - and why you should start one too&lt;/a&gt;&lt;/strong&gt; — You don’t need to create a 5k community from day one. Start with a Micro-Community next time.&lt;/p&gt;
+&lt;!-- @agammore --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.gun.io/blog/lessons-all-founders-can-learn-from-slacks-famous-second-act&#34;&gt;Lessons All Founders Can Learn From Slack’s Famous Second Act&lt;/a&gt;&lt;/strong&gt; — Slack&amp;rsquo;s famous pivot didn&amp;rsquo;t happen on accident.&lt;/p&gt;
+&lt;!-- @Faith_Benson_ --&gt;
+&lt;h2 id=&#34;science&#34;&gt;#science&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.lrb.co.uk/the-paper/v43/n10/francis-gooding/from-its-myriad-tips&#34;&gt;From Its Myriad Tips: Mushroom Brain&lt;/a&gt;&lt;/strong&gt; — How Fungi Make Our Worlds, Change Our Minds and Shape Our Futures.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://spectrum.ieee.org/automaton/aerospace/robotic-exploration/if-necessary-mars-rover-curiosity-could-rip-its-own-wheels-off-to-stay-mobile&#34;&gt;If Necessary, Mars Rover Curiosity Could Rip Its Own Wheels Off to Stay Mobile&lt;/a&gt;&lt;/strong&gt; — Since wheel wear can&amp;rsquo;t be avoided, the backup plan is to find a nice sharp rock and use it to rip out the insides of its own wheels.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://nautil.us/issue/100/outsiders/the-profound-potential-of-elon-musks-new-rocket&#34;&gt;The Profound Potential of Elon Musk’s New Rocket&lt;/a&gt;&lt;/strong&gt; —  An aerospace engineer explains why SpaceX’s Starship will change everything.&lt;/p&gt;
+&lt;!-- #spacex --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://spectrum.ieee.org/cars-that-think/transportation/advanced-cars/mahles-electric-motor-says-look-ma-no-contacts&#34;&gt;In Mahle&amp;rsquo;s Contact-Free Electric Motor, Power Reaches the Rotor Wirelessly&lt;/a&gt;&lt;/strong&gt; — There&amp;rsquo;s no wear and tear. No rare earths, either.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.qmul.ac.uk/media/news/2021/se/scientists-catch-exciting-magnetic-waves-in-action.html#&#34;&gt;Scientists catch exciting magnetic waves in action&lt;/a&gt;&lt;/strong&gt; ‐ Researchers have confirmed the existence of magnetic plasma waves in the Sun’s photosphere.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.quantamagazine.org/new-black-hole-math-closes-cosmic-blind-spot-20210513&#34;&gt;New Black Hole Math Closes Cosmic Blind Spot&lt;/a&gt;&lt;/strong&gt; — A mathematical shortcut for analyzing black hole collisions works even in cases where it shouldn’t.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://phys.org/news/2021-05-mammals-anus-emergencies.html&#34;&gt;Mammals can breathe through anus in emergencies&lt;/a&gt;&lt;/strong&gt; — Japanese scientists who studied an unusual method of delivering oxygen in mammals hope to one day try it in people. &lt;a href=&#34;https://www.nytimes.com/2021/05/14/science/rectum-breathing-oxygen.html&#34;&gt;Another link&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://oceans.nautil.us/feature/692/the-largest-cells-on-earth&#34;&gt;The Largest Cells on Earth&lt;/a&gt;&lt;/strong&gt; (Apr 2021) — Deep in the ocean abyss, xenophyophores can grow as large as basketballs.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://arstechnica.com/science/2021/05/from-apes-to-birds-there-are-65-animal-species-that-laugh/&#34;&gt;From apes to birds, there are 65 animal species that &amp;lsquo;laugh&amp;rsquo;&lt;/a&gt;&lt;/strong&gt; — Laughter is spread widely across mammals and occurs in birds too.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.sciencemag.org/news/2021/05/highest-ever-energy-light-captured-chinese-mountain-observatory&#34;&gt;Highest ever energy light captured by Chinese mountain observatory&lt;/a&gt;&lt;/strong&gt; —  Brightest cosmic light detected on Tibetan Plateau may help rewrite laws of physics. &lt;a href=&#34;https://www.scmp.com/news/china/diplomacy/article/3133829/brightest-cosmic-light-detected-tibetan-plateau-may-help&#34;&gt;Another link&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.quantamagazine.org/how-brain-computer-interface-technology-is-different-from-mind-control-20210517/&#34;&gt;Can Machines Control Our Brains?&lt;/a&gt;&lt;/strong&gt; — Advances in brain-computer interface technology are impressive, but we’re not close to anything resembling mind control.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.theguardian.com/environment/2021/may/18/securing-their-swift-return-how-a-simple-brick-can-help-migratory-birds-aoe&#34;&gt;Securing a swift return: how a simple brick can help migratory birds&lt;/a&gt;&lt;/strong&gt; — Hollow rectangular bricks help offset habitat loss.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://phys.org/news/2021-05-quantum-machine-limit.html&#34;&gt;Quantum machine learning hits a limit&lt;/a&gt;&lt;/strong&gt; — A new theorem has poked a hole in the accepted understanding about information scrambling.&lt;/p&gt;
+&lt;h2 id=&#34;life&#34;&gt;#life&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.aarp.org/money/scams-fraud/info-2021/international-tech-support-scam-exposed.html&#34;&gt;Inside an International Tech-Support Scam&lt;/a&gt;&lt;/strong&gt; — How a computer hacker infiltrated a phone scam operation to expose fraudsters and their schemes.&lt;/p&gt;
+&lt;!-- @dougshadel #security --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://hustlethrivegrow.com/why-we-need-to-adopt-the-3-year-rule-into-our-lives-b0e88fee7688&#34;&gt;Why We Need To Adopt The 3-Year Rule Into Our Lives&lt;/a&gt;&lt;/strong&gt; — A lot can happen in three years if we stick to something long enough. Or nothing at all if we just let the time slip on by.&lt;/p&gt;
+&lt;!-- @dottedSquirrel #productivity --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://antirez.com/news/135&#34;&gt;Programming and Writing&lt;/a&gt;&lt;/strong&gt; — Programming big systems and writing novels have many common traits and similar processes.&lt;/p&gt;
+&lt;!-- @antirezdotcom @programming @writing --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.theatlantic.com/family/archive/2021/04/waste-time-thoreau-walden/618732/&#34;&gt;Stop Spending Time on Things You Hate&lt;/a&gt;&lt;/strong&gt; (Apr 2021) — Your time on Earth is precious and limited. Here’s how to waste it.&lt;/p&gt;
+&lt;!-- @arthurbrooks #productivity --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://doctorow.medium.com/the-memex-method-238c71f2fb46&#34;&gt;The Memex Method&lt;/a&gt;&lt;/strong&gt; — Your blog is a public searchable retrospective database.&lt;/p&gt;
+&lt;!-- @doctorow #productivity --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://commoncog.com/blog/highest-order-bit/&#34;&gt;Prioritise The Highest Order Bit&lt;/a&gt;&lt;/strong&gt; (Apr 2021) — Why focusing on the most important thing often means letting other things blow up.&lt;/p&gt;
+&lt;!-- @ejames_c #productivity --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.chrbutler.com/you-probably-wont-change-your-mind&#34;&gt;You Probably Won’t Change Your Mind After Reading This&lt;/a&gt;&lt;/strong&gt; — The availability and understanding of information might not directly shape beliefs and preferences.&lt;/p&gt;
+&lt;!-- @chrbutler --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://ethan.katzenberg.co.uk/posts/saying-difficult-things/&#34;&gt;Saying the difficult things&lt;/a&gt;&lt;/strong&gt; — The valuable part is the flip side of that. It’s saying the things that are difficult to say, because that’s what actually builds up the trust.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://cheapskatesguide.org/articles/transitory-internet.html&#34;&gt;The Transitory Nature of Content on the Internet&lt;/a&gt;&lt;/strong&gt; — We are told that content posted on the Internet lasts forever but nothing is eternal, not even on the Internet.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://soatok.blog/2021/05/18/avoiding-the-frigid-hellscape-of-online-marketing/&#34;&gt;Avoiding the Frigid Hellscape of Online Marketing&lt;/a&gt;&lt;/strong&gt; — An Internet Marketer Offered Me $100 to Betray Myself and My Community.&lt;/p&gt;
+&lt;!-- @SoatokDhole #security --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://lukaszkrol.net/airtags_stationary/&#34;&gt;Using AirTags to detect stationary iPhones&lt;/a&gt;&lt;/strong&gt; — Leave an AirTag in a room or house and you can infer whether it&amp;rsquo;s unoccupied.&lt;/p&gt;
+&lt;!-- @securislav #security #privacy --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.dgsiegel.net/articles/the-famine-of-big-thinking&#34;&gt;the famine of big thinking&lt;/a&gt;&lt;/strong&gt; — We build what technology companies, investors, and tech-savvy people want, but not what humans and society need.&lt;/p&gt;
+&lt;!-- @dgsiegel --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://tomgamon.com/posts/clarity/&#34;&gt;Clarity is an underrated skill&lt;/a&gt;&lt;/strong&gt; — Being able to define a problem or explain a scenario clearly, precisely and unambiguously is something every developer should strive for.&lt;/p&gt;
+&lt;!-- @thrgamon #productivity --&gt;
+&lt;h2 id=&#34;random&#34;&gt;#random&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://musiclab.chromeexperiments.com/Spectrogram/&#34;&gt;Spectrogram&lt;/a&gt;&lt;/strong&gt; — Music is for everyone. Play with simple experiments that let anyone, of any age, explore how music works.&lt;/p&gt;
+&lt;h2 id=&#34;end&#34;&gt;#end&lt;/h2&gt;
+&lt;p&gt;If you enjoyed these stories, I&amp;rsquo;d love it if you shared this newsletter with a friend or two.&lt;/p&gt;
+&lt;p&gt;And should you come across anything interesting in your wanderings, please email or tweet me! I&amp;rsquo;d love to give them some exposure too.&lt;/p&gt;
+&lt;p&gt;Happy reading!&lt;br&gt;
+Beng&lt;/p&gt;
 
         
       </description>
