@@ -3,7 +3,7 @@ title: "About"
 showDate: false
 ---
 
-<img src="/images/portrait.jpg" style="width: 120px; border-radius: 50%; float: left; margin-right: 1em;" />
+![](/images/portrait-120.png)
 
 I'm Beng Tan, a freelance software engineer.
 
