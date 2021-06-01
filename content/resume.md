@@ -46,6 +46,10 @@ University of Western Australia (UWA)
 
 (Reverse chronological order)
 
+* [Side project] [Interesting Things](https://bengtan.com/interesting-things) email newsletter (Apr 2021 - ongoing)
+
+<!-- -->
+
 * [Own Project] [Gig'o'Books](http://www.gigobooks.com) (Apr 2020 - ongoing)
   * Entry level accounting app for a niche market. Cross-platform.
   * Open source edition: https://github.com/gigobooks/gigobooks
@@ -129,6 +133,7 @@ The following occurred in Perth and whilst still studying at University of Weste
 
 # Open Source Projects
 
+* [CSS Named Colours Picker](https://github.com/bengtan/css-named-colours-picker)
 * [Gig'o'Books](https://github.com/gigobooks/gigobooks)
 * [websqlview](https://github.com/bengtan/websqlview)
 * [Various Drupal projects](https://www.drupal.org/u/bengtan) (no longer actively contributing)
