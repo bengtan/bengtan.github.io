@@ -18,6 +18,7 @@
           &lt;p&gt;This is an investigation into the techniques used by some email (newsletter) providers to track their readers&#39; activity. It attempts to deconstruct tracking links and pixels and highlight the data that is being collected.&lt;/p&gt;
 &lt;p&gt;Some of this work occurred during the development of email-untracker. The rest of it occurred as part of this article. It covers mailing list providers that I have personally encountered: Mailchimp, ConvertKit, Substack and other Mailgun retailers.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;TL;DR:&lt;/strong&gt; Mailchimp and ConvertKit were successfully analysed. Substack and Mailgun required reverse engineering and only yielded partial results (Assistance requested!). There&amp;rsquo;s also some extra commentary in the appendix.&lt;/p&gt;
+&lt;p&gt;(&lt;strong&gt;UPDATE 2021-06-01&lt;/strong&gt;: There have been some new developments since this was first posted. Please see the end of this post.)&lt;/p&gt;
 &lt;h2 id=&#34;mailchimp&#34;&gt;Mailchimp&lt;/h2&gt;
 &lt;h3 id=&#34;tracking-links&#34;&gt;Tracking links&lt;/h3&gt;
 &lt;p&gt;Mailchimp&amp;rsquo;s tracking links are of the form &lt;code&gt;https://??.us?.list-manage.com/track/click?u=??&amp;amp;id=??&amp;amp;e=??&lt;/code&gt; and contain three identifiers: &lt;code&gt;u&lt;/code&gt;, &lt;code&gt;id&lt;/code&gt; and &lt;code&gt;e&lt;/code&gt;.&lt;/p&gt;
@@ -385,6 +386,9 @@ https://bengtan.com/
 &lt;p&gt;ConvertKit doesn&amp;rsquo;t use sharding. Their tracking links are all stored in one place. But achieving 100% uptime of a global database is hard so there is a fallback method (ie. Get the destination URL from &lt;code&gt;c&lt;/code&gt;) if the database is down.&lt;/p&gt;
 &lt;p&gt;Mailgun takes a different aproach. It doesn&amp;rsquo;t store tracking links in a database at all. Instead, the data is embedded in the tracking link&amp;rsquo;s blob on the client side and sent to the server when clicked.&lt;/p&gt;
 &lt;p&gt;This is a much more scalable technique because it doesn&amp;rsquo;t require access to a single point of failure (ie. the database). The downside is that the blobs are extremely long and user-unfriendly.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;update-2021-06-01&#34;&gt;UPDATE 2021-06-01&lt;/h2&gt;
+&lt;p&gt;With the assistance of a very helpful &lt;a href=&#34;https://www.reddit.com/r/programming/comments/nppkeg/whats_in_email_tracking_links_and_pixels/&#34;&gt;reddit&lt;/a&gt; user, the Mailgun/Substack blob has been deciphered. It&amp;rsquo;s zlib compressed and then base64url encoded. I will follow-up on this with a future blog post when I have time. If you&amp;rsquo;d like to be notified, please subscribe.&lt;/p&gt;
 
         
       </description>

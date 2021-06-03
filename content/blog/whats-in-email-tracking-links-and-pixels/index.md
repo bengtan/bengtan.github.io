@@ -4,6 +4,9 @@ type: post
 date: 2021-05-27T12:00:00+08:00
 toc: true
 summary: This investigation into email tracking attempts to deconstruct tracking links and pixels and highlight the data that is being collected. It covers Mailchimp, ConvertKit, Substack and other Mailgun retailers.
+comments: [
+  "[reddit](https://www.reddit.com/r/programming/comments/nppkeg/whats_in_email_tracking_links_and_pixels/)"
+]
 ---
 
 This is an investigation into the techniques used by some email (newsletter) providers to track their readers' activity. It attempts to deconstruct tracking links and pixels and highlight the data that is being collected.
@@ -12,6 +15,7 @@ Some of this work occurred during the development of email-untracker. The rest o
 
 **TL;DR:** Mailchimp and ConvertKit were successfully analysed. Substack and Mailgun required reverse engineering and only yielded partial results (Assistance requested!). There's also some extra commentary in the appendix.
 
+(**UPDATE 2021-06-01**: There have been some new developments since this was first posted. Please see the end of this post.)
 
 ## Mailchimp
 
@@ -465,3 +469,8 @@ Mailgun takes a different aproach. It doesn't store tracking links in a database
 
 This is a much more scalable technique because it doesn't require access to a single point of failure (ie. the database). The downside is that the blobs are extremely long and user-unfriendly.
 
+----
+
+## UPDATE 2021-06-01
+
+With the assistance of a very helpful [reddit](https://www.reddit.com/r/programming/comments/nppkeg/whats_in_email_tracking_links_and_pixels/) user, the Mailgun/Substack blob has been deciphered. It's zlib compressed and then base64url encoded. I will follow-up on this with a future blog post when I have time. If you'd like to be notified, please subscribe.
