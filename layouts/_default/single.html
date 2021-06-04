@@ -18,7 +18,7 @@
     {{ if $p.featureImage }}
     <img src="{{ $p.featureImage }}" class="image_featured" alt="{{ $t }}">
     {{ else if $p.thumbnail }}
-    <img src="{{ $p.thumbnail }}" class="float_left">
+    <img src="{{ $p.thumbnail }}" class="float_right">
     {{ end }}
     {{ if $p.toc }}
     <h2>{{ T "overview" }}</h2>
