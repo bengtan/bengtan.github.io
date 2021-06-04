@@ -1,10 +1,10 @@
 ---
-title: "Interesting Things #6 — Esoteric languages and sleep sort"
+title: "Interesting Things #7 — Don't read everything"
 type: newsletter
-date: 2021-05-28
+date: 2021-06-04
 thumbnail: /images/interestingthings-150.png
 comments: false
-# summary: '26 tech, 1 indie biz, 13 science, 6 life, 2 random'
+# summary: '31 tech, 4 indie biz, 8 science, 9 life, 2 random'
 ---
 
 Not public yet. [Subscribe](/newsletter) to get it in your inbox now!
