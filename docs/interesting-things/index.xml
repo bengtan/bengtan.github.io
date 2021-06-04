@@ -6,16 +6,125 @@
     <description>Recent content in Interesting Things on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Fri, 28 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/interesting-things/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/interesting-things/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Interesting Things #6 — Esoteric languages and sleep sort</title>
-      <link>https://bengtan.com/interesting-things/006-private/</link>
-      <pubDate>Fri, 28 May 2021 00:00:00 +0000</pubDate>
+      <title>Interesting Things #7 — Don&#39;t read everything</title>
+      <link>https://bengtan.com/interesting-things/007-private/</link>
+      <pubDate>Fri, 04 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bengtan.com/interesting-things/006-private/</guid>
+      <guid>https://bengtan.com/interesting-things/007-private/</guid>
       <description>
         
           &lt;p&gt;Not public yet. &lt;a href=&#34;https://bengtan.com/newsletter&#34;&gt;Subscribe&lt;/a&gt; to get it in your inbox now!&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Interesting Things #6 — Esoteric languages and sleep sort</title>
+      <link>https://bengtan.com/interesting-things/006/</link>
+      <pubDate>Fri, 28 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bengtan.com/interesting-things/006/</guid>
+      <description>
+        
+          &lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;This is &lt;a href=&#34;https://bengtan.com/about/&#34;&gt;Beng Tan&lt;/a&gt; and welcome to &lt;strong&gt;Interesting Things&lt;/strong&gt;, a curation of interesting stories and links from tech, indie biz, science, and related fields.&lt;/p&gt;
+&lt;p&gt;Wow, I&amp;rsquo;ve only been doing this for about a month and it&amp;rsquo;s the sixth edition already. Time flies.&lt;/p&gt;
+&lt;p&gt;This edition has a COVID-related article. I try to stay away from pandemic related news since it&amp;rsquo;s usually entangled with politics, but this time, I included an article for the science.&lt;/p&gt;
+&lt;p&gt;I hope you find the following stories interesting. If you don&amp;rsquo;t, you can [unsubscribe]({{ unsubscribe_url }}) and I won&amp;rsquo;t pollute your inbox again.&lt;/p&gt;
+&lt;p&gt;Happy reading!&lt;/p&gt;
+&lt;h2 id=&#34;tech&#34;&gt;#tech&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.hillelwayne.com/talks/esolangs/&#34;&gt;A Brief Introduction to Esoteric Languages&lt;/a&gt;&lt;/strong&gt; — Weird stuff.&lt;/p&gt;
+&lt;!-- hillelogram #coding #programming --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://kevlinhenney.medium.com/need-something-sorted-sleep-on-it-11fdf8453914&#34;&gt;Need Something Sorted? Sleep on It!&lt;/a&gt;&lt;/strong&gt; — Sort a list of integers by going to sleep.&lt;/p&gt;
+&lt;!-- @KevlinHenney #programming #coding --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.earth.li/~noodles/blog/2021/05/losing-control-to-k8s.html&#34;&gt;Losing control to Kubernetes&lt;/a&gt;&lt;/strong&gt; — Having an actual implementation of something is useful in understanding it so I decided it was time to learn something new.&lt;/p&gt;
+&lt;!-- @revdenoodles #kubernetes #k8s --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://www.mynor.org/tranor&#34;&gt;TraNOR - A computer built with transistors&lt;/a&gt;&lt;/strong&gt; (Apr 2021) — The CPU consists of 1897 MOSFET transistors. This computer is fast enough to play games on it.&lt;/p&gt;
+&lt;!-- #hardware --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.goldfiglabs.com/2021/05/20/making-sure-the.html&#34;&gt;Making sure the things that aren’t supposed to work don’t work&lt;/a&gt;&lt;/strong&gt; — Remember to test for false positives.&lt;/p&gt;
+&lt;!-- @goldfiglabs #coding #programming --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://offlinemark.com/2021/05/12/an-obscure-quirk-of-proc/&#34;&gt;Linux Internals: How /proc/self/mem writes to unwritable memory&lt;/a&gt;&lt;/strong&gt; — Writes performed through this file will succeed even if the destination virtual memory is marked unwritable.&lt;/p&gt;
+&lt;!-- @offlinemark #linux #kernel --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://tolusnotes.com/personalized-content-feeds-suck-curation-is-a-better-scalable-alternative/&#34;&gt;Personalized Content Feeds Suck. Curation is a Better, Scalable Alternative&lt;/a&gt;&lt;/strong&gt; —  Algorithms fail to expand consumer interests despite the deluge of information on the internet.&lt;/p&gt;
+&lt;!-- @tolusnotes --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.rentpathcode.com/analyzing-performance-e7aed196df64&#34;&gt;Stop building websites for iPhones&lt;/a&gt;&lt;/strong&gt; — Not everyone can afford the latest iPhone or Galaxy.&lt;/p&gt;
+&lt;!-- @databyte #js #react #javascript --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://cronokirby.com/posts/2021/04/constant-time-big-numbers-introduction/&#34;&gt;Constant-Time Big Numbers: An Introduction&lt;/a&gt;&lt;/strong&gt; (Apr 2021) — Timing attacks and how to mitigate them with constant-time code.&lt;/p&gt;
+&lt;!-- @cronokirby #security --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.galiglobal.com/blog/2021/20210313-The-principal-role.html&#34;&gt;What&amp;rsquo;s a Principal Software Engineer?&lt;/a&gt;&lt;/strong&gt; — One of the things I couldn&amp;rsquo;t answer in the last 4-5 years was my role.&lt;/p&gt;
+&lt;!-- @antonmry @swyx --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://talawah.io/blog/extreme-http-performance-tuning-one-point-two-million/&#34;&gt;Extreme HTTP Performance Tuning: 1.2M API req/s on a 4 vCPU EC2 Instance&lt;/a&gt;&lt;/strong&gt; — The steps that I took to serve 1.2 million JSON API requests per second from a 4 vCPU AWS EC2 instance.&lt;/p&gt;
+&lt;!-- @talawahtech --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://web.dev/learn/css/&#34;&gt;Learn CSS&lt;/a&gt;&lt;/strong&gt; — An evergreen CSS course and reference to level up your web styling expertise.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://www.righto.com/2021/05/teardown-of-pc-power-supply.html&#34;&gt;Teardown of a PC power supply&lt;/a&gt;&lt;/strong&gt; — Have you ever wondered what&amp;rsquo;s inside your computer&amp;rsquo;s power supply?&lt;/p&gt;
+&lt;!-- @kenshirriff --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.thea.codes/winterblooms-tech-stack/&#34;&gt;The tools and tech I use to run a one-woman hardware company&lt;/a&gt;&lt;/strong&gt; — A look into the tech and tools used by Winterbloom.&lt;/p&gt;
+&lt;!-- @theavalkyrie --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://elie.net/blog/security/hacker-guide-to-deep-learning-side-channel-attacks-the-theory/&#34;&gt;Hacker&amp;rsquo;s guide to deep-learning side-channel attacks: the theory&lt;/a&gt;&lt;/strong&gt; — Learn the concepts behind deep-learning side-channel attacks. Use it to recover AES cryptographic keys.&lt;/p&gt;
+&lt;!-- @elie #security --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://cgmathprog.home.blog/2021/05/20/chip-8-and-emulator-overview/&#34;&gt;CHIP-8 (and Emulators) In Plain English&lt;/a&gt;&lt;/strong&gt; — Learn about CHIP-8 by writing an emulator for it.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://vouch.io/developing-mobile-digital-key-applications-with-clojurescript/&#34;&gt;Developing mobile digital key applications with ClojureScript&lt;/a&gt;&lt;/strong&gt; — See how we use ClojureScript, React Native via Krell, and Storybook to manage complexity and improve workflow efficiency.&lt;/p&gt;
+&lt;!-- #clojure #clojurescript #reactnative --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.trailofbits.com/post/discovering-goroutine-leaks-with-semgrep&#34;&gt;Discovering goroutine leaks with Semgrep&lt;/a&gt;&lt;/strong&gt; — This post describes the origins of goroutine leaks and code patterns to detect them. Semgrep rules used to reveal those patterns are released to the public.&lt;/p&gt;
+&lt;!-- @trailofbits --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://dustingram.com/articles/2021/04/14/powering-the-python-package-index-in-2021/&#34;&gt;Powering the Python Package Index in 2021&lt;/a&gt;&lt;/strong&gt; (Apr 2021) &amp;ndash; What does it take to finance and power PyPI in this current day and age?&lt;/p&gt;
+&lt;!-- @di_codes #python --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://cmdli.github.io/crypto/&#34;&gt;Cryptography from the Ground Up&lt;/a&gt;&lt;/strong&gt; — Delve into the world of classical cryptography.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://jalopnik.com/when-adobe-stopped-flash-content-from-running-it-also-s-1846109630&#34;&gt;When Adobe Stopped Flash Content From Running It Also Stopped A Chinese Railroad&lt;/a&gt;&lt;/strong&gt; (Jan 2021) — Dalian’s railroad network found itself ground to a halt for 20 hours.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://pitr.ca/2021-05-23-personal-spot&#34;&gt;Spot instances for personal servers&lt;/a&gt;&lt;/strong&gt; — Save 70% on personal servers using one weird trick.&lt;/p&gt;
+&lt;!-- @pitrapen #aws --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://utcc.utoronto.ca/~cks/space/blog/programming/RustInOurFuture&#34;&gt;Rust is a wave of the future&lt;/a&gt;&lt;/strong&gt; — Dealing with Rust is going to become increasingly necessary for me and a lot of people.&lt;/p&gt;
+&lt;!-- @thatcks #rust #programming #coding --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://devblogs.microsoft.com/oldnewthing/20210525-00/?p=105250&#34;&gt;Why are device-independent bitmaps upside down?&lt;/a&gt;&lt;/strong&gt; — Something that catches out everybody the first time they encounter it.&lt;/p&gt;
+&lt;!-- @ChenCravat --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://lukasz.langa.pl/1d1a43c4-9c8a-4c5f-a366-7f22ce6a49fc/&#34;&gt;Why the sad face?&lt;/a&gt;&lt;/strong&gt; — An alternative indenting style for python from a core developer.&lt;/p&gt;
+&lt;!-- @llanga #python --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://monadical.com/posts/human-systems.html&#34;&gt;All Systems are Human Systems&lt;/a&gt;&lt;/strong&gt; — It&amp;rsquo;s in our best interests to to understand the broader, human scope that systems operate within.&lt;/p&gt;
+&lt;h2 id=&#34;indie-biz&#34;&gt;#indie biz&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://opportunities.so/shopify-for-saas-and-opportunities-in-the-creator-economy-with/&#34;&gt;Brainstorming Shopify for SaaS with Travis Fischer&lt;/a&gt;&lt;/strong&gt; — What are the lessons learned? Is the opportunity still up for grabs?&lt;/p&gt;
+&lt;!-- @jakobgreenfeld @transitive_bs --&gt;
+&lt;h2 id=&#34;science&#34;&gt;#science&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.theguardian.com/world/2021/may/24/faster-than-pcr-test-dogs-detect-covid-coronavirus-london-bmj&#34;&gt;Faster than a PCR test: dogs detect Covid in under a second&lt;/a&gt;&lt;/strong&gt; — Study in London used six enthusiastic dogs in a double-blind trial.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://scitechdaily.com/new-propulsion-system-could-enable-flying-at-speeds-up-to-mach-17/&#34;&gt;New Propulsion System Could Enable Flying at Speeds Up to Mach 17&lt;/a&gt;&lt;/strong&gt; — Paving the way for hypersonic flight such as travel from New York to Los Angeles in under 30 minutes.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://news.stanford.edu/2021/05/17/stanford-study-reveals-new-biomolecule/&#34;&gt;Stanford researchers make ‘bombshell’ discovery of an entirely new kind of biomolecule&lt;/a&gt;&lt;/strong&gt; — A newfound biomolecule could be present in all forms of life and might contribute to autoimmune disease. &lt;a href=&#34;https://scitechdaily.com/a-molecule-that-shouldnt-exist-the-biggest-scientific-shock-of-my-life/&#34;&gt;Another link&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://edition.cnn.com/2021/05/20/world/fast-radio-bursts-origin-galaxies-scn/index.html&#34;&gt;Mysterious fast radio bursts traced to spiral galaxy arms&lt;/a&gt;&lt;/strong&gt; — Scientists have traced mysterious fast radio bursts back to their origins and it&amp;rsquo;s not what they expected.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.ucl.ac.uk/news/2021/may/robotic-third-thumb-use-can-alter-brain-representation-hand&#34;&gt;Robotic ‘Third Thumb’ use can alter brain representation of the hand&lt;/a&gt;&lt;/strong&gt; — Using a robotic ‘Third Thumb’ can impact how the hand is represented in the brain.&lt;/p&gt;
+&lt;!-- @DaniClode --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.quantamagazine.org/physicists-identify-the-engine-powering-black-hole-energy-beams-20210520/&#34;&gt;Physicists Identify the Engine Powering Black Hole Energy Beams&lt;/a&gt;&lt;/strong&gt; — Supermassive black holes emit jets of white-hot plasma that stretch thousands of light-years across the cosmos.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.theatlantic.com/science/archive/2021/05/evolution-butts/618915/&#34;&gt;The Body’s Most Embarrassing Organ Is an Evolutionary Marvel&lt;/a&gt;&lt;/strong&gt; — And yet we have very little idea where anuses come from.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://arstechnica.com/science/2021/05/archaeologists-train-a-neural-network-to-sort-pottery-fragments-for-them/&#34;&gt;Archaeologists train a neural network to sort pottery fragments for them&lt;/a&gt;&lt;/strong&gt; — The network turned out to be as good at the job as human archaeologists.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://scitechdaily.com/incredible-microscope-sees-atoms-at-record-resolution/&#34;&gt;Incredible Microscope Sees Atoms at Record Resolution&lt;/a&gt;&lt;/strong&gt; — The resolution is so fine-tuned, the only blurring that remains is the thermal jiggling of the atoms themselves.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.bbc.com/news/health-57226572&#34;&gt;Algae proteins partially restore man&amp;rsquo;s sight&lt;/a&gt;&lt;/strong&gt; — The patient was completely blind before the treatment. Now he can see and count objects on a table.&lt;/p&gt;
+&lt;!-- @JamesTGallagher --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.theguardian.com/science/2021/may/24/research-reveals-why-some-find-the-sound-of-others-eating-so-irritating&#34;&gt;Research reveals why some find the sound of others eating so irritating&lt;/a&gt;&lt;/strong&gt; — Some brains have a stronger link between the part that processes sound and that which controls the mouth and throat&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.quantamagazine.org/mathematicians-find-polynomial-building-blocks-hilbert-sought-20210525/&#34;&gt;Mathematicians Find Long-Sought Building Blocks for Special Polynomials&lt;/a&gt;&lt;/strong&gt; — Hilbert’s 12th problem asked for novel analogues of the roots of unity, the building blocks for certain number systems.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://phys.org/news/2021-05-solar-storms-threatening-life-earth.html&#34;&gt;Solar storms are back, threatening life as we know it on Earth&lt;/a&gt;&lt;/strong&gt; — A few days ago, millions of tons of super-heated gas shot from the sun and hurtled towards Earth.&lt;/p&gt;
+&lt;h2 id=&#34;life&#34;&gt;#life&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://onezero.medium.com/beware-the-copyleft-trolls-a8b85c66b7eb&#34;&gt;Beware the Copyleft Trolls&lt;/a&gt;&lt;/strong&gt; — When photographers sue after Creative Commons Licenses go awry.&lt;/p&gt;
+&lt;!-- @MediaLawProf --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.attackmagazine.com/features/long-read/how-japanese-technology-shaped-dance-music/&#34;&gt;How Japanese Technology Shaped Dance Music&lt;/a&gt;&lt;/strong&gt; — How did this island nation come to dominate music production and playback?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.collaborativefund.com/blog/the-optimal-amount-of-hassle/&#34;&gt;The Optimal Amount of Hassle&lt;/a&gt;&lt;/strong&gt; — What is the optimal amount to put up with so I can still function in a messy and imperfect world?&lt;/p&gt;
+&lt;!-- @morganhousel #productivity --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://wifpr.wharton.upenn.edu/wp-content/uploads/2021/05/DeFi-Beyond-the-Hype.pdf&#34;&gt;DeFi Beyond the Hype&lt;/a&gt;&lt;/strong&gt; [pdf] — The Emerging World of Decentralized Finance.&lt;/p&gt;
+&lt;!-- @dgogel #blockchain #cryptocurrency #defi --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://deceptive.medium.com/observations-on-internet-scammers-and-frauds-20fe272dbee&#34;&gt;The Psychology of Internet Scammers and Frauds&lt;/a&gt;&lt;/strong&gt; — I found that many people in the industry were actually pretty ordinary people with homes and children.&lt;/p&gt;
+&lt;!-- @al3x9a #security #scam #fraud --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://jvns.ca/blog/2021/05/24/blog-about-what-you-ve-struggled-with/&#34;&gt;Blog about what you&amp;rsquo;ve struggled with&lt;/a&gt;&lt;/strong&gt; — The process I use for a lot of my blog posts.&lt;/p&gt;
+&lt;!-- @b0rk --&gt;
+&lt;h2 id=&#34;random&#34;&gt;#random&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.halcyonmaps.com/map-of-the-internet-2021&#34;&gt;Map of the Internet 2021&lt;/a&gt;&lt;/strong&gt; — A comprehensive artistic visualization of the Internet as of 2021.&lt;/p&gt;
+&lt;!-- @MartinVargic --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://david.li/vortexspheres/&#34;&gt;Vortex Spheres&lt;/a&gt;&lt;/strong&gt; — Something pretty. &lt;a href=&#34;https://github.com/dli/vortexspheres&#34;&gt;Code available&lt;/a&gt;.&lt;/p&gt;
+&lt;!-- @daviddotli #javascript #js --&gt;
+&lt;h2 id=&#34;end&#34;&gt;#end&lt;/h2&gt;
+&lt;p&gt;If you enjoyed these stories, please share this newsletter with 2.9 friends (That&amp;rsquo;s the reproduction number I&amp;rsquo;m trying to reach).&lt;/p&gt;
+&lt;p&gt;And should you come across anything interesting in your wanderings, please email or tweet me. I&amp;rsquo;d love to give them some exposure too.&lt;/p&gt;
+&lt;p&gt;Happy reading!&lt;br&gt;
+Beng&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://bengtan.com/images/portrait-40.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 
         
       </description>
