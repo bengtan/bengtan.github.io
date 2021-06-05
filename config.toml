@@ -20,7 +20,7 @@ logo = "/images/logo.png"
 footerLogo = "/images/logo.png"
 fallBackOgImage = "/images/logo.png"
 
-ga_analytics = "G-VTEK0C8GRX"
+# ga_analytics = "G-VTEK0C8GRX"
 
 [menu]
   [[menu.main]]
