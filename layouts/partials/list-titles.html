@@ -1,0 +1,16 @@
+{{ $pages := .Pages }}
+<table class="table-list">
+  {{- range (.Paginate $pages 20).Pages }}
+  <tr>
+    <td style="white-space: nowrap; text-align: right;">
+      {{ .Date.Format (default "Jan 2, 2006" $.Site.Params.dateFormat) -}}
+    </td>
+    <td>
+      <span class="post_content">
+        <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title  }}</a>
+      </span>
+    </td>
+  </tr>
+  {{- end }}  
+</table>
+{{- template "_internal/pagination.html" . }}

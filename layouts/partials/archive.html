@@ -2,6 +2,9 @@
 {{ if .IsHome }}
   {{ $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
 {{ end }}
+{{ if eq .Params.list "titles"  }} 
+  {{ partial "list-titles" . }}
+{{ else }}
 <ul class="posts" id="posts">
   {{- range (.Paginate $pages).Pages }}
     {{ if isset .Params "location" }}
@@ -14,3 +17,4 @@
     {{- template "_internal/pagination.html" . }}
   </li>
 </ul>
+{{ end }}
