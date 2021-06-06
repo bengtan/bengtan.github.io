@@ -67,6 +67,7 @@ a img { max-width: 100%; } // Avoid .image-scalable trick in theme
 .embeddable-buttondown-form {
   label { display: block; }
   label.nop { display: none; }
+  input[type="email"] { padding: 0.25em; }
 }
 
 .content-newsletter h2 { clear: both; }
