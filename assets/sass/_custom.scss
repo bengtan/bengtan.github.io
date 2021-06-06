@@ -73,6 +73,21 @@ a img { max-width: 100%; } // Avoid .image-scalable trick in theme
 
 
 /***********************************************************
+* interesting things                                       *
+************************************************************/
+
+html[id="/interesting-things/"] { --choice-bg: var(--light); }
+html[data-mode="dim"][id="/interesting-things/"] { --choice-bg: var(--dark); }
+
+.table-list {
+  width: auto;
+  background-color: transparent;
+  tr:nth-child(2n), tr:nth-child(2n+1) { background-color: transparent; }
+  td { vertical-align: top; border-width: 0; padding: 0.25rem 1rem 0.25rem 0; }
+}
+
+
+/***********************************************************
 * css named colours picker                                 *
 ************************************************************/
 
