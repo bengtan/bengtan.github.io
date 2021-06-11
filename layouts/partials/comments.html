@@ -1,12 +1,5 @@
-{{ if eq .Type "post" }}
+{{ if and (eq .Type "post") (isset .Params "comments") }}
 <div class="comments">
-    {{ if isset .Params "comments" }}
-        Discuss on: <a href="https://twitter.com/search?q={{ .Permalink }}">Twitter</a>
-        {{- range .Params.comments -}}
-            , {{ . | markdownify }}
-        {{- end -}}
-    {{ else }}
-        <a href="https://twitter.com/search?q={{ .Permalink }}">Discuss on Twitter</a>
-    {{ end }}
+    Comments: {{ delimit .Params.comments ", " | markdownify }}
 </div>
 {{ end }}
