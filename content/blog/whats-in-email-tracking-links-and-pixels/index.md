@@ -5,7 +5,8 @@ date: 2021-05-27T12:00:00+08:00
 toc: true
 summary: This investigation into email tracking attempts to deconstruct tracking links and pixels and highlight the data that is being collected. It covers Mailchimp, ConvertKit, Substack and other Mailgun retailers.
 comments: [
-  "[reddit](https://www.reddit.com/r/programming/comments/nppkeg/whats_in_email_tracking_links_and_pixels/)"
+  "[reddit](https://www.reddit.com/r/programming/comments/nppkeg/whats_in_email_tracking_links_and_pixels/)",
+  "[hacker news](https://news.ycombinator.com/item?id=27446907)"
 ]
 ---
 
