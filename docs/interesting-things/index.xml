@@ -6,16 +6,133 @@
     <description>Recent content in Interesting Things on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Fri, 04 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/interesting-things/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/interesting-things/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Interesting Things #7 — Don&#39;t read everything</title>
-      <link>https://bengtan.com/interesting-things/007-private/</link>
-      <pubDate>Fri, 04 Jun 2021 00:00:00 +0000</pubDate>
+      <title>Interesting Things #8 — Meta-/beta-stability</title>
+      <link>https://bengtan.com/interesting-things/008-private/</link>
+      <pubDate>Fri, 11 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bengtan.com/interesting-things/007-private/</guid>
+      <guid>https://bengtan.com/interesting-things/008-private/</guid>
       <description>
         
           &lt;p&gt;Not public yet. &lt;a href=&#34;https://bengtan.com/newsletter&#34;&gt;Subscribe&lt;/a&gt; to get it in your inbox now!&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Interesting Things #7 — Don&#39;t read everything</title>
+      <link>https://bengtan.com/interesting-things/007/</link>
+      <pubDate>Fri, 04 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bengtan.com/interesting-things/007/</guid>
+      <description>
+        
+          &lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;This is &lt;a href=&#34;https://bengtan.com/about/&#34;&gt;Beng Tan&lt;/a&gt; and welcome to &lt;strong&gt;Interesting Things&lt;/strong&gt;, a curation of interesting stories and links from tech, indie biz, science, and related fields.&lt;/p&gt;
+&lt;p&gt;I got interesting feedback this week. Someone said they get overwhelmed if a newsletter has tons and tons of info in it. They were referring to this one. 😨&lt;/p&gt;
+&lt;p&gt;But I&amp;rsquo;ll take this as a compliment. 😁&lt;/p&gt;
+&lt;p&gt;And I will say: &lt;strong&gt;Don&amp;rsquo;t read everything&lt;/strong&gt;. Just read what you find interesting and skip the rest. It&amp;rsquo;s a newsletter. It&amp;rsquo;s not gonna vanish into your social media feed. You can always come back later. Or not at all.&lt;/p&gt;
+&lt;p&gt;Oh, and don&amp;rsquo;t read it all in a day. Spread it out over a week. Relax.&lt;/p&gt;
+&lt;p&gt;I hope you find the following stories interesting. If you don&amp;rsquo;t, you can [unsubscribe]({{ unsubscribe_url }}) and I won&amp;rsquo;t pollute your inbox again.&lt;/p&gt;
+&lt;p&gt;Happy reading!&lt;/p&gt;
+&lt;h2 id=&#34;tech&#34;&gt;#tech&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://bengtan.com/blog/whats-in-email-tracking-links-and-pixels/&#34;&gt;What&amp;rsquo;s in email tracking links and pixels?&lt;/a&gt;&lt;/strong&gt; — An attempt to deconstruct tracking links and pixels and highlight the data that is being collected.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://ai.stanford.edu/blog/in-context-learning/&#34;&gt;Extrapolating to Unnatural Language Processing with GPT-3&amp;rsquo;s In-context Learning: The Good, the Bad, and the Mysterious&lt;/a&gt;&lt;/strong&gt; — Something that wasn’t apparent in smaller models seems to “emerge&amp;quot; as models get bigger.&lt;/p&gt;
+&lt;!-- @friedeggs #gpt3 #ai --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://sigops.org/s/conferences/hotos/2021/papers/hotos21-s06-greenberg.pdf&#34;&gt;UnixShell Programming: The Next 50 Years&lt;/a&gt;&lt;/strong&gt; [pdf] — Improving the shell holds much promise for development, ops, and data processing.&lt;/p&gt;
+&lt;!-- #unix #bash --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://devblogs.microsoft.com/oldnewthing/20210531-00/?p=105265&#34;&gt;The ARM processor (Thumb-2), part 1: Introduction&lt;/a&gt;&lt;/strong&gt; — How does Windows 10 use this processor in user mode?&lt;/p&gt;
+&lt;!-- @ChenCravat --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://web.dev/css-is-and-where/&#34;&gt;New CSS functional pseudo-class selectors :is() and :where()&lt;/a&gt;&lt;/strong&gt; — These seemingly small additions to CSS selector syntax are going to have a big impact.&lt;/p&gt;
+&lt;!-- @argyleink #css #frontend #webdev #webdevelopment --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://fly.io/blog/livebook-for-app-documentation/&#34;&gt;Livebook is a secret weapon for documentation&lt;/a&gt;&lt;/strong&gt; — A new way to provide documentation, interactive exploration, and expose the app logic in a way we couldn&amp;rsquo;t before.&lt;/p&gt;
+&lt;!-- @brainlid #programming #coding #phoenix #elixir #documentation --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://pentacent.com/blog/failing-big-elixir-liveview/&#34;&gt;Failing Big with Elixir and LiveView&lt;/a&gt;&lt;/strong&gt; — A post-mortem of why a political party in Germany had to delay their convention by an hour.&lt;/p&gt;
+&lt;!-- @pentacent_hq #elixir #phoenix #liveview --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://beachape.com/blog/2021/05/25/structural-typing-in-rust/&#34;&gt;Structural Typing in Rust&lt;/a&gt;&lt;/strong&gt; — Bringing structurally typed functions to Rust via LabelledGeneric.&lt;/p&gt;
+&lt;!-- @meta_Lloyd #rust --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.ecorax.net/tightness/&#34;&gt;Tightness Driven Development in Rust&lt;/a&gt;&lt;/strong&gt; — The tightness of a type is the proportion of invariants that are upheld in the type definition as opposed to its methods.&lt;/p&gt;
+&lt;!-- #rust #programming #coding --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.trailofbits.com/post/write-rust-lints-without-forking-clippy&#34;&gt;Write Rust lints without forking Clippy&lt;/a&gt;&lt;/strong&gt; — Dylint makes it easy for developers to maintain their own personal lint collections.&lt;/p&gt;
+&lt;!-- #rust --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.tbray.org/ongoing/When/202x/2021/05/15/Testing-in-2021&#34;&gt;Testing in the Twenties&lt;/a&gt;&lt;/strong&gt; (May 2021) — A compelling argument in favour of taking automated testing seriously.&lt;/p&gt;
+&lt;!-- @timbray #testing --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://martinfowler.com/articles/2021-test-shapes.html&#34;&gt;On the Diverse And Fantastical Shapes of Testing&lt;/a&gt;&lt;/strong&gt; — Martin Fowler on the meaning of unit testing.&lt;/p&gt;
+&lt;!-- @martinfowler #testing --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://gcollazo.com/logging-is-important/&#34;&gt;Logging is important&lt;/a&gt;&lt;/strong&gt; — Having good logs requires a little bit of thought and consistency. But is not that hard.&lt;/p&gt;
+&lt;!-- @gcollazo #programming #coding --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://rachelbythebay.com/w/2021/06/01/count/&#34;&gt;Please don&amp;rsquo;t count outages (or SEVs, or whatever)&lt;/a&gt;&lt;/strong&gt; — When a metric becomes a goal, it ceases to be useful.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://bytecodealliance.org/articles/making-javascript-run-fast-on-webassembly&#34;&gt;Making JavaScript run fast on WebAssembly&lt;/a&gt;&lt;/strong&gt; — Optimising javascript performance for new environments (other than the browser).&lt;/p&gt;
+&lt;!-- @linclark #js #javascript #webassembly #wasm --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://surma.dev/things/js-to-asc/index.html&#34;&gt;Is WebAssembly magic performance pixie dust?&lt;/a&gt;&lt;/strong&gt; — There is something to gain from taking a piece of JavaScript, turning it into AssemblyScript and compiling it to WebAssembly.&lt;/p&gt;
+&lt;!-- @dassurma #frontend #webassembly #js #javascript --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://textslashplain.com/2021/06/02/leaky-abstractions/&#34;&gt;Leaky Abstractions&lt;/a&gt;&lt;/strong&gt; — While deleting a file from a disk is usually trivial., deleting from certain ZIP files is extremely slow.&lt;/p&gt;
+&lt;!-- @ericlaw --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://hinty.io/devforth/sql-query-optimization-understanding-key-principle/&#34;&gt;SQL Query Optimization: Understanding Key Principle&lt;/a&gt;&lt;/strong&gt; — Gain a true understanding of SQL query speeds, incuding a demonstration of slow and fast query types&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://supercyp.me/02-wingos-syscalls.html&#34;&gt;syscall &amp;amp; sysret&lt;/a&gt;&lt;/strong&gt; — How syscall or sysret is implemented on WingOS by a 14-year old.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://antfu.me/posts/about-yak-shaving&#34;&gt;About Yak Shaving&lt;/a&gt;&lt;/strong&gt; — The story of how I started doing open source.&lt;/p&gt;
+&lt;!-- @antfu7 --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://medium.com/young-coder/the-future-web-will-canvas-rendering-replace-the-dom-847be872884c&#34;&gt;The Future Web: Will Canvas Rendering Replace the DOM?&lt;/a&gt;&lt;/strong&gt; — Google Docs is switching to canvas rendering. WebAssembly is growing. Are we moving to a future of opaque binary blobs?&lt;/p&gt;
+&lt;!-- @prosetech --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.protocol.com/browser-company&#34;&gt;The startups reinventing the web browser&lt;/a&gt;&lt;/strong&gt; — The web browser is a crucial part of modern life, and yet it hasn&amp;rsquo;t really been revised since the &amp;rsquo;90s. That may be about to change.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://pitr.ca/2021-05-29-gemini-ecosystem&#34;&gt;Contributing to Gemini ecosystem&lt;/a&gt;&lt;/strong&gt; — A glimpse into what&amp;rsquo;s happening in this next-gen platform.&lt;/p&gt;
+&lt;!-- @pitrapen --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.netlab.360.com/ssh_stealer_facefish_en/&#34;&gt;Analysis report of the Facefish rootkit&lt;/a&gt;&lt;/strong&gt; — Facefish can be characterized as a backdoor for Linux platform.&lt;/p&gt;
+&lt;!-- #security --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://medium.com/geekculture/howto-running-the-1g-analog-phone-from-1997-3caec77a9df9&#34;&gt;Running the 1G Analog Phone from 1997&lt;/a&gt;&lt;/strong&gt; — Someone created a 1G cellular network with a laptop and commonly available hardware.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://sites.google.com/view/elizagen-org/the-original-eliza&#34;&gt;Joseph Weizenbaum&amp;rsquo;s Original ELIZA&lt;/a&gt;&lt;/strong&gt; — A storied part of tech history.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://betterprogramming.pub/3-embarrassing-software-engineering-fails-no-one-shares-7dacb9103857&#34;&gt;Three Embarrassing Software Engineering Fails&lt;/a&gt;&lt;/strong&gt; — The biggest mistakes I made in my career ,  and what I learned.&lt;/p&gt;
+&lt;!-- @dkhmelenko --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.technologyreview.com/2021/05/31/1025599/history-first-chinese-digital-computer-fonts/&#34;&gt;Behind the painstaking process of creating Chinese computer fonts&lt;/a&gt;&lt;/strong&gt; — More than 40 years ago, designers drew and edited thousands of characters by hand to make it possible to type and print in Chinese.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.fastcompany.com/90635203/ibm-chinese-typewriter-lois-lew&#34;&gt;How Lois Lew mastered IBM’s 1940s Chinese typewriter&lt;/a&gt;&lt;/strong&gt; — She memorised 5,400 (non-unicode) code points.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://ieftimov.com/post/conditional-http-get-fastest-requests-need-no-response-body/&#34;&gt;Conditional HTTP GET: The fastest requests need no response body&lt;/a&gt;&lt;/strong&gt; — A great guide on how conditional http headers interact with the browser cache.&lt;/p&gt;
+&lt;!-- @itsilija #frontend #webdev #webdevelopment --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://shalabh.com/programmable-systems/offload-mental-simulation.html&#34;&gt;Offload Mental Simulation&lt;/a&gt;&lt;/strong&gt; — Is this an essential feature for all future programming systems?&lt;/p&gt;
+&lt;h2 id=&#34;indie-biz&#34;&gt;#indie biz&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://techno-sapien.com/blog/decision-driven&#34;&gt;Be Decision-Driven Not Data-Driven&lt;/a&gt;&lt;/strong&gt; — The tech media is obsessed with data but maybe being data-driven is the wrong goal.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.eesel.app/blog/how-to-raise-for-the-first-time&#34;&gt;How to raise for the first time&lt;/a&gt;&lt;/strong&gt; — You may find our learnings handy if you&amp;rsquo;re an early stage startup looking to raise.&lt;/p&gt;
+&lt;!--#startup #startups --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.ivp.com/saas-fundraising-handbook/&#34;&gt;SaaS Fundraising Handbook&lt;/a&gt;&lt;/strong&gt; — Be Fully Prepared for Your Company’s Next Fundraise.&lt;/p&gt;
+&lt;!-- @parsa_s @themichaelmiao --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.wired.com/story/meet-your-next-angel-investor-theyre-19/&#34;&gt;Meet Your Next Angel Investor. They&amp;rsquo;re 19&lt;/a&gt;&lt;/strong&gt; — It’s never been easier to invest in startups, and Gen Z is taking full advantage.&lt;/p&gt;
+&lt;!-- @pardesoteric --&gt;
+&lt;h2 id=&#34;science&#34;&gt;#science&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.eurekalert.org/pub_releases/2021-06/tu-sba060121.php&#34;&gt;Sick bats also employ &amp;lsquo;social distancing&amp;rsquo; which prevents the outbreak of epidemics&lt;/a&gt;&lt;/strong&gt; — Bats also resort to isolation which can assist in preventing mass contagion.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.scientificamerican.com/article/how-this-zombie-fungus-turns-cicadas-into-horror-movie-sex-bots/&#34;&gt;How This Zombie Fungus Turns Cicadas into Horror-Movie Sex Bots&lt;/a&gt;&lt;/strong&gt; — An amphetamine and a psychedelic help parasitic fungi spread their spores through insects&#39; doomed mating attempts.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://asiatimes.com/2021/06/mach-30-wind-tunnel-will-put-china-decades-ahead/&#34;&gt;Mach 30 ‘tunnel’ will put China decades ahead&lt;/a&gt;&lt;/strong&gt; — Hypersonic tech could make it possible for super-fast jets to fly anywhere in the world in two hours or less.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.sciencealert.com/cities-are-teeming-with-thousands-of-species-of-unknown-microbes-scientists-find&#34;&gt;Cities Have Unique Microbial &amp;lsquo;Fingerprints&amp;rsquo;, First Study of Its Kind Reveals&lt;/a&gt;&lt;/strong&gt; — Got sick when you holiday in a new place? You probably got exposed to a new microbiome.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://eos.org/articles/fifteen-years-of-radar-reveal-venuss-most-basic-facts&#34;&gt;Fifteen Years of Radar Reveal Venus’s Most Basic Facts&lt;/a&gt;&lt;/strong&gt; — Every day on Venus is a different length.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.smithsonianmag.com/innovation/american-grown-truffle-breakthrough-180977702/&#34;&gt;Has the American-Grown Truffle Finally Broken Through?&lt;/a&gt;&lt;/strong&gt; — These delicacies, harvested in an experiment in North Carolina, have food-lovers and farmers ravenous for more.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.globaltimes.cn/page/202105/1224755.shtml&#34;&gt;China maintains &amp;lsquo;artificial sun&amp;rsquo; at 120 million Celsius for over 100 seconds, setting new world record&lt;/a&gt;&lt;/strong&gt; — A key step toward the test running of a fusion reactor.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://medicalxpress.com/news/2021-05-years-discovery-immune-dendritic-cells.html&#34;&gt;153 years after discovery of the immune system&amp;rsquo;s dendritic cells, scientists uncover a new subset&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;life&#34;&gt;#life&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://sul.im/blog/a-hacker-mindset/&#34;&gt;A hacker mindset&lt;/a&gt;&lt;/strong&gt; — Rules to help develop what I call &amp;lsquo;a hacker mindset&amp;rsquo;.&lt;/p&gt;
+&lt;!-- @soulim #productivity --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.dariov.com/blog/nomad-life-freedom&#34;&gt;The Digital Nomad Life and the Ambiguous Gift of Freedom&lt;/a&gt;&lt;/strong&gt; — Is this lifestyle really as dazzling as it seems?&lt;/p&gt;
+&lt;!-- @radiovilli #nomad #digitalnomad --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.dgsiegel.net/articles/pencil-and-paper-thinking&#34;&gt;pencil and paper thinking&lt;/a&gt;&lt;/strong&gt; (Apr 2021) — To truly understand the world, we need tools far more powerful than pencil and paper.&lt;/p&gt;
+&lt;!-- @dgsiegel --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.nytimes.com/2021/05/29/world/europe/ransomware-russia-darkside.html&#34;&gt;Secret Chats Show How Cybergang Became a Ransomware Powerhouse&lt;/a&gt;&lt;/strong&gt; — A Russian-speaking outfit called DarkSide offered would-be computer crooks not just the tools, but also customer support.&lt;/p&gt;
+&lt;!-- #security #fraud #ransomware --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://www.brendangregg.com/blog/2021-05-29/moving-to-australia.html&#34;&gt;Moving my US tech job to Australia&lt;/a&gt;&lt;/strong&gt; — Another data point in this new trend.&lt;/p&gt;
+&lt;!-- @brendangregg --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://devjac.dev/posts/2021-05-29-my-personal-creed-of-employment.html&#34;&gt;My Personal Creed of Employment&lt;/a&gt;&lt;/strong&gt; — I describe the attitude and practices I wish to follow. I hope some of them might help you.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.vox.com/recode/22455140/lemonade-insurance-ai-twitter&#34;&gt;A disturbing, viral Twitter thread reveals how AI-powered insurance can go wrong&lt;/a&gt;&lt;/strong&gt; — Lemonade tweeted about what it means to be an AI-first insurance company. It left a sour taste in many customers’ mouths.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://newsletter.decisionschool.org/p/decision-making-bias-availability&#34;&gt;Decision Making Bias: Availability&lt;/a&gt;&lt;/strong&gt; — We overestimate the likelihood of events that are easier to recall.&lt;/p&gt;
+&lt;!-- #productivity --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.profgalloway.com/mework/&#34;&gt;MeWork&lt;/a&gt;&lt;/strong&gt; — There’s a new class of billionaire in America which makes their fortunes destroying value rather than creating it.&lt;/p&gt;
+&lt;!-- @profgalloway --&gt;
+&lt;h2 id=&#34;random&#34;&gt;#random&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://mattlakeman.org/2021/06/01/everything-you-might-want-to-know-about-whaling/&#34;&gt;Everything You Might Want to Know about Whaling&lt;/a&gt;&lt;/strong&gt; — I think whaling is really cool. I can’t help it. I embarked on this project to understand everything I could about whaling.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.pixelthoughts.co/&#34;&gt;Pixel Thoughts&lt;/a&gt;&lt;/strong&gt; — A 60-second meditation tool to help clear your mind.&lt;/p&gt;
+&lt;h2 id=&#34;end&#34;&gt;#end&lt;/h2&gt;
+&lt;p&gt;If you enjoyed these stories, please share this newsletter with 2.9 friends (I&amp;rsquo;m trying to increase the R0 number).&lt;/p&gt;
+&lt;p&gt;And should you come across anything interesting in your wanderings, please email or tweet me. I&amp;rsquo;d love to give them some exposure too.&lt;/p&gt;
+&lt;p&gt;Happy reading!&lt;br&gt;
+Beng&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://bengtan.com/images/portrait-40.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 
         
       </description>
