@@ -21,7 +21,9 @@ Alternatively, you can get the same content throughout the week by [following me
 <div style="font-size: smaller;">
 Subscribing is risk free. You can unsubscribe from either newsletter anytime.
 
-There are actually two mailing lists. The subscription form adds you to the **Interesting Things** list (and sends you the latest issue). Then, if you also chose blog posts, I manually add your address to the blog list (usually just before sending out a new blog post).
+There are actually two mailing lists. The subscription form adds you to the Interesting Things list (and sends you the latest issue). Then, if you also chose blog posts, I manually add your address to the blog list (usually just before sending out a new blog post).
+
+By implication, if you choose only blog posts, you will **still** be sent the latest issue of Interesting Things. However, this is a one-off and you won't receive any subsequent issues. Sorry, this is the best I can do with my current newsletter setup.
 
 When you unsubscribe, you'll unsubscribe from one of the newsletters. If you want to unsubscribe completely, you need to unsubscribe from both.
 
