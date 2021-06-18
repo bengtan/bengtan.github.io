@@ -5,7 +5,7 @@ aliases: ["reading-list"]
 list: titles
 ---
 
-**Interesting Things** is a weekly email newsletter.
+**Interesting Things** is a weekly email newsletter. Free.
 
 It curates interesting stories and links from technology; adjacent fields such as indie business, science, and productivity; and whatever else I find interesting. I try to stay away from politics, product/press releases and bigcorp stuff.
 

@@ -3,7 +3,7 @@ title: "Newsletter"
 showDate: false
 ---
 
-There are two newsletters.
+There are two newsletters. Both are free. There is no charge.
 
 * **Interesting Things** newsletter &mdash; [More info.](/interesting-things/)
 * **Blog posts** &mdash; About one article per month.
@@ -19,7 +19,7 @@ Alternatively, you can get the same content throughout the week by [following me
 **Notes**
 
 <div style="font-size: smaller;">
-Subscribing is risk free. You can unsubscribe from either newsletter anytime.
+Subscribing is free. You can unsubscribe from either newsletter anytime.
 
 There are actually two mailing lists. The subscription form adds you to the Interesting Things list (and sends you the latest issue). Then, if you also chose blog posts, I manually add your address to the blog list (usually just before sending out a new blog post).
 
