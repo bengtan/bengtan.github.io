@@ -1,6 +1,6 @@
 ---
 title: "CSS Named Colours Picker"
-thumbnail: "/css-named-colours-picker/css-named-colours-picker-screenshot.png"
+shareImage: "/css-named-colours-picker/css-named-colours-picker-screenshot.png"
 description: "Interactive tool for exploring CSS named/extended colours. Filterable (multi-column) sortable table widget. Useful for choosing colours for web development."
 showDate: false
 featured: true
