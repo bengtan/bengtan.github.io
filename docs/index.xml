@@ -6,18 +6,119 @@
     <description>Recent content in Recent Posts on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Fri, 11 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Interesting Things #8 — Meta-/beta-stability</title>
-      <link>https://bengtan.com/interesting-things/008-private/</link>
-      <pubDate>Fri, 11 Jun 2021 00:00:00 +0000</pubDate>
+      <title>Interesting Things #9 — Remix</title>
+      <link>https://bengtan.com/interesting-things/009-private/</link>
+      <pubDate>Fri, 18 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bengtan.com/interesting-things/008-private/</guid>
+      <guid>https://bengtan.com/interesting-things/009-private/</guid>
       <description>
         
           &lt;p&gt;The lastest issue of &lt;strong&gt;Interesting Things&lt;/strong&gt; is subscriber-only. Please come back in a few days time.&lt;/p&gt;
 &lt;p&gt;If you don&amp;rsquo;t want to wait, &lt;a href=&#34;https://bengtan.com/newsletter&#34;&gt;subscribe&lt;/a&gt; to get it in your inbox now!&lt;/p&gt;
 &lt;p&gt;Look at some &lt;a href=&#34;https://bengtan.com/interesting-things&#34;&gt;older issues&lt;/a&gt;.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Interesting Things #8 — Meta-/beta-stability</title>
+      <link>https://bengtan.com/interesting-things/008/</link>
+      <pubDate>Fri, 11 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bengtan.com/interesting-things/008/</guid>
+      <description>
+        
+          &lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;This is &lt;a href=&#34;https://bengtan.com/about/&#34;&gt;Beng Tan&lt;/a&gt; and welcome to &lt;strong&gt;Interesting Things&lt;/strong&gt;, a curation of interesting stories and links from tech, indie biz, science, and related fields.&lt;/p&gt;
+&lt;p&gt;I hope you find the following stories interesting. If you don&amp;rsquo;t, it&amp;rsquo;s my fault, not yours. But you can [unsubscribe]({{ unsubscribe_url }}) and I won&amp;rsquo;t bother you again.&lt;/p&gt;
+&lt;p&gt;Happy reading!&lt;/p&gt;
+&lt;h2 id=&#34;tech&#34;&gt;#tech&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://sigops.org/s/conferences/hotos/2021/papers/hotos21-s11-bronson.pdf&#34;&gt;Metastable Failures in Distributed Systems&lt;/a&gt;&lt;/strong&gt; [pdf] — A class of failures that can arise even when there are no hardware failures, configuration errors, or software bugs.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://alfon.io/posts/hiding-cryptominers-linux&#34;&gt;Hiding miners on Linux for profit&lt;/a&gt;&lt;/strong&gt; (Apr 2021) — How a rootkit could hide malicious programs from being visible.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.jakobmeier.ch/blogging/Untapped-Rust.html&#34;&gt;Untapped potential in Rust&amp;rsquo;s type system&lt;/a&gt;&lt;/strong&gt; — What types can be used for other than checking code properties.&lt;/p&gt;
+&lt;!-- #rust --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://medium.com/brick-by-brick/a-brief-history-of-browser-extensibility-bcfeb4181c9a&#34;&gt;A Brief History of Browser Extensibility&lt;/a&gt;&lt;/strong&gt; — I wanted to learn how browser extensibility has evolved over the years. Since I couldn’t find a complete history, I wrote my own.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.nearform.com/blog/optimise-node-js-performance-avoiding-broken-promises/&#34;&gt;Optimise Node.js performance by avoiding broken promises&lt;/a&gt;&lt;/strong&gt; — An in-depth look at promises, the Node.js event loop and building highly performant Node.js applications.&lt;/p&gt;
+&lt;!-- @jasnell #node #js #javascript --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://devd.me/log/posts/kerckhoffs-law/&#34;&gt;Kerckhoffs’s Law for Security Engineers&lt;/a&gt;&lt;/strong&gt; — The security of your system should rely only on secrecy of things you can change easily.&lt;/p&gt;
+&lt;!-- @frgx #security --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://kislayverma.com/programming/how-to-organize-your-code/&#34;&gt;How to organize your code?&lt;/a&gt;&lt;/strong&gt; — Why you should organize code by logical entities rather than by layers of the tech stack.&lt;/p&gt;
+&lt;!-- @kislayverma #coding #programming --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.vam.ac.uk/blog/digital/how-we-brought-the-online-collections-into-the-modern-age-using-web-technology-of-the-past&#34;&gt;How We Brought the Online Collections into the Modern Age using Web Technology of the Past&lt;/a&gt;&lt;/strong&gt; — After surveying the latest in javascript, we decided to use state-of-the-art, cutting-edge … static pages. 1.24 million of them.&lt;/p&gt;
+&lt;!-- #webdesign #webdev #html #webdevelopment #webdeveloper #website --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.makeartwithpython.com/blog/thoughts-on-technical-evangelism/&#34;&gt;Humane Software and the Role of Developer Advocacy&lt;/a&gt;&lt;/strong&gt; (Mar 2021) — A guide for engineers who care about the worlds they build.&lt;/p&gt;
+&lt;!-- @burningion --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.crudful.com/guides/what-is-rest&#34;&gt;What is REST?&lt;/a&gt;&lt;/strong&gt; — This guide is an intro to RESTful services with common use cases.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://andregarzia.com/2021/04/writing-a-technical-book.html&#34;&gt;Writing a Technical Book&lt;/a&gt;&lt;/strong&gt; (Apr 2021) — Book writing has changed and evolved over time. The best way to write a book today is not necessarily the same as the past.&lt;/p&gt;
+&lt;!-- @soapdog --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://akircanski.github.io/cryptanalysis/2021/04/27/symmetric-key-cryptanalysis-howto.html&#34;&gt;How I Learned Symmetric-Key Cryptanalysis&lt;/a&gt;&lt;/strong&gt; (Apr 2021) — I’m hoping that this could be helpful to someone who has decided to work in the area of symmetric key crypto.&lt;/p&gt;
+&lt;!-- #security --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://english.elpais.com/science_tech/2021-04-23/the-spanish-engineer-who-created-the-yayagram-to-communicate-with-his-granny.html&#34;&gt;The Spanish engineer who created the ‘Yayagram’ to communicate with his granny&lt;/a&gt;&lt;/strong&gt; (Apr 2021) — The computer expert devised a system to let his 96-year-old grandmother stay in touch with her grandchildren.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://jvns.ca/blog/2021/06/08/reasons-why-bugs-might-feel-impossible/&#34;&gt;Reasons why bugs might feel &amp;lsquo;impossible&amp;rsquo;&lt;/a&gt;&lt;/strong&gt; — Here are the categories I came up with for ways a bug might feel impossible to understand.&lt;/p&gt;
+&lt;!-- @b0rk #coding #programming --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://serokell.io/blog/introduction-to-phoenix&#34;&gt;Introduction to Phoenix&lt;/a&gt;&lt;/strong&gt; — The leading web framework in the Elixir ecosystem, perfect for building scalable and reliable web experiences.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.mgaudet.ca/technical/2021/5/4/implementing-private-fields-for-javascript&#34;&gt;Implementing Private Fields for JavaScript&lt;/a&gt;&lt;/strong&gt; — I&amp;rsquo;ll explain what private fields are and why our implementation diverges from the specification language.&lt;/p&gt;
+&lt;!-- @mattstudies #js #javascript --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://briancallahan.net/blog/20210609.html&#34;&gt;I wrote a linker everyone can understand!&lt;/a&gt;&lt;/strong&gt; — It might be fun to design our own object file format and write our own linker. I&amp;rsquo;m sure we&amp;rsquo;d learn something useful.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://pustelto.com/blog/css-vs-css-in-js-perf/&#34;&gt;Real-world CSS vs. CSS-in-JS performance comparison&lt;/a&gt;&lt;/strong&gt; (Apr 2021) — I took a real app and converted it from Styled Components to compare the app performance of CSS-in-JS and normal CSS.&lt;/p&gt;
+&lt;!-- @pustelto #css #webdesign #webdev #webdevelopment #webdeveloper --&gt;
+&lt;h2 id=&#34;indie-biz&#34;&gt;#indie biz&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.visualbinary.com/blog/audiex&#34;&gt;Evaluating Startup Ideas and When to Pivot: Learn From Our Mistakes&lt;/a&gt;&lt;/strong&gt; — How do you validate an idea? When should you pivot? Don&amp;rsquo;t learn the hard way like us.&lt;/p&gt;
+&lt;!-- @ABriscallBowker #startup #startups #product #startupideas --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://circleci.com/blog/startup-founders-guide-to-software-delivery/&#34;&gt;The startup founders&#39; guide to software delivery&lt;/a&gt;&lt;/strong&gt; — Software delivery on a team of 2 people is vastly different from a team of 200. Optimizing too early or too late can cost you.&lt;/p&gt;
+&lt;!--#startup #startups --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://desmondmcnamee.com/21.04.2021-product-after-product-market-fit.html&#34;&gt;Product After Product Market Fit&lt;/a&gt;&lt;/strong&gt; (Apr 2021) — What’s the point of improving a product after it has product market fit?&lt;/p&gt;
+&lt;!-- @desmondmc89 #startup #startups #product #startupideas --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.getcogno.ai/blog/how-to-sell-to-large-enterprises/&#34;&gt;How to sell to large enterprises?&lt;/a&gt;&lt;/strong&gt; — Before we delve into how, let’s first understand how a large enterprise works.&lt;/p&gt;
+&lt;!-- @amangoeliitb --&gt;
+&lt;h2 id=&#34;science&#34;&gt;#science&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://rootsofprogress.org/nuclear-physics&#34;&gt;How counting neutrons explains nuclear waste&lt;/a&gt;&lt;/strong&gt; (May 2021) — Explore the beta-stability line and the island of stability. Does the island exist? No one knows for sure.&lt;/p&gt;
+&lt;!-- @rootsofprogress --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.sciencenews.org/article/optogenetics-social-behavior-brains-mice-light&#34;&gt;Scientists remotely controlled the social behavior of mice with light&lt;/a&gt;&lt;/strong&gt; (May 2021) — New devices rely on optogenetics, in which bursts of light toggle neurons, to control mouse brain activity.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.quantamagazine.org/mathematicians-identify-threshold-at-which-shapes-give-way-20210603/&#34;&gt;Mathematicians Identify Threshold at Which Shapes Give Way&lt;/a&gt;&lt;/strong&gt; — A new proof establishes the boundary at which a shape becomes so corrugated, it can be crushed.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.timesofisrael.com/israeli-scientists-extend-mices-lives-by-23-say-method-may-work-on-humans/&#34;&gt;Israeli scientists extend mice’s lives by 23%, say method may work on humans&lt;/a&gt;&lt;/strong&gt; — Mice not only live longer, but are more youthful and less susceptible to cancer, after boosts of a single protein.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.historytoday.com/archive/natural-histories/placing-platypus&#34;&gt;Placing the Platypus&lt;/a&gt;&lt;/strong&gt; — Defying categorisation since its discovery, was the platypus a mammal, a reptile, or something else?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.sciencealert.com/blind-and-sighted-people-can-learn-to-echolocate-in-as-few-as-10-weeks&#34;&gt;Humans Can Learn How to &amp;lsquo;Echolocate&amp;rsquo; in Just 10 Weeks, Experiment Shows&lt;/a&gt;&lt;/strong&gt; — Researchers were able to teach participants how to navigate obstacles and recognize the size and orientation of objects.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.quantamagazine.org/dna-jumps-between-animal-species-no-one-knows-how-often-20210609/&#34;&gt;DNA Jumps Between Animal Species. No One Knows How Often.&lt;/a&gt;&lt;/strong&gt; — A gene shared by two unrelated species of fish is the latest evidence.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://medium.com/predict/this-long-awaited-technology-may-finally-change-the-world-ec3023a30af2&#34;&gt;This Long-Awaited Technology May Finally Change the World&lt;/a&gt;&lt;/strong&gt; (May 2021) — Solid-state batteries are poised to emerge in the coming years.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://lithub.com/how-science-has-revealed-the-inner-consciousness-of-invertebrates&#34;&gt;How Science Has Revealed the Inner Consciousness of Invertebrates&lt;/a&gt;&lt;/strong&gt; — We tend to believe that invertebrates lack any mental life whatsoever. But science has been exposing the frailty of such a belief.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.laphamsquarterly.org/technology/fusion-magic&#34;&gt;Fusion &amp;amp; Magic&lt;/a&gt;&lt;/strong&gt; — Technology has created marvels that become everyday. Could that save us soon?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://cshl.nautil.us/article/704/data-crunchers-to-the-rescue&#34;&gt;Data Crunchers to the Rescue&lt;/a&gt;&lt;/strong&gt; — Genetic diseases that puzzle lab scientists are being solved by quantitative biologists.&lt;/p&gt;
+&lt;h2 id=&#34;life&#34;&gt;#life&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://ashfurrow.com/blog/advice-for-junior-developers/&#34;&gt;Advice for Junior Developers&lt;/a&gt;&lt;/strong&gt; — Software developers aren’t paid to code. They’re paid to build products that help the business succeed.&lt;/p&gt;
+&lt;!-- @ashfurrow --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.bbc.com/worklife/article/20210528-positive-deviants-why-rebellious-workers-spark-gr-ideas&#34;&gt;&amp;lsquo;Positive deviants&amp;rsquo;: Why rebellious workers spark great ideas&lt;/a&gt;&lt;/strong&gt; — There is psychological evidence that rebelliousness is essential for creativity.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.rubick.com/communication-is-shared-state/&#34;&gt;Communication is shared state&lt;/a&gt;&lt;/strong&gt; (Mar 2021) — Human communication is similar to computer communication but humans do it poorly.&lt;/p&gt;
+&lt;!-- @JadeRubick #productivity --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.vice.com/en/article/k7a3mm/why-you-should-talk-to-yourself-in-the-third-person-inner-monologue&#34;&gt;Why You Should Talk to Yourself in the Third Person&lt;/a&gt;&lt;/strong&gt; — Evidence suggests that there are real benefits of talking to yourself in the third person.&lt;/p&gt;
+&lt;!-- #productivity --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.p3r.one/goal-setting-is-bullshit/&#34;&gt;Life, DevOps and Goals: A Guide on why Goal setting fails and Systems don’t&lt;/a&gt;&lt;/strong&gt; — Goals are necessary but insufficient. You also need a system.&lt;/p&gt;
+&lt;!-- @hrittikhere #productivity --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://hackernoon.com/the-rational-software-engineer-a-guide-to-work-time-organization-wfu34ce&#34;&gt;The Rational Software Engineer: A Guide to Work Time Organization&lt;/a&gt;&lt;/strong&gt; — I often try to optimize my productivity: I want to get more work done, without having to do more work.&lt;/p&gt;
+&lt;!-- #productivity --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://medium.com/aha-moments/4-types-of-people-thats-it-5bbce8e7d197&#34;&gt;4 Types of People. That’s it.&lt;/a&gt;&lt;/strong&gt; (May 2021) — Givers, Takers, The Smart Ones and The Super Smart Ones. I wish I knew earlier.&lt;/p&gt;
+&lt;!-- @KarthRajan --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.nytimes.com/2021/06/04/business/online-groceries-pickers-instacart.html&#34;&gt;It’s Hard Work to Make Ordering Groceries Online So Easy&lt;/a&gt;&lt;/strong&gt; — Workers who pick items off the shelves often feel the pressure of being tracked.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://whycryptocurrencies.com/toc.html&#34;&gt;Why Cryptocurrencies?&lt;/a&gt;&lt;/strong&gt; (May 2021) — A book about what they are, what they do and why they matter?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.nytimes.com/2021/06/08/style/creator-burnout-social-media.html&#34;&gt;Young Creators Are Burning Out and Breaking Down&lt;/a&gt;&lt;/strong&gt; — Creators are struggling with building, managing and monetizing a following online.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://vancelucas.com/blog/work-hard-and-dont-burn-bridges/&#34;&gt;Work Hard and Don’t Burn Bridges&lt;/a&gt;&lt;/strong&gt; — How some insignificant work during an internship transformed my career 11 years later.&lt;/p&gt;
+&lt;!-- @vlucas --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://calpaterson.com/fraud.html&#34;&gt;No general method to detect fraud&lt;/a&gt;&lt;/strong&gt; — Are there rules to help detect scams?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://medium.com/@juliahaigh/how-to-feel-less-overwhelmed-as-a-developer-79bc816709de&#34;&gt;How to Feel Less Overwhelmed as a Developer&lt;/a&gt;&lt;/strong&gt; — There’s a lot going on in the developer world. Here are some ideas on how to handle it all.&lt;/p&gt;
+&lt;!-- @UmOkJulia #productivity --&gt;
+&lt;h2 id=&#34;random&#34;&gt;#random&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.sciencemag.org/news/2021/06/rise-and-fall-world-s-largest-lake&#34;&gt;The rise and fall of the world’s largest lake&lt;/a&gt;&lt;/strong&gt; — The ancient Paratethys Sea once held more water than all of today’s lakes combined&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.economist.com/science-and-technology/2021/06/03/a-growing-number-of-governments-hope-to-clone-americas-darpa&#34;&gt;A growing number of governments hope to clone America’s DARPA&lt;/a&gt;&lt;/strong&gt; — They will not succeed unless they adopt the spirit which motivates it&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://www.tweller.com/minims/index.html&#34;&gt;MINIMS&lt;/a&gt;&lt;/strong&gt; — A statement expressed in proverbial or sentential form but having no general application or practical use whatever. Nice.&lt;/p&gt;
+&lt;h2 id=&#34;end&#34;&gt;#end&lt;/h2&gt;
+&lt;p&gt;If you liked this newsletter, why not share it with your friends? Make their life interesting too. 😁&lt;/p&gt;
+&lt;p&gt;And should you come across anything interesting in your wanderings, please email or tweet me. Thanks in advance!&lt;/p&gt;
+&lt;p&gt;Happy reading!&lt;br&gt;
+Beng&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://bengtan.com/images/portrait-40.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 
         
       </description>
