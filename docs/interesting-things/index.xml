@@ -6,18 +6,128 @@
     <description>Recent content in Interesting Things on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Fri, 18 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/interesting-things/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/interesting-things/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Interesting Things #9 — Remix</title>
-      <link>https://bengtan.com/interesting-things/009-private/</link>
-      <pubDate>Fri, 18 Jun 2021 00:00:00 +0000</pubDate>
+      <title>Interesting Things #10 — Zero Knowledge</title>
+      <link>https://bengtan.com/interesting-things/010-private/</link>
+      <pubDate>Fri, 25 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bengtan.com/interesting-things/009-private/</guid>
+      <guid>https://bengtan.com/interesting-things/010-private/</guid>
       <description>
         
           &lt;p&gt;The lastest issue of &lt;strong&gt;Interesting Things&lt;/strong&gt; is subscriber-only. Please come back in a few days time.&lt;/p&gt;
 &lt;p&gt;If you don&amp;rsquo;t want to wait, &lt;a href=&#34;https://bengtan.com/newsletter&#34;&gt;subscribe&lt;/a&gt; to get it in your inbox now!&lt;/p&gt;
 &lt;p&gt;Look at some &lt;a href=&#34;https://bengtan.com/interesting-things&#34;&gt;older issues&lt;/a&gt;.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Interesting Things #9 — Remix</title>
+      <link>https://bengtan.com/interesting-things/009/</link>
+      <pubDate>Fri, 18 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bengtan.com/interesting-things/009/</guid>
+      <description>
+        
+          &lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;This is &lt;a href=&#34;https://bengtan.com/about/&#34;&gt;Beng Tan&lt;/a&gt; and welcome to &lt;strong&gt;Interesting Things&lt;/strong&gt;, a curation of interesting stories and links from tech, indie biz, science, and related fields.&lt;/p&gt;
+&lt;p&gt;There are a lot of new subscribers this week. A very warm welcome to you all. I hope you like what you&amp;rsquo;ve found here.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m experimenting a bit with the content and presentation. There might be some fluctuations over the next few weeks before things settle down.&lt;/p&gt;
+&lt;p&gt;I hope you continue to find the stories interesting. If you don&amp;rsquo;t, no worries, you can always [unsubscribe]({{ unsubscribe_url }}).&lt;/p&gt;
+&lt;p&gt;Happy reading!&lt;/p&gt;
+&lt;h2 id=&#34;tech&#34;&gt;#tech&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://fartademayur.medium.com/this-is-how-i-was-able-to-see-private-archived-posts-stories-of-users-on-instagram-without-de70ca39165c&#34;&gt;This is how I was able to see Private, Archived Posts/Stories of users on Instagram without following them&lt;/a&gt;&lt;/strong&gt; — Find a bug. Report it. Earn $30,000. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27521007&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;!-- #security --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.metaobject.com/2021/06/glue-dark-matter-of-software.html&#34;&gt;Glue: the Dark Matter of Software&lt;/a&gt;&lt;/strong&gt; — Glue code is the unglamorous code that connects two pieces of software. It is invisible and massive.&lt;/p&gt;
+&lt;!-- @mpweiher #programming #coding --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://fortelabs.co/blog/artificial-time/&#34;&gt;Artificial Time&lt;/a&gt;&lt;/strong&gt; — We can now analyze and draw conclusions from more data than any number of humans could ever comprehend. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27478556&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;!-- @fortelabs --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.blog/2021-06-10-privilege-escalation-polkit-root-on-linux-with-bug/&#34;&gt;Privilege escalation with polkit: How to get root on Linux with a seven-year-old bug&lt;/a&gt;&lt;/strong&gt; — I’ll explain how the exploit works and show you the bug in the source code.&lt;/p&gt;
+&lt;!-- @kevin_backhouse #security --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://fabricioteran06.medium.com/code-in-boxes-why-only-restrict-ourselves-to-colors-a3a807432441&#34;&gt;Code in Boxes, Why only restrict ourselves to colors?&lt;/a&gt;&lt;/strong&gt; — Is this the next progression from syntax highlighting?&lt;/p&gt;
+&lt;!-- #programming #coding --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://brennan.io/2021/06/15/git-less-is-more/&#34;&gt;When it comes to git history, less is more&lt;/a&gt;&lt;/strong&gt; — One person&amp;rsquo;s entry-level contribution is another person&amp;rsquo;s difficult bugfix or backport. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27531982&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;!-- @brenns10 --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://edoconti.medium.com/offline-policy-evaluation-run-fewer-better-a-b-tests-60ce8f93fa15&#34;&gt;Offline Policy Evaluation: Run fewer, better A/B tests&lt;/a&gt;&lt;/strong&gt; — It&amp;rsquo;s going to become standard practice in the 2020s as part of every experimentation stack. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27530541&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;!-- @hello_edo --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://kevlinhenney.medium.com/exceptional-naming-6e3c8f5bffac&#34;&gt;Exceptional Naming&lt;/a&gt;&lt;/strong&gt; (May 2021) — When code throws or catches an exception, name to communicate rather than regurgitate.&lt;/p&gt;
+&lt;!-- @KevlinHenney #coding #peogramming --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://buttondown.email/hillelwayne/archive/designing-software-with-predicate-logic/&#34;&gt;Designing Software with Predicate Logic&lt;/a&gt;&lt;/strong&gt; — Using predicate logic to determine what states should be illegal can help choose the best representation.&lt;/p&gt;
+&lt;!-- @hillelogram #coding #programming --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://httptoolkit.tech/blog/http-encodings/&#34;&gt;Encoding your HTTP for fun and profit&lt;/a&gt;&lt;/strong&gt; — HTTP content encoding can make your web or mobile application faster, basically for free.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://tij.me/blog/harvesting-active-directory-credentials-via-http-request-smuggling/&#34;&gt;Harvesting Active Directory credentials via HTTP Request Smuggling&lt;/a&gt;&lt;/strong&gt; — Specially crafted requests can be interpreted by the frontend server as 1 request, but interpreted by the backend server as 2 requests. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27529878&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;!-- @tijme #security --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.mozilla.org/en/mozilla/privacy-analysis-of-floc/&#34;&gt;Privacy analysis of FLoC&lt;/a&gt;&lt;/strong&gt; — Our analysis shows several privacy issues that we believe need to be addressed.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://nanochess.org/notebook.html&#34;&gt;My first Z80 assembly language program&lt;/a&gt;&lt;/strong&gt; — I was 9 years old and I wanted to write amazing games.&lt;/p&gt;
+&lt;!-- @nanochess #programming #coding --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://engineering.mixpanel.com/evolution-of-code-deployment-tools-at-mixpanel-210b99926cd4&#34;&gt;Evolution of code deployment tools at Mixpanel&lt;/a&gt;&lt;/strong&gt; — From the cloud to dedicated hardware to k8s and back to the cloud again. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27484710&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.narative.co/articles/the-art-of-frontend-engineering/&#34;&gt;The art of Frontend Engineering&lt;/a&gt;&lt;/strong&gt; — As the web continues to expand, how does Frontend Engineering fit and what makes a Frontend Engineer great? (&lt;a href=&#34;https://news.ycombinator.com/item?id=27484706&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://muratbuffalo.blogspot.com/2021/06/cores-that-dont-count.html&#34;&gt;Cores that don&amp;rsquo;t count&lt;/a&gt;&lt;/strong&gt; — We thought CPUs do not have logic errors. But Google and Facebook both found computation errors.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://jessitron.com/2021/06/12/the-enterprise-eats-software/&#34;&gt;the Enterprise eats Software&lt;/a&gt;&lt;/strong&gt; — The enterprise can get great software teams. But they can’t keep them. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27489448&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;!-- @jessitron --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://colinhacks.com/essays/painless-typesafety&#34;&gt;Building an end-to-end typesafe API without GraphQL&lt;/a&gt;&lt;/strong&gt; — Build end-to-end typesafe APIs without code generation by leveraging the power of modern TypeScript. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27493050&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;!-- @colinhacks #javascript #frontend #frontenddev #typescript --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.logrocket.com/how-to-create-nfts-with-javascript/&#34;&gt;How to create NFTs with JavaScript&lt;/a&gt;&lt;/strong&gt; — Maybe you don&amp;rsquo;t want to but it&amp;rsquo;s a good roadmap for developers. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27494492&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;!-- #nft #js #javascript --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://alexfertel.hashnode.dev/vim-is-actually-worth-it&#34;&gt;Vim is actually worth it&lt;/a&gt;&lt;/strong&gt; — A gentle introduction for those who are curious about vim. Experienced users need not apply.&lt;/p&gt;
+&lt;!-- @alexfertel --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://keathley.io/blog/good-and-bad-elixir.html&#34;&gt;Good and Bad Elixir&lt;/a&gt;&lt;/strong&gt; — I document some of the good and bad patterns, and alternatives, that I&amp;rsquo;ve seen.&lt;/p&gt;
+&lt;!-- @chriskeathley #elixir --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.netmeister.org/blog/infosec-competencies.html&#34;&gt;(Technical) Infosec Core Competencies&lt;/a&gt;&lt;/strong&gt; — An incomplete list of (technical) things anybody working in Information Security would benefit from knowing. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27491443&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;!-- @jschauma #security --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://eprint.iacr.org/2021/800.pdf&#34;&gt;TEMP: Time-locked Encryption Made Practical&lt;/a&gt;&lt;/strong&gt; [pdf] — Encrypt a message to a future time such that it can only be decrypted after that time. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27534452&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://buttondown.email/hillelwayne/archive/comment-the-why-and-the-what/&#34;&gt;Comment the Why &lt;em&gt;and&lt;/em&gt; the What&lt;/a&gt;&lt;/strong&gt; — I find the comments far more useful to reorient myself than my code or my tests.&lt;/p&gt;
+&lt;!-- hillelogram #coding #programming --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://innovation.alteryx.com/how-to-troubleshoot-memory-problems-in-python/&#34;&gt;How to troubleshoot memory problems in Python&lt;/a&gt;&lt;/strong&gt; — Memory problems are hard to diagnose and fix in general, but I’d argue it’s even harder in Python. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27531947&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;!-- #python --&gt;
+&lt;h2 id=&#34;indie-biz&#34;&gt;#indie biz&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.getrevue.co/profile/sarimhaq/issues/what-makes-a-startup-adorable-the-story-of-tunnelbear-vpn-650390&#34;&gt;What Makes a Startup Adorable? - The Story of TunnelBear VPN&lt;/a&gt;&lt;/strong&gt; — TunnelBear’s success has three protagonists: product, culture, and cause. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27484997&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;!-- @sarimhaq --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.pragmaticengineer.com/equity-for-software-engineers/&#34;&gt;Equity 101 for Software Engineers at Big Tech and Startups&lt;/a&gt;&lt;/strong&gt; — Several people only realized much later how big of a deal a good equity package means. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27486932&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;!-- @GergelyOrosz #startups --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.readmargins.com/p/doordash-and-pizza-arbitrage&#34;&gt;Doordash and Pizza Arbitrage&lt;/a&gt;&lt;/strong&gt; — There is such a thing as a free lunch. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27494942&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;!-- #startups --&gt;
+&lt;h2 id=&#34;science&#34;&gt;#science&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.livescience.com/can-humans-understand-whales.html&#34;&gt;Will humans ever learn to speak whale?&lt;/a&gt;&lt;/strong&gt; — Can machine learning decipher what those clicking sounds mean?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://interestingengineering.com/china-air-force-pilots-training-ai-fighter-combat&#34;&gt;China&amp;rsquo;s Top Air Force Pilots Are Training AI in Fighter Combat&lt;/a&gt;&lt;/strong&gt; — And they were often bested by AI pilots.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://phys.org/news/2021-06-discovery-human-cells-rna-sequences.html&#34;&gt;New discovery shows human cells can write RNA sequences into DNA&lt;/a&gt;&lt;/strong&gt; — This potentially challenges the central dogma in biology and could have wide implications.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://newatlas.com/materials/thermally-stable-zte-advanced-material/&#34;&gt;Extraordinary new material shows zero heat expansion from 4 to 1,400 K&lt;/a&gt;&lt;/strong&gt; — Researchers have created what may be one of the most thermally stable materials ever discovered.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.newscientist.com/article/2280216-quantum-microscope-can-examine-cells-in-unprecedented-detail/&#34;&gt;Quantum microscope can examine cells in unprecedented detail&lt;/a&gt;&lt;/strong&gt; — A quantum trick with laser light has allowed researchers to overcome limits when observing living cells.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.sciencealert.com/this-creeping-slime-is-changing-how-we-think-about-intelligence&#34;&gt;This Weirdly Smart, Creeping Slime Is Redefining Our Understanding of Intelligence&lt;/a&gt;&lt;/strong&gt; — This bizarre little organism doesn&amp;rsquo;t have a brain, or a nervous system. Its blobby, bright-yellow body is just one cell.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://insideunmannedsystems.com/advancing%E2%80%A8-bridge-inspection/&#34;&gt;Advancing Bridge Inspection&lt;/a&gt;&lt;/strong&gt; — With drones.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://singularityhub.com/2021/06/08/scientists-used-crispr-to-engineer-a-new-superbug-thats-invincible-to-all-viruses/&#34;&gt;Scientists Used CRISPR to Engineer a New ‘Superbug’ That’s Invincible to All Viruses&lt;/a&gt;&lt;/strong&gt; — The team used CRISPR to replace over 18,000 codons with synthetic amino acids that don’t exist naturally.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.quantamagazine.org/federica-coppari-uses-a-giant-laser-to-look-inside-exoplanets-20210615/&#34;&gt;The Materials Scientist Who Studies the Innards of Exoplanets&lt;/a&gt;&lt;/strong&gt; — Using the world’s most powerful laser to recreate the cores of distant worlds.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.ribbonfarm.com/2021/04/08/heres-why-we-dont-understand-heavier-than-air-flight/&#34;&gt;Here’s why we don’t understand heavier-than-air flight&lt;/a&gt;&lt;/strong&gt; (Apr 2021) — You may have heard the news: we don’t understand how airplanes work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://theconversation.com/seeing-the-invisible-tiny-crystal-films-could-make-night-vision-an-everyday-reality-162615&#34;&gt;Seeing the invisible: tiny crystal films could make night vision an everyday reality&lt;/a&gt;&lt;/strong&gt; — New &amp;lsquo;nanocrystal metasurfaces&amp;rsquo; can convert infrared light into the visible spectrum.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.npr.org/2021/06/10/1004859458/what-causes-the-northern-lights-scientists-finally-know-for-sure&#34;&gt;What Causes The Northern Lights? Scientists Finally Know For Sure&lt;/a&gt;&lt;/strong&gt; — Disturbances on the sun pull on Earth&amp;rsquo;s magnetic field, creating cosmic waves that launch electrons to form the aurora. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27461472&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.quantamagazine.org/how-blue-animals-color-themselves-with-nanostructures-20210616/&#34;&gt;How Animals Color Themselves With Nanoscale Structures&lt;/a&gt;&lt;/strong&gt; — Blue jays, neon tetras, poison dart frogs and other animals evolved optical tricks to make blues (and some greens).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.discovermagazine.com/planet-earth/how-a-30-year-experiment-has-fundamentally-changed-our-view-of-how&#34;&gt;How a 30-Year Experiment Has Fundamentally Changed Our View of How Evolution Works&lt;/a&gt;&lt;/strong&gt; — An epic experiment shows that evolution never stops. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27532799&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://medium.com/predict/will-a-biological-singularity-arrive-first-9ece7685d376&#34;&gt;Will a Biological Singularity Arrive First?&lt;/a&gt;&lt;/strong&gt; — Do the principles of the singularity not also apply here?&lt;/p&gt;
+&lt;!-- @AlexBeyman --&gt;
+&lt;h2 id=&#34;life&#34;&gt;#life&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://ez.substack.com/p/the-work-from-home-future-is-destroying&#34;&gt;The Work-From-Home Future Is Destroying Bosses&#39; Brains&lt;/a&gt;&lt;/strong&gt; — Remote work inherently messes with the power dynamic of the worker and the boss, and it is going to make many, many brains malfunction.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.wired.co.uk/article/working-day-time-five-hours&#34;&gt;The perfect number of hours to work every day? Five&lt;/a&gt;&lt;/strong&gt; — Five work hours a day can improve productivity and bolster wellbeing.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.vimarsh.info/blog/ethics-of-ai/&#34;&gt;The Ethics of AI&lt;/a&gt;&lt;/strong&gt; (May 2021) — Fundamental questions about what we should do with these systems, what risks they involve, and how we can control them. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27527127&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;!-- @vimarsh244 #ai --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://jakobgreenfeld.com/deep-thinking&#34;&gt;Why I don&amp;rsquo;t think where I work&lt;/a&gt;&lt;/strong&gt; — It’s easy to get distracted by work if you try to think deeply at your work space. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27484704&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;!-- @jakobgreenfeld #productivity --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.nytimes.com/2021/06/08/technology/farewell-millennial-lifestyle-subsidy.html&#34;&gt;Farewell, Millennial Lifestyle Subsidy&lt;/a&gt;&lt;/strong&gt; — The price for Ubers, scooters and Airbnb rentals is going up as tech companies aim for profitability.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://awilkinson.medium.com/the-power-of-anti-goals-c38f5f46d23c&#34;&gt;The Power of Anti-Goals&lt;/a&gt;&lt;/strong&gt; — How I designed my perfect day by fixating on what I hate. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27528750&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;!-- @awilkinson --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://betterprogramming.pub/10-admirable-attributes-of-a-great-technical-lead-251d13a8843b&#34;&gt;10 Admirable Attributes of a Great Technical Lead&lt;/a&gt;&lt;/strong&gt; — It‘s a position that requires intricate calibration of various personality traits&lt;/p&gt;
+&lt;!-- @elye_project --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://kayce.basqu.es/sabbatical/prologue&#34;&gt;I&amp;rsquo;m taking a 1-year sabbatical / gap year as a 30-something&lt;/a&gt;&lt;/strong&gt; — I&amp;rsquo;m sharing my situation, thoughts, and experiences to help others decide by way of comparison whether or not a sabbatical is right for them. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27531504&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://christine.website/blog/gtd-on-paper-2021-06-13&#34;&gt;Using Paper for Everyday Tasks&lt;/a&gt;&lt;/strong&gt; — Paper is cheap. Paper is universal. Paper doesn&amp;rsquo;t run out of battery. Paper doesn&amp;rsquo;t vanish when I close the app. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27493463&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;!-- @theprincessxena #productivity --&gt;
+&lt;h2 id=&#34;random&#34;&gt;#random&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://tedgioia.substack.com/p/how-i-became-the-honest-broker&#34;&gt;How I Became the Honest Broker&lt;/a&gt;&lt;/strong&gt; — The Honest Broker may help you for free right now, but don’t be surprised to get asked for assistance on something completely different months or even years later.&lt;/p&gt;
+&lt;h2 id=&#34;end&#34;&gt;#end&lt;/h2&gt;
+&lt;p&gt;If you liked this newsletter, please share it with your friends. Make their life interesting too. 😁&lt;/p&gt;
+&lt;p&gt;Enjoy your reading and have a good day,
+Beng&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://bengtan.com/images/portrait-40.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 
         
       </description>
