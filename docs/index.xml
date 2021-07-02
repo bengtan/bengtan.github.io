@@ -6,18 +6,98 @@
     <description>Recent content in Recent Posts on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Fri, 25 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Interesting Things #10 — Zero Knowledge</title>
-      <link>https://bengtan.com/interesting-things/010-private/</link>
-      <pubDate>Fri, 25 Jun 2021 00:00:00 +0000</pubDate>
+      <title>Interesting Things #11 — Generative Art</title>
+      <link>https://bengtan.com/interesting-things/011-private/</link>
+      <pubDate>Fri, 02 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bengtan.com/interesting-things/010-private/</guid>
+      <guid>https://bengtan.com/interesting-things/011-private/</guid>
       <description>
         
           &lt;p&gt;The lastest issue of &lt;strong&gt;Interesting Things&lt;/strong&gt; is subscriber-only. Please come back in a few days time.&lt;/p&gt;
 &lt;p&gt;If you don&amp;rsquo;t want to wait, &lt;a href=&#34;https://bengtan.com/newsletter&#34;&gt;subscribe&lt;/a&gt; to get it in your inbox now!&lt;/p&gt;
 &lt;p&gt;Look at some &lt;a href=&#34;https://bengtan.com/interesting-things&#34;&gt;older issues&lt;/a&gt;.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Interesting Things #10 — Zero Knowledge</title>
+      <link>https://bengtan.com/interesting-things/010/</link>
+      <pubDate>Fri, 25 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bengtan.com/interesting-things/010/</guid>
+      <description>
+        
+          &lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;This is &lt;a href=&#34;https://bengtan.com/about/&#34;&gt;Beng Tan&lt;/a&gt; and welcome to &lt;strong&gt;Interesting Things&lt;/strong&gt;, a curation of interesting stories and links from tech, indie biz, science, and related fields.&lt;/p&gt;
+&lt;p&gt;There&amp;rsquo;s less stories (40) than usual this week (50-ish). I was busy with other things.&lt;/p&gt;
+&lt;p&gt;But this might be the new normal because (a) I&amp;rsquo;m working on a new project, and (b) I still hear sometimes that there are too many stories. 😆 (Tip: Just read what you like and ignore the rest.)&lt;/p&gt;
+&lt;p&gt;I hope you continue to find the stories interesting. If you don&amp;rsquo;t, no worries, you can always [unsubscribe]({{ unsubscribe_url }}).&lt;/p&gt;
+&lt;p&gt;Happy reading!&lt;/p&gt;
+&lt;h2 id=&#34;tech&#34;&gt;#tech&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.notboring.co/p/zero-knowledge?utm_source=bengtan.com/interesting-things/010&#34;&gt;Zero Knowledge&lt;/a&gt;&lt;/strong&gt; — A descriptive introduction to Zero Knowledge Proofs with some real world analogies.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.arp242.net/500k-commits.html?utm_source=bengtan.com/interesting-things/010&#34;&gt;How to end up with 500,000 commits in your log&lt;/a&gt;&lt;/strong&gt; — Every little change you wanted to see you had to commit. Add a debug print? Commit. Remove that print again? Commit.&lt;/p&gt;
+&lt;!-- @arp242_martin #coding #programming --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.vice.com/en/article/4avnan/bombshell-report-finds-phone-network-encryption-was-deliberately-weakened?utm_source=bengtan.com/interesting-things/010&#34;&gt;Bombshell Report Finds Phone Network Encryption Was Deliberately Weakened&lt;/a&gt;&lt;/strong&gt; — The designers confirmed that a weakness was introduced in order to meet political requirements. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27555463&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://testing.googleblog.com/2021/06/how-much-testing-is-enough.html?utm_source=bengtan.com/interesting-things/010&#34;&gt;How Much Testing is Enough?&lt;/a&gt;&lt;/strong&gt; — How to define a qualification process and testing strategy best suited for the case at hand. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27563326&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://henrikwarne.com/2021/06/15/on-comments-in-code/?utm_source=bengtan.com/interesting-things/010&#34;&gt;On Comments in Code&lt;/a&gt;&lt;/strong&gt; — To see how many comments I write, and what kind they are, I wrote a script to analyze the last six years.&lt;/p&gt;
+&lt;!-- @henrikwarne #coding #programming --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://martinfowler.com/articles/patterns-of-distributed-systems/versioned-value.html?utm_source=bengtan.com/interesting-things/010&#34;&gt;Versioned Value&lt;/a&gt;&lt;/strong&gt; — Store every update to a value with a new version, to allow reading historical values. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27591658&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;!-- @martinfowler #coding #programming --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.dshr.org/2021/06/unreliability-at-scale.html?utm_source=bengtan.com/interesting-things/010&#34;&gt;Unreliability At Scale&lt;/a&gt;&lt;/strong&gt; — Another write-up about silent computation errors in CPU cores.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://deeplearningtheory.com/PDLT.pdf?utm_source=bengtan.com/interesting-things/010&#34;&gt;The Principles of Deep Learning Theory&lt;/a&gt;&lt;/strong&gt; [pdf, textbook] — An Effective Theory Approach to Understanding Neural Networks. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27555604&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://tratt.net/laurie/blog/entries/static_integer_types.html?utm_source=bengtan.com/interesting-things/010&#34;&gt;Static Integer Types&lt;/a&gt;&lt;/strong&gt; — Most programming language designers and implementers aren’t fully aware of some of the subtleties and pitfalls. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27590190&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;!-- @laurencetratt #coding #programming --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://vitalik.ca/general/2021/06/18/verkle.html?utm_source=bengtan.com/interesting-things/010&#34;&gt;Verkle trees&lt;/a&gt;&lt;/strong&gt; — Verkle trees are a powerful upgrade to Merkle trees that allow for much smaller proof sizes.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://jacobian.org/2021/may/20/estimation/?utm_source=bengtan.com/interesting-things/010&#34;&gt;Software Estimation Is Hard. Do It Anyway.&lt;/a&gt;&lt;/strong&gt; (May 2021) — Estimating software projects is hard but you should learn how to do it anyway.&lt;/p&gt;
+&lt;!-- @jacobian #coding #programming --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://stitcher.io/blog/opinion-driven-design?utm_source=bengtan.com/interesting-things/010&#34;&gt;Opinion-driven design&lt;/a&gt;&lt;/strong&gt; — Some of my personal thoughts on how we design open source projects. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27606008&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;!-- @brendt_gd --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.cargocultcode.com/what-does-first-normal-form-mean/?utm_source=bengtan.com/interesting-things/010&#34;&gt;What does First Normal Form actually mean?&lt;/a&gt;&lt;/strong&gt; — In databases, First Normal Form (or 1NF) is often explained confusingly or downright incorrect.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.thegreatcodeadventure.com/an-elixir-adoption-success-story/?utm_source=bengtan.com/interesting-things/010&#34;&gt;An Elixir Adoption Success Story&lt;/a&gt;&lt;/strong&gt; — How a team that was new to Elixir over-delivered a big project in just three months. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27604905&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;!-- @sm_debenedetto #elixir --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://adventures.michaelfbryan.com/posts/deserializing-binary-data-files/?utm_source=bengtan.com/interesting-things/010&#34;&gt;Deserializing Binary Data Files in Rust&lt;/a&gt;&lt;/strong&gt; — How to read a file of raw C structures.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://icyphox.sh/blog/k8s-at-home/?utm_source=bengtan.com/interesting-things/010&#34;&gt;Setting up a multi-arch Kubernetes cluster at home&lt;/a&gt;&lt;/strong&gt; — I had a 4 day weekend at work and with nothing better to do so I decided to setup a K8s cluster. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27562110&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.spinellis.gr/blog/20210618/?utm_source=bengtan.com/interesting-things/010&#34;&gt;The Evolution of the Unix System Architecture&lt;/a&gt;&lt;/strong&gt; — Studying its evolution can provide insights on how to manage the growth of large, complex, and long-lived software systems.&lt;/p&gt;
+&lt;!-- @CoolSWEng --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://dwarkeshpatel.com/unix/?utm_source=bengtan.com/interesting-things/010&#34;&gt;Book Review - Unix: A History and a Memoir&lt;/a&gt;&lt;/strong&gt; — I’m really glad that I got to hear the story of Unix from someone who was there and actually contributed to the project.&lt;/p&gt;
+&lt;!-- @dwarkesh_sp --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://developer.chrome.com/blog/renderingng/?utm_source=bengtan.com/interesting-things/010&#34;&gt;RenderingNG&lt;/a&gt;&lt;/strong&gt; — In 2021, we will largely complete designing, building and shipping a next-generation rendering architecture for Chromium. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27600733&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://incident.io/blog/incidents-are-for-everyone/?utm_source=bengtan.com/interesting-things/010&#34;&gt;Incidents are for everyone&lt;/a&gt;&lt;/strong&gt; — We have incidents in all parts of the business. We just don&amp;rsquo;t call them incidents. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27603504&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://itnext.io/im-changing-how-i-review-code-dbf212507e5f?utm_source=bengtan.com/interesting-things/010&#34;&gt;I’m Changing How I Review Code&lt;/a&gt;&lt;/strong&gt; — Are there better ways that I could review code? What could I do differently?&lt;/p&gt;
+&lt;!-- @dangoslen --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://hynek.me/articles/python-subclassing-redux/?utm_source=bengtan.com/interesting-things/010&#34;&gt;Subclassing in Python Redux&lt;/a&gt;&lt;/strong&gt; — What’s a pragmatic approach to subclassing in Python, specifically? (&lt;a href=&#34;https://news.ycombinator.com/item?id=27594733&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;!-- @hynek #python --&gt;
+&lt;h2 id=&#34;indie-biz&#34;&gt;#indie biz&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.reddit.com/r/SaaS/comments/o19xcj/the_cost_to_run_my_saas/?utm_source=bengtan.com/interesting-things/010&#34;&gt;The cost to run my SaaS&lt;/a&gt;&lt;/strong&gt; — I actually didn&amp;rsquo;t know how much I was paying for all the SaaS products I use. So I decided to look into it.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://digitstodollars.com/2021/05/28/lets-build-a-chip-with-math/?utm_source=bengtan.com/interesting-things/010&#34;&gt;Let’s Build a Chip – With Math&lt;/a&gt;&lt;/strong&gt; (May 2021) — How much does it cost to build custom silicon? Hundreds of millions. Or even more.&lt;/p&gt;
+&lt;h2 id=&#34;science&#34;&gt;#science&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://eukaryotewritesblog.com/2021/05/02/theres-no-such-thing-as-a-tree/?utm_source=bengtan.com/interesting-things/010&#34;&gt;There’s no such thing as a tree (phylogenetically)&lt;/a&gt;&lt;/strong&gt; — On the evolutionary tree of plants, trees are regularly interspersed with non-trees.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.ias.edu/news/2021/hubble-data-confirms-galaxies-lacking-dark-matter?utm_source=bengtan.com/interesting-things/010&#34;&gt;Hubble Data Confirms Galaxies Lacking Dark Matter&lt;/a&gt;&lt;/strong&gt; — Dark matter is widely considered to be an essential ingredient of galaxies, but this study suggests otherwise. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27554506&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.wired.com/story/long-strange-life-worlds-oldest-naked-mole-rat/?utm_source=bengtan.com/interesting-things/010&#34;&gt;The Long, Strange Life of the World’s Oldest Naked Mole Rat&lt;/a&gt;&lt;/strong&gt; (May 2021) — These death-defying rodents do not age normally.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.economist.com/technology-quarterly/2021/06/15/reviving-extinct-species-may-soon-be-possible?utm_source=bengtan.com/interesting-things/010&#34;&gt;Reviving extinct species may soon be possible&lt;/a&gt;&lt;/strong&gt; — Banking cells from endangered species can help in other ways, too. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27556535&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://scitechdaily.com/photoactivatable-metabolic-warheads-light-sensitive-drug-acts-as-trojan-horse-to-kill-cancer-cells/?utm_source=bengtan.com/interesting-things/010&#34;&gt;Photoactivatable Metabolic Warheads: Light-Sensitive Drug Acts As Trojan Horse to Kill Cancer Cell &lt;/a&gt;&lt;/strong&gt; — A light-activated drug that can enter and kill bacterial and cancer cells has been tested successfully.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.cantorsparadise.com/unexpected-beauty-in-primes-b347fe0511b2?utm_source=bengtan.com/interesting-things/010&#34;&gt;Unexpected Beauty in Primes&lt;/a&gt;&lt;/strong&gt; (Oct 2019) — The Visualization of Primes and Its Potential Significance. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27557064&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://scitechdaily.com/mit-engineers-have-discovered-a-completely-new-way-of-generating-electricity/?utm_source=bengtan.com/interesting-things/010&#34;&gt;MIT Engineers Have Discovered a Completely New Way of Generating Electricity&lt;/a&gt;&lt;/strong&gt; — A new material made from carbon nanotubes can generate electricity by scavenging energy from its environment.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.newyorker.com/science/elements/how-a-sharp-eyed-scientist-became-biologys-image-detective?utm_source=bengtan.com/interesting-things/010&#34;&gt;How a Sharp-Eyed Scientist Became Biology’s Image Detective&lt;/a&gt;&lt;/strong&gt; — It seemed that duplicated or doctored images could be more damaging to science than plagiarism. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27603368&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://techxplore.com/news/2021-06-sun-artificial-photosynthesis-sustainable-source.html?utm_source=bengtan.com/interesting-things/010&#34;&gt;Soaking up the sun: Artificial photosynthesis promises clean, sustainable source of energy&lt;/a&gt;&lt;/strong&gt; — It could open a whole new frontier of clean energy.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.eurekalert.org/pub_releases/2021-06/uoc?utm_source=bengtan.com/interesting-things/010%E2%80%94rta061321.php&#34;&gt;Researchers translate a bird&amp;rsquo;s brain activity into song&lt;/a&gt;&lt;/strong&gt; — Researchers were able to reproduce the songbird&amp;rsquo;s complex vocalizations down to the pitch, volume and timbre of the original.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.quantamagazine.org/cassini-data-solves-jupiter-and-saturns-energy-mystery-20210622/?utm_source=bengtan.com/interesting-things/010&#34;&gt;Gas Giants’ Energy Crisis Solved After 50 Years&lt;/a&gt;&lt;/strong&gt; — Jupiter and Saturn should be freezing cold. Instead, they’re hot. Researchers now know why. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27592696&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;life&#34;&gt;#life&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.vice.com/en/article/y3dda7/how-the-personal-computer-broke-the-human-body?utm_source=bengtan.com/interesting-things/010&#34;&gt;How the Personal Computer Broke the Human Body&lt;/a&gt;&lt;/strong&gt; (May 2021) — The so-called computer revolution brought with it a world of pain previously unknown to humankind.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.newyorker.com/magazine/2021/05/31/what-robots-can-and-cant-do-for-the-old-and-lonely?utm_source=bengtan.com/interesting-things/010&#34;&gt;What Robots Can and Can’t Do for the Old and Lonely&lt;/a&gt;&lt;/strong&gt; (May 2021) — For elderly Americans, social isolation is especially perilous. Will machine companions fill the void?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.theguardian.com/food/2021/jun/17/lab-grown-meat-no-kill-food?utm_source=bengtan.com/interesting-things/010&#34;&gt;Lab-grown meat is on the rise. It’s time to start asking tough questions&lt;/a&gt;&lt;/strong&gt; — It offers environmental and ethical benefits but what if a few companies control what we eat?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.lesswrong.com/posts/mwGAyWmsSqzMz4WMd/irrational-modesty?utm_source=bengtan.com/interesting-things/010&#34;&gt;Irrational Modesty&lt;/a&gt;&lt;/strong&gt; — Here is someone who is much smarter than me but unable to think clearly due to irrational modesty.&lt;/p&gt;
+&lt;h2 id=&#34;random&#34;&gt;#random&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.bbc.com/travel/article/20210616-funazushi-the-fermented-predecessor-of-modern-sushi?utm_source=bengtan.com/interesting-things/010&#34;&gt;Funazushi: The fermented predecessor of modern sushi&lt;/a&gt;&lt;/strong&gt; — One family has preserved a 400-year-old recipe showing how sushi once tasted, and it doesn&amp;rsquo;t use raw seafood.&lt;/p&gt;
+&lt;h2 id=&#34;end&#34;&gt;#end&lt;/h2&gt;
+&lt;p&gt;If you liked this newsletter, please share it with your friends. I&amp;rsquo;d really like to get the R0 number up. Oh, and make their life interesting too. 😁&lt;/p&gt;
+&lt;p&gt;Enjoy your reading and have a good day,
+Beng&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://bengtan.com/images/portrait-40.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 
         
       </description>
