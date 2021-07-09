@@ -6,18 +6,118 @@
     <description>Recent content in Recent Posts on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Fri, 02 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Interesting Things #11 — Generative Art</title>
-      <link>https://bengtan.com/interesting-things/011-private/</link>
-      <pubDate>Fri, 02 Jul 2021 00:00:00 +0000</pubDate>
+      <title>Interesting Things #12 — YAGNI/PAGNI</title>
+      <link>https://bengtan.com/interesting-things/012-private/</link>
+      <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bengtan.com/interesting-things/011-private/</guid>
+      <guid>https://bengtan.com/interesting-things/012-private/</guid>
       <description>
         
           &lt;p&gt;The lastest issue of &lt;strong&gt;Interesting Things&lt;/strong&gt; is subscriber-only. Please come back in a few days time.&lt;/p&gt;
 &lt;p&gt;If you don&amp;rsquo;t want to wait, &lt;a href=&#34;https://bengtan.com/newsletter&#34;&gt;subscribe&lt;/a&gt; to get it in your inbox now!&lt;/p&gt;
 &lt;p&gt;Look at some &lt;a href=&#34;https://bengtan.com/interesting-things&#34;&gt;older issues&lt;/a&gt;.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Interesting Things #11 — Generative Art</title>
+      <link>https://bengtan.com/interesting-things/011/</link>
+      <pubDate>Fri, 02 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bengtan.com/interesting-things/011/</guid>
+      <description>
+        
+          &lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;This is &lt;a href=&#34;https://bengtan.com/about/&#34;&gt;Beng Tan&lt;/a&gt; and welcome to &lt;strong&gt;Interesting Things&lt;/strong&gt;, a curation of interesting stories and links from tech, indie biz, science, and related fields.&lt;/p&gt;
+&lt;p&gt;Just read what you like and ignore the rest. 😆&lt;/p&gt;
+&lt;p&gt;I hope you continue to find the stories interesting. If you don&amp;rsquo;t, no worries, you can always [unsubscribe]({{ unsubscribe_url }}).&lt;/p&gt;
+&lt;p&gt;Happy reading!&lt;/p&gt;
+&lt;h2 id=&#34;tech&#34;&gt;#tech&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://alexfertel.hashnode.dev/a-first-look-into-generative-art?utm_source=bengtan.com/interesting-things/011&#34;&gt;A First Look Into Generative Art&lt;/a&gt;&lt;/strong&gt; — My experience with generative art and some of the things I have discovered so far about it.&lt;/p&gt;
+&lt;!-- @alexfertel #coding --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://surfingcomplexity.blog/2021/06/11/incident-writeup-as-sociological-storytelling/?utm_source=bengtan.com/interesting-things/011&#34;&gt;Incident writeup as sociological storytelling&lt;/a&gt;&lt;/strong&gt; — A good incident writeup is a sociological story about our system. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27499869&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;!-- @norootcause --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://thehosk.medium.com/software-development-is-a-creative-process-an-original-masterpiece-not-a-paint-by-numbers-1700e05e6d7b?utm_source=bengtan.com/interesting-things/011&#34;&gt;Software development is a creative process&lt;/a&gt;&lt;/strong&gt; — Understanding you cannot have both a fixed plan and changing requirements helps everyone involved.&lt;/p&gt;
+&lt;!-- @BenHosk #coding #programming --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://questdb.io/blog/2021/06/16/high-cardinality-time-series-data-performance/?utm_source=bengtan.com/interesting-things/011&#34;&gt;How databases handle 10 million devices in high-cardinality benchmarks&lt;/a&gt;&lt;/strong&gt; — Learn more about high-cardinality and how to benchmark database performance with this type of data.&lt;/p&gt;
+&lt;!-- @ilyusvl @QuestDB --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://ariadne.space/2021/06/25/understanding-thread-stack-sizes-and-how-alpine-is-different/?utm_source=bengtan.com/interesting-things/011&#34;&gt;understanding thread stack sizes and how alpine is different&lt;/a&gt;&lt;/strong&gt; — It is my opinion that if your program is crashing on Alpine, your program is not actually portable. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27641081&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;!-- @ariadneconill --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.dolthub.com/blog/2021-06-21-copying-mysqls-dumb-decisions/?utm_source=bengtan.com/interesting-things/011&#34;&gt;Copying all of MySQL&amp;rsquo;s dumbest decisions&lt;/a&gt;&lt;/strong&gt; — We replicate some very odd behavior of MySQL because we promised.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://community.twistedfields.com/t/a-closer-look-at-acorn-our-open-source-precision-farming-rover/108?utm_source=bengtan.com/interesting-things/011&#34;&gt;A closer look at Acorn, our open source precision farming rover&lt;/a&gt;&lt;/strong&gt; — Help produce healthier food, reduce harmful agricultural poisons, and fight climate change. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27634450&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://thevaluable.dev/vim-veteran/?utm_source=bengtan.com/interesting-things/011&#34;&gt;A Vim Guide For Veteran Users&lt;/a&gt;&lt;/strong&gt; — Discover Vim&amp;rsquo;s keystrokes for INSERT mode completion, abbreviations, how work the viminfo file, and more!&lt;/p&gt;
+&lt;!-- @Cneude_Matthieu #vim --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://pythonspeed.com/articles/measuring-memory-python/?utm_source=bengtan.com/interesting-things/011&#34;&gt;Measuring memory usage in Python: it’s tricky!&lt;/a&gt;&lt;/strong&gt; — It turns out, however, that measuring memory usage isn’t as straightforward as you’d think. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27635574&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;!-- #python --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://venthur.de/2021-06-26-python-packaging.html?utm_source=bengtan.com/interesting-things/011&#34;&gt;The State of Python Packaging in 2021&lt;/a&gt;&lt;/strong&gt; — Every year, I revisit the current best practices for Python packaging. This is my 2021 edition. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27647892&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;!-- @bastianventhur #python --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.dnmfarrell.com/post/bash-function-names-can-be-almost-anything/?utm_source=bengtan.com/interesting-things/011&#34;&gt;Bash Function Names Can Be Almost Anything&lt;/a&gt;&lt;/strong&gt; — My guess is Bash behaves this way to preserve backwards compatibility.&lt;/p&gt;
+&lt;!-- @PerlTricks --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.anthropicstudios.com/2021/06/25/when-to-rewrite/?utm_source=bengtan.com/interesting-things/011&#34;&gt;When To Rewrite&lt;/a&gt;&lt;/strong&gt; — A working system is a valuable asset. It works. It lets you test new ideas cheaply. Don’t take that for granted.&lt;/p&gt;
+&lt;!-- @masonremaley --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://izbicki.me/blog/teaching-open-source-in-north-korea.html?utm_source=bengtan.com/interesting-things/011&#34;&gt;Teaching Open Source Software in North Korea&lt;/a&gt;&lt;/strong&gt; — The patches submitted from this class might be the first ever open source contributions to come from North Korea.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://cyberxplore.medium.com/how-we-are-able-to-hack-any-company-by-sending-message-including-facebook-google-microsoft-b7773626e447?utm_source=bengtan.com/interesting-things/011&#34;&gt;How We Are Able To Hack Any Company By Sending Message&lt;/a&gt;&lt;/strong&gt; — Find a hack. Report it. Make $20,000. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27635699&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;!-- @mrrajputhacker @th3pr0xyb0y --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://about.sourcegraph.com/blog/how-not-to-break-a-search-engine-unglamorous-engineering/?utm_source=bengtan.com/interesting-things/011&#34;&gt;How not to break a search engine or: What I learned about unglamorous engineering&lt;/a&gt;&lt;/strong&gt; — Gruntwork, if not glamorous, is certainly valuable. I wish we grasped its value a bit better.&lt;/p&gt;
+&lt;!-- @rvtond --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://alexbowe.com/bitcoin-passphrase-recovery/?utm_source=bengtan.com/interesting-things/011&#34;&gt;How to Recover a Bitcoin Passphrase&lt;/a&gt;&lt;/strong&gt; — Perform a Breadth-First search on typos of increasing Damerau-Levenshtein distances from an initial guess. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27638319&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;!-- @alexbowe --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://dilumn.github.io/programming/2021/06/26/Solve-software-problems-by-adding-more/?utm_source=bengtan.com/interesting-things/011&#34;&gt;Solve software problems by adding more&lt;/a&gt;&lt;/strong&gt; — I continued building more pieces without realising removing the first piece is the better solution. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27639710&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;!-- @dilumn_ #coding #programming --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.graphqleditor.com/dvga?utm_source=bengtan.com/interesting-things/011&#34;&gt;Damn Vulnerable GraphQL Application&lt;/a&gt;&lt;/strong&gt; — An app that is intentionally vulnerable so you can poke around and learn about app security.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.jakubholy.net/2021/simplicity/?utm_source=bengtan.com/interesting-things/011&#34;&gt;What is simplicity in programming and why does it matter?&lt;/a&gt;&lt;/strong&gt; — Clojure is about simplicity. Simplicity means &amp;lsquo;untangling things&amp;rsquo; (such as concepts) and requires hard work. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27639810&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://devlog.hexops.com/2021/unicode-sorting-why-browsers-added-special-emoji-matching?utm_source=bengtan.com/interesting-things/011&#34;&gt;Unicode sorting is hard and why browsers added special emoji matching to regexp&lt;/a&gt;&lt;/strong&gt; — Unicode text sorting is so annoying in the modern day.&lt;/p&gt;
+&lt;!-- @slimsag #coding #programming --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://parsiya.net/blog/2021-06-22-semgrep-the-surgical-static-analysis-tool/?utm_source=bengtan.com/interesting-things/011&#34;&gt;Semgrep: The Surgical Static Analysis Tool&lt;/a&gt;&lt;/strong&gt; — Why I like Semgrep. Why I think you should use it. How I use Semgrep. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27636500&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;!-- @cryptogangsta --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.wrble.com/blog/class-what-to-log/?utm_source=bengtan.com/interesting-things/011&#34;&gt;Bare Necessities for All Log Lines&lt;/a&gt;&lt;/strong&gt; (May 2021) — Help Your Future Self. Context is Everything.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.hillelwayne.com/post/cross-branch-testing/?utm_source=bengtan.com/interesting-things/011&#34;&gt;Cross-Branch Testing&lt;/a&gt;&lt;/strong&gt; — There’s a certain class of problems that’s hard to test. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27690293&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://encelo.github.io/2021-06-21-ten-years-ncine?utm_source=bengtan.com/interesting-things/011&#34;&gt;Ten years of nCine&lt;/a&gt;&lt;/strong&gt; — A retrospective on ten years of developing a cross-platform 2D game engine.&lt;/p&gt;
+&lt;!-- @encelo #coding #programming --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://devblogs.microsoft.com/oldnewthing/20210629-00/?p=105378&amp;amp;utm_source=bengtan.com/interesting-things/011&#34;&gt;What should the CPU usage be of a fully-loaded CPU that has been throttled?&lt;/a&gt;&lt;/strong&gt; — One theory says this should report 100% CPU usage. Another says this should report 50% CPU usage. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27686764&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.dijit.sh/devops-confusion-and-frustration?utm_source=bengtan.com/interesting-things/011&#34;&gt;DevOps; a decade of confusion and frustration&lt;/a&gt;&lt;/strong&gt; — What is “DevOps”? is a question I’ve heard a lot, often I’ve asked it implicitly to myself. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27685067&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.joshwcomeau.com/blog/hands-free-coding/?utm_source=bengtan.com/interesting-things/011&#34;&gt;Hands-Free Coding&lt;/a&gt;&lt;/strong&gt; — How I develop software using dictation and eye-tracking. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27687543&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;!-- @joshwcomeau --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.iamjonas.me/2021/06/getting-unstuck.html?utm_source=bengtan.com/interesting-things/011&#34;&gt;Getting unstuck&lt;/a&gt;&lt;/strong&gt; — Being stuck can come in two shades. The first is when you&amp;rsquo;re missing information.&lt;/p&gt;
+&lt;!-- @soimjonas --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://andersource.dev/2021/06/12/image-color-replacement.html?utm_source=bengtan.com/interesting-things/011&#34;&gt;Image color replacement with numerical optimization&lt;/a&gt;&lt;/strong&gt; — It’s a challenging problem and while the results are far from perfect, I’m pretty happy with how it turned out. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27684999&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;business&#34;&gt;#business&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://commoncog.com/blog/product-validation-taste/?utm_source=bengtan.com/interesting-things/011&#34;&gt;Product Validation Frameworks are Mostly Useless Without Taste&lt;/a&gt;&lt;/strong&gt; — Here&amp;rsquo;s why you can&amp;rsquo;t build new products without having good taste. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27684204&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://slate.com/business/2021/06/why-amazon-bought-whole-foods-groceries-online.html?utm_source=bengtan.com/interesting-things/011&#34;&gt;It’s Finally Clear Why Amazon Bought Whole Foods&lt;/a&gt;&lt;/strong&gt; — A massive nationwide chain of Amazon Fresh stores might just be Trojan horses for Amazon’s actual goal. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27685600&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;science&#34;&gt;#science&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.theatlantic.com/science/archive/2021/06/monitor-lizards-australia-dig-incredible-corkscrew-nests/619294/?utm_source=bengtan.com/interesting-things/011&#34;&gt;No One Imagined Giant Lizard Nests Would Be This Weird&lt;/a&gt;&lt;/strong&gt; — People didn’t know where yellow-spotted goannas laid their eggs, until one team started digging. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27639541&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.bbc.co.uk/news/technology-57651843?utm_source=bengtan.com/interesting-things/011&#34;&gt;Flying car completes test flight between airports&lt;/a&gt;&lt;/strong&gt; — A prototype flying car has completed a 35-minute flight between international airports.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.wired.com/story/how-underground-fiber-optics-spy-on-humans-moving-above/?utm_source=bengtan.com/interesting-things/011&#34;&gt;How Underground Fiber Optics Spy on Humans Moving Above&lt;/a&gt;&lt;/strong&gt; — Researchers have turned an underground telecom fiber optic cable into a kind of scientific surveillance device.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://ai.facebook.com/blog/advancing-ai-to-make-shopping-easier-for-everyone/?utm_source=bengtan.com/interesting-things/011&#34;&gt;Advancing AI to make shopping easier for everyone&lt;/a&gt;&lt;/strong&gt; — Our latest AI advancements could power entirely new future shopping experiences.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.quantamagazine.org/same-or-different-ai-cant-tell-20210623/?utm_source=bengtan.com/interesting-things/011&#34;&gt;Same or Different? The Question Flummoxes Neural Networks.&lt;/a&gt;&lt;/strong&gt; — AI systems can’t seem to generalize the concepts of &amp;lsquo;same&amp;rsquo; and &amp;lsquo;different&amp;rsquo;. Without that, the quest for AI may be hopeless. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27649953&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.newyorker.com/tech/annals-of-technology/will-we-ever-fly-supersonically-over-land?utm_source=bengtan.com/interesting-things/011&#34;&gt;Will We Ever Fly Supersonically Over Land?&lt;/a&gt;&lt;/strong&gt; — By turning sonic booms into sonic thumps, engineers hope to domesticate faster-than-sound transport.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.wired.co.uk/article/natures-safe?utm_source=bengtan.com/interesting-things/011&#34;&gt;One man’s plan to resurrect the animal species we can’t save&lt;/a&gt;&lt;/strong&gt; — The backup plan? Freeze their cells to preserve their genes.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.washingtonpost.com/technology/2021/06/17/drone-human-screams/?utm_source=bengtan.com/interesting-things/011&#34;&gt;Scientists are teaching drones to hunt down human screams&lt;/a&gt;&lt;/strong&gt; — Researchers developed a drone-carried acoustics system to find people calling out for help&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://trevorklee.com/why-bigger-species-live-longer-and-what-we-can-learn-from-it/?utm_source=bengtan.com/interesting-things/011&#34;&gt;Why bigger species live longer, and what we can learn from it&lt;/a&gt;&lt;/strong&gt; —  Why does lifespan decrease with body mass intraspecies, and increase with body mass interspecies?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.bbc.co.uk/news/business-57332484?utm_source=bengtan.com/interesting-things/011&#34;&gt;How farmers and scientists are engineering your food&lt;/a&gt;&lt;/strong&gt; — Scientists create better-tasting produce by manipulating genes, but is it necessary?&lt;/p&gt;
+&lt;h2 id=&#34;life&#34;&gt;#life&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://digiday.com/marketing/the-job-juggle-gen-z-and-millennial-employees-embrace-the-concept-of-polywork/?utm_source=bengtan.com/interesting-things/011&#34;&gt;The Job Juggle: Gen Z and millennial employees embrace the concept of ‘Polywork’&lt;/a&gt;&lt;/strong&gt; — The professional workforce is increasingly rejecting the concept of a full-time job. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27644719&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.collaborativefund.com/blog/hard/?utm_source=bengtan.com/interesting-things/011&#34;&gt;Harder Than It Looks, Not As Fun as It Seems&lt;/a&gt;&lt;/strong&gt; — Almost everything looks better from the outside. It’s the same for people.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.sitepoint.com/developers-career-mistakes/?utm_source=bengtan.com/interesting-things/011&#34;&gt;5 Hidden Mistakes That Can Ruin a Developer’s Career&lt;/a&gt;&lt;/strong&gt; — Have you lost a development job without knowing why? (&lt;a href=&#34;https://news.ycombinator.com/item?id=27687143&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://newsletter.bringthedonuts.com/p/dual-product-management-career-path?utm_source=bengtan.com/interesting-things/011&#34;&gt;It’s Time to Fight for a Dual Product Management Career Path&lt;/a&gt;&lt;/strong&gt; — If you pressure individual contributors to climb a management ladder, you end up losing talent.&lt;/p&gt;
+&lt;!-- @kennethn --&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.theguardian.com/technology/2021/jun/23/nfts-and-me-meet-the-people-trying-to-sell-their-memes-for-millions?utm_source=bengtan.com/interesting-things/011&#34;&gt;NFTs and me: meet the people trying to sell their memes for millions&lt;/a&gt;&lt;/strong&gt; — Once, people who owned viral photos made little money from them. Now, they can sell for an enormous sum.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.vox.com/recode/22543409/remote-work-from-home-jobs-supply-demand-hiring-platforms?utm_source=bengtan.com/interesting-things/011&#34;&gt;Many people don’t want to work unless it’s from home&lt;/a&gt;&lt;/strong&gt; — There are more remote jobs than ever. That doesn’t mean you’ll get one.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://theconversation.com/iq-tests-cant-measure-it-but-cognitive-flexibility-is-key-to-learning-and-creativity-163284?utm_source=bengtan.com/interesting-things/011&#34;&gt;IQ tests can’t measure it, but ‘cognitive flexibility’ is key to learning and creativity&lt;/a&gt;&lt;/strong&gt; — Are you good at changing perspectives? If so, it may benefit you in more ways than you imagine.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.newyorker.com/magazine/2021/07/05/what-deadlines-do-to-lifetimes?utm_source=bengtan.com/interesting-things/011&#34;&gt;What Deadlines Do to Lifetimes&lt;/a&gt;&lt;/strong&gt; — Can we find a balance between structuring our time and squandering it?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://quillette.com/2021/06/28/mate-selection-for-modernity/?utm_source=bengtan.com/interesting-things/011&#34;&gt;Mate Selection for Modernity&lt;/a&gt;&lt;/strong&gt; — An increasing cohort of successful women are chasing a shrinking number of high-value, commitment-averse men. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27673739&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://write.as/dotdotok/truth-is-a-weird-shape?utm_source=bengtan.com/interesting-things/011&#34;&gt;Truth Is a Weird Shape&lt;/a&gt;&lt;/strong&gt; — It is only through gazing at the truth from as many different angles as possible that we may finally begin to see it&amp;rsquo;s shape. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27636394&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;random&#34;&gt;#random&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.nytimes.com/2021/06/25/science/puzzles-fonts-math-demaine.html?utm_source=bengtan.com/interesting-things/011&#34;&gt;Is This Some Kind of Code? You Can Solve the …&lt;/a&gt;&lt;/strong&gt; — Mathematically inspired typefaces that are also puzzles. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27635836&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;end&#34;&gt;#end&lt;/h2&gt;
+&lt;p&gt;If you liked these stories, please share them (or this newsletter) with your friends. I&amp;rsquo;d appreciate it if you help me spread the word. 🙏😁&lt;/p&gt;
+&lt;p&gt;Enjoy your reading and have a good day,
+Beng&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://bengtan.com/images/portrait-40.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 
         
       </description>
