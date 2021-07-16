@@ -6,18 +6,98 @@
     <description>Recent content in Interesting Things on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Fri, 09 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/interesting-things/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/interesting-things/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Interesting Things #12 — YAGNI/PAGNI</title>
-      <link>https://bengtan.com/interesting-things/012-private/</link>
-      <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
+      <title>Interesting Things #13 — Honeypot</title>
+      <link>https://bengtan.com/interesting-things/013-private/</link>
+      <pubDate>Fri, 16 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bengtan.com/interesting-things/012-private/</guid>
+      <guid>https://bengtan.com/interesting-things/013-private/</guid>
       <description>
         
           &lt;p&gt;The lastest issue of &lt;strong&gt;Interesting Things&lt;/strong&gt; is subscriber-only. Please come back in a few days time.&lt;/p&gt;
 &lt;p&gt;If you don&amp;rsquo;t want to wait, &lt;a href=&#34;https://bengtan.com/newsletter&#34;&gt;subscribe&lt;/a&gt; to get it in your inbox now!&lt;/p&gt;
 &lt;p&gt;Look at some &lt;a href=&#34;https://bengtan.com/interesting-things&#34;&gt;older issues&lt;/a&gt;.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Interesting Things #12 — YAGNI/PAGNI</title>
+      <link>https://bengtan.com/interesting-things/012/</link>
+      <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bengtan.com/interesting-things/012/</guid>
+      <description>
+        
+          &lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;This is &lt;a href=&#34;https://bengtan.com/about/&#34;&gt;Beng Tan&lt;/a&gt; and welcome to &lt;strong&gt;Interesting Things&lt;/strong&gt;, a curation of interesting stories and links from tech, indie biz, science, and related fields.&lt;/p&gt;
+&lt;p&gt;Just read what you find interesting and ignore the rest. 😆&lt;/p&gt;
+&lt;p&gt;I hope you continue to like the content. Otherwise, no worries, there is the option to [unsubscribe]({{ unsubscribe_url }}).&lt;/p&gt;
+&lt;p&gt;Happy reading!&lt;/p&gt;
+&lt;h2 id=&#34;meta&#34;&gt;#meta&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;d like to make a request please. If you enjoy these stories and post them on the Internet, please add a comment &amp;ldquo;From &lt;a href=&#34;https://bengtan.com/interesting-things/012/%22&#34;&gt;https://bengtan.com/interesting-things/012/&amp;quot;&lt;/a&gt; (Just copy and paste). It will help others discover this newsletter, and I&amp;rsquo;d really appreciate it.&lt;/p&gt;
+&lt;p&gt;(In return, I will stop putting &lt;code&gt;utm_source&lt;/code&gt; tracking on the links. Thank you.)&lt;/p&gt;
+&lt;h2 id=&#34;tech&#34;&gt;#tech&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://lukeplant.me.uk/blog/posts/yagni-exceptions/&#34;&gt;YAGNI exceptions&lt;/a&gt;&lt;/strong&gt; — There are some things which really are easier to do earlier than later, and where YAGNI might neglect them.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://simonwillison.net/2021/Jul/1/pagnis/&#34;&gt;PAGNIs: Probably Are Gonna Need Its&lt;/a&gt;&lt;/strong&gt; — When you know from experience that an initial investment will pay off many times over.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.bschaatsbergen.com/behind-the-scenes-lambda&#34;&gt;Behind the scenes, AWS Lambda&lt;/a&gt;&lt;/strong&gt; — What&amp;rsquo;s better than containerization, written in Rust, open source and the power behind AWS Lambda functions? (&lt;a href=&#34;https://news.ycombinator.com/item?id=27713319&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.rockandnull.com/sometimes-we-choose-inefficiency/&#34;&gt;Sometimes we choose inefficiency&lt;/a&gt;&lt;/strong&gt; — Sometimes the most technically efficient solution is not what is needed.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://erickhun.com/posts/explaining-blockchains-to-developers/&#34;&gt;Explaining blockchains to developers&lt;/a&gt;&lt;/strong&gt; — What is a blockchain? In simple words, it’s a slow, distributed database. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27709163&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://danielmangum.com/posts/risc-v-bytes-passing-on-the-stack/&#34;&gt;RISC-V Bytes: Passing on the Stack&lt;/a&gt;&lt;/strong&gt; — What happens when we pass too much data than can be stored in our registers? (&lt;a href=&#34;https://news.ycombinator.com/item?id=27709912&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://medium.com/opendoor-labs/how-we-made-our-maps-10x-faster-e2fa1eaebc65&#34;&gt;How We Made Our Maps 10x Faster&lt;/a&gt;&lt;/strong&gt; — Defining and measuring technical metrics. Profiling before optimizing. Protecting against regressions.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://adrianroselli.com/2021/06/using-css-to-enforce-accessibility.html&#34;&gt;Using CSS to Enforce Accessibility&lt;/a&gt;&lt;/strong&gt; — ARIA brings a lot to the table that HTML does not, such as state information that HTML does not have natively. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27629139&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.leavemealone.app/moving-from-google-photos-to-nextcloud/&#34;&gt;De-Googling: Migrating from Google Photos to Nextcloud&lt;/a&gt;&lt;/strong&gt; — Learn how I moved from Google Photos to open-source, self-hosted content platform Nextcloud.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://martinheinz.dev/blog/52&#34;&gt;Functools - The Power of Higher-Order Functions in Python&lt;/a&gt;&lt;/strong&gt; — Let&amp;rsquo;s take a tour of it and see all the things it has to offer. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27699266&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://tellspin.app/blog/why-interruptions-are-frustrating-to-developers/&#34;&gt;Why interruptions are frustrating to developers&lt;/a&gt;&lt;/strong&gt; (May 2021) — Developers keep a lot of context in their heads and it starts to decay immediately when interrupted.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://addshore.com/2021/06/tackling-technical-debt-big-and-small-in-wikidata-and-wikibase/&#34;&gt;Tackling Technical Debt, big and small, in Wikidata and Wikibase&lt;/a&gt;&lt;/strong&gt; — Anecdotes on how to track, tackle, and prioritize technical debt. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27720687&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://betterdev.blog/dont-help-others-immediately/&#34;&gt;Don’t help others (immediately)&lt;/a&gt;&lt;/strong&gt; — Rushing to help on every message is not good not only for you, but also for the devs you want to help.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://review.firstround.com/the-right-way-to-ship-software&#34;&gt;The Right Way to Ship Software&lt;/a&gt;&lt;/strong&gt; — A former Facebook and VMware engineering executive on how startups can best structure their release processes. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27720752&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.redhat.com/architect/architects-guide-gps-and-gps-data-formats&#34;&gt;An Architect&amp;rsquo;s Guide to GPS and GPS Data Formats&lt;/a&gt;&lt;/strong&gt; — A fundamental understanding of GPS is an important skill for today&amp;rsquo;s enterprise architects.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://review.firstround.com/your-database-is-your-prison-heres-how-expensify-broke-free&#34;&gt;Your Database is Your Prison — Here’s How Expensify Broke Free&lt;/a&gt;&lt;/strong&gt; — There are advantages in over-investing in early database design. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27746229&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://morningcoffee.io/what-is-a-transaction-outbox-and-why-you-need-it.html&#34;&gt;Transactional Outbox: What is it and why you need it?&lt;/a&gt;&lt;/strong&gt; — Receiving a request, persisting it, and finally publishing a message can be trickier than expected.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.debugbear.com/blog/chrome-extension-performance-2021#increasing-website-cpu-usage&#34;&gt;How do Chrome extensions impact browser performance?&lt;/a&gt;&lt;/strong&gt; — Popular extensions can have a significant negative impact. Ad blockers and privacy tools can greatly improve performance. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27746503&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://brunocalza.me/getting-to-know-logical-clocks-by-implementing-them/&#34;&gt;Getting To Know Logical Clocks By Implementing Them&lt;/a&gt;&lt;/strong&gt; — Capture causality and achieve consensus on the ordering of events, and how to implement them.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://begriffs.com/posts/2021-07-04-shared-libraries.html&#34;&gt;Dynamic linking best practices&lt;/a&gt;&lt;/strong&gt; — Hopefully set the record straight and help improve the quality of open source libraries.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.rentpathcode.com/we-increased-our-lighthouse-score-by-17-points-by-making-our-images-larger-83f60b33a942&#34;&gt;We Increased our Lighthouse Score by 17 Points by Making Our Images Larger&lt;/a&gt;&lt;/strong&gt; — Improving on a metric that has become a game. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27749771&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://redhuntlabs.com/blog/thousands-of-unauthenticated-databases-exposed-on-the-internet.html&#34;&gt;Thousands Of Unauthenticated Databases Exposed On The Internet&lt;/a&gt;&lt;/strong&gt; — The specifics and analysis of internet-wide research on the security posture of databases exposed on the internet.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://research.swtch.com/hwmm&#34;&gt;Hardware Memory Models&lt;/a&gt;&lt;/strong&gt; — Computers with more and more processors created significant problems for language designers, compiler writers and programmers.&lt;/p&gt;
+&lt;h2 id=&#34;business&#34;&gt;#business&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://notes.michaeldempsey.me/post/636878548075937792/the-deep-tech-deficit-why-more-people-arent&#34;&gt;The Deep Tech Deficit: Why more people aren’t starting technically ambitious companies right now&lt;/a&gt;&lt;/strong&gt; (Jan 2021) — A working hypothesis. (&lt;a href=&#34;https://news.ycombinator.com/item?id=25338853&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.fortressofdoors.com/so-you-want-to-compete-with-roblox/&#34;&gt;So You Want to Compete with Roblox&lt;/a&gt;&lt;/strong&gt; — You shouldn&amp;rsquo;t try, but if you insist, here&amp;rsquo;s how to maybe not fail. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27702240&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://codingsans.com/blog/leadership-stories&#34;&gt;Leadership Stories from Slack by Michael Lopp&lt;/a&gt;&lt;/strong&gt; — Stories about the darkest day of Slack, lessons about telling the truth and growing into an executive role. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27709207&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://stripe.com/blog/atlas-first-five-years&#34;&gt;Stripe Atlas: the first five years and 20,000 startups&lt;/a&gt;&lt;/strong&gt; — We surveyed over 1,000 Atlas founders. Here’s what we found.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://1729.com/daos&#34;&gt;The ABCs of DAOs&lt;/a&gt;&lt;/strong&gt; — How decentralized autonomous organizations are automating the corporation. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27699301&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;science&#34;&gt;#science&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.nationalgeographic.com/animals/article/mind-controlling-parasite-makes-hyena-cubs-more-reckless-around-lions&#34;&gt;Mind-controlling parasite makes hyena cubs more reckless around lions&lt;/a&gt;&lt;/strong&gt; — This parasite doesn&amp;rsquo;t just affect domestic cats and their mouse prey. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27723806&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://razib.substack.com/p/here-be-humans&#34;&gt;Here be humans&lt;/a&gt;&lt;/strong&gt; — We keep discovering how much less of humanity is… us.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://nautil.us/issue/102/hidden-truths/what-made-early-humans-smart&#34;&gt;What Made Early Humans Smart&lt;/a&gt;&lt;/strong&gt; — Walking upright made our ancestors easy prey. It also made them get smart.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.vice.com/en/article/7kvwm9/scientists-discover-time-cells-in-the-brain-that-enable-mental-time-travel&#34;&gt;Scientists Discover &amp;lsquo;Time Cells&amp;rsquo; In the Brain That Enable &amp;lsquo;Mental Time Travel&amp;rsquo;&lt;/a&gt;&lt;/strong&gt; — A new experiment probed how the human brain encodes and processes the flow of time.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://breakingdefense.com/2021/06/socom-to-test-anti-aging-pill-next-year/&#34;&gt;SOCOM To Test Anti-Aging Pill Next Year&lt;/a&gt;&lt;/strong&gt; — To improve performance characteristics that typically decline with age.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.sciencealert.com/a-never-before-seen-type-of-signal-has-been-detected-in-the-human-brain&#34;&gt;A Never-Before-Seen Type of Signal Has Been Detected in The Human Brain&lt;/a&gt;&lt;/strong&gt; — Traditionally, the XOR operation has been thought to require a network solution.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://newatlas.com/materials/desalination-membrane-coaxial-electrospinning-nanofibers/&#34;&gt;Mixed up membrane desalinates water with 99.99 percent efficiency&lt;/a&gt;&lt;/strong&gt; — After 30 days, the membrane still filtered out 99.99 percent of the salt.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.quantamagazine.org/social-mitochondria-whispering-between-cells-influence-health-20210706/&#34;&gt;‘Social’ Mitochondria, Whispering Between Cells, Influence Health&lt;/a&gt;&lt;/strong&gt; — Mitochondria appear to communicate and cooperate with one another, both within and between cells. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27756591&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.theguardian.com/world/2021/jul/02/uk-pupils-orange-juice-fake-positive-covid-test-results&#34;&gt;UK pupils use orange juice to fake ‘positive’ Covid test results&lt;/a&gt;&lt;/strong&gt; — Teacher claims students say ‘it’s a great way to get two weeks off’. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27715626&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;life&#34;&gt;#life&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://arihantverma.com/posts/2021/07/02/the-problem-with-rockstar-culture/&#34;&gt;The Problem With Rockstar Culture In Tech&lt;/a&gt;&lt;/strong&gt; — Some of the common problems that I&amp;rsquo;ve observed, and heard from friends. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27715438&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.scientificamerican.com/article/our-brain-typically-overlooks-this-brilliant-problem-solving-strategy/&#34;&gt;Our Brain Typically Overlooks This Brilliant Problem-Solving Strategy&lt;/a&gt;&lt;/strong&gt; — People often limit their creativity by continually adding rather than removing.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.collaborativefund.com/blog/inefficient/&#34;&gt;Casualties of Perfection&lt;/a&gt;&lt;/strong&gt; — Time spent wandering around a park or aimlessly lounging on a couch might be your most valuable hours. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27717370&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.ft.com/content/6d821e56-64f3-4c59-84de-723b15dfc743&#34;&gt;Some gripes about groupthink&lt;/a&gt;&lt;/strong&gt; (June 2021) — Disagreement is valuable but agreement feels so much more comfortable.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://phys.org/news/2021-07-smart-technology-dumber.html&#34;&gt;Smart technology is not making us dumber: study&lt;/a&gt;&lt;/strong&gt; — There are plenty of negatives associated with smart technology but there is also a positive. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27718137&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://troyshu.com/2021/07/06/why-i-left-my-tech-job-to-build-a-meditation-app-while-traveling-the-world/&#34;&gt;Why I left my tech job to build a meditation app while traveling the world&lt;/a&gt;&lt;/strong&gt; — The joy of solving problems, without having to seek the permission of someone else, propelled me forward. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27747394&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://simonsarris.substack.com/p/the-most-precious-resource-is-agency&#34;&gt;The Most Precious Resource is Agency&lt;/a&gt;&lt;/strong&gt; — Gaining the capacity to do something differently from, or in addition to, the events that simply happen to you.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://aliabdaal.com/time-management-tips/&#34;&gt;10 Time Management Tips That I Genuinely Use Everyday&lt;/a&gt;&lt;/strong&gt; — Luckily over the years, I found a few techniques that help me organise my time. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27750633&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.theatlantic.com/science/archive/2021/07/gamers-are-better-scientists-catching-fraud/619324/&#34;&gt;Why Are Gamers So Much Better Than Scientists at Catching Fraud?&lt;/a&gt;&lt;/strong&gt; — The scientific community has long looked the other way when fraud allegations fly.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://daltondur.st/secure_pinephone_1/&#34;&gt;The Endless Conundrum of creating a secure PinePhone&lt;/a&gt;&lt;/strong&gt; — What started as a small threat modeling session to improve security a bit is now acting in extreme absolutes. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27746364&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://hexo.press/@joelewis/blog/2021/07/06/your-pay-scale-has-no-obligation-to-grow-with-your-skillset/&#34;&gt;Your Pay Scale Has No Obligation to Grow With Your Skillset&lt;/a&gt;&lt;/strong&gt; — Position yourself in roles that make an impact in the organization. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27747084&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;random&#34;&gt;#random&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://allthatsinteresting.com/gobekli-tepe&#34;&gt;The Bizarre Mysteries Of Gobekli Tepe, The Oldest Temple In The World&lt;/a&gt;&lt;/strong&gt; — It predated writing, metal tools, and even pottery. (&lt;a href=&#34;https://news.ycombinator.com/item?id=27745497&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;end&#34;&gt;#end&lt;/h2&gt;
+&lt;p&gt;If you liked these stories, share them (or this newsletter) with your friends. Please help me spread the word. 🙏&lt;/p&gt;
+&lt;p&gt;Enjoy your reading and have a good day,
+Beng&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://bengtan.com/images/portrait-40.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 
         
       </description>
