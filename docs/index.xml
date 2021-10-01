@@ -6,18 +6,72 @@
     <description>Recent content in Recent Posts on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Fri, 24 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Interesting Things #23 — Persistence in lambda</title>
-      <link>https://bengtan.com/interesting-things/023-private/</link>
-      <pubDate>Fri, 24 Sep 2021 00:00:00 +0000</pubDate>
+      <title>Interesting Things #24 — Invisible non-printing</title>
+      <link>https://bengtan.com/interesting-things/024-private/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bengtan.com/interesting-things/023-private/</guid>
+      <guid>https://bengtan.com/interesting-things/024-private/</guid>
       <description>
         
           &lt;p&gt;The lastest issue of &lt;strong&gt;Interesting Things&lt;/strong&gt; is subscriber-only. Please come back in a few days time.&lt;/p&gt;
 &lt;p&gt;If you don&amp;rsquo;t want to wait, &lt;a href=&#34;https://bengtan.com/newsletter&#34;&gt;subscribe&lt;/a&gt; to get it in your inbox now!&lt;/p&gt;
 &lt;p&gt;Look at some &lt;a href=&#34;https://bengtan.com/interesting-things&#34;&gt;older issues&lt;/a&gt;.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Interesting Things #23 — Persistence in lambda</title>
+      <link>https://bengtan.com/interesting-things/023/</link>
+      <pubDate>Fri, 24 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bengtan.com/interesting-things/023/</guid>
+      <description>
+        
+          &lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;This is &lt;a href=&#34;https://bengtan.com/about/&#34;&gt;Beng Tan&lt;/a&gt; and welcome to &lt;strong&gt;Interesting Things&lt;/strong&gt;, a curation of interesting stories and links from tech, work, biz, science, life and stuff.&lt;/p&gt;
+&lt;p&gt;This week has also been busy but I&amp;rsquo;m also mixing up how I do things and making some adjustments to the content. Less stories, more quality. Better signal-to-noise ratio. Or so I hope.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s give it a couple of weeks or so for things to settle down, and then we&amp;rsquo;ll see.&lt;/p&gt;
+&lt;p&gt;In any case, I hope you&amp;rsquo;ll continue to like the stories. Happy reading!&lt;/p&gt;
+&lt;h2 id=&#34;tech&#34;&gt;#tech&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://boyter.org/posts/abusing-aws-to-make-a-search-engine/?utm_source=bengtan.com/interesting-things/023&#34;&gt;Abusing AWS Lambda to make an Aussie Search Engine&lt;/a&gt;&lt;/strong&gt; — Need persistence? Embed the index by pre-compiling each shard into it&amp;rsquo;s own lambda. Sneaky. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28539974&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.dream11engineering.com/lessons-learned-from-running-graphql-at-scale-2ad60b3cefeb?utm_source=bengtan.com/interesting-things/023&#34;&gt;Lessons learned from running GraphQL at scale&lt;/a&gt;&lt;/strong&gt; — We used multiple strategies to optimise resource utilisation and faced two major challenges. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28554715&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://ipinfo.io/blog/app-engine-to-google-kubernetes-engine/?utm_source=bengtan.com/interesting-things/023&#34;&gt;App Engine to Google Kubernetes Engine - a journey&lt;/a&gt;&lt;/strong&gt; — We faced a few challenges that required careful preparation, planning and rollback options as needed. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28540372&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://huyenchip.com/2021/09/13/data-science-infrastructure.html?utm_source=bengtan.com/interesting-things/023&#34;&gt;Why data scientists shouldn’t need to know Kubernetes&lt;/a&gt;&lt;/strong&gt; — While it’s good for data scientists to own the entire stack, they can do so without having to know K8s. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28520265&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.theatlantic.com/books/archive/2021/09/why-are-ebooks-so-terrible/620068/?utm_source=bengtan.com/interesting-things/023&#34;&gt;Ebooks Are an Abomination&lt;/a&gt;&lt;/strong&gt; — If you hate them, it’s not your fault. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28568792&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://utcc.utoronto.ca/~cks/space/blog/tech/PackageManagersTwoTypes?utm_source=bengtan.com/interesting-things/023&#34;&gt;There are (at least) two types of package managers&lt;/a&gt;&lt;/strong&gt; — Program managers are what Linuxes and other Unixes have. Module managers are what languages have. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28538328&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://ariadne.space/2021/09/16/the-long-term-consequences-of-maintainers-actions/?utm_source=bengtan.com/interesting-things/023&#34;&gt;The long-term consequences of maintainers’ actions&lt;/a&gt;&lt;/strong&gt; — The ideology of moving fast and breaking things does not translate to success in the world at large. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28574979&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://littlemaninmyhead.wordpress.com/2021/09/15/if-you-copied-any-of-these-popular-stackoverflow-encryption-code-snippets-then-you-did-it-wrong/?utm_source=bengtan.com/interesting-things/023&#34;&gt;If you copied any of these popular StackOverflow encryption code snippets, then you coded it wrong&lt;/a&gt;&lt;/strong&gt; — Very often I traced security issues to StackOverflow code snippets that got highly upvoted. I point out why they are wrong.&lt;/p&gt;
+&lt;h2 id=&#34;work&#34;&gt;#work&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://codesubmit.io/blog/developer-burnout/?utm_source=bengtan.com/interesting-things/023&#34;&gt;Developer Burnout: Why It Happens and What We Can Do About It&lt;/a&gt;&lt;/strong&gt; — Strategies developers can adopt to manage stress while contemplating larger, more impactful decisions.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://medium.com/writers-blokke/an-old-programmer-loses-his-job-caa4670f34dc?utm_source=bengtan.com/interesting-things/023&#34;&gt;An Old Programmer Loses His Job&lt;/a&gt;&lt;/strong&gt; — I am an IT professional. How could this happen?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://piccalil.li/blog/3-years/?utm_source=bengtan.com/interesting-things/023&#34;&gt;3 Years&lt;/a&gt;&lt;/strong&gt; — I was made redundant 3 years ago and that’s resulted in lots of freelance success. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28527146&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;business&#34;&gt;#business&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://kitze.io/posts/github-stars-wont-pay-your-rent?utm_source=bengtan.com/interesting-things/023&#34;&gt;GitHub stars won&amp;rsquo;t pay your rent&lt;/a&gt;&lt;/strong&gt; — Going from OSS to SaaS. Mistakes made and lessons learned from launching a browser For developers. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28547193&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://kerkour.com/blog/engineer-vs-entrepreneur-mindset/?utm_source=bengtan.com/interesting-things/023&#34;&gt;Engineer vs Entrepreneur Mindset&lt;/a&gt;&lt;/strong&gt; — Take a few steps back to see the tradeoffs made by each group and see if we can take the best from both worlds. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28541708&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://eriktorenberg.substack.com/p/reputation-markets?utm_source=bengtan.com/interesting-things/023&#34;&gt;Reputation Markets&lt;/a&gt;&lt;/strong&gt; — It’s interesting to think about the exchange rate between financial and social capital. Reputations, like stocks, have P/E ratios. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28515216&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;science&#34;&gt;#science&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.quantamagazine.org/a-mathematicians-guided-tour-through-high-dimensions-20210913/?utm_source=bengtan.com/interesting-things/023&#34;&gt;The Journey to Define Dimension&lt;/a&gt;&lt;/strong&gt; — The concept of dimension seems simple enough, but mathematicians struggled for centuries to precisely define and understand it. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28597940&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.abc.net.au/news/science/2021-09-14/batteries-lithium-sulfur-sugar-future-electric-vehicles/100457492?utm_source=bengtan.com/interesting-things/023&#34;&gt;Batteries of the future set to be cheaper and better — just by adding sugar&lt;/a&gt;&lt;/strong&gt; — Lithium-sulfur batteries store two to five times more energy than lithium-ion. Can they be made robust enough to be recharged 1,000 times? (&lt;a href=&#34;https://news.ycombinator.com/item?id=28521081&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://theconversation.com/how-much-will-our-oceans-warm-and-cause-sea-levels-to-rise-this-century-weve-just-improved-our-estimate-166417?utm_source=bengtan.com/interesting-things/023&#34;&gt;How much will our oceans warm and cause sea levels to rise this century? We’ve just improved our estimate&lt;/a&gt;&lt;/strong&gt; — A new analysis uses 15 years of autonomous underwater measurements and simulations from the latest global climate models. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28519307&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.quantamagazine.org/a-massive-subterranean-tree-is-moving-magma-to-earths-surface-20210915/?utm_source=bengtan.com/interesting-things/023&#34;&gt;A Massive Subterranean ‘Tree’ Is Moving Magma to Earth’s Surface&lt;/a&gt;&lt;/strong&gt; — Deep in the mantle, a branching plume of intensely hot material appears to be powering vast volcanic activity.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.sciencealert.com/physicists-just-accidentally-made-a-new-discovery-about-black-holes?utm_source=bengtan.com/interesting-things/023&#34;&gt;Physicists Just Accidentally Made a New Discovery About Black Holes&lt;/a&gt;&lt;/strong&gt; — They exert negative pressure on the space around them.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://arstechnica.com/science/2021/09/self-sustaining-solar-house-on-wheels-wants-to-soak-up-the-sun/?utm_source=bengtan.com/interesting-things/023&#34;&gt;Self-sustaining solar house on wheels wants to soak up the Sun&lt;/a&gt;&lt;/strong&gt; — A concept recreational vehicle. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28555914&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;life&#34;&gt;#life&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.nirandfar.com/psychological-reactance/?utm_source=bengtan.com/interesting-things/023&#34;&gt;The Real Reason Why You Sabotage Your Own Goals&lt;/a&gt;&lt;/strong&gt; — Why do we avoid good habits like exercising and eating healthy? A mental reflex called psychological reactance may be the culprit. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28507038&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.wired.com/story/psychologists-religion-how-god-works/?utm_source=bengtan.com/interesting-things/023&#34;&gt;Psychologists Are Learning What Religion Has Known for Years&lt;/a&gt;&lt;/strong&gt; — Social scientists are researching what humans can do to improve their quality of life. Their findings echo what religious practices perfected centuries ago. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28537767&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.linkedin.com/pulse/57-small-things-have-made-big-difference-my-life-dino-bilankov/?utm_source=bengtan.com/interesting-things/023&#34;&gt;57 small things that have made a big difference in my life…&lt;/a&gt;&lt;/strong&gt; — You can decide for yourself if further reading is worth your time. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28529559&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;random&#34;&gt;#random&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.zmescience.com/other/feature-post/wolf-cat-feature-13092021/?utm_source=bengtan.com/interesting-things/023&#34;&gt;The wolf cat — how this bizarre, adorable cat came to be&lt;/a&gt;&lt;/strong&gt; — It&amp;rsquo;s a relatively new type of breed and a pretty unusual one as well.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.historytoday.com/archive/natural-histories/one-giant-leap-tortoise-kind?utm_source=bengtan.com/interesting-things/023&#34;&gt;One Giant Leap for Tortoise-Kind&lt;/a&gt;&lt;/strong&gt; — Before humans entered the moon&amp;rsquo;s orbit, these slow and sedentary residents of the Great Steppe did. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28504435&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;end&#34;&gt;#end&lt;/h2&gt;
+&lt;p&gt;If you liked these stories, please share them (or this newsletter) with your friends. I would appreciate it if you help me spread the word. 🙏&lt;/p&gt;
+&lt;p&gt;Enjoy your reading and have a good day,
+Beng&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://bengtan.com/images/portrait-40.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 
         
       </description>
