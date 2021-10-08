@@ -6,18 +6,70 @@
     <description>Recent content in Recent Posts on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Fri, 01 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Interesting Things #24 — Invisible non-printing</title>
-      <link>https://bengtan.com/interesting-things/024-private/</link>
-      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      <title>Interesting Things #25 — Mario Malware</title>
+      <link>https://bengtan.com/interesting-things/025-private/</link>
+      <pubDate>Fri, 08 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bengtan.com/interesting-things/024-private/</guid>
+      <guid>https://bengtan.com/interesting-things/025-private/</guid>
       <description>
         
           &lt;p&gt;The lastest issue of &lt;strong&gt;Interesting Things&lt;/strong&gt; is subscriber-only. Please come back in a few days time.&lt;/p&gt;
 &lt;p&gt;If you don&amp;rsquo;t want to wait, &lt;a href=&#34;https://bengtan.com/newsletter&#34;&gt;subscribe&lt;/a&gt; to get it in your inbox now!&lt;/p&gt;
 &lt;p&gt;Look at some &lt;a href=&#34;https://bengtan.com/interesting-things&#34;&gt;older issues&lt;/a&gt;.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Interesting Things #24 — Invisible non-printing</title>
+      <link>https://bengtan.com/interesting-things/024/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bengtan.com/interesting-things/024/</guid>
+      <description>
+        
+          &lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;This is &lt;a href=&#34;https://bengtan.com/about/&#34;&gt;Beng Tan&lt;/a&gt; and welcome to &lt;strong&gt;Interesting Things&lt;/strong&gt;, a curation of interesting stories and links from tech, work, biz, science, life and stuff.&lt;/p&gt;
+&lt;p&gt;Happy reading!&lt;/p&gt;
+&lt;h2 id=&#34;tech&#34;&gt;#tech&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://medium.com/@umpox/be-careful-what-you-copy-invisibly-inserting-usernames-into-text-with-zero-width-characters-18b4e6f17b66?utm_source=bengtan.com/interesting-things/024&#34;&gt;Be careful what you copy: Invisibly inserting usernames into text with Zero-Width Characters&lt;/a&gt;&lt;/strong&gt; — Watermarking text with invisible non-printing characters. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28626194&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://biriukov.dev/docs/page-cache/0-linux-page-cache-for-sre/?utm_source=bengtan.com/interesting-things/024&#34;&gt;SRE deep dive into Linux Page Cache&lt;/a&gt;&lt;/strong&gt; — I believe that the following knowledge of the theory and tools is essential and crucial for every SRE. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28614049&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://engineering.squarespace.com/blog/2021/collaborating-to-build-an-uncertain-layout?utm_source=bengtan.com/interesting-things/024&#34;&gt;Collaborating to Build an Uncertain Layout&lt;/a&gt;&lt;/strong&gt; — How do you make a website look good when you can&amp;rsquo;t know how that website will look? It turns out this is one of the fundamental questions we work with. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28619870&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.cobaltrobotics.com/writing-high-stakes-code-at-a-startup/?utm_source=bengtan.com/interesting-things/024&#34;&gt;Writing High Stakes Code (At A Startup)&lt;/a&gt;&lt;/strong&gt; — How to write code when the stakes are high or human safety is involved. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28631304&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.crunchydata.com/blog/postgres-14-its-the-little-things?utm_source=bengtan.com/interesting-things/024&#34;&gt;Postgres 14: It&amp;rsquo;s The Little Things&lt;/a&gt;&lt;/strong&gt; — Calling attention to those little things that don&amp;rsquo;t get the spotlight but make a developer&amp;rsquo;s life better. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28609311&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.team6502.org/?utm_source=bengtan.com/interesting-things/024&#34;&gt;The story of the team ​behind the chip that launched a revolution&lt;/a&gt;&lt;/strong&gt; — The MOS 6052 is one of the most influential microprocessors ever designed. It&amp;rsquo;s credited with ushering in the personal computing revolution. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28611235&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.theguardian.com/lifeandstyle/2021/sep/23/the-smart-toilet-era-is-here-are-you-ready-to-share-your-analprint-with-big-tech?utm_source=bengtan.com/interesting-things/024&#34;&gt;The smart toilet era is here! Are you ready to share your analprint with big tech?&lt;/a&gt;&lt;/strong&gt; — Smart toilet innovators believe the loo could become the ultimate health monitoring tool. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28627807&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://tonsky.me/blog/python-build/?utm_source=bengtan.com/interesting-things/024&#34;&gt;Python as a build tool&lt;/a&gt;&lt;/strong&gt; — Why Skija and JWM use Python instead of an existing build tool. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28635094&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://lwn.net/SubscriberLink/869842/f4ae2a41b6deeba0/?utm_source=bengtan.com/interesting-things/024&#34;&gt;Weaponizing middleboxes&lt;/a&gt;&lt;/strong&gt; — Middleboxes can be abused to inflict denial-of-service (DoS) attacks elsewhere on the net. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28609480&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.phparch.com/2021/09/education-station-php-is-the-worst/?utm_source=bengtan.com/interesting-things/024&#34;&gt;Education Station: PHP is the Worst&lt;/a&gt;&lt;/strong&gt; — However, at the same time, PHP allows developers to create structurally “correct” software and embrace ideas that are considered good practices. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28620637&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;work&#34;&gt;#work&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://demando.se/blogg/post/you-are-so-loyal.-we-will-pay-you-less./?utm_source=bengtan.com/interesting-things/024&#34;&gt;You are so loyal. We will pay you less.&lt;/a&gt;&lt;/strong&gt; — Compensation is increased more for people who change jobs vs. those who stay at the same company. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28636368&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://neverworkintheory.org/2021/09/19/impact-of-task-switching-and-work-interruptions.html?utm_source=bengtan.com/interesting-things/024&#34;&gt;Impact of task switching and work interruptions on software development processes&lt;/a&gt;&lt;/strong&gt; — What was surprising was that working on more projects didn&amp;rsquo;t correlate with cross-project interrupts. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28613757&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.pragmaticengineer.com/project-management-at-big-tech/?utm_source=bengtan.com/interesting-things/024&#34;&gt;How Big Tech Runs Tech Projects and the Curious Absence of Scrum&lt;/a&gt;&lt;/strong&gt; — Why is this, and are there takeaways others should take note of? (&lt;a href=&#34;https://news.ycombinator.com/item?id=28655123&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.theatlantic.com/ideas/archive/2021/09/offices-microsoft-study-out-group-connections/620137/?utm_source=bengtan.com/interesting-things/024&#34;&gt;Hard Work Isn’t the Point of the Office&lt;/a&gt;&lt;/strong&gt; — The pandemic disrupted the gossip, eavesdropping, and casual relationship-building that aren’t a formal part of your job. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28605604&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.bbc.com/worklife/article/20210921-why-companies-dont-post-salaries-in-job-adverts?utm_source=bengtan.com/interesting-things/024&#34;&gt;Why companies don&amp;rsquo;t post salaries in job adverts&lt;/a&gt;&lt;/strong&gt; — The politics of making salaries public are complicated. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28666374&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;business&#34;&gt;#business&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://pagepro.co/blog/mvp-vs-prototype/?utm_source=bengtan.com/interesting-things/024&#34;&gt;MVP vs Prototype – Which One To Choose For Idea Validation?&lt;/a&gt;&lt;/strong&gt; — If you want to validate your product idea, but you hesitate, read our MVP vs Prototype comparison! (&lt;a href=&#34;https://news.ycombinator.com/item?id=28661684&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.vox.com/the-goods/22689802/elder-friendly-technology-grandpad-jitterbug-old-people-tablets?utm_source=bengtan.com/interesting-things/024&#34;&gt;Elder-friendly technology is a growing market&lt;/a&gt;&lt;/strong&gt; — As boomers age, a new crop of iPads and Alexas are popping up. Are they necessary? (&lt;a href=&#34;https://news.ycombinator.com/item?id=28656844&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.geekwire.com/2021/successful-accelerator-cohort-ever-techstars-seattle-class-produced-3-unicorns/?utm_source=bengtan.com/interesting-things/024&#34;&gt;The most successful accelerator cohort ever: How this Techstars Seattle class produced 3 unicorns&lt;/a&gt;&lt;/strong&gt; — The struggles for these three startups were many, with plenty of co-founder drama, pivoting, near-bankruptcy, plateaus, visa issues, and more. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28634562&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;science&#34;&gt;#science&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.newyorker.com/news/annals-of-a-warming-planet/the-promise-of-carbon-neutral-steel?utm_source=bengtan.com/interesting-things/024&#34;&gt;The Promise of Carbon-Neutral Steel&lt;/a&gt;&lt;/strong&gt; — To understand steel, you need to think at the level of high-school chemistry. For most of human history the problem of iron extraction was unsolvable. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28658702&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://time.com/6100276/mars-water-loss/?utm_source=bengtan.com/interesting-things/024&#34;&gt;Mars Was Always Destined to Die&lt;/a&gt;&lt;/strong&gt; — A new study reveals that Mars began drying even earlier in its history than once thought. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28611202&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.hakaimagazine.com/features/flying-by-the-fat-of-the-sea/?utm_source=bengtan.com/interesting-things/024&#34;&gt;Flying by the Fat of the Sea&lt;/a&gt;&lt;/strong&gt; — Scientists may have cracked an essential secret of shorebirds’ marathon migrations. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28657815&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.quantamagazine.org/the-simple-math-behind-the-mighty-roots-of-unity-20210923/?utm_source=bengtan.com/interesting-things/024&#34;&gt;The Simple Math Behind the Mighty Roots of Unity&lt;/a&gt;&lt;/strong&gt; — Solutions to the simplest polynomial equations have an elegant structure that mathematicians still use to study some of math’s greatest open questions. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28650737&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.quantamagazine.org/mathematical-analysis-of-fruit-fly-wings-hints-at-evolutions-limits-20210920/?utm_source=bengtan.com/interesting-things/024&#34;&gt;Mathematical Analysis of Fruit Fly Wings Hints at Evolution’s Limits&lt;/a&gt;&lt;/strong&gt; — Two forces of robustness and evolvability tug in opposite directions. One wants less variation, and one wants more. How is a balance struck? (&lt;a href=&#34;https://news.ycombinator.com/item?id=28655630&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://jalopnik.com/this-is-why-your-car-remote-works-from-farther-away-if-1847726695?utm_source=bengtan.com/interesting-things/024&#34;&gt;This Is Why Your Car Remote Works From Farther Away If You Hold It To Your Head&lt;/a&gt;&lt;/strong&gt; — You are made of meat and you can turn your head into an antenna. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28622906&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;life&#34;&gt;#life&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://kylechayka.substack.com/p/essay-the-digital-death-of-collecting?utm_source=bengtan.com/interesting-things/024&#34;&gt;Essay: The digital death of collecting&lt;/a&gt;&lt;/strong&gt; — How platforms mess with our tastes. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28668265&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://medium.com/@maimai816/why-women-should-always-do-what-we-think-we-are-not-good-at-e228e306ae08?utm_source=bengtan.com/interesting-things/024&#34;&gt;Why women should always do what we think we are not good at&lt;/a&gt;&lt;/strong&gt; — My personal story of how I quit being a software engineer due to lack of confidence and came back to it after long years. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28656352&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;end&#34;&gt;#end&lt;/h2&gt;
+&lt;p&gt;If you liked these stories, please share them (or this newsletter) with your friends. I would appreciate it if you help me spread the word. 🙏&lt;/p&gt;
+&lt;p&gt;Enjoy your reading and have a good day,
+Beng&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://bengtan.com/images/portrait-40.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 
         
       </description>
