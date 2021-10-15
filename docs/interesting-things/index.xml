@@ -6,18 +6,66 @@
     <description>Recent content in Interesting Things on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Fri, 08 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/interesting-things/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/interesting-things/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Interesting Things #25 — Mario Malware</title>
-      <link>https://bengtan.com/interesting-things/025-private/</link>
-      <pubDate>Fri, 08 Oct 2021 00:00:00 +0000</pubDate>
+      <title>Interesting Things #26 — Go go go</title>
+      <link>https://bengtan.com/interesting-things/026-private/</link>
+      <pubDate>Fri, 15 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bengtan.com/interesting-things/025-private/</guid>
+      <guid>https://bengtan.com/interesting-things/026-private/</guid>
       <description>
         
           &lt;p&gt;The lastest issue of &lt;strong&gt;Interesting Things&lt;/strong&gt; is subscriber-only. Please come back in a few days time.&lt;/p&gt;
 &lt;p&gt;If you don&amp;rsquo;t want to wait, &lt;a href=&#34;https://bengtan.com/newsletter&#34;&gt;subscribe&lt;/a&gt; to get it in your inbox now!&lt;/p&gt;
 &lt;p&gt;Look at some &lt;a href=&#34;https://bengtan.com/interesting-things&#34;&gt;older issues&lt;/a&gt;.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Interesting Things #25 — Mario Malware</title>
+      <link>https://bengtan.com/interesting-things/025/</link>
+      <pubDate>Fri, 08 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bengtan.com/interesting-things/025/</guid>
+      <description>
+        
+          &lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;This is &lt;a href=&#34;https://bengtan.com/about/&#34;&gt;Beng Tan&lt;/a&gt; and welcome to &lt;strong&gt;Interesting Things&lt;/strong&gt;, a curation of interesting stories and links from tech, work, biz, science, life and random stuff.&lt;/p&gt;
+&lt;p&gt;Happy reading!&lt;/p&gt;
+&lt;h2 id=&#34;tech&#34;&gt;#tech&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://serhack.me/articles/analyzing-mario-malware-en/?utm_source=bengtan.com/interesting-things/025&#34;&gt;Analyzing the Mario Themed Malware&lt;/a&gt;&lt;/strong&gt; — A deep dive into analysis of a malware spread through Facebook ads. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28716175&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.drewolson.org/adventures-in-looping?utm_source=bengtan.com/interesting-things/025&#34;&gt;Adventures in Looping&lt;/a&gt;&lt;/strong&gt; — [haskell] If only there was some way to exit from a forever loop. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28695413&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://hangar.runway7.net/javascript/guide?utm_source=bengtan.com/interesting-things/025&#34;&gt;The Javascript Guide to Objects, Functions, Scope, Prototypes and Closures&lt;/a&gt;&lt;/strong&gt; — A condensed and written version of the introductory class on JavaScript that I give at training programs and user groups. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28734841&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.protocol.com/enterprise/ibm-lost-public-cloud?utm_source=bengtan.com/interesting-things/025&#34;&gt;How IBM lost the cloud&lt;/a&gt;&lt;/strong&gt; — Insiders say that marketing missteps and duplicated development processes doomed it from the start. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28701881&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://elis.nu/blog/2021/09/dynamic-css-color-themes-with-similar-contrasts/?utm_source=bengtan.com/interesting-things/025&#34;&gt;Dynamic CSS color themes with similar contrasts&lt;/a&gt;&lt;/strong&gt; — I wrote a function to adjust the color to get a specific contrast compared to the background. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28714209&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.chiark.greenend.org.uk/~ianmdlvl/rust-polyglot/index.html?utm_source=bengtan.com/interesting-things/025&#34;&gt;Rust for the Polyglot Programmer&lt;/a&gt;&lt;/strong&gt; — Intended for the experienced programmer who already knows many other programming languages. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28704611&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://psankar.blogspot.com/2021/09/software-obsoleting-faster-than-hardware.html?utm_source=bengtan.com/interesting-things/025&#34;&gt;Software obsoleting faster than Hardware&lt;/a&gt;&lt;/strong&gt; — Software should not have problems running on hardware less than 5 years old. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28690775&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://klarasystems.com/articles/freebsd-jails-the-beginning-of-freebsd-containers/?utm_source=bengtan.com/interesting-things/025&#34;&gt;FreeBSD Jails – Deep Dive into the Beginning of FreeBSD Containers&lt;/a&gt;&lt;/strong&gt; — FreeBSD jails and containers have an interesting history. Find out how they came to be. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28716542&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.bigpicture.io/how-we-cut-our-aws-bill-by-70/?utm_source=bengtan.com/interesting-things/025&#34;&gt;How we cut our AWS bill by 70%&lt;/a&gt;&lt;/strong&gt; — Our stack is built on AWS, and it&amp;rsquo;s one of our biggest expenses. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28707744&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.babbling.fish/elt-cookbook-sql/?utm_source=bengtan.com/interesting-things/025&#34;&gt;SQL for Distributed Systems&lt;/a&gt;&lt;/strong&gt; — Common design patterns used by data engineers in SQL and Python, for ELT scripting in distributed computing environments. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28708744&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;business&#34;&gt;#business&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://thebootstrappedfounder.com/copycats-and-endurance/?utm_source=bengtan.com/interesting-things/025&#34;&gt;Copycats and Endurance&lt;/a&gt;&lt;/strong&gt; — When someone clones your product, it&amp;rsquo;s not the end of the world. Let’s consider several factors that have repeatedly proven to be true. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28718426&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://ucluster.org/en/blog/2021/09/ukrainian-startups-working-up-an-appetite-for-global-expansion/?utm_source=bengtan.com/interesting-things/025&#34;&gt;Ukrainian startups: working up an appetite for global expansion&lt;/a&gt;&lt;/strong&gt; — A report into the Ukrainian startup ecosystem has surprising conclusions. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28731416&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://review.firstround.com/give-away-your-legos-and-other-commandments-for-scaling-startups?utm_source=bengtan.com/interesting-things/025&#34;&gt;‘Give Away Your Legos’ and Other Commandments for Scaling Startups&lt;/a&gt;&lt;/strong&gt; — The key to scaling rapidly the right way from someone who withstood huge amounts of growth at Facebook. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28700512&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://corrily.com/blog/price-discrimination?utm_source=bengtan.com/interesting-things/025&#34;&gt;Why Companies Price Discriminate and Why You Should Too&lt;/a&gt;&lt;/strong&gt; — We argue that when done correctly, price discrimination can be a very good thing. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28697281&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;science&#34;&gt;#science&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://believermag.com/jude-stewart-act-of-smelling/?utm_source=bengtan.com/interesting-things/025&#34;&gt;The Act of Smelling&lt;/a&gt;&lt;/strong&gt; — The human nose can detect a dizzying array of smells, with a theoretical upper limit of one trillion smells, yet it remains a deep riddle to scientists. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28734469&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://newatlas.com/energy/sun-cable-australia-singapore-solar-undersea-powerlink/?utm_source=bengtan.com/interesting-things/025&#34;&gt;World&amp;rsquo;s biggest clean energy project to power Singapore from Australia&lt;/a&gt;&lt;/strong&gt; — The planned Australia-Asia PowerLink project is nearly 10 times the size of the world&amp;rsquo;s current largest solar power. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28725718&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://science.nasa.gov/news-articles/the-mystery-of-coronal-heating?utm_source=bengtan.com/interesting-things/025&#34;&gt;The Mystery of Coronal Heating&lt;/a&gt;&lt;/strong&gt; — Why does the sun&amp;rsquo;s upper atmosphere sizzle at a temperature 200 to 500 times higher than that of the surface? (&lt;a href=&#34;https://news.ycombinator.com/item?id=28728265&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://newatlas.com/science/artificial-synthesis-starch-from-co2/?utm_source=bengtan.com/interesting-things/025&#34;&gt;World-first artificial synthesis of starch from CO2 outperforms nature&lt;/a&gt;&lt;/strong&gt; — Scientists have developed an artificial technique that turns CO2 into starch with 8.5 times the efficiency of corn. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28736264&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;life&#34;&gt;#life&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://cointelegraph.com/news/white-hat-hacker-paid-defi-s-largest-reported-bounty-fee?utm_source=bengtan.com/interesting-things/025&#34;&gt;White hat hacker paid DeFi’s largest reported bounty fee&lt;/a&gt;&lt;/strong&gt; — He received in excess of $1 million for his role in averting what was potentially a $10 million loss. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28707007&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://lucasfcosta.com/2021/09/30/explaining-in-writing.html?utm_source=bengtan.com/interesting-things/025&#34;&gt;Explaining explaining: a quick guide on explanatory writing&lt;/a&gt;&lt;/strong&gt; — Explaining things in writing is the most efficient way of conveying an idea to a large, distributed audience. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28714752&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://simonberens.me/blog/12-rules-for-discourse?utm_source=bengtan.com/interesting-things/025&#34;&gt;12 Rules for Discourse&lt;/a&gt;&lt;/strong&gt; — Productive conversation is a skill like any other, and mastering it is well worth the effort. Here are 12 rules. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28699897&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;random&#34;&gt;#random&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.nytimes.com/2021/09/28/science/most-dangerous-bird-cassowary.html?utm_source=bengtan.com/interesting-things/025&#34;&gt;The World’s Deadliest Bird Was Raised by People 18,000 Years Ago&lt;/a&gt;&lt;/strong&gt; — Ancient cassowary egg shells in New Guinea suggests the sharp-taloned bird was being domesticated. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28693044&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;end&#34;&gt;#end&lt;/h2&gt;
+&lt;p&gt;If you liked these stories, please share them (or this newsletter) with your friends. I would appreciate it if you help me spread the word. 🙏&lt;/p&gt;
+&lt;p&gt;Enjoy your reading and have a good day,
+Beng&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://bengtan.com/images/portrait-40.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 
         
       </description>
