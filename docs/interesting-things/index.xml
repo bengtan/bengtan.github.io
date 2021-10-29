@@ -6,18 +6,69 @@
     <description>Recent content in Interesting Things on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Fri, 22 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/interesting-things/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/interesting-things/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Interesting Things #27 — Extra megabyte</title>
-      <link>https://bengtan.com/interesting-things/027-private/</link>
-      <pubDate>Fri, 22 Oct 2021 00:00:00 +0000</pubDate>
+      <title>Interesting Things #28 — iDevelop anywhere</title>
+      <link>https://bengtan.com/interesting-things/028-private/</link>
+      <pubDate>Fri, 29 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bengtan.com/interesting-things/027-private/</guid>
+      <guid>https://bengtan.com/interesting-things/028-private/</guid>
       <description>
         
           &lt;p&gt;The lastest issue of &lt;strong&gt;Interesting Things&lt;/strong&gt; is subscriber-only. Please come back in a few days time.&lt;/p&gt;
 &lt;p&gt;If you don&amp;rsquo;t want to wait, &lt;a href=&#34;https://bengtan.com/newsletter&#34;&gt;subscribe&lt;/a&gt; to get it in your inbox now!&lt;/p&gt;
 &lt;p&gt;Look at some &lt;a href=&#34;https://bengtan.com/interesting-things&#34;&gt;older issues&lt;/a&gt;.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Interesting Things #27 — Extra megabyte</title>
+      <link>https://bengtan.com/interesting-things/027/</link>
+      <pubDate>Fri, 22 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bengtan.com/interesting-things/027/</guid>
+      <description>
+        
+          &lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;This is &lt;a href=&#34;https://bengtan.com/about/&#34;&gt;Beng Tan&lt;/a&gt; and welcome to &lt;strong&gt;Interesting Things&lt;/strong&gt;, a curation of interesting stories and links from tech, work, biz, science, life and random stuff.&lt;/p&gt;
+&lt;p&gt;Happy reading!&lt;/p&gt;
+&lt;h2 id=&#34;tech&#34;&gt;#tech&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://tailscale.com/blog/go-linker/?utm_source=bengtan.com/interesting-things/027&#34;&gt;Hey linker, can you spare a meg?&lt;/a&gt;&lt;/strong&gt; — Would you patch your linker to get an extra megabyte of memory? These people did. It made sense for them. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28800742&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.swarmia.com/blog/a-complete-guide-to-code-reviews/?utm_source=bengtan.com/interesting-things/027&#34;&gt;A complete guide to code reviews&lt;/a&gt;&lt;/strong&gt; — Why the most successful teams use code reviews, how to adopt them with your team, and what 16 best practices we recommend. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28839682&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.sigplan.org/2021/10/12/the-return-of-the-unix-shell/?utm_source=bengtan.com/interesting-things/027&#34;&gt;The Return of the Unix Shell&lt;/a&gt;&lt;/strong&gt; — The Unix shell is pervasive and entrenched in our computing infrastructure. Recent virtualization and containerization trends are propelling its use. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28864037&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://rachelbythebay.com/w/2021/10/12/break/?utm_source=bengtan.com/interesting-things/027&#34;&gt;An UPDATE without a WHERE, or something close to it&lt;/a&gt;&lt;/strong&gt; — A violation of the principle of least surprise, particularly when the impact can be so big. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28848203&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://terathon.com/blog/so-you-want-to-write-a-technical-book/?utm_source=bengtan.com/interesting-things/027&#34;&gt;So You Want to Write a Technical Book&lt;/a&gt;&lt;/strong&gt; — This post is a collection of the many things I have learned along the way in the twenty years that I have been writing books. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28879732&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://techcommunity.microsoft.com/t5/windows-it-pro-blog/how-microsoft-reduced-windows-11-update-size-by-40/ba-p/2839794?utm_source=bengtan.com/interesting-things/027&#34;&gt;How Microsoft reduced Windows 11 update size by 40%&lt;/a&gt;&lt;/strong&gt; — “reverse update data generation” efficiently distributes the forward delta whilst maintaining a path back to its original state. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28859797&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://devblogs.microsoft.com/performance-diagnostics/sizebench-a-new-tool-for-analyzing-windows-binary-size/?utm_source=bengtan.com/interesting-things/027&#34;&gt;SizeBench: a new tool for analyzing Windows binary size&lt;/a&gt;&lt;/strong&gt; — A new static analysis tool which helps with understanding binary size on Windows. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28858896&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;work&#34;&gt;#work&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.ashbyhq.com/culture/blog/thoughtful-communication?utm_source=bengtan.com/interesting-things/027&#34;&gt;How Thoughtful Communication Makes Us Unreasonably Productive&lt;/a&gt;&lt;/strong&gt; (Aug 2021) — How we use efficient and deliberate communication to keep Slack notifications and meetings to a minimum, and focus 36 hours/week. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28865581&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.washingtonpost.com/business/2021/10/13/great-resignation-faq-quit-your-job/?utm_source=bengtan.com/interesting-things/027&#34;&gt;Why is everyone quitting, and how do I know whether it’s time to leave my job?&lt;/a&gt;&lt;/strong&gt; — Waves of Americans are leaving their jobs as part of the ‘Great Resignation.’ Here’s why. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28876814&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.ohmysmtp.com/blog/why-i-use-tailwindcss/?utm_source=bengtan.com/interesting-things/027&#34;&gt;How I learned to stop worrying and love TailwindCSS&lt;/a&gt;&lt;/strong&gt; — Why TailwindCSS works for me and a short history of how we all ended up here. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28833449&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.telegraph.co.uk/education-and-careers/2021/10/13/double-income-good-pass-meet-white-collar-workers-two-full-time/?utm_source=bengtan.com/interesting-things/027&#34;&gt;‘The double income was too good to pass up’: meet the white collar workers with two full-time jobs&lt;/a&gt;&lt;/strong&gt; — With many people still working from home, there&amp;rsquo;s a thriving online community of ‘2xers’ who are secretly juggling multiple roles. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28858527&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;business&#34;&gt;#business&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.economist.com/finance-and-economics/credit-card-firms-are-becoming-reluctant-regulators-of-the-web/21805450?utm_source=bengtan.com/interesting-things/027&#34;&gt;Credit-card firms are becoming reluctant regulators of the web&lt;/a&gt;&lt;/strong&gt; — From sex to free speech, what goes online is increasingly up to financial companies. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28856703&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://newsletter.sandhill.io/p/insights-that-drive-ideation?utm_source=bengtan.com/interesting-things/027&#34;&gt;Mapping the Insights that Drive Startup Ideas &amp;amp; Theses&lt;/a&gt;&lt;/strong&gt; — A framework developed by working backwards from the Mental Models for Ideation. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28867852&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://staysaasy.com/management/2021/10/14/Managing-Managers.html?utm_source=bengtan.com/interesting-things/027&#34;&gt;Managing Engineering Managers: A Primer&lt;/a&gt;&lt;/strong&gt; — Hiring, onboarding and evaluating. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28862199&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://balanced-walk-789.notion.site/The-Ultimate-No-BS-Guide-For-Startups-With-Dozens-of-Free-Resources-From-Ideation-Validation-and--0a5450b5e6ef48c59b30f8f744691487?utm_source=bengtan.com/interesting-things/027&#34;&gt;The Ultimate No BS Guide For Startups With Dozens of Free Resources&lt;/a&gt;&lt;/strong&gt; — From ideation, validation, and launch to marketing, growth, and scaling. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28853809&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;science&#34;&gt;#science&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://phys.org/news/2021-10-phage-therapy-scientists-closer-harnessing.html?utm_source=bengtan.com/interesting-things/027&#34;&gt;Phage therapy research brings scientists a step closer to harnessing viruses to fight antibiotic resistance&lt;/a&gt;&lt;/strong&gt; — As bacteria increasingly develop resistance to antibiotics, scientists have moved closer to harnessing viruses as an alternative form of therapy. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28843180&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.washingtonpost.com/dc-md-va/2021/10/13/zebras-escape-maryland-farm-upper-marlboro/?utm_source=bengtan.com/interesting-things/027&#34;&gt;How five zebras that escaped a Maryland farm are surviving suburbia&lt;/a&gt;&lt;/strong&gt; — Experts said they’re likely doing just fine, munching on grass and staying away from loud noises, highways and humans. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28855768&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://phys.org/news/2021-10-insect-sequence.html?utm_source=bengtan.com/interesting-things/027&#34;&gt;Plants can prepare for insect attack sequence&lt;/a&gt;&lt;/strong&gt; — When wild black mustard plants defend themselves against an initial enemy, they already anticipate the need to later fend off other, different enemies. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28879945&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.theguardian.com/environment/2021/sep/14/butterflies-finland-parasitic-wasps?utm_source=bengtan.com/interesting-things/027&#34;&gt;Butterflies released in Finland contained parasitic wasps – with more wasps inside&lt;/a&gt;&lt;/strong&gt; — Some of the caterpillars contained a parasitic wasp. Living inside some of these small wasps was another even tinier, rarer “hyperparasitoid” wasp. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28861899&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://phys.org/news/2021-10-physicists-world-precise-neutron-lifetime.html?utm_source=bengtan.com/interesting-things/027&#34;&gt;Physicists announce the world&amp;rsquo;s most precise measurement of neutron lifetime&lt;/a&gt;&lt;/strong&gt; — When neutrons are free and floating alone outside of an atom, they decay into protons and other particles in about 15 minutes. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28853262&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;life&#34;&gt;#life&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://datagubbe.se/fleeting/?utm_source=bengtan.com/interesting-things/027&#34;&gt;Fleeting Memories of Youth and the Increasing Impermanence of Culture&lt;/a&gt;&lt;/strong&gt; —  How will we remember our personal past in the future? (&lt;a href=&#34;https://news.ycombinator.com/item?id=28833296&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://quillette.com/2021/10/15/the-exhibitionist-economy/?utm_source=bengtan.com/interesting-things/027&#34;&gt;The Exhibitionist Economy&lt;/a&gt;&lt;/strong&gt; — The emergence of new cultural norms has seen citizens broadcast aspects of their personal lives that had hitherto remained out of public view. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28893890&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://reason.com/2021/10/15/joe-bidens-proposed-ban-on-fast-effective-dishwashers-is-a-gift-to-big-business/?utm_source=bengtan.com/interesting-things/027&#34;&gt;Joe Biden&amp;rsquo;s Proposed Ban on Fast, Effective Dishwashers Is a Gift to Big Business&lt;/a&gt;&lt;/strong&gt; — Who would have thought that how long a dishwasher takes to clean dishes is regulated by the government? (&lt;a href=&#34;https://news.ycombinator.com/item?id=28878831&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://models.substack.com/p/nothing-is-what-it-seems-?utm_source=bengtan.com/interesting-things/027&#34;&gt;Nothing Is What It Seems&lt;/a&gt;&lt;/strong&gt; — The shape of every person’s individual perspective is called the Reality Tunnel. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28876617&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://interestingengineering.com/forgotten-preacher-predicts-black-holes-a-century-before-einstein?utm_source=bengtan.com/interesting-things/027&#34;&gt;The Forgotten Preacher Who Predicted Black Holes a Century Ahead of Einstein&lt;/a&gt;&lt;/strong&gt; — In 1783, this obscure English rector predicted black holes using Newton&amp;rsquo;s classical mechanics. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28860091&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;end&#34;&gt;#end&lt;/h2&gt;
+&lt;p&gt;If you liked these stories, please share them (or this newsletter) with your friends. I would appreciate it if you help me spread the word. 🙏&lt;/p&gt;
+&lt;p&gt;Enjoy your reading and have a good day,
+Beng&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://bengtan.com/images/portrait-40.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 
         
       </description>
