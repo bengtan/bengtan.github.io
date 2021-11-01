@@ -7,20 +7,20 @@ showDate: false
 * Email: ${first_name} + '@' + ${domain}
 * Birth year: 1978
 * Location: Perth, Australia
-* Timezone: GMT+8 (all year around; no DST)
+* Timezone: GMT+8 (all year around; no DST; same as Singapore &amp; Beijing)
 
-Working from home since 2008.
+Working remotely from home since 2008.
 
 
 # Technology Skills
 
-* C, GoLang, Java, JavaScript, Typescript, PHP, Python, Assembler, Shell scripting
+* C, GoLang, Java, JavaScript, **Typescript**, PHP, Python, Assembler, Shell scripting
 * Embedded software (x86, 68k, z80, PIC)
 * Linux kernel and driver development, Operating systems, TCP/IP, Android
 * Rational ClearCase, CVS, Subversion, Bazaar, Git
-* Web development, LAMP, jQuery, Mysql, Sqlite, Symfony, Amazon AWS
-* Mobile app development (iOS/Android), React Native
-* ReactJS, nodejs, Progressive Web Apps, Single Page Apps
+* Web development, LAMP, jQuery, Mysql, Sqlite, Postgres, Symfony, Amazon AWS
+* Mobile app development (iOS/**Android**), **React Native**
+* **ReactJS**, **nodejs**, Progressive Web Apps, Single Page Apps
 
 <!-- -->
 
@@ -46,7 +46,13 @@ University of Western Australia (UWA)
 
 (Reverse chronological order)
 
-* [Side project] [Interesting Things](https://bengtan.com/interesting-things) email newsletter (Apr 2021 - ongoing)
+* &lt;company name withheld&gt; (Jun 2021 - ongoing)
+  * Software engineer working remotely for a US company developing enterprise B2B SaaS software.
+  * Mostly typescript with a splash of python, assembly language (targeting an exotic custom VM) and static code analysis.
+
+<!-- -->
+
+* [Own project] [Interesting Things](https://bengtan.com/interesting-things) email newsletter (Apr 2021 - ongoing)
 
 <!-- -->
 
