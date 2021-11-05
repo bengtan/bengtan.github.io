@@ -6,18 +6,70 @@
     <description>Recent content in Recent Posts on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Fri, 29 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Interesting Things #28 — iDevelop anywhere</title>
-      <link>https://bengtan.com/interesting-things/028-private/</link>
-      <pubDate>Fri, 29 Oct 2021 00:00:00 +0000</pubDate>
+      <title>Interesting Things #29 — Go generate</title>
+      <link>https://bengtan.com/interesting-things/029-private/</link>
+      <pubDate>Fri, 05 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bengtan.com/interesting-things/028-private/</guid>
+      <guid>https://bengtan.com/interesting-things/029-private/</guid>
       <description>
         
           &lt;p&gt;The lastest issue of &lt;strong&gt;Interesting Things&lt;/strong&gt; is subscriber-only. Please come back in a few days time.&lt;/p&gt;
 &lt;p&gt;If you don&amp;rsquo;t want to wait, &lt;a href=&#34;https://bengtan.com/newsletter&#34;&gt;subscribe&lt;/a&gt; to get it in your inbox now!&lt;/p&gt;
 &lt;p&gt;Look at some &lt;a href=&#34;https://bengtan.com/interesting-things&#34;&gt;older issues&lt;/a&gt;.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Interesting Things #28 — iDevelop anywhere</title>
+      <link>https://bengtan.com/interesting-things/028/</link>
+      <pubDate>Fri, 29 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bengtan.com/interesting-things/028/</guid>
+      <description>
+        
+          &lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;This is &lt;a href=&#34;https://bengtan.com/about/&#34;&gt;Beng Tan&lt;/a&gt; and welcome to &lt;strong&gt;Interesting Things&lt;/strong&gt;, a curation of interesting stories and links from tech, work, biz, science, life and random stuff.&lt;/p&gt;
+&lt;p&gt;Happy reading!&lt;/p&gt;
+&lt;h2 id=&#34;tech&#34;&gt;#tech&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://ghuntley.com/anywhere/?utm_source=bengtan.com/interesting-things/028&#34;&gt;Reflections on software development from anywhere on an iPad&lt;/a&gt;&lt;/strong&gt; — Here’s what I’ve learned over the months and how my baremetal homelab in the sky is setup. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28940048&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.micahlerner.com/2021/10/13/tao-facebooks-distributed-data-store-for-the-social-graph.html?utm_source=bengtan.com/interesting-things/028&#34;&gt;TAO: Facebook’s Distributed Data Store for the Social Graph&lt;/a&gt;&lt;/strong&gt; — Unlike other graph databases, TAO focuses exclusively on serving and caching a constrained set of application requests at immense scale. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28913699&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://fingerprintjs.com/blog/disabling-javascript-wont-stop-fingerprinting/?utm_source=bengtan.com/interesting-things/028&#34;&gt;Demo: Disabling JavaScript Won’t Save You from Fingerprinting&lt;/a&gt;&lt;/strong&gt; — Turning off JavaScript won&amp;rsquo;t prevent your device from being uniquely identified. Find out how this is possible. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28949443&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://lwn.net/SubscriberLink/873415/64f371a77a736b5b/?utm_source=bengtan.com/interesting-things/028&#34;&gt;Empowering users of GPL software&lt;/a&gt;&lt;/strong&gt; — It is asking the court to determine that the GPL licenses operate the way that the free-software community believes that it does. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28940303&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.jeffgeerling.com/blog/2021/getting-raspberry-pi-boot-after-cutting-it-half?utm_source=bengtan.com/interesting-things/028&#34;&gt;Getting a Raspberry Pi to boot after cutting it in half&lt;/a&gt;&lt;/strong&gt; — If I cut the ports off a Raspberry Pi 4 model B, will it still work? (&lt;a href=&#34;https://news.ycombinator.com/item?id=28930776&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.mutuallyhuman.com/blog/how-a-read-query-can-write-to-disk-a-postgresql-story/?utm_source=bengtan.com/interesting-things/028&#34;&gt;How a Read Query Can Write to Disk: a Postgresql Story&lt;/a&gt;&lt;/strong&gt; — Wait, our select query was writing to disk? Blame the low default value of work_mem. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28916045&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.networkworld.com/article/3636997/using-the-xargs-command-on-linux-to-simplify-your-work.html?utm_source=bengtan.com/interesting-things/028&#34;&gt;Using the xargs command on Linux to simplify your work&lt;/a&gt;&lt;/strong&gt; — The xargs command can come in very handy especially when combined with find. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28916805&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;work&#34;&gt;#work&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://staysaasy.com/career/2021/10/16/mentorship.html?utm_source=bengtan.com/interesting-things/028&#34;&gt;Stop Looking For Mentors&lt;/a&gt;&lt;/strong&gt; — You can look for mentors, but that ain&amp;rsquo;t fun - so just think of a question to ask someone. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28916700&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.productlessons.xyz//article/good-questions-to-ask-interviewer?utm_source=bengtan.com/interesting-things/028&#34;&gt;How to interview your employer&lt;/a&gt;&lt;/strong&gt; — When you ask high-signal questions, you come off as more interested in them, which in turn, makes you more interesting. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28925500&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.economist.com/open-future/2018/06/29/bullshit-jobs-and-the-yoke-of-managerial-feudalism?utm_source=bengtan.com/interesting-things/028&#34;&gt;Bullshit jobs and the yoke of managerial feudalism&lt;/a&gt;&lt;/strong&gt; — A bullshit job is one that even the person doing it secretly believes need not, or should not, exist. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28955445&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.askamanager.org/2021/10/my-employee-wasnt-respectful-enough-after-the-company-messed-up-her-paycheck.html?utm_source=bengtan.com/interesting-things/028&#34;&gt;my employee wasn’t respectful enough after the company messed up her paycheck&lt;/a&gt;&lt;/strong&gt; — You’re absolutely right that there’s a respect gap in this situation — but it’s from you toward your employees, not from Jane toward her employer. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28929329&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;business&#34;&gt;#business&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.vantage.sh/blog/the-opportunity-for-cloudflare-r2?utm_source=bengtan.com/interesting-things/028&#34;&gt;Profiling 25,000 S3 Buckets: The Billion Dollar Opportunity for Cloudflare R2&lt;/a&gt;&lt;/strong&gt; — Is Cloudflare properly incentivized into building a service that will endure for the long term? (&lt;a href=&#34;https://news.ycombinator.com/item?id=28936203&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://mackgrenfell.com/blog/what-if-performance-advertising-isnt-just-an-analytics-scam?utm_source=bengtan.com/interesting-things/028&#34;&gt;What if Performance Advertising isn&amp;rsquo;t Just an Analytics Scam?&lt;/a&gt;&lt;/strong&gt; — Many performance marketers will be familiar with the criticisms raised, having heard them over the years. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28875227&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;science&#34;&gt;#science&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://scitechdaily.com/physics-experiment-reveals-formation-of-a-new-state-of-matter-breaks-time-reversal-symmetry/?utm_source=bengtan.com/interesting-things/028&#34;&gt;Physics Experiment Reveals Formation of a New State of Matter – Breaks Time-Reversal Symmetry&lt;/a&gt;&lt;/strong&gt; — Only in recent years has the theoretical idea of four-fermion condensates become broadly accepted. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28939446&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.theguardian.com/environment/2021/oct/11/underwater-cables-renewables-affect-blood-cells-brown-crabs-study?utm_source=bengtan.com/interesting-things/028&#34;&gt;Mesmerised brown crabs ‘attracted to’ undersea cables&lt;/a&gt;&lt;/strong&gt; — Research in Scotland shows animals freeze near the electromagnetic field with implications for metabolism and migration. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28916084&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://qz.com/107970/scientists-discover-whats-killing-the-bees-and-its-worse-than-you-thought/?utm_source=bengtan.com/interesting-things/028&#34;&gt;Scientists discover what’s killing the bees and it’s worse than you thought&lt;/a&gt;&lt;/strong&gt; — Bees that ate pollen contaminated with fungicides were three times as likely to be infected by the parasite. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28956636&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.theguardian.com/science/2021/oct/20/vikings-settled-north-america-1000-years-ago-solar-storm?utm_source=bengtan.com/interesting-things/028&#34;&gt;Solar storm confirms Vikings settled in North America exactly 1,000 years ago&lt;/a&gt;&lt;/strong&gt; — Analysis of wood from timber-framed buildings in Newfoundland shows Norse-built settlement 471 years before Columbus. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28940054&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.quantamagazine.org/science-has-entered-a-new-era-of-alchemy-good-20211020/?utm_source=bengtan.com/interesting-things/028&#34;&gt;The Uselessness of Useful Knowledge&lt;/a&gt;&lt;/strong&gt; — Today’s powerful but little-understood artificial intelligence breakthroughs echo past examples of unexpected scientific progress. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28942983&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.livescience.com/muscle-repair-by-roaming-nuclei?utm_source=bengtan.com/interesting-things/028&#34;&gt;Stunning images show how muscles heal themselves after a workout&lt;/a&gt;&lt;/strong&gt; — Scientists discovered a previously unknown step in the muscle repair process. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28916818&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;life&#34;&gt;#life&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.hakaimagazine.com/features/surrogacy-across-species/?utm_source=bengtan.com/interesting-things/028&#34;&gt;Surrogacy Across Species&lt;/a&gt;&lt;/strong&gt; — Scientists can now borrow the bodies of one fish species to produce another. Whether they should, though, is an open question. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28913527&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.theatlantic.com/technology/archive/2021/10/fix-facebook-making-it-more-like-google/620456/?utm_source=bengtan.com/interesting-things/028&#34;&gt;People Aren’t Meant to Talk This Much&lt;/a&gt;&lt;/strong&gt; — Breaking up social-media companies is one way to fix them. Shutting their users up is a better one. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28956725&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.discovermagazine.com/mind/how-fonts-affect-learning-and-memory?utm_source=bengtan.com/interesting-things/028&#34;&gt;How Fonts Affect Learning and Memory&lt;/a&gt;&lt;/strong&gt; — Research shows that fonts play a significant role in the cognitive processes that transpire while we read. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28911247&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://arstechnica.com/science/2021/10/people-think-they-remember-things-they-actually-looked-up-on-a-search-engine/?utm_source=bengtan.com/interesting-things/028&#34;&gt;Could search engines be fostering some Dunning-Kruger?&lt;/a&gt;&lt;/strong&gt; — Study shows that we think Internet searches are a sign we know more than we do. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28941007&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.techspot.com/news/91830-dark-web-has-become-darker-busier-cybercrime-services.html?utm_source=bengtan.com/interesting-things/028&#34;&gt;The Dark Web has become darker and busier, cybercrime services cost less than $500&lt;/a&gt;&lt;/strong&gt; — New research highlights how the value of stolen data and general cybercriminal behavior has evolved over the past six years. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28941430&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://melmagazine.com/en-us/story/the-great-resignation-stories?utm_source=bengtan.com/interesting-things/028&#34;&gt;Guys Who Quit Their Jobs During ‘The Great Resignation’ on Life on the Other Side&lt;/a&gt;&lt;/strong&gt; — ‘I’m happier than I’ve been in 10 years’ (&lt;a href=&#34;https://news.ycombinator.com/item?id=28938010&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://ofdollarsanddata.com/its-never-too-late-to-change/?utm_source=bengtan.com/interesting-things/028&#34;&gt;It’s Never Too Late to Change&lt;/a&gt;&lt;/strong&gt; — On profound realizations and taking a different path in life. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28924539&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;end&#34;&gt;#end&lt;/h2&gt;
+&lt;p&gt;If you liked these stories, please share them (or this newsletter) with your friends. I would appreciate it if you help me spread the word. 🙏&lt;/p&gt;
+&lt;p&gt;Enjoy your reading and have a good day,
+Beng&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://bengtan.com/images/portrait-40.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 
         
       </description>
