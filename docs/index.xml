@@ -6,7 +6,88 @@
     <description>Recent content in Recent Posts on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Fri, 05 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 08 Nov 2021 12:00:00 +0800</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Investigating Substack/Mailgun tracking links</title>
+      <link>https://bengtan.com/blog/investigating-substack-mailgun-tracking/</link>
+      <pubDate>Mon, 08 Nov 2021 12:00:00 +0800</pubDate>
+      
+      <guid>https://bengtan.com/blog/investigating-substack-mailgun-tracking/</guid>
+      <description>
+        
+          &lt;p&gt;In a previous post, I looked at the &lt;a href=&#34;https://bengtan.com/blog/whats-in-email-tracking-links-and-pixels/&#34;&gt;tracking links of three major email newsletter providers&lt;/a&gt; and deconstructed two of them. The third, Substack/Mailgun, stubbornly resisted deciphering. Until now.&lt;/p&gt;
+&lt;p&gt;After the previous post, a reddit user &lt;a href=&#34;https://www.reddit.com/r/programming/comments/nppkeg/whats_in_email_tracking_links_and_pixels/&#34;&gt;helped work it out&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;A tracking link like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;http://email.substack1.exponentialview.co/c/eJxdkEuOhCAQhk_TLI1VIOqCxWz6GoZ
+HaZOx0WDZPc7pB9vdJARSCfU_Pm-ZpiUfZl02Fuc18LGSSfTeZmKmLPaN8hCDwU43UmsUwbTglE
+IRt2HMRE8bZ8N5J7Hubo7eclzSZwMbFA8DUtV9b0MgqJUf0bmuRtQBGvQtBXfZ2j1ESp4MvSgfS
+yIxmwfzepNfN7yXw-945qn88iyT_S3GIhqsEYpaUW7apq-gsqOuNYFVspG-gXEEX7sAnXQokWR_
+U_W2u42t_4aKftbilDja-RXpXbRFNo7SxDZB-Tmd3U7Hs9pQ3ueeIh8DJetmCldrvuB9OAwTJco
+FahgsG9Agu06qrut1e9UsWCS2CIWlKDnCUraS-ZfjD2RriM4
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;looks like a bunch of gibberish but turns out to contain data as a base64url encoding of a zlib stream. In other words, data is embedded into the tracking link by (zlib) compressing it and then (base64url) encoding it.&lt;/p&gt;
+&lt;p&gt;Using &lt;a href=&#34;https://gchq.github.io/CyberChef&#34;&gt;CyberChef&lt;/a&gt;, I decoded the blob into this query-like string (pretty-formatted for readability):&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;category=post&amp;amp;
+email_generated_at=1613883488967&amp;amp;
+is_freemail=true&amp;amp;
+publication_id=2252&amp;amp;
+post_audience=everyone&amp;amp;
+post_id=32721653&amp;amp;
+pub_community_enabled=true&amp;amp;
+user_id=28653662&amp;amp;
+post_type=newsletter&amp;amp;
+subdomain=exponentialview&amp;amp;
+l=http://twitter.com/azeem&amp;amp;
+r=[redacted]&amp;amp;
+d=71b442&amp;amp;
+h=134099adde104cf2bb80226d152c7edb&amp;amp;
+i=20210221045759.1.af606e1a4353c51ff1c0bd183b232e39@substack1.exponentialview.co&amp;amp;
+t=post
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Let&amp;rsquo;s break this down. Previously, I said:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I speculate you are sending to Mailgun:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The destination URL,&lt;/li&gt;
+&lt;li&gt;Whatever is in &lt;code&gt;X-Mailgun-Variables&lt;/code&gt;,&lt;/li&gt;
+&lt;li&gt;And some other unknown stuff which is taking up the rest of the 90 characters in the blob.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It turns out I was approximately correct.&lt;/p&gt;
+&lt;p&gt;The destination URL (ie. &lt;code&gt;http://twitter.com/azeem&lt;/code&gt;) is contained in the field &lt;code&gt;l&lt;/code&gt;. All of the variables in the &lt;code&gt;X-Mailgun-Variables&lt;/code&gt; email header are embedded.&lt;/p&gt;
+&lt;p&gt;The remaining fields:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;r=[redacted]&amp;amp;
+d=71b442&amp;amp;
+h=134099adde104cf2bb80226d152c7edb&amp;amp;
+i=20210221045759.1.af606e1a4353c51ff1c0bd183b232e39@substack1.exponentialview.co&amp;amp;
+t=post
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;contain an email address in &lt;code&gt;r&lt;/code&gt; (which I&amp;rsquo;ve redacted), and some seemingly randomly generated identifiers (Probably some internal Mailgun stuff). These remaining fields account for the &amp;lsquo;rest of the 90 characters in the blob&amp;rsquo;.&lt;/p&gt;
+&lt;p&gt;Investigation complete. Now we know how to find out exactly what is contained in a Substack (or any other Mailgun retailer) tracking link.&lt;/p&gt;
+&lt;h2 id=&#34;discussion&#34;&gt;Discussion&lt;/h2&gt;
+&lt;p&gt;Some random thoughts.&lt;/p&gt;
+&lt;h3 id=&#34;why-are-substack-tracking-links-so-bulky&#34;&gt;Why are Substack tracking links so bulky?&lt;/h3&gt;
+&lt;p&gt;Two reasons.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Mailgun embeds a bunch of data in there.&lt;/li&gt;
+&lt;li&gt;Substack embeds even more data in there (more than double). Do they really need to embed so much?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;bypassing-tracking&#34;&gt;Bypassing tracking&lt;/h3&gt;
+&lt;p&gt;Someone should write software that intercepts these tracking links and redirects to the destination link instead. It would be a step towards better privacy.&lt;/p&gt;
+&lt;p&gt;This post tells how to do it for Mailgun-based email providers and the previous post does the same for ConvertKit.&lt;/p&gt;
+&lt;p&gt;(One day, I&amp;rsquo;ll put this feature into email-untracker but it&amp;rsquo;s hardly likely to get widespread usage there.)&lt;/p&gt;
+&lt;h3 id=&#34;other-newsletter-or-marketing-email-providers&#34;&gt;Other newsletter or &amp;lsquo;marketing email&amp;rsquo; providers&lt;/h3&gt;
+&lt;p&gt;Mailchimp, ConvertKit and Substack aren&amp;rsquo;t the only service providers which use tracking links. They&amp;rsquo;re just the ones I&amp;rsquo;ve encountered recently.&lt;/p&gt;
+&lt;p&gt;Some other providers have been suggested to me for investigation as well. I&amp;rsquo;d like to deconstruct them but I&amp;rsquo;m a bit busy and not sure when or if I&amp;rsquo;ll have the time. We&amp;rsquo;ll see.&lt;/p&gt;
+&lt;h3 id=&#34;base64-with-0-overhead&#34;&gt;Base64 with 0% overhead&lt;/h3&gt;
+&lt;p&gt;Previously, I said:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;They managed to do base64 with no overhead??&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Yes, they did.&lt;/p&gt;
+&lt;p&gt;The overhead of base64 is much maligned. In this case, you can get rid of the overhead by compressing beforehand.&lt;/p&gt;
+&lt;p&gt;Or just don&amp;rsquo;t worry about it because web browsers and servers generally use compression anyway. Base64 introduces overhead due to the redundancy in the encoding. But this very same redundancy is what allows compression to perform well. In the end, it ends up being about the same.&lt;/p&gt;
+        
+      </description>
+    </item>
+    
     <item>
       <title>Interesting Things #29 — Go generate</title>
       <link>https://bengtan.com/interesting-things/029-private/</link>
@@ -1731,6 +1812,7 @@ Beng&lt;/p&gt;
 &lt;p&gt;Some of this work occurred during the development of email-untracker. The rest of it occurred as part of this article. It covers mailing list providers that I have personally encountered: Mailchimp, ConvertKit, Substack and other Mailgun retailers.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;TL;DR:&lt;/strong&gt; Mailchimp and ConvertKit were successfully analysed. Substack and Mailgun required reverse engineering and only yielded partial results (Assistance requested!). There&amp;rsquo;s also some extra commentary in the appendix.&lt;/p&gt;
 &lt;p&gt;(&lt;strong&gt;UPDATE 2021-06-01&lt;/strong&gt;: There have been some new developments since this was first posted. Please see the end of this post.)&lt;/p&gt;
+&lt;p&gt;(&lt;strong&gt;UPDATE 2021-11-08&lt;/strong&gt;: There is a &lt;a href=&#34;https://bengtan.com/blog/investigating-substack-mailgun-tracking/&#34;&gt;follow-up post&lt;/a&gt;.)&lt;/p&gt;
 &lt;h2 id=&#34;mailchimp&#34;&gt;Mailchimp&lt;/h2&gt;
 &lt;h3 id=&#34;tracking-links&#34;&gt;Tracking links&lt;/h3&gt;
 &lt;p&gt;Mailchimp&amp;rsquo;s tracking links are of the form &lt;code&gt;https://??.us?.list-manage.com/track/click?u=??&amp;amp;id=??&amp;amp;e=??&lt;/code&gt; and contain three identifiers: &lt;code&gt;u&lt;/code&gt;, &lt;code&gt;id&lt;/code&gt; and &lt;code&gt;e&lt;/code&gt;.&lt;/p&gt;
@@ -1953,7 +2035,7 @@ https://bengtan.com/
 &lt;h3 id=&#34;compression&#34;&gt;Compression&lt;/h3&gt;
 &lt;p&gt;In an effort to work out the encoding, I emailed myself a link with repeating text in the URL. Presuming it&amp;rsquo;s base64, I expected to see repeating characters in the blob which I could use to iteratively work out the encoding.&lt;/p&gt;
 &lt;p&gt;I was surprised again.&lt;/p&gt;
-&lt;p&gt;Here are the URLs and the effect on blog length.&lt;/p&gt;
+&lt;p&gt;Here are the URLs and the effect on blob length.&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -2101,6 +2183,8 @@ https://bengtan.com/
 &lt;hr&gt;
 &lt;h2 id=&#34;update-2021-06-01&#34;&gt;UPDATE 2021-06-01&lt;/h2&gt;
 &lt;p&gt;With the assistance of a very helpful &lt;a href=&#34;https://www.reddit.com/r/programming/comments/nppkeg/whats_in_email_tracking_links_and_pixels/&#34;&gt;reddit&lt;/a&gt; user, the Mailgun/Substack blob has been deciphered. It&amp;rsquo;s zlib compressed and then base64url encoded. I will follow-up on this with a future blog post when I have time. If you&amp;rsquo;d like to be notified, please subscribe.&lt;/p&gt;
+&lt;h2 id=&#34;update-2021-11-08&#34;&gt;UPDATE 2021-11-08&lt;/h2&gt;
+&lt;p&gt;There is a &lt;a href=&#34;https://bengtan.com/blog/investigating-substack-mailgun-tracking/&#34;&gt;follow-up post&lt;/a&gt;.&lt;/p&gt;
 
         
       </description>

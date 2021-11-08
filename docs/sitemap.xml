@@ -3,17 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://bengtan.com/blog/</loc>
+    <lastmod>2021-11-08T12:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bengtan.com/blog/investigating-substack-mailgun-tracking/</loc>
+    <lastmod>2021-11-08T12:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bengtan.com/</loc>
+    <lastmod>2021-11-08T12:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://bengtan.com/interesting-things/</loc>
     <lastmod>2021-11-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://bengtan.com/interesting-things/029-private/</loc>
-    <lastmod>2021-11-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bengtan.com/</loc>
     <lastmod>2021-11-05T00:00:00+00:00</lastmod>
   </url>
   
@@ -130,11 +140,6 @@
   <url>
     <loc>https://bengtan.com/interesting-things/006/</loc>
     <lastmod>2021-05-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bengtan.com/blog/</loc>
-    <lastmod>2021-05-27T12:00:00+08:00</lastmod>
   </url>
   
   <url>

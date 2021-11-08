@@ -18,6 +18,8 @@ Some of this work occurred during the development of email-untracker. The rest o
 
 (**UPDATE 2021-06-01**: There have been some new developments since this was first posted. Please see the end of this post.)
 
+(**UPDATE 2021-11-08**: There is a [follow-up post](/blog/investigating-substack-mailgun-tracking/).)
+
 ## Mailchimp
 
 ### Tracking links
@@ -293,7 +295,7 @@ In an effort to work out the encoding, I emailed myself a link with repeating te
 
 I was surprised again.
 
-Here are the URLs and the effect on blog length.
+Here are the URLs and the effect on blob length.
 
 | URL  | URL length | Blob length (Buttondown) |
 | --- | --- | --- |
@@ -475,3 +477,8 @@ This is a much more scalable technique because it doesn't require access to a si
 ## UPDATE 2021-06-01
 
 With the assistance of a very helpful [reddit](https://www.reddit.com/r/programming/comments/nppkeg/whats_in_email_tracking_links_and_pixels/) user, the Mailgun/Substack blob has been deciphered. It's zlib compressed and then base64url encoded. I will follow-up on this with a future blog post when I have time. If you'd like to be notified, please subscribe.
+
+## UPDATE 2021-11-08
+
+There is a [follow-up post](/blog/investigating-substack-mailgun-tracking/).
+

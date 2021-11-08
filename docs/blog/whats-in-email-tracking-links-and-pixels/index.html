@@ -166,12 +166,14 @@
       </ul>
     </li>
     <li><a href="#update-2021-06-01">UPDATE 2021-06-01</a></li>
+    <li><a href="#update-2021-11-08">UPDATE 2021-11-08</a></li>
   </ul>
 </nav>
     <p>This is an investigation into the techniques used by some email (newsletter) providers to track their readers' activity. It attempts to deconstruct tracking links and pixels and highlight the data that is being collected.</p>
 <p>Some of this work occurred during the development of email-untracker. The rest of it occurred as part of this article. It covers mailing list providers that I have personally encountered: Mailchimp, ConvertKit, Substack and other Mailgun retailers.</p>
 <p><strong>TL;DR:</strong> Mailchimp and ConvertKit were successfully analysed. Substack and Mailgun required reverse engineering and only yielded partial results (Assistance requested!). There&rsquo;s also some extra commentary in the appendix.</p>
 <p>(<strong>UPDATE 2021-06-01</strong>: There have been some new developments since this was first posted. Please see the end of this post.)</p>
+<p>(<strong>UPDATE 2021-11-08</strong>: There is a <a href="/blog/investigating-substack-mailgun-tracking/">follow-up post</a>.)</p>
 <h2 id="mailchimp">Mailchimp</h2>
 <h3 id="tracking-links">Tracking links</h3>
 <p>Mailchimp&rsquo;s tracking links are of the form <code>https://??.us?.list-manage.com/track/click?u=??&amp;id=??&amp;e=??</code> and contain three identifiers: <code>u</code>, <code>id</code> and <code>e</code>.</p>
@@ -394,7 +396,7 @@ https://bengtan.com/
 <h3 id="compression">Compression</h3>
 <p>In an effort to work out the encoding, I emailed myself a link with repeating text in the URL. Presuming it&rsquo;s base64, I expected to see repeating characters in the blob which I could use to iteratively work out the encoding.</p>
 <p>I was surprised again.</p>
-<p>Here are the URLs and the effect on blog length.</p>
+<p>Here are the URLs and the effect on blob length.</p>
 <table>
 <thead>
 <tr>
@@ -542,6 +544,8 @@ https://bengtan.com/
 <hr>
 <h2 id="update-2021-06-01">UPDATE 2021-06-01</h2>
 <p>With the assistance of a very helpful <a href="https://www.reddit.com/r/programming/comments/nppkeg/whats_in_email_tracking_links_and_pixels/">reddit</a> user, the Mailgun/Substack blob has been deciphered. It&rsquo;s zlib compressed and then base64url encoded. I will follow-up on this with a future blog post when I have time. If you&rsquo;d like to be notified, please subscribe.</p>
+<h2 id="update-2021-11-08">UPDATE 2021-11-08</h2>
+<p>There is a <a href="/blog/investigating-substack-mailgun-tracking/">follow-up post</a>.</p>
 
 <div class="comments">
     Comments: <a href="https://www.reddit.com/r/programming/comments/nppkeg/whats_in_email_tracking_links_and_pixels/">reddit</a>, <a href="https://news.ycombinator.com/item?id=27446907">hacker news</a>
