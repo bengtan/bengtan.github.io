@@ -6,18 +6,70 @@
     <description>Recent content in Interesting Things on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Fri, 12 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/interesting-things/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/interesting-things/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Interesting Things #30 — Amiga 500</title>
-      <link>https://bengtan.com/interesting-things/030-private/</link>
-      <pubDate>Fri, 12 Nov 2021 00:00:00 +0000</pubDate>
+      <title>Interesting Things #31 — Trillion Dollar Disaster</title>
+      <link>https://bengtan.com/interesting-things/031-private/</link>
+      <pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bengtan.com/interesting-things/030-private/</guid>
+      <guid>https://bengtan.com/interesting-things/031-private/</guid>
       <description>
         
           &lt;p&gt;The lastest issue of &lt;strong&gt;Interesting Things&lt;/strong&gt; is subscriber-only. Please come back in a few days time.&lt;/p&gt;
 &lt;p&gt;If you don&amp;rsquo;t want to wait, &lt;a href=&#34;https://bengtan.com/newsletter&#34;&gt;subscribe&lt;/a&gt; to get it in your inbox now!&lt;/p&gt;
 &lt;p&gt;Look at some &lt;a href=&#34;https://bengtan.com/interesting-things&#34;&gt;older issues&lt;/a&gt;.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Interesting Things #30 — Amiga 500</title>
+      <link>https://bengtan.com/interesting-things/030/</link>
+      <pubDate>Fri, 12 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bengtan.com/interesting-things/030/</guid>
+      <description>
+        
+          &lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;This is &lt;a href=&#34;https://bengtan.com/about/&#34;&gt;Beng Tan&lt;/a&gt; and welcome to &lt;strong&gt;Interesting Things&lt;/strong&gt;, a curation of interesting stories and links from tech, work, biz, science, life and random stuff.&lt;/p&gt;
+&lt;p&gt;Happy reading!&lt;/p&gt;
+&lt;h2 id=&#34;tech&#34;&gt;#tech&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://benjamin.computer/posts/2021-09-30-amiga-upgrade.html?utm_source=bengtan.com/interesting-things/030&#34;&gt;Upgrading an Amiga 500 for today&lt;/a&gt;&lt;/strong&gt; (Sept 2021) — I bought one on eBay and decided to upgrade it with modern parts. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29125839&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://slack.engineering/how-two-interns-are-helping-secure-millions-of-lines-of-code/?utm_source=bengtan.com/interesting-things/030&#34;&gt;How Two Interns Are Helping Secure Millions of Lines of Code&lt;/a&gt;&lt;/strong&gt; —  How do we find security vulnerabilities at Slack? (&lt;a href=&#34;https://news.ycombinator.com/item?id=29112880&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.wired.com/story/robots-follow-learn-where-go/?utm_source=bengtan.com/interesting-things/030&#34;&gt;These Robots Follow You to Learn Where to Go&lt;/a&gt;&lt;/strong&gt; — Burro makes carts that help growers of trees and vineyards with harvests. Meanwhile, the maker of Vespa scooters wants to carry your groceries. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29131300&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://maxleiter.com/blog/framework?utm_source=bengtan.com/interesting-things/030&#34;&gt;Impressions of the Framework Laptop&lt;/a&gt;&lt;/strong&gt; — My thoughts on the Framework Laptop&amp;rsquo;s hardware. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29102216&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.vice.com/en/article/y3vz5k/booming-underground-market-bots-2fa-otp-paypal-amazon-bank-apple-venmo?utm_source=bengtan.com/interesting-things/030&#34;&gt;The Booming Underground Market for Bots That Steal Your 2FA Codes&lt;/a&gt;&lt;/strong&gt; — The bots convincingly and effortlessly help hackers break into Coinbase, Amazon, PayPal, and bank accounts. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29102825&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://therecord.media/malware-found-in-coa-and-rc-two-npm-packages-with-23m-weekly-downloads/?utm_source=bengtan.com/interesting-things/030&#34;&gt;Malware found in coa and rc, two npm packages with 23M weekly downloads&lt;/a&gt;&lt;/strong&gt; — Both packages were compromised around the same time and were the result of attackers gaining access to a package developer’s account. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29128794&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://mssun.me/research/ccs21mirchecker.html?utm_source=bengtan.com/interesting-things/030&#34;&gt;MirChecker: Detecting Bugs in Rust Programs via Static Analysis&lt;/a&gt;&lt;/strong&gt; [&lt;a href=&#34;https://www.cse.cuhk.edu.hk/~cslui/PUBLICATION/CCS2021.pdf?utm_source=bengtan.com/interesting-things/030&#34;&gt;pdf&lt;/a&gt;] —  Fully automated bug detection by performing static analysis on Rust’s Mid-level Intermediate Representation (MIR). (&lt;a href=&#34;https://news.ycombinator.com/item?id=29105468&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.zdnet.com/article/the-future-of-personal-computing-looks-just-like-a-m1-mac/?utm_source=bengtan.com/interesting-things/030&#34;&gt;The future of personal computing looks just like an M1 Mac&lt;/a&gt;&lt;/strong&gt; — While you may not be using a Mac, your next PC might start to look like one on the inside. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29099059&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.raspberrypi.com/news/everybody-loves-raspberry-pi-zero-2-w/?utm_source=bengtan.com/interesting-things/030&#34;&gt;Everybody loves Raspberry Pi Zero 2 W&lt;/a&gt;&lt;/strong&gt; — We take a look at what you all make of our new board so far. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29093097&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.cloudflare.com/the-tale-of-a-single-register-value/?utm_source=bengtan.com/interesting-things/030&#34;&gt;The tale of a single register value&lt;/a&gt;&lt;/strong&gt; — It’s not every day that you get to debug what may well be a packet of death. It was certainly the first time for me. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29096207&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;work&#34;&gt;#work&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://ritholtz.com/2021/11/quitters-get-raises/?utm_source=bengtan.com/interesting-things/030&#34;&gt;Quitters Get Raises&lt;/a&gt;&lt;/strong&gt; — “Quitters” earned higher percentage wage gains than those who stayed in their existing jobs. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29123133&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;business&#34;&gt;#business&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://warzel.substack.com/p/galaxy-brain-is-moving?utm_source=bengtan.com/interesting-things/030&#34;&gt;Galaxy Brain Is Moving!&lt;/a&gt;&lt;/strong&gt; —  A few errant observations about newsletterdom. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29093831&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://buttondown.email/bhupesh/archive/why-its-ok-to-abandon-your-side-projects/?utm_source=bengtan.com/interesting-things/030&#34;&gt;Why it&amp;rsquo;s OK to abandon your side projects 😉&lt;/a&gt;&lt;/strong&gt; — When you say ‘no’ to something, you’re usually saying ‘yes’ to something else that matters more at the moment. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29097569&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;science&#34;&gt;#science&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.quantamagazine.org/sponge-genes-hint-at-the-origins-of-neurons-and-other-cells-20211104/?utm_source=bengtan.com/interesting-things/030&#34;&gt;Sponge Genes Hint at the Origins of Neurons and Other Cells&lt;/a&gt;&lt;/strong&gt; — A new study reveals some possibly ancient connections between the nervous, immune and digestive systems. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29110491&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://arstechnica.com/science/2021/11/hate-broccoli-and-cauliflower-your-microbiome-might-be-partially-to-blame/?utm_source=bengtan.com/interesting-things/030&#34;&gt;Hate broccoli and cauliflower? Your microbiome might be partially to blame&lt;/a&gt;&lt;/strong&gt; — Lots of sulfuric volatiles in saliva correlated with kids&#39; dislike of these veggies. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29098598&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.nyu.edu/about/news-publications/news/2021/november/bilingualism-comes-naturally-to-our-brains.html?utm_source=bengtan.com/interesting-things/030&#34;&gt;Bilingualism Comes Naturally to Our Brains&lt;/a&gt;&lt;/strong&gt; —  The brain uses a shared mechanism for combining words from a single language and for combining words from two different languages. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29113981&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.defenseone.com/technology/2021/11/quantum-sensor-breakthrough-paves-way-gps-free-navigation/186578/?utm_source=bengtan.com/interesting-things/030&#34;&gt;Quantum Sensor Breakthrough Paves Way For GPS-Free Navigation&lt;/a&gt;&lt;/strong&gt; — The main problem wasn’t weird subatomic physics. It was finding a simpler way to maintain a vacuum. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29101890&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.sciencealert.com/curiosity-finds-new-organic-molecules-on-mars-in-an-unexpected-place?utm_source=bengtan.com/interesting-things/030&#34;&gt;NASA Rover Has Found Previously Unknown Organic Molecules on Mars&lt;/a&gt;&lt;/strong&gt; — Using a new on-board experiment, NASA&amp;rsquo;s Curiosity rover has discovered traces of previously undetected organic molecules on Mars. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29122365&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://www.sci-news.com/biology/inti-tanager-heliothraupis-oneilli-10232.html?utm_source=bengtan.com/interesting-things/030&#34;&gt;Inti Tanager: Colorful New Species of Bird Discovered in South America&lt;/a&gt;&lt;/strong&gt; — The Inti tanager is so different in appearance and genetics that the ornithologists also described a new genus just for it. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29102324&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;life&#34;&gt;#life&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://splashdot.github.io/scam1/?utm_source=bengtan.com/interesting-things/030&#34;&gt;A different type of scam&lt;/a&gt;&lt;/strong&gt; — In order to withdraw the money, they must first give some money to the actors. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29099951&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://astralcodexten.substack.com/p/non-cognitive-skills-for-educational?utm_source=bengtan.com/interesting-things/030&#34;&gt;Non-Cognitive Skills For Educational Attainment Suggest Benefits Of Mental Illness Genes&lt;/a&gt;&lt;/strong&gt; — Do some of the genes for some mental illnesses have compensatory benefits? (&lt;a href=&#34;https://news.ycombinator.com/item?id=29098746&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://psyche.co/guides/how-to-maintain-a-healthy-brain-to-reduce-the-risk-of-dementia?utm_source=bengtan.com/interesting-things/030&#34;&gt;How to maintain a healthy brain&lt;/a&gt;&lt;/strong&gt; — Adopt these lifestyle changes and you will not only sharpen your mind today but also reduce your risk of dementia later on. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29120920&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://hackernoon.com/a-guide-for-beginners-in-neurohacking-cheat-codes-to-obtain-ridiculous-brainpower?utm_source=bengtan.com/interesting-things/030&#34;&gt;A Guide for Beginners in Neurohacking: Cheat Codes to Obtain Ridiculous Brainpower&lt;/a&gt;&lt;/strong&gt; — Five fundamental neuro hacks that could make an amazing difference in your brainpower. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29123082&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.npr.org/2021/11/02/1051476829/a-14-year-old-won-a-prestigious-award-for-his-discoveries-on-antiprime-numbers?utm_source=bengtan.com/interesting-things/030&#34;&gt;A 14-year-old won a prestigious award for his discoveries on &amp;lsquo;antiprime&amp;rsquo; numbers&lt;/a&gt;&lt;/strong&gt; —  The program he created can calculate antiprime numbers, which are highly divisible numbers with more than 1,000 digits. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29090152&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;random&#34;&gt;#random&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://arstechnica.com/science/2021/11/man-donated-his-body-to-science-company-sold-500-tickets-to-his-dissection/?utm_source=bengtan.com/interesting-things/030&#34;&gt;Man donated his body to science; company sold $500 tickets to his dissection&lt;/a&gt;&lt;/strong&gt; — The widow learned of the dissection from a news reporter. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29129982&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;end&#34;&gt;#end&lt;/h2&gt;
+&lt;p&gt;If you liked these stories, please share them (or this newsletter) with your friends. I would appreciate it if you help me spread the word. 🙏&lt;/p&gt;
+&lt;p&gt;Enjoy your reading and have a good day,
+Beng&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://bengtan.com/images/portrait-40.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 
         
       </description>
