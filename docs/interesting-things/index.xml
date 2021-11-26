@@ -6,18 +6,73 @@
     <description>Recent content in Interesting Things on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Fri, 19 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/interesting-things/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/interesting-things/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Interesting Things #31 — Trillion Dollar Disaster</title>
-      <link>https://bengtan.com/interesting-things/031-private/</link>
-      <pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate>
+      <title>Interesting Things #32 — Sociotechnical Lenses</title>
+      <link>https://bengtan.com/interesting-things/032-private/</link>
+      <pubDate>Fri, 26 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bengtan.com/interesting-things/031-private/</guid>
+      <guid>https://bengtan.com/interesting-things/032-private/</guid>
       <description>
         
           &lt;p&gt;The lastest issue of &lt;strong&gt;Interesting Things&lt;/strong&gt; is subscriber-only. Please come back in a few days time.&lt;/p&gt;
 &lt;p&gt;If you don&amp;rsquo;t want to wait, &lt;a href=&#34;https://bengtan.com/newsletter&#34;&gt;subscribe&lt;/a&gt; to get it in your inbox now!&lt;/p&gt;
 &lt;p&gt;Look at some &lt;a href=&#34;https://bengtan.com/interesting-things&#34;&gt;older issues&lt;/a&gt;.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Interesting Things #31 — Trillion Dollar Disaster</title>
+      <link>https://bengtan.com/interesting-things/031/</link>
+      <pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bengtan.com/interesting-things/031/</guid>
+      <description>
+        
+          &lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;This is &lt;a href=&#34;https://bengtan.com/about/&#34;&gt;Beng Tan&lt;/a&gt; and welcome to &lt;strong&gt;Interesting Things&lt;/strong&gt;, a curation of interesting stories and links from tech, work, biz, science, life and random stuff.&lt;/p&gt;
+&lt;p&gt;Happy reading!&lt;/p&gt;
+&lt;h2 id=&#34;tech&#34;&gt;#tech&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://betterprogramming.pub/object-oriented-programming-the-trillion-dollar-disaster-92a4b666c7c7?utm_source=bengtan.com/interesting-things/031&#34;&gt;Object-Oriented Programming — The Trillion Dollar Disaster&lt;/a&gt;&lt;/strong&gt; — Why it’s time to move on from OOP. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29172119&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.lastweekinaws.com/blog/the-unfulfilled-promise-of-serverless/?utm_source=bengtan.com/interesting-things/031&#34;&gt;The Unfulfilled Promise of Serverless&lt;/a&gt;&lt;/strong&gt; — Say what you will about serverless, it’s failed to live up to its promise and hasn’t proved to be particularly lucrative for anybody. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29226572&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://physicsworld.com/a/special-relativity-keeps-digital-identities-secure/?utm_source=bengtan.com/interesting-things/031&#34;&gt;Special relativity keeps digital identities secure&lt;/a&gt;&lt;/strong&gt; — Speed of light could provide ultimate bulwark against hackers. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29196087&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://society.robinsloan.com/archive/notes-on-web3/?utm_source=bengtan.com/interesting-things/031&#34;&gt;Notes on Web3&lt;/a&gt;&lt;/strong&gt; — A counterweight to the growing hype. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29188948&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://arstechnica.com/gadgets/2021/11/vpn-vulnerability-on-10k-servers-has-severity-rating-of-9-8-out-of-10/?utm_source=bengtan.com/interesting-things/031&#34;&gt;Researchers wait 12 months to report vulnerability with 9.8 out of 10 severity rating&lt;/a&gt;&lt;/strong&gt; — Palo Alto Networks patches critical buffer overflow bug in its GlobalProtect VPN. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29191757&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.theatlantic.com/ideas/archive/2021/11/internet-newsletters-dave-pell/620664/?utm_source=bengtan.com/interesting-things/031&#34;&gt;The Internet’s Unkillable App&lt;/a&gt;&lt;/strong&gt; — The noisier our digital lives get, the more popular the humble newsletter becomes. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29174285&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://ploum.net/the-monstrosity-email-has-become/?utm_source=bengtan.com/interesting-things/031&#34;&gt;The Monstrosity Email Has Become&lt;/a&gt;&lt;/strong&gt; — I’m currently thinking deeply about email. This prompted me to write about what was bad with it. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29204451&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://r2c.dev/blog/2021/semgrep-a-static-analysis-journey/?utm_source=bengtan.com/interesting-things/031&#34;&gt;Semgrep: a static analysis journey&lt;/a&gt;&lt;/strong&gt; — How an academic project for the Linux kernel evolved into a multilingual security tool. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29169012&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://sysdig.com/blog/software-supply-chain-security/?utm_source=bengtan.com/interesting-things/031&#34;&gt;Secure software supply chain: why every link matters&lt;/a&gt;&lt;/strong&gt; — It is impossible to secure everything, you have to focus on each layer of the software supply chain to be as protected as possible. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29164293&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://serokell.io/blog/how-scarf-uses-haskell?utm_source=bengtan.com/interesting-things/031&#34;&gt;Haskell in Production: Scarf&lt;/a&gt;&lt;/strong&gt; — Find out the pros and cons of using Haskell for developing production-level applications. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29160209&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://hliyan.medium.com/cargo-cult-programming-is-killing-the-sri-lankan-software-industry-e5e9fc9a3ff9?utm_source=bengtan.com/interesting-things/031&#34;&gt;Cargo cult programming is killing the software industry&lt;/a&gt;&lt;/strong&gt; — When a programmer copies programming techniques or uses “technologies” without understanding, it is killing our industry. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29186119&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://spectrum.ieee.org/foldable-monocopter-drone?utm_source=bengtan.com/interesting-things/031&#34;&gt;Flexible Monocopter Drone Can Be Completely Rolled Up&lt;/a&gt;&lt;/strong&gt; — A single motor and flexible wing are all this drone needs. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29225184&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://giansegato.com/essays/what-future-ides/?utm_source=bengtan.com/interesting-things/031&#34;&gt;What&amp;rsquo;s the Future of IDEs?&lt;/a&gt;&lt;/strong&gt; — Can we move our development environment to a remote server and interact with it through a browser-mediated IDE? (&lt;a href=&#34;https://news.ycombinator.com/item?id=29164252&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://atlas.engineer/technical-article/how-to-be-independent.org?utm_source=bengtan.com/interesting-things/031&#34;&gt;How we use Lisp to be independent and resilient&lt;/a&gt;&lt;/strong&gt; — I was displeased to see an unexpected error: License for &amp;lt;proprietary product&amp;gt; expired. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29201829&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.wiz.io/blog/chaosdb-explained-azures-cosmos-db-vulnerability-walkthrough?utm_source=bengtan.com/interesting-things/031&#34;&gt;ChaosDB Explained: Azure&amp;rsquo;s Cosmos DB Vulnerability Walkthrough&lt;/a&gt;&lt;/strong&gt; — Step-by-step technical walkthrough of ChaosDB, one of the most severe Azure vulnerabilities of all time. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29204338&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;work&#34;&gt;#work&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://productivegrowth.substack.com/p/how-hustle-culture-can-crush-your?utm_source=bengtan.com/interesting-things/031&#34;&gt;How hustle culture can crush your soul, and how to fix it. &lt;/a&gt;&lt;/strong&gt; — Stop flirting with burnout. Learn how to recover from work exhaustion without quitting your job. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29179085&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;business&#34;&gt;#business&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://bztv.me/en/reflecting-on-11-years-of-side-projects?utm_source=bengtan.com/interesting-things/031&#34;&gt;Reflecting on 11 years of side projects&lt;/a&gt;&lt;/strong&gt; — I&amp;rsquo;ve been building side projects for 11 years. Here&amp;rsquo;s my history and learnings from them. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29163837&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.albertcory.io/lets-do-have-hindsight?utm_source=bengtan.com/interesting-things/031&#34;&gt;Rewriting the History of Computing&lt;/a&gt;&lt;/strong&gt; — Inventing the future through hindsight. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29188922&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://spectrum.ieee.org/tech-entrepreneur-home-media-streaming-miniaturizing-chocolate-factory?utm_source=bengtan.com/interesting-things/031&#34;&gt;This Tech Entrepreneur Is Miniaturizing the Chocolate Factory&lt;/a&gt;&lt;/strong&gt; — Five years later, Nate Saal aims to bring his smart, small, do-it-all chocolate machine to your countertop. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29207031&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.lunasec.io/docs/blog/how-to-build-an-open-source-business-in-2021-part-1/?utm_source=bengtan.com/interesting-things/031&#34;&gt;How to build an Open Source Business in 2021 (Part 1)&lt;/a&gt;&lt;/strong&gt; — A step-by-step guide to build an Open Source Business from scratch. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29177240&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;science&#34;&gt;#science&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.quantamagazine.org/cosmologists-close-in-on-logical-laws-for-the-big-bang-20211110/?utm_source=bengtan.com/interesting-things/031&#34;&gt;Laws of Logic Lead to New Restrictions on the Big Bang&lt;/a&gt;&lt;/strong&gt; — Translating commonsense principles into strict mathematical constraints on how our universe must have behaved at the beginning of time. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29175394&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.livescience.com/new-mantle-mineral-found-in-diamond?utm_source=bengtan.com/interesting-things/031&#34;&gt;Diamond hauled from deep inside Earth holds never-before-seen mineral&lt;/a&gt;&lt;/strong&gt; — Researchers thought the mineral was impossible to find on Earth&amp;rsquo;s surface. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29200535&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.theguardian.com/science/2021/nov/11/near-earth-asteroid-is-a-fragment-from-the-moon-say-scientists?utm_source=bengtan.com/interesting-things/031&#34;&gt;Near-Earth asteroid is a fragment from the moon, say scientists&lt;/a&gt;&lt;/strong&gt; — Spectrum of reflected light from Kamo`oalewa closely matches lunar rocks from Nasa’s Apollo mission. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29191360&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;life&#34;&gt;#life&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://moretothat.com/the-nothingness-of-money/?utm_source=bengtan.com/interesting-things/031&#34;&gt;The Nothingness of Money&lt;/a&gt;&lt;/strong&gt; — It&amp;rsquo;s the great everything and the great nothing. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29171750&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.collaborativefund.com/blog/experts/?utm_source=bengtan.com/interesting-things/031&#34;&gt;Experts From A World That No Longer Exists&lt;/a&gt;&lt;/strong&gt; — What was foolish to one generation was smart to the next. Every generation goes through this. Every generation fights it. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29187012&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.wsj.com/podcasts/your-money-matters/young-investors-to-financial-planners-thanks-but-no-thanks/6efa8ef3-1835-46f4-a391-1b7ed0cb3da3?utm_source=bengtan.com/interesting-things/031&#34;&gt;Young Investors to Financial Planners: Thanks, But No Thanks&lt;/a&gt;&lt;/strong&gt; — Young people aren&amp;rsquo;t interested in the traditional financial planners because the services offered haven&amp;rsquo;t changed all that much. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29191732&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.washingtonpost.com/magazine/2021/11/08/why-are-so-many-people-so-cruel-their-dogs/?utm_source=bengtan.com/interesting-things/031&#34;&gt;A Dog’s Life&lt;/a&gt;&lt;/strong&gt; — Why are so many people so cruel to their dogs? My search to understand a hidden scourge. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29168818&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;random&#34;&gt;#random&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://quillette.com/2021/11/10/europes-big-bang-how-gunpowder-transformed-the-medieval-world/?utm_source=bengtan.com/interesting-things/031&#34;&gt;Europe’s Big Bang: How Gunpowder Transformed the Medieval World&lt;/a&gt;&lt;/strong&gt; — What made artillery possible was gunpowder, and gunpowder was the single greatest invention of the European Middle Ages. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29195831&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;end&#34;&gt;#end&lt;/h2&gt;
+&lt;p&gt;If you liked these stories, please share them (or this newsletter) with your friends. I would appreciate it if you help me spread the word. 🙏&lt;/p&gt;
+&lt;p&gt;Enjoy your reading and have a good day,
+Beng&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://bengtan.com/images/portrait-40.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 
         
       </description>
