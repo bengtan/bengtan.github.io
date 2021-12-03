@@ -6,18 +6,69 @@
     <description>Recent content in Recent Posts on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Fri, 26 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Interesting Things #32 — Sociotechnical Lenses</title>
-      <link>https://bengtan.com/interesting-things/032-private/</link>
-      <pubDate>Fri, 26 Nov 2021 00:00:00 +0000</pubDate>
+      <title>Interesting Things #33 — Snake in a Block</title>
+      <link>https://bengtan.com/interesting-things/033-private/</link>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bengtan.com/interesting-things/032-private/</guid>
+      <guid>https://bengtan.com/interesting-things/033-private/</guid>
       <description>
         
           &lt;p&gt;The lastest issue of &lt;strong&gt;Interesting Things&lt;/strong&gt; is subscriber-only. Please come back in a few days time.&lt;/p&gt;
 &lt;p&gt;If you don&amp;rsquo;t want to wait, &lt;a href=&#34;https://bengtan.com/newsletter&#34;&gt;subscribe&lt;/a&gt; to get it in your inbox now!&lt;/p&gt;
 &lt;p&gt;Look at some &lt;a href=&#34;https://bengtan.com/interesting-things&#34;&gt;older issues&lt;/a&gt;.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Interesting Things #32 — Sociotechnical Lenses</title>
+      <link>https://bengtan.com/interesting-things/032/</link>
+      <pubDate>Fri, 26 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bengtan.com/interesting-things/032/</guid>
+      <description>
+        
+          &lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;This is &lt;a href=&#34;https://bengtan.com/about/&#34;&gt;Beng Tan&lt;/a&gt; and welcome to &lt;strong&gt;Interesting Things&lt;/strong&gt;, a curation of interesting stories and links from tech, work, biz, science, life and random stuff.&lt;/p&gt;
+&lt;p&gt;Happy reading!&lt;/p&gt;
+&lt;h2 id=&#34;tech&#34;&gt;#tech&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://paulosman.me/2021/10/02/sociotechnical-lenses-into-software-systems/?utm_source=bengtan.com/interesting-things/032&#34;&gt;Sociotechnical Lenses into Software Systems&lt;/a&gt;&lt;/strong&gt; (Oct 2021) — People are constantly changing software, and those people almost certainly have different short and long-term goals, contexts, and pressures. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29262377&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://marker.medium.com/how-many-titles-does-it-take-to-run-a-software-engineering-team-90cfc296e17f?utm_source=bengtan.com/interesting-things/032&#34;&gt;How Many Titles Does It Take to Run a Software Engineering Team?&lt;/a&gt;&lt;/strong&gt; — A semi-scientific analysis of senior SWE job titles, and an unscientific set of opinions about them. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29281073&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.skmurphy.com/blog/2021/07/12/why-is-an-enterprise-sale-so-complex/?utm_source=bengtan.com/interesting-things/032&#34;&gt;Why is an Enterprise Sale So Complex?&lt;/a&gt;&lt;/strong&gt; — An enterprise sale is a significant source of opportunity for startups. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29272189&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.quantamagazine.org/how-quantum-computers-will-correct-their-errors-20211116/?utm_source=bengtan.com/interesting-things/032&#34;&gt;How Quantum Computers Will Correct Their Errors&lt;/a&gt;&lt;/strong&gt; — Quantum bits are fussy and fragile. Useful quantum computers will need error-correction. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29278157&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://meta.plasm.us/posts/2021/11/17/scala-open-source/?utm_source=bengtan.com/interesting-things/032&#34;&gt;A statement about my Scala open source work&lt;/a&gt;&lt;/strong&gt; — This document describes my decision to stop doing open source work in the Scala community. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29264859&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://davidgerard.co.uk/blockchain/2021/11/16/constitutiondao-a-20-million-stupid-ethereum-trick/?utm_source=bengtan.com/interesting-things/032&#34;&gt;ConstitutionDAO — a $20 million stupid Ethereum trick&lt;/a&gt;&lt;/strong&gt; — Either this is an elaborately preplanned rugpull — or it’s actually the dumb stunt it appears to be. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29246421&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://thoughtbot.com/blog/what-technologies-should-i-learn?utm_source=bengtan.com/interesting-things/032&#34;&gt;What technologies should I learn?&lt;/a&gt;&lt;/strong&gt; — Recommendations for early career web developers. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29269271&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://runway.team/blog/why-mobile-releases-are-a-silent-killer?utm_source=bengtan.com/interesting-things/032&#34;&gt;Why mobile releases are a silent killer, and what your team can do about it&lt;/a&gt;&lt;/strong&gt; (Oct 2021) — Here are some things we wished our old selves and teams had insight into back then. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29257337&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://qvault.io/misc/coding-interviews-why-you-shouldnt-give-homework/?utm_source=bengtan.com/interesting-things/032&#34;&gt;Coding Interviews – Why you shouldn’t give homework&lt;/a&gt;&lt;/strong&gt; — Homework signals to candidates that their time is worthless. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29266118&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://joshcollinsworth.com/blog/introducing-svelte-comparing-with-react-vue?utm_source=bengtan.com/interesting-things/032&#34;&gt;Introducing Svelte, and Comparing Svelte with React and Vue&lt;/a&gt;&lt;/strong&gt; — Let&amp;rsquo;s dive into what makes Svelte different, why it&amp;rsquo;s so enjoyable, and how it&amp;rsquo;s able to ship such tiny, fast apps. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29116366&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://increment.com/planning/reframing-tech-debt/?utm_source=bengtan.com/interesting-things/032&#34;&gt;Reframing tech debt&lt;/a&gt;&lt;/strong&gt; — If we bake addressing tech debt into our plans, could it become an opportunity to build abundance into our systems? (&lt;a href=&#34;https://news.ycombinator.com/item?id=29264578&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/logging-at-twitter-updated?utm_source=bengtan.com/interesting-things/032&#34;&gt;Logging at Twitter: Updated&lt;/a&gt;&lt;/strong&gt; (Aug 2021) — Twitter encountered challenges moving away from a home grown logging platform to the commercially available Splunk. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29266013&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;work&#34;&gt;#work&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.vox.com/the-goods/22722572/undercharging-contractors-labor-gig-economy?utm_source=bengtan.com/interesting-things/032&#34;&gt;Why so many people undercharge for their work&lt;/a&gt;&lt;/strong&gt; — Setting a rate can be a minefield for folks navigating an industry alone. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29249176&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://cacm.acm.org/magazines/2021/12/256926-what-every-engineer-and-computer-scientist-should-know/fulltext?utm_source=bengtan.com/interesting-things/032&#34;&gt;What Every Engineer and Computer Scientist Should Know: The Biggest Contributor to Happiness&lt;/a&gt;&lt;/strong&gt; — Seeking the fundamental factors instrumental to happiness. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29280809&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;business&#34;&gt;#business&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.forbes.com/sites/jackkelly/2021/11/16/the-modest-moderna-cofounder-and-multibillionaire-robert-langer-shares-his-secrets-to-success/?utm_source=bengtan.com/interesting-things/032&#34;&gt;The Modest Moderna Cofounder And Multibillionaire Robert Langer Shares His Secrets To Success&lt;/a&gt;&lt;/strong&gt; — Work and life advice garnered from decades of experience. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29276850&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://taibbi.substack.com/p/another-humorous-substack-panic?utm_source=bengtan.com/interesting-things/032&#34;&gt;Another Humorous Substack Panic&lt;/a&gt;&lt;/strong&gt; — The notion that Substack is a threat to traditional media itself speaks to their comical inability to understand cause and effect. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29248933&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;science&#34;&gt;#science&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.bbc.com/future/article/20211117-how-indias-living-bridges-could-transform-architecture?utm_source=bengtan.com/interesting-things/032&#34;&gt;The ingenious living bridges of India&lt;/a&gt;&lt;/strong&gt; — For centuries, indigenous groups in north-east India have crafted intricate bridges from living fig trees. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29265516&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.bbc.com/news/health-59297311?utm_source=bengtan.com/interesting-things/032&#34;&gt;Rare case of woman&amp;rsquo;s body ridding itself of HIV&lt;/a&gt;&lt;/strong&gt; — A woman from Argentina appears to have rid herself of HIV without drugs or treatment — the second documented case of its kind in the world. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29250023&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.telegraph.co.uk/news/2021/11/15/alzheimers-vaccine-step-closer-new-treatment-reverses-memory/?utm_source=bengtan.com/interesting-things/032&#34;&gt;Alzheimer’s vaccine step closer after new treatment reverses memory loss&lt;/a&gt;&lt;/strong&gt; —  Scientists hail successful trial on mice in which vaccine trains immune system to fight sticky amyloid protein that accumulates in the brain. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29239385&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://phys.org/news/2021-11-mosquitoes-mutual-symbiotic-relationship-malaria-causing.html?utm_source=bengtan.com/interesting-things/032&#34;&gt;Mosquitoes have a mutual symbiotic relationship with malaria-causing pathogen&lt;/a&gt;&lt;/strong&gt; — Infection with the parasite provides the mosquito an advantage that promotes reproduction and disease transmission. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29281059&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;life&#34;&gt;#life&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.lse.ac.uk/News/Latest-news-from-LSE/2021/k-November-21/Octopuses-crabs-and-lobsters-welfare-protection?utm_source=bengtan.com/interesting-things/032&#34;&gt;Octopuses, crabs and lobsters to be recognised as sentient beings under UK law following LSE report findings&lt;/a&gt;&lt;/strong&gt; — An LSE report demonstrates they have capacity to experience pain or distress. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29282422&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.theatlantic.com/family/archive/2021/11/how-stop-caring-what-other-people-think-you/620670/?utm_source=bengtan.com/interesting-things/032&#34;&gt;No One Cares!&lt;/a&gt;&lt;/strong&gt; — Our fears about what other people think of us are overblown and rarely worth fretting over. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29189550&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.theguardian.com/us-news/2021/nov/17/police-surveillance-technology-voyager?utm_source=bengtan.com/interesting-things/032&#34;&gt;Revealed: the software that studies your Facebook friends to predict who may commit a crime&lt;/a&gt;&lt;/strong&gt; — Dozens of US companies have popped up in recent years to harness social media to help solve and predict crime. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29269395&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://time.com/charter/6120287/sabbaticals-time-off-great-resignation/?utm_source=bengtan.com/interesting-things/032&#34;&gt;The Urgent Case for Sabbaticals for All&lt;/a&gt;&lt;/strong&gt; — Research shows that extended time off isn&amp;rsquo;t just a break—it can be a life-changing period that helps us reset our understanding of who we are. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29261290&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://hedgehogreview.com/web-features/thr/posts/talk-with-the-hand?utm_source=bengtan.com/interesting-things/032&#34;&gt;Talk with the Hand!&lt;/a&gt;&lt;/strong&gt; — The expressive art of chirology: I observed that the most effective communicators delivered the most histrionic performances. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29247021&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;end&#34;&gt;#end&lt;/h2&gt;
+&lt;p&gt;If you liked these stories, please share them (or this newsletter) with your friends. I would appreciate it if you help me spread the word. 🙏&lt;/p&gt;
+&lt;p&gt;Enjoy your reading and have a good day,
+Beng&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://bengtan.com/images/portrait-40.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 
         
       </description>
