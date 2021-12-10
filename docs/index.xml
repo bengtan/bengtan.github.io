@@ -6,18 +6,68 @@
     <description>Recent content in Recent Posts on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Fri, 03 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Interesting Things #33 — Snake in a Block</title>
-      <link>https://bengtan.com/interesting-things/033-private/</link>
-      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
+      <title>Interesting Things #34 — Air gap</title>
+      <link>https://bengtan.com/interesting-things/034-private/</link>
+      <pubDate>Fri, 10 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bengtan.com/interesting-things/033-private/</guid>
+      <guid>https://bengtan.com/interesting-things/034-private/</guid>
       <description>
         
           &lt;p&gt;The lastest issue of &lt;strong&gt;Interesting Things&lt;/strong&gt; is subscriber-only. Please come back in a few days time.&lt;/p&gt;
 &lt;p&gt;If you don&amp;rsquo;t want to wait, &lt;a href=&#34;https://bengtan.com/newsletter&#34;&gt;subscribe&lt;/a&gt; to get it in your inbox now!&lt;/p&gt;
 &lt;p&gt;Look at some &lt;a href=&#34;https://bengtan.com/interesting-things&#34;&gt;older issues&lt;/a&gt;.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Interesting Things #33 — Snake in a Block</title>
+      <link>https://bengtan.com/interesting-things/033/</link>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bengtan.com/interesting-things/033/</guid>
+      <description>
+        
+          &lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;This is &lt;a href=&#34;https://bengtan.com/about/&#34;&gt;Beng Tan&lt;/a&gt; and welcome to &lt;strong&gt;Interesting Things&lt;/strong&gt;, a curation of interesting stories and links from tech, work, biz, science and society.&lt;/p&gt;
+&lt;p&gt;Happy reading!&lt;/p&gt;
+&lt;h2 id=&#34;tech&#34;&gt;#tech&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://medium.com/@inner.space/snake-in-a-block-how-i-ran-snake-on-ethereum-f46f9812abb1?utm_source=bengtan.com/interesting-things/033&#34;&gt;Snake in a Block — How I Ran Snake on Ethereum&lt;/a&gt;&lt;/strong&gt; — Technical details on how to minimize the gas needed to run the game and fit it all within the block. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29319050&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://nadh.in/blog/on-powered-by-ai-marketing/?utm_source=bengtan.com/interesting-things/033&#34;&gt;On &amp;ldquo;Powered by AI / ML&amp;rdquo; marketing&lt;/a&gt;&lt;/strong&gt; — The vast majority of prominent “powered by AI” examples I have seen are examples of FOMO, fraud, intellectual dishonesty, or just ignorance. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29359122&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.quarkslab.com/digging-into-linux-namespaces-part-1.html?utm_source=bengtan.com/interesting-things/033&#34;&gt;Digging into Linux namespaces - part 1&lt;/a&gt;&lt;/strong&gt; — Explore what they are and how they work, build our own isolated container, and understand each piece. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29315907&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://medium.com/geekculture/common-behavioral-mistakes-of-novice-programmers-and-how-to-avoid-them-286624cb4866?utm_source=bengtan.com/interesting-things/033&#34;&gt;Common behavioral mistakes of novice programmers and how to avoid them&lt;/a&gt;&lt;/strong&gt; — If you fix such behavioral mistakes early, your path to mastery will be shorter and more efficient. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29329927&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://paulstamatiou.com/crypto-design-challenges/?utm_source=bengtan.com/interesting-things/033&#34;&gt;Crypto design challenges&lt;/a&gt;&lt;/strong&gt; — Thoughts on design challenges facing crypto/web3 today. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29369490&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://stokoe.me/summary-hammock-driven-development/?utm_source=bengtan.com/interesting-things/033&#34;&gt;What is Hammock Driven Development?&lt;/a&gt;&lt;/strong&gt; — If the solution isn&amp;rsquo;t obvious you don&amp;rsquo;t understand the problem well enough. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29342094&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.c-sharpcorner.com/article/the-best-vs-code-extensions-to-supercharge-git/?utm_source=bengtan.com/interesting-things/033&#34;&gt;The Best VS Code Extensions To Supercharge Git&lt;/a&gt;&lt;/strong&gt; — Work easier with Git but also extend Git with cool new features and superpowers! (&lt;a href=&#34;https://news.ycombinator.com/item?id=29332057&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://hasura.io/blog/what-we-learnt-by-migrating-from-circleci-to-buildkite/?utm_source=bengtan.com/interesting-things/033&#34;&gt;What we learnt by migrating from CircleCI to Buildkite&lt;/a&gt;&lt;/strong&gt; — A collection of ideas and implementation details helped us arrive at an optimal solution. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29328660&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;work&#34;&gt;#work&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.nytimes.com/2021/11/23/business/dealbook/four-day-workweek.html?utm_source=bengtan.com/interesting-things/033&#34;&gt;Is the Four-Day Workweek Finally Within Our Grasp?&lt;/a&gt;&lt;/strong&gt; — After embracing flexible work styles during the pandemic, some companies are now embracing a shorter week. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29317723&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://massivesci.com/articles/programming-math-language-python-women-in-science/?utm_source=bengtan.com/interesting-things/033&#34;&gt;Your language brain matters more for learning programming than your math brain&lt;/a&gt;&lt;/strong&gt; — New research contradicts long held assumptions about coding. (&lt;a href=&#34;https://news.ycombinator.com/item?id=23172877&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://drewdevault.com/2021/11/24/A-philosophy-for-instant-messaging.html?utm_source=bengtan.com/interesting-things/033&#34;&gt;My philosophy for productive instant messaging&lt;/a&gt;&lt;/strong&gt; — A few bites of greybeard wisdom on how to effectively use instant messaging for their own work. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29333267&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://shopify.engineering/five-tips-for-engineer-career-growth?utm_source=bengtan.com/interesting-things/033&#34;&gt;Five Tips for Growing Your Engineering Career&lt;/a&gt;&lt;/strong&gt; — Whilst making the most of your new job and learning as much as you can, it can be hard to find time and energy to focus on growth. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29343688&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;business&#34;&gt;#business&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.businessinsider.com/rise-and-fall-of-clubhouse-poster-child-pandemic-hype-2021-11?utm_source=bengtan.com/interesting-things/033&#34;&gt;Inside the rise and fall of Clubhouse&lt;/a&gt;&lt;/strong&gt; — Growth has crumbled as COVID-19 lockdowns ease and creators and users go elsewhere. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29338735&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.infoworld.com/article/3641218/stop-saying-open-source-nonsense.html?utm_source=bengtan.com/interesting-things/033&#34;&gt;Stop saying open source nonsense&lt;/a&gt;&lt;/strong&gt; — Creating a successful open source project requires more than mimicking the business models of Red Hat or Confluent. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29312169&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;science&#34;&gt;#science&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.quantamagazine.org/the-algorithm-that-lets-particle-physicists-count-higher-than-two-20211122/?utm_source=bengtan.com/interesting-things/033&#34;&gt;The Algorithm That Lets Particle Physicists Count Higher Than Two&lt;/a&gt;&lt;/strong&gt; — An obscure figure named Stefano Laporta found a handle on the subatomic world’s fearsome complexity. His algorithm has swept the field. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29384830&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.sciencealert.com/we-almost-missed-the-largest-underwater-volcano-eruption-recorded?utm_source=bengtan.com/interesting-things/033&#34;&gt;We All Nearly Missed The Largest Underwater Volcano Eruption Ever Detected&lt;/a&gt;&lt;/strong&gt; — The incident initially went unnoticed by scientists, but the floating rock platform it generated was harder to miss. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29360982&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.popsci.com/female-salamander-kleptogenesis/?utm_source=bengtan.com/interesting-things/033&#34;&gt;How a female-only line of salamanders ‘steals’ genes from unsuspecting males&lt;/a&gt;&lt;/strong&gt; —  Kleptogenesis gets a little less mysterious in a new study. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29335868&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://theconversation.com/pythagoras-revenge-humans-didnt-invent-mathematics-its-what-the-world-is-made-of-172034?utm_source=bengtan.com/interesting-things/033&#34;&gt;Pythagoras’ revenge: humans didn’t invent mathematics, it’s what the world is made of&lt;/a&gt;&lt;/strong&gt; — Did humans invent mathematics or does it exist independently? (&lt;a href=&#34;https://news.ycombinator.com/item?id=29326298&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.livescience.com/zebras-black-and-white?utm_source=bengtan.com/interesting-things/033&#34;&gt;Are zebras white with black stripes or black with white stripes?&lt;/a&gt;&lt;/strong&gt; — It&amp;rsquo;s a black-and-white issue. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29344806&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://news.arizona.edu/story/uarizona-researchers-develop-ultra-thin-computer-bone?utm_source=bengtan.com/interesting-things/033&#34;&gt;UArizona Researchers Develop Ultra-Thin &amp;lsquo;Computer on the Bone&amp;rsquo;&lt;/a&gt;&lt;/strong&gt; —  Engineers and physicians teamed up to develop a wireless device to monitor and protect bone health. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29321364&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;society&#34;&gt;#society&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.cnet.com/features/amazons-never-ending-fake-reviews-problem-explained/?utm_source=bengtan.com/interesting-things/033&#34;&gt;Amazon&amp;rsquo;s never-ending fake reviews problem, explained&lt;/a&gt;&lt;/strong&gt; —  Those five-star reviews are reassuring. But what if a seller asks you to write one for cash? (&lt;a href=&#34;https://news.ycombinator.com/item?id=29323824&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.insidehook.com/article/internet/gen-z-millennials-youre-welcome?utm_source=bengtan.com/interesting-things/033&#34;&gt;Why Gen-Z and Millennials Don’t Like to Say “You’re Welcome”&lt;/a&gt;&lt;/strong&gt; — Phrases like &amp;ldquo;no problem&amp;rdquo; and &amp;ldquo;no worries&amp;rdquo; can tell us a lot about the evolution of language. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29342998&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.bbc.com/future/article/20211122-bee-gold-why-honey-is-an-insect-superfood?utm_source=bengtan.com/interesting-things/033&#34;&gt;Bee gold: Why honey is an insect superfood&lt;/a&gt;&lt;/strong&gt; — From pesticide detox to increased longevity, the benefits for bees go well beyond simply nourishing the hardworking insects. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29348469&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://ez.substack.com/p/the-nihilism-and-exploitation-of?utm_source=bengtan.com/interesting-things/033&#34;&gt;The Nihilism and Exploitation of the NFT Industry&lt;/a&gt;&lt;/strong&gt; — Selling the idea that people could be rich if only they participated in the scheme that enriched the rich people first. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29342111&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;end&#34;&gt;#end&lt;/h2&gt;
+&lt;p&gt;If you liked these stories, please share them (or this newsletter) with your friends. I would appreciate it if you help me spread the word. 🙏&lt;/p&gt;
+&lt;p&gt;Enjoy your reading and have a good day,
+Beng&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://bengtan.com/images/portrait-40.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 
         
       </description>
