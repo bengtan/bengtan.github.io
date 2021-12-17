@@ -6,18 +6,68 @@
     <description>Recent content in Recent Posts on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Fri, 10 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Interesting Things #34 — Air gap</title>
-      <link>https://bengtan.com/interesting-things/034-private/</link>
-      <pubDate>Fri, 10 Dec 2021 00:00:00 +0000</pubDate>
+      <title>Interesting Things #35 — Virtual Femto</title>
+      <link>https://bengtan.com/interesting-things/035-private/</link>
+      <pubDate>Fri, 17 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bengtan.com/interesting-things/034-private/</guid>
+      <guid>https://bengtan.com/interesting-things/035-private/</guid>
       <description>
         
           &lt;p&gt;The lastest issue of &lt;strong&gt;Interesting Things&lt;/strong&gt; is subscriber-only. Please come back in a few days time.&lt;/p&gt;
 &lt;p&gt;If you don&amp;rsquo;t want to wait, &lt;a href=&#34;https://bengtan.com/newsletter&#34;&gt;subscribe&lt;/a&gt; to get it in your inbox now!&lt;/p&gt;
 &lt;p&gt;Look at some &lt;a href=&#34;https://bengtan.com/interesting-things&#34;&gt;older issues&lt;/a&gt;.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Interesting Things #34 — Air gap</title>
+      <link>https://bengtan.com/interesting-things/034/</link>
+      <pubDate>Fri, 10 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bengtan.com/interesting-things/034/</guid>
+      <description>
+        
+          &lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;This is &lt;a href=&#34;https://bengtan.com/about/&#34;&gt;Beng Tan&lt;/a&gt; and welcome to &lt;strong&gt;Interesting Things&lt;/strong&gt;, a curation of interesting stories and links from tech, work, biz, science and society.&lt;/p&gt;
+&lt;p&gt;Happy reading!&lt;/p&gt;
+&lt;h2 id=&#34;tech&#34;&gt;#tech&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.welivesecurity.com/wp-content/uploads/2021/12/eset_jumping_the_air_gap_wp.pdf?utm_source=bengtan.com/interesting-things/034&#34;&gt;Jumping The Air Gap: 15 years of nation-state effort&lt;/a&gt;&lt;/strong&gt; [pdf] —  How malware frameworks targeting air-gapped networks operate and their most important tactics, techniques and procedures. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29429954&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://nymag.com/intelligencer/article/crypto-nft-twitter-discord-guide.html?utm_source=bengtan.com/interesting-things/034&#34;&gt;A Normie’s Guide to Becoming a Crypto Person&lt;/a&gt;&lt;/strong&gt; — A guide to understanding the cryptocurrencies and their cultures. How to (cautiously and skeptically) fall down the rabbit hole. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29431072&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://axelsvensson.com/memory-image-pattern/?utm_source=bengtan.com/interesting-things/034&#34;&gt;The Memory Image Pattern&lt;/a&gt;&lt;/strong&gt; — It rejects the idea of storing state in a database and gains both developer productivity and run-time performance. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29443474&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.ralfj.de/blog/2021/11/24/ub-necessary.html?utm_source=bengtan.com/interesting-things/034&#34;&gt;Do we really need Undefined Behavior?&lt;/a&gt;&lt;/strong&gt; — Even some of the most basic optimizations that all compilers perform require this far-reaching notion of Undefined Behavior. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29435263&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://blog.phylum.io/detecting-obfuscated-malicious-code?utm_source=bengtan.com/interesting-things/034&#34;&gt;Using Entropy to Identify Obfuscated Malicious Code&lt;/a&gt;&lt;/strong&gt; — Malicious authors will deliberately obscure the nature of a program by rendering strings less transparent to hide malicious code. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29430823&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://readme.security/big-tech-is-mandating-mfa-hackers-have-workarounds-35b64f1a4f88?utm_source=bengtan.com/interesting-things/034&#34;&gt;Big Tech is mandating MFA. Hackers have workarounds&lt;/a&gt;&lt;/strong&gt; — Multi-factor authentication offers users far more cybersecurity protection but it’s no panacea against hackers. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29433651&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.economist.com/science-and-technology/how-to-generate-better-cheaper-more-abundant-random-numbers/21806558?utm_source=bengtan.com/interesting-things/034&#34;&gt;How to generate better, cheaper, more abundant random numbers&lt;/a&gt;&lt;/strong&gt; — And why it is important. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29440214&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://arstechnica.com/cars/2021/12/apple-airtags-being-used-by-thieves-to-track-high-end-cars-to-steal/?utm_source=bengtan.com/interesting-things/034&#34;&gt;Apple AirTags being used by thieves to track high-end cars to steal&lt;/a&gt;&lt;/strong&gt; — Canadian police say they&amp;rsquo;ve had five such incidents since September. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29431451&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://ravik.substack.com/p/an-anthropology-of-clean-code?utm_source=bengtan.com/interesting-things/034&#34;&gt;An Anthropology of Clean Code&lt;/a&gt;&lt;/strong&gt; — The cultural origins of the &amp;ldquo;clean&amp;rdquo; code metaphor. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29436388&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://sirupsen.com/trading-complexity?utm_source=bengtan.com/interesting-things/034&#34;&gt;Careful Trading Complexity for &amp;lsquo;Improvements&amp;rsquo;&lt;/a&gt;&lt;/strong&gt; — Whenever you find yourself arguing for improving infrastructure by yanking up complexity, be very careful. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29432241&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://phys.org/news/2021-12-nanometer-scale-transistor.html?utm_source=bengtan.com/interesting-things/034&#34;&gt;Researchers develop nanometer-scale adaptive transistor&lt;/a&gt;&lt;/strong&gt; — This fundamentally changes the possibilities of chip design and opens up completely new opportunities. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29432115&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;work&#34;&gt;#work&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://codingsans.com/blog/virtual-offsite?utm_source=bengtan.com/interesting-things/034&#34;&gt;The Secrets of Productive Virtual Offsites - Tips from GitHub&lt;/a&gt;&lt;/strong&gt; — How do you do team building online? An interview with the Director of Engineering at Github. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29441362&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;business&#34;&gt;#business&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://markusstrasser.org/p/bcd8bded-7136-4bb4-8f97-e8a3a7b6d926/?utm_source=bengtan.com/interesting-things/034&#34;&gt;The Business of Extracting Knowledge from Academic Publications&lt;/a&gt;&lt;/strong&gt; — After working for many months, I conclude that building knowledge bases has negligible value in industry. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29445715&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.collaborativefund.com/blog/how-this-all-happened/?utm_source=bengtan.com/interesting-things/034&#34;&gt;How This All Happened&lt;/a&gt;&lt;/strong&gt; —  A short story about what happened to the U.S. economy since the end of World War II. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29387082&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.videogameschronicle.com/features/gamecube-at-20/?utm_source=bengtan.com/interesting-things/034&#34;&gt;GameCube at 20: Nintendo insiders on the failed console that changed the industry&lt;/a&gt;&lt;/strong&gt; — Engineers, marketing bosses and game developers share their memories of Nintendo’s bold purple box. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29428404&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;science&#34;&gt;#science&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.bbc.com/future/article/20211126-why-insects-are-more-sensitive-than-they-seem?utm_source=bengtan.com/interesting-things/034&#34;&gt;Why insects are more sensitive than they seem&lt;/a&gt;&lt;/strong&gt; — The idea that insects have feelings was considered a heretical joke but scientists are rapidly reconsidering. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29394368&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.bbc.com/news/health-58993696?utm_source=bengtan.com/interesting-things/034&#34;&gt;US surgeons test pig kidney transplant in a human&lt;/a&gt;&lt;/strong&gt; — The kidney, from a genetically-altered pig, appeared to function well, say the surgical team. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29439508&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.nature.com/articles/d41586-021-03593-1?utm_source=bengtan.com/interesting-things/034&#34;&gt;DeepMind’s AI helps untangle the mathematics of knots&lt;/a&gt;&lt;/strong&gt; — The machine-learning techniques could benefit other areas of maths that involve large data sets. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29432355&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.theguardian.com/science/2021/dec/02/californian-firm-touts-mushroom-leather-as-sustainability-gamechanger?utm_source=bengtan.com/interesting-things/034&#34;&gt;Californian firm touts ‘mushroom leather’ as sustainability gamechanger&lt;/a&gt;&lt;/strong&gt; — Vegan leather alternative isn’t just the hot fashion must-have – it could teach us about consumption and waste. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29440887&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.quantamagazine.org/quantum-simulators-create-a-totally-new-phase-of-matter-20211202/?utm_source=bengtan.com/interesting-things/034&#34;&gt;Quantum Simulators Create a Totally New Phase of Matter&lt;/a&gt;&lt;/strong&gt; — A goal of quantum computing has been to recreate bizarre quantum systems that can’t be studied in an ordinary computer. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29429724&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;society&#34;&gt;#society&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://longreads.com/2021/12/01/debt-demands-a-body/?utm_source=bengtan.com/interesting-things/034&#34;&gt;Debt Demands a Body&lt;/a&gt;&lt;/strong&gt; — The future that debt chose for me, indeed the future it chooses for many people, included a lot of shame, confusion, and pain. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29436165&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://cheapskatesguide.org/articles/techno-clutter-farnell.html?utm_source=bengtan.com/interesting-things/034&#34;&gt;Is techno-clutter ruining your life?&lt;/a&gt;&lt;/strong&gt; — An article on techo-hoarding, why it exists, and why it is a class issue. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29428306&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://sunderji.substack.com/p/the-difference-between-hamilton-and?utm_source=bengtan.com/interesting-things/034&#34;&gt;The Difference between Hamilton and Healthcare&lt;/a&gt;&lt;/strong&gt; — Why are healthcare and education so expensive? (&lt;a href=&#34;https://news.ycombinator.com/item?id=29434783&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.washingtonpost.com/technology/2021/12/02/twitch-loltyler1-tyler-steinkamp/?utm_source=bengtan.com/interesting-things/034&#34;&gt;Up all night with a Twitch millionaire: The loneliness and rage of the Internet’s new rock stars&lt;/a&gt;&lt;/strong&gt; — Ten hours a day, streamers are broadcasting lives of obsession and wealth for an unforgiving crowd. How long can any of them last? (&lt;a href=&#34;https://news.ycombinator.com/item?id=29442063&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;end&#34;&gt;#end&lt;/h2&gt;
+&lt;p&gt;If you liked these stories, please share them (or this newsletter) with your friends. I would appreciate it if you help me spread the word. 🙏&lt;/p&gt;
+&lt;p&gt;Enjoy your reading and have a good day,
+Beng&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://bengtan.com/images/portrait-40.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 
         
       </description>
