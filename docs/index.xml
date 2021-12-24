@@ -6,18 +6,69 @@
     <description>Recent content in Recent Posts on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Fri, 17 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Interesting Things #35 — Virtual Femto</title>
-      <link>https://bengtan.com/interesting-things/035-private/</link>
-      <pubDate>Fri, 17 Dec 2021 00:00:00 +0000</pubDate>
+      <title>Interesting Things #36 — Merry Christmas</title>
+      <link>https://bengtan.com/interesting-things/036-private/</link>
+      <pubDate>Fri, 24 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://bengtan.com/interesting-things/035-private/</guid>
+      <guid>https://bengtan.com/interesting-things/036-private/</guid>
       <description>
         
           &lt;p&gt;The lastest issue of &lt;strong&gt;Interesting Things&lt;/strong&gt; is subscriber-only. Please come back in a few days time.&lt;/p&gt;
 &lt;p&gt;If you don&amp;rsquo;t want to wait, &lt;a href=&#34;https://bengtan.com/newsletter&#34;&gt;subscribe&lt;/a&gt; to get it in your inbox now!&lt;/p&gt;
 &lt;p&gt;Look at some &lt;a href=&#34;https://bengtan.com/interesting-things&#34;&gt;older issues&lt;/a&gt;.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Interesting Things #35 — Virtual Femto</title>
+      <link>https://bengtan.com/interesting-things/035/</link>
+      <pubDate>Fri, 17 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bengtan.com/interesting-things/035/</guid>
+      <description>
+        
+          &lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;This is &lt;a href=&#34;https://bengtan.com/about/&#34;&gt;Beng Tan&lt;/a&gt; and welcome to &lt;strong&gt;Interesting Things&lt;/strong&gt;, a curation of interesting stories and links from tech, work, biz, science and society.&lt;/p&gt;
+&lt;p&gt;Happy reading!&lt;/p&gt;
+&lt;h2 id=&#34;tech&#34;&gt;#tech&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://benedikt-bitterli.me/femto.html?utm_source=bengtan.com/interesting-things/035&#34;&gt;Virtual Femto Photography&lt;/a&gt;&lt;/strong&gt; — In most of Computer Graphics, light speed is assumed to be infinite. What happens when we remove this assumption? (&lt;a href=&#34;https://news.ycombinator.com/item?id=29521333&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://letterstoanewdeveloper.com/2021/01/25/how-to-criticize-code/?utm_source=bengtan.com/interesting-things/035&#34;&gt;How to criticize code&lt;/a&gt;&lt;/strong&gt; — Similar to learning how to edit other’s essays, you must learn how to critique team member’s programming. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29517856&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://snarky.ca/a-reverse-chronology-of-some-python-features/?utm_source=bengtan.com/interesting-things/035&#34;&gt;A reverse chronology of some Python features&lt;/a&gt;&lt;/strong&gt; — What a lot of people don&amp;rsquo;t realize is that various features are interconnected in ways that may not be obvious. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29517198&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://fettblog.eu/typescript-function-overload/?utm_source=bengtan.com/interesting-things/035&#34;&gt;TypeScript: The humble function overload&lt;/a&gt;&lt;/strong&gt; — Function overloads are still very useful and, for a lot of scenarios, the way to go. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29517270&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://phys.org/news/2021-12-scientists-grass-leaf-conundrum.html?utm_source=bengtan.com/interesting-things/035&#34;&gt;Scientists solve the grass leaf conundrum&lt;/a&gt;&lt;/strong&gt; — The mystery of grass leaf formation has now been unraveled using the latest computational modeling and developmental genetic techniques. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29506319&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://arstechnica.com/science/2021/12/the-remarkable-history-of-the-hand-cranked-curta-mechanical-calculator/?utm_source=bengtan.com/interesting-things/035&#34;&gt;The hand-cranked calculator invented by a Nazi concentration camp prisoner&lt;/a&gt;&lt;/strong&gt; — For two decades, the Curta was the best portable calculator in the world. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29522817&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://arstechnica.com/information-technology/2021/12/malicious-packages-sneaked-into-npm-repository-stole-discord-tokens/?utm_source=bengtan.com/interesting-things/035&#34;&gt;Malicious NPM packages are part of a malware “barrage” hitting repositories&lt;/a&gt;&lt;/strong&gt; — People trust repositories. This makes them the perfect vectors for malware. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29515491&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.dbrgn.ch/2021/11/16/git-ssh-signatures/?utm_source=bengtan.com/interesting-things/035&#34;&gt;Signing Git Commits with SSH Keys&lt;/a&gt;&lt;/strong&gt; (Nov 2021) — The release notes for git 2.34.0 mention support for signing commits and tags with something other than a PGP key. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29521921&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;work&#34;&gt;#work&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.economist.com/business/2021/11/20/the-business-phrasebook?utm_source=bengtan.com/interesting-things/035&#34;&gt;The business phrasebook&lt;/a&gt;&lt;/strong&gt; (Nov 2021) — A short guide to what your colleagues really mean. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29518095&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://matheusfacure.github.io//2021/08/31/why-i-am-not-a-manager/?utm_source=bengtan.com/interesting-things/035&#34;&gt;Why I&amp;rsquo;m Not a Manager&lt;/a&gt;&lt;/strong&gt; (Oct 2021) — On transitioning back to an Individual Contributor. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29518791&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;business&#34;&gt;#business&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.wired.com/story/gig-economy-european-commission-law/?utm_source=bengtan.com/interesting-things/035&#34;&gt;The Gig Economy’s Days in Europe Are Numbered&lt;/a&gt;&lt;/strong&gt; — Court cases and a new draft law are chipping away at the controversial industry. What comes next may look very different. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29515054&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://devblogs.microsoft.com/oldnewthing/20211123-05/?p=105954&amp;amp;utm_source=bengtan.com/interesting-things/035&#34;&gt;Every business process secretly wants to fail&lt;/a&gt;&lt;/strong&gt; (Nov 2021) — It just doesn’t know it yet. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29521570&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.bvp.com/atlas/scaling-to-100-million?utm_source=bengtan.com/interesting-things/035&#34;&gt;Scaling to $100 Million&lt;/a&gt;&lt;/strong&gt; (Sept 2021) — Benchmarks on how cloud companies grow and scale to $100 million in ARR (and beyond). (&lt;a href=&#34;https://news.ycombinator.com/item?id=29520733&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://foundercollective.medium.com/dont-overdose-on-vc-lessons-from-166-startup-ipos-c94f3c178dfe?utm_source=bengtan.com/interesting-things/035&#34;&gt;Don’t Overdose on VC: Lessons from 166 startup IPOs&lt;/a&gt;&lt;/strong&gt; — Capital has historically been vastly overrated as a predictor of startup success. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29528074&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;science&#34;&gt;#science&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://neurosciencenews.com/human-memory-formation-19757/?utm_source=bengtan.com/interesting-things/035&#34;&gt;Study Find First in Human Evidence of How Memories Form&lt;/a&gt;&lt;/strong&gt; — Researchers have identified the characteristics that play a key role in how memories are recalled in the brain. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29521282&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.nytimes.com/2021/12/10/nyregion/oysters-new-york-hudson-river.html?utm_source=bengtan.com/interesting-things/035&#34;&gt;11 Million New Oysters in New York Harbor (but None for You to Eat)&lt;/a&gt;&lt;/strong&gt; — They are helping to filter the water and creating habitats for other marine life. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29511571&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://interestingengineering.com/chinas-new-hypersonic-aircraft-is-based-on-a-rejected-nasa-design?utm_source=bengtan.com/interesting-things/035&#34;&gt;China&amp;rsquo;s New Hypersonic Aircraft Is Based on a Rejected NASA Design&lt;/a&gt;&lt;/strong&gt; — And it can go faster than five times the speed of sound. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29517415&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.haaretz.com/israel-news/MAGAZINE-a-simple-israeli-invention-could-help-2-5-billion-people-and-nasa-1.10452996?utm_source=bengtan.com/interesting-things/035&#34;&gt;A Simple Israeli Invention Could Help 2.5 Billion People – and NASA&lt;/a&gt;&lt;/strong&gt; — There are 2.5 billion people in the world who need glasses but have no access to them. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29523583&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://phys.org/news/2021-12-physicists-special-transverse.html?utm_source=bengtan.com/interesting-things/035&#34;&gt;Physicists discover special transverse sound wave&lt;/a&gt;&lt;/strong&gt; — The findings shattered scientists&#39; previous beliefs about sound waves. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29521108&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;society&#34;&gt;#society&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.espn.com/chess/story/_/id/32840390/magnus-carlsen-world-champion-best-chess-player?utm_source=bengtan.com/interesting-things/035&#34;&gt;Anatomy of a GOAT: What makes Magnus Carlsen the world&amp;rsquo;s best chess player&lt;/a&gt;&lt;/strong&gt; — Unpredictability and flexibility are his two most striking qualities. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29518434&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.psychologytoday.com/us/blog/the-well-being-toolkit/202112/how-make-difficult-conversations-more-effective?utm_source=bengtan.com/interesting-things/035&#34;&gt;How to Make Difficult Conversations More Effective&lt;/a&gt;&lt;/strong&gt; —  Simple but powerful strategies for improving communication in relationships. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29513189&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.science.org/content/article/edison-was-right-waking-right-after-drifting-sleep-can-boost-creativity?utm_source=bengtan.com/interesting-things/035&#34;&gt;Edison was right: Waking up right after drifting off to sleep can boost creativity&lt;/a&gt;&lt;/strong&gt; — The state between wakefulness and sleep is a sweet spot for problem-solving. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29509144&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.bbc.co.uk/news/technology-59596267?utm_source=bengtan.com/interesting-things/035&#34;&gt;Football fans spending millions on club crypto-tokens&lt;/a&gt;&lt;/strong&gt; — Supporters have spent at least £260m on controversial fan tokens from major clubs. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29508133&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.nytimes.com/2021/06/08/dining/mre-meals-ready-to-eat.html?utm_source=bengtan.com/interesting-things/035&#34;&gt;Unloved by Generations of Soldiers, the M.R.E. Finds a Fan Base&lt;/a&gt;&lt;/strong&gt; (Jun 2021) — Rations have gotten (somewhat) better and become objects of fascination for millions of civilians. (&lt;a href=&#34;https://news.ycombinator.com/item?id=28577402&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://perell.com/essay/against-3x-speed/?utm_source=bengtan.com/interesting-things/035&#34;&gt;Against 3X Speed&lt;/a&gt;&lt;/strong&gt; (Oct 2021) — It’s okay to not know everything. The world rewards people who develop expertise through direct experience and deliberate reflection. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29511348&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;end&#34;&gt;#end&lt;/h2&gt;
+&lt;p&gt;If you liked these stories, please share them (or this newsletter) with your friends. I would appreciate it if you help me spread the word. 🙏&lt;/p&gt;
+&lt;p&gt;Enjoy your reading and have a good day,
+Beng&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://bengtan.com/images/portrait-40.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 
         
       </description>
