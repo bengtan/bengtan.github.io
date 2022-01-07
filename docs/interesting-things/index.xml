@@ -6,18 +6,64 @@
     <description>Recent content in Interesting Things on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Fri, 31 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/interesting-things/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/interesting-things/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Interesting Things #37 — Happy New Year</title>
-      <link>https://bengtan.com/interesting-things/037-private/</link>
-      <pubDate>Fri, 31 Dec 2021 00:00:00 +0000</pubDate>
+      <title>Interesting Things #38 — SSRF</title>
+      <link>https://bengtan.com/interesting-things/038-private/</link>
+      <pubDate>Fri, 07 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://bengtan.com/interesting-things/037-private/</guid>
+      <guid>https://bengtan.com/interesting-things/038-private/</guid>
       <description>
         
           &lt;p&gt;The lastest issue of &lt;strong&gt;Interesting Things&lt;/strong&gt; is subscriber-only. Please come back in a few days time.&lt;/p&gt;
 &lt;p&gt;If you don&amp;rsquo;t want to wait, &lt;a href=&#34;https://bengtan.com/newsletter&#34;&gt;subscribe&lt;/a&gt; to get it in your inbox now!&lt;/p&gt;
 &lt;p&gt;Look at some &lt;a href=&#34;https://bengtan.com/interesting-things&#34;&gt;older issues&lt;/a&gt;.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Interesting Things #37 — Happy New Year</title>
+      <link>https://bengtan.com/interesting-things/037/</link>
+      <pubDate>Fri, 31 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://bengtan.com/interesting-things/037/</guid>
+      <description>
+        
+          &lt;p&gt;Happy New Year!&lt;/p&gt;
+&lt;p&gt;This is &lt;a href=&#34;https://bengtan.com/about/&#34;&gt;Beng Tan&lt;/a&gt; and welcome to &lt;strong&gt;Interesting Things&lt;/strong&gt;, a curation of interesting stories and links from tech, work, biz, science and society.&lt;/p&gt;
+&lt;p&gt;Happy holiday reading!&lt;/p&gt;
+&lt;h2 id=&#34;tech&#34;&gt;#tech&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://concurrencyfreaks.blogspot.com/2021/12/the-importance-of-correctness-in.html?utm_source=bengtan.com/interesting-things/037&#34;&gt;The importance of Correctness in concurrent algorithms&lt;/a&gt;&lt;/strong&gt; — Researchers prefer to spend some time writing a formal proof of correctness. In the software industry the mindset is nearly opposite. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29675083&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://tylerberbert.substack.com/p/cooperation?utm_source=bengtan.com/interesting-things/037&#34;&gt;“Cooperation Was Our Way Of Life”&lt;/a&gt;&lt;/strong&gt; — Open Source Software and the Indigenous Critique. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29627460&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://eng.uber.com/how-we-saved-70k-cores-across-30-mission-critical-services/?utm_source=bengtan.com/interesting-things/037&#34;&gt;How We Saved 70K Cores Across 30 Mission-Critical Services&lt;/a&gt;&lt;/strong&gt; — Large-scale, semi-automated Go GC tuning at Uber. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29654958&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://matt.life/writing/the-asymmetry-of-open-source?utm_source=bengtan.com/interesting-things/037&#34;&gt;The Asymmetry of Open Source&lt;/a&gt;&lt;/strong&gt; — A comprehensive guide to funding open source software projects. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29656135&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://julian.digital/2021/12/20/the-power-of-defaults/?utm_source=bengtan.com/interesting-things/037&#34;&gt;The power of defaults&lt;/a&gt;&lt;/strong&gt; — Are network effects overrated? (&lt;a href=&#34;https://news.ycombinator.com/item?id=29682581&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://edgeandnode.com/blog/defining-the-web3-stack?utm_source=bengtan.com/interesting-things/037&#34;&gt;Defining the web3 stack&lt;/a&gt;&lt;/strong&gt; — Want to build on web3? This identifies the building blocks of the web3 technology stack in an introductory guide. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29663112&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;work&#34;&gt;#work&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://somehowmanage.com/2021/10/22/not-being-a-manager-doesnt-exempt-you-from-engineering-leadership/?utm_source=bengtan.com/interesting-things/037&#34;&gt;You Don’t Have to Manage, But You Still Have to Lead&lt;/a&gt;&lt;/strong&gt; (Oct 2021) — Technical leadership is broader than management. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29681812&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;business&#34;&gt;#business&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.willmcgugan.com/blog/tech/post/from-open-source-maintainer-to-founder-ceo/?utm_source=bengtan.com/interesting-things/037&#34;&gt;From Open Source maintainer to Founder / CEO&lt;/a&gt;&lt;/strong&gt; — I can finally justify all those evenings and weekends working on FOSS. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29678328&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://archive.md/NBYHr?utm_source=bengtan.com/interesting-things/037&#34;&gt;How Shopify Outfoxed Amazon to Become the Everywhere Store&lt;/a&gt;&lt;/strong&gt; — How long can it keep going? (&lt;a href=&#34;https://news.ycombinator.com/item?id=29660980&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;science&#34;&gt;#science&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://interestingengineering.com/cuttlefish-like-robots-are-far-more-efficient-than-propeller-powered-machines?utm_source=bengtan.com/interesting-things/037&#34;&gt;Cuttlefish-Like Robots Are Far More Efficient Than Propeller-Powered Machines&lt;/a&gt;&lt;/strong&gt; — And they could soon help to explore the deep sea with their fins. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29676949&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.economist.com/christmas-specials/2021/12/18/the-rise-and-rise-of-corrugated-iron?utm_source=bengtan.com/interesting-things/037&#34;&gt;The rise and rise of corrugated iron&lt;/a&gt;&lt;/strong&gt; — The past and present of an unfairly ignored building material. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29679709&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.usatoday.com/story/news/world/2021/12/20/mars-water-under-grand-canyon/8962396002/?utm_source=bengtan.com/interesting-things/037&#34;&gt;Orbiter discovers &amp;lsquo;significant amounts of water&amp;rsquo; in Grand Canyon-like area of Mars&lt;/a&gt;&lt;/strong&gt; — An orbiter from the European Space Agency detected an area of water about the size of the Netherlands underneath Mars&#39; surface. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29677429&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.quantamagazine.org/the-year-in-math-and-computer-science-20211223/?utm_source=bengtan.com/interesting-things/037&#34;&gt;The Year in Math and Computer Science&lt;/a&gt;&lt;/strong&gt; — Mathematicians and computer scientists answered major questions in topology, set theory and physics. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29700129&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://scottlocklin.wordpress.com/2021/12/19/biological-anomalies/?utm_source=bengtan.com/interesting-things/037&#34;&gt;Biological anomalies&lt;/a&gt;&lt;/strong&gt; — Biology is filled with weird things. Let&amp;rsquo;s examine some of the anomalies associated with it. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29681697&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;society&#34;&gt;#society&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.bbc.com/future/article/20190418-how-and-why-did-religion-evolve?utm_source=bengtan.com/interesting-things/037&#34;&gt;How and why did religion evolve?&lt;/a&gt;&lt;/strong&gt; — Humanity’s most puzzling behaviour has deep roots in our evolutionary past. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29677167&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://theconversation.com/got-zoom-fatigue-out-of-sync-brainwaves-could-be-another-reason-videoconferencing-is-such-a-drag-172380?utm_source=bengtan.com/interesting-things/037&#34;&gt;Got Zoom fatigue? Out-of-sync brainwaves could be another reason videoconferencing is such a drag&lt;/a&gt;&lt;/strong&gt; — Rhythms of your brain get in sync with the speech patterns of the person you’re conversing with. Videoconferencing throws off that syncing process. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29686313&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.visualcapitalist.com/visualizing-the-94-trillion-world-economy-in-one-chart/?utm_source=bengtan.com/interesting-things/037&#34;&gt;Visualizing the $94 Trillion World Economy in One Chart&lt;/a&gt;&lt;/strong&gt; — Which countries and regions contribute the most to the world economy? (&lt;a href=&#34;https://news.ycombinator.com/item?id=29679022&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://arstechnica.com/features/2021/12/the-secret-uganda-deal-that-has-brought-nso-to-the-brink-of-collapse/?utm_source=bengtan.com/interesting-things/037&#34;&gt;The secret Uganda deal that has brought NSO to the brink of collapse&lt;/a&gt;&lt;/strong&gt; — Things changed once US diplomats in Uganda got hacked by Pegasus.&lt;/p&gt;
+&lt;h2 id=&#34;random&#34;&gt;#random&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://amycastor.com/2021/12/22/review-bitcoin-widow-by-jennifer-robertson/?utm_source=bengtan.com/interesting-things/037&#34;&gt;Review: ‘Bitcoin Widow,’ by Jennifer Robertson (QuadrigaCX)&lt;/a&gt;&lt;/strong&gt; — A large cryptocurrency exchange collapsed after it&amp;rsquo;s founder died under bizarre circumstances. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29675421&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;end&#34;&gt;#end&lt;/h2&gt;
+&lt;p&gt;If you liked these stories, please share them (or this newsletter) with your friends. I would appreciate it if you help me spread the word. 🙏&lt;/p&gt;
+&lt;p&gt;Enjoy your reading and have a good day,
+Beng&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://bengtan.com/images/portrait-40.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 
         
       </description>
