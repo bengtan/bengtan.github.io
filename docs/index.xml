@@ -6,18 +6,65 @@
     <description>Recent content in Recent Posts on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Fri, 07 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Interesting Things #38 — SSRF</title>
-      <link>https://bengtan.com/interesting-things/038-private/</link>
-      <pubDate>Fri, 07 Jan 2022 00:00:00 +0000</pubDate>
+      <title>Interesting Things #39 — Random thoughts</title>
+      <link>https://bengtan.com/interesting-things/039-private/</link>
+      <pubDate>Fri, 14 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://bengtan.com/interesting-things/038-private/</guid>
+      <guid>https://bengtan.com/interesting-things/039-private/</guid>
       <description>
         
           &lt;p&gt;The lastest issue of &lt;strong&gt;Interesting Things&lt;/strong&gt; is subscriber-only. Please come back in a few days time.&lt;/p&gt;
 &lt;p&gt;If you don&amp;rsquo;t want to wait, &lt;a href=&#34;https://bengtan.com/newsletter&#34;&gt;subscribe&lt;/a&gt; to get it in your inbox now!&lt;/p&gt;
 &lt;p&gt;Look at some &lt;a href=&#34;https://bengtan.com/interesting-things&#34;&gt;older issues&lt;/a&gt;.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Interesting Things #38 — SSRF</title>
+      <link>https://bengtan.com/interesting-things/038/</link>
+      <pubDate>Fri, 07 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bengtan.com/interesting-things/038/</guid>
+      <description>
+        
+          &lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;This is &lt;a href=&#34;https://bengtan.com/about/&#34;&gt;Beng Tan&lt;/a&gt; and welcome to &lt;strong&gt;Interesting Things&lt;/strong&gt;, a curation of interesting stories and links from tech, work, biz, science and society.&lt;/p&gt;
+&lt;p&gt;Happy reading!&lt;/p&gt;
+&lt;h2 id=&#34;2022&#34;&gt;#2022&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://matt-rickard.com/2022-predictions/?utm_source=bengtan.com/interesting-things/038&#34;&gt;2022 Predictions&lt;/a&gt;&lt;/strong&gt; — How do I become a better decision maker? (&lt;a href=&#34;https://news.ycombinator.com/item?id=29760026&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.cloudflare.com/predictions-for-2022/?utm_source=bengtan.com/interesting-things/038&#34;&gt;Looking Forward: Some Predictions for 2022&lt;/a&gt;&lt;/strong&gt; — As we approach the end of the year, let&amp;rsquo;s look ahead at some trends and predictions for 2022. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29755736&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://rootsofprogress.org/2021-in-review?utm_source=bengtan.com/interesting-things/038&#34;&gt;2021 in review&lt;/a&gt;&lt;/strong&gt; — What I read, wrote, said and did this year. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29756357&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;tech&#34;&gt;#tech&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://bugs.xdavidhu.me/google/2021/12/31/fixing-the-unfixable-story-of-a-google-cloud-ssrf/?utm_source=bengtan.com/interesting-things/038&#34;&gt;Fixing the Unfixable: Story of a Google Cloud SSRF&lt;/a&gt;&lt;/strong&gt; — What came after reporting the issue was just as instructive as the bug itself. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29758450&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://medium.com/bigpanda-engineering/what-is-engineering-enablement-b5293a5838ce?utm_source=bengtan.com/interesting-things/038&#34;&gt;What is Engineering Enablement?&lt;/a&gt;&lt;/strong&gt; — A new title that provides a more accurate description of a role or team that is already available in many organizations. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29751143&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://explainextended.com/2021/12/31/happy-new-year-13/?utm_source=bengtan.com/interesting-things/038&#34;&gt;How to emulate a quantum computer using PostgreSQL&lt;/a&gt;&lt;/strong&gt; —  What we really need to know about emulating a quantum computer, is that it&amp;rsquo;s all about matrix multiplication. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29758289&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://spectrum.ieee.org/deep-learning-cant-be-trusted?utm_source=bengtan.com/interesting-things/038&#34;&gt;Deep Learning Can’t be Trusted Brain Modelling Pioneer Says&lt;/a&gt;&lt;/strong&gt; — Deep learning is untrustworthy because it is not explainable and can experience catastrophic forgetting. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29761156&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://utcc.utoronto.ca/~cks/space/blog/tech/LargeOpenSourceMovingOrDead?utm_source=bengtan.com/interesting-things/038&#34;&gt;A thesis: large, significant open source projects must keep moving or die&lt;/a&gt;&lt;/strong&gt; — They need to be moving forward in order to attract and keep the developers who will do the necessary work of fixing bugs. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29748105&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://alinpanaitiu.com/blog/apps-outside-app-store/?utm_source=bengtan.com/interesting-things/038&#34;&gt;Why aren&amp;rsquo;t the most useful Mac apps on the App Store?&lt;/a&gt;&lt;/strong&gt; (Dec 2021) — A case study into developing an app for the Mac App Store, and all the limitations I ran into while doing that. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29749045&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blogs.gnome.org/alexm/2021/12/31/libadwaita-1-0/?utm_source=bengtan.com/interesting-things/038&#34;&gt;Libadwaita 1.0&lt;/a&gt;&lt;/strong&gt; — Libadwaita is a GTK 4 library implementing the GNOME HIG, complementing GTK. Version 1.0 has been released just at the end of the year. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29748614&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;work&#34;&gt;#work&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://archive.fo/zAPGx?utm_source=bengtan.com/interesting-things/038&#34;&gt;A memo from the boss on apology inflation&lt;/a&gt;&lt;/strong&gt; — The sources of sorry. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29775966&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://nymag.com/intelligencer/2021/12/good-bye-goldman-sachs.html?utm_source=bengtan.com/interesting-things/038&#34;&gt;Good-bye, Goldman Sachs&lt;/a&gt;&lt;/strong&gt; — Getting a job there was a dream. The pandemic changed my perspective. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29753319&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;business&#34;&gt;#business&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.opinionx.co/99-problems&#34;&gt;99 [Startup] Problems&lt;/a&gt;&lt;/strong&gt; — The initial problems that inspired the biggest companies in technology. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29752742&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.telegraph.co.uk/money/consumer-affairs/make-millions-buying-abandoned-shipping-containers-selling-contents/?utm_source=bengtan.com/interesting-things/038&#34;&gt;I make a fortune buying up abandoned shipping containers&lt;/a&gt;&lt;/strong&gt; —  There&amp;rsquo;s even a goldmine in a box of 50,000 faulty breast implants. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29750285&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;science&#34;&gt;#science&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://archive.is/HblPy?utm_source=bengtan.com/interesting-things/038&#34;&gt;Did a Cuttlefish Write This?&lt;/a&gt;&lt;/strong&gt; (Jul 2021) — Scientists are making the case that cuttlefish hold the key to unlocking evolutionary secrets about intelligence. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29761422&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://nautil.us/issue/111/spotlight/the-country-gentleman-of-physics?utm_source=bengtan.com/interesting-things/038&#34;&gt;The Country Gentleman of Physics&lt;/a&gt;&lt;/strong&gt; —  Julian Barbour’s ideas about time and the universe have always roamed free of academia. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29758767&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.theguardian.com/science/2021/oct/30/burn-baby-burn-the-new-science-of-metabolism?utm_source=bengtan.com/interesting-things/038&#34;&gt;Burn, baby, burn: the new science of metabolism&lt;/a&gt;&lt;/strong&gt; (Oct 2021) — Losing weight may be tough, but keeping it off is tougher. Just not for the reasons you might think. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29758464&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;society&#34;&gt;#society&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.nytimes.com/2021/12/31/business/china-internet-police-twitter.html?utm_source=bengtan.com/interesting-things/038&#34;&gt;A Digital Manhunt: How Chinese Police Track Critics on Twitter and Facebook&lt;/a&gt;&lt;/strong&gt; — Authorities in China have turned to sophisticated investigative software to track and silence obscure critics on overseas social media. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29753037&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.theguardian.com/lifeandstyle/2022/jan/01/marginal-gains-100-ways-to-improve-your-life-without-really-trying?utm_source=bengtan.com/interesting-things/038&#34;&gt;100 ways to slightly improve your life without really trying&lt;/a&gt;&lt;/strong&gt; (&lt;a href=&#34;https://news.ycombinator.com/item?id=29757891&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://archive.fo/H5Edh?utm_source=bengtan.com/interesting-things/038&#34;&gt;A Neuroscientist Prepares for Death&lt;/a&gt;&lt;/strong&gt; — Lessons my terminal cancer has taught me about the mind. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29752039&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;end&#34;&gt;#end&lt;/h2&gt;
+&lt;p&gt;If you liked these stories, please share them (or this newsletter) with your friends. I would appreciate it if you help me spread the word. 🙏&lt;/p&gt;
+&lt;p&gt;Enjoy your reading and have a good day,
+Beng&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://bengtan.com/images/portrait-40.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 
         
       </description>
