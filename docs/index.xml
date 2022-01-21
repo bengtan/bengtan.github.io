@@ -6,18 +6,67 @@
     <description>Recent content in Recent Posts on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Fri, 14 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Interesting Things #39 — Random thoughts</title>
-      <link>https://bengtan.com/interesting-things/039-private/</link>
-      <pubDate>Fri, 14 Jan 2022 00:00:00 +0000</pubDate>
+      <title>Interesting Things #40 — Fantastic Symbols</title>
+      <link>https://bengtan.com/interesting-things/040-private/</link>
+      <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://bengtan.com/interesting-things/039-private/</guid>
+      <guid>https://bengtan.com/interesting-things/040-private/</guid>
       <description>
         
           &lt;p&gt;The lastest issue of &lt;strong&gt;Interesting Things&lt;/strong&gt; is subscriber-only. Please come back in a few days time.&lt;/p&gt;
 &lt;p&gt;If you don&amp;rsquo;t want to wait, &lt;a href=&#34;https://bengtan.com/newsletter&#34;&gt;subscribe&lt;/a&gt; to get it in your inbox now!&lt;/p&gt;
 &lt;p&gt;Look at some &lt;a href=&#34;https://bengtan.com/interesting-things&#34;&gt;older issues&lt;/a&gt;.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Interesting Things #39 — Random thoughts</title>
+      <link>https://bengtan.com/interesting-things/039/</link>
+      <pubDate>Fri, 14 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bengtan.com/interesting-things/039/</guid>
+      <description>
+        
+          &lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;This is &lt;a href=&#34;https://bengtan.com/about/&#34;&gt;Beng Tan&lt;/a&gt; and welcome to &lt;strong&gt;Interesting Things&lt;/strong&gt;, a curation of interesting stories and links from tech, work, biz, science and society.&lt;/p&gt;
+&lt;p&gt;Happy reading!&lt;/p&gt;
+&lt;h2 id=&#34;tech&#34;&gt;#tech&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.bit-101.com/blog/2022/01/letting-go-of-random/?utm_source=bengtan.com/interesting-things/039&#34;&gt;Letting Go of Random&lt;/a&gt;&lt;/strong&gt; — What is a good use of random and what is not? (&lt;a href=&#34;https://news.ycombinator.com/item?id=29854166&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://nolanlawson.com/2022/01/05/memory-leaks-the-forgotten-side-of-web-performance/?utm_source=bengtan.com/interesting-things/039&#34;&gt;Memory leaks: the forgotten side of web performance&lt;/a&gt;&lt;/strong&gt; —  If a web app leaks 5 MB on every interaction, but it still works and nobody notices, then does it matter? (&lt;a href=&#34;https://news.ycombinator.com/item?id=29821899&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://flailingmonkey.com/why-i-switched-from-firefox-to-brave-after-21-years/?utm_source=bengtan.com/interesting-things/039&#34;&gt;Why I Switched From Firefox to Brave After 21 Years&lt;/a&gt;&lt;/strong&gt; — I was amazed to see a browser that did all of the things that I had suggested that Firefox should do. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29846732&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://im1776.com/2022/01/07/return-to-the-text/?utm_source=bengtan.com/interesting-things/039&#34;&gt;Return to the Text&lt;/a&gt;&lt;/strong&gt; — Audiovisual fasting in a propagandized age. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29842319&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://phili.pe/posts/using-grep-for-simple-ci-tasks/?utm_source=bengtan.com/interesting-things/039&#34;&gt;Grep one-liners as CI tasks&lt;/a&gt;&lt;/strong&gt; — Leveraging grep’s exit status and output for simple code checks. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29851888&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://therecord.media/more-than-1200-phishing-toolkits-capable-of-intercepting-2fa-detected-in-the-wild/?utm_source=bengtan.com/interesting-things/039&#34;&gt;More than 1,200 phishing toolkits capable of intercepting 2FA detected in the wild&lt;/a&gt;&lt;/strong&gt; — To counter this new trend in account security protections, threat actors started adopting new tools that would allow them to bypass 2FA. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29840693&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://federicoterzi.com/blog/12-rust-tips-and-tricks-you-might-not-know-yet/?utm_source=bengtan.com/interesting-things/039&#34;&gt;12 Rust Tips and Tricks you might not know yet&lt;/a&gt;&lt;/strong&gt; — Over the past two years, I stumbled upon many useful patterns and crates that I wish I knew beforehand. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29841179&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://piotrminkowski.com/2022/01/05/useful-unknown-java-features/?utm_source=bengtan.com/interesting-things/039&#34;&gt;Useful &amp;amp; Unknown Java Features&lt;/a&gt;&lt;/strong&gt; — This article describes several useful but not very well-known features of Java like DelayQueue, Phaser or BitSet. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29852534&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://tiemoko.com/blog/diff-fuzz/?utm_source=bengtan.com/interesting-things/039&#34;&gt;Beyond the Borrow Checker: Differential Fuzzing&lt;/a&gt;&lt;/strong&gt; — Using a modern fuzzing technique to validate the high-level logic of a safe Rust library. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29838952&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.cephalopod.studio/blog/lessons-from-developing-an-app-on-the-ipad-from-start-to-finish-on-the-app-store?utm_source=bengtan.com/interesting-things/039&#34;&gt;Lessons from Developing an App on the iPad in Swift Playgrounds from Start to Finish&lt;/a&gt;&lt;/strong&gt; — Swift Playgrounds will shine mostly as a great educational and prototyping tool. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29847741&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.wired.com/story/hours-working-vr-tips/?utm_source=bengtan.com/interesting-things/039&#34;&gt;I Spent Hundreds of Hours Working in VR. Here’s What I Learned&lt;/a&gt;&lt;/strong&gt; — This is how it feels in the future: Disembodied and unaware of my surroundings. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29828545&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://write.as/matt/what-would-a-real-web3-look-like?utm_source=bengtan.com/interesting-things/039&#34;&gt;What would a real Web3 look like?&lt;/a&gt;&lt;/strong&gt; (Dec 2021) —  I started wondering what would a true iteration of the Web look like? (&lt;a href=&#34;https://news.ycombinator.com/item?id=29484542&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://lwn.net/Articles/878570/?utm_source=bengtan.com/interesting-things/039&#34;&gt;Lessons from Log4j&lt;/a&gt;&lt;/strong&gt; (Dec 2021) — The lessons from Log4j highlight some problems in the free-software ecosystem in an unambiguous way. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29848037&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://huyenchip.com/2022/01/02/real-time-machine-learning-challenges-and-solutions.html?utm_source=bengtan.com/interesting-things/039&#34;&gt;Real-time machine learning: challenges and solutions&lt;/a&gt;&lt;/strong&gt; — Solutions for online prediction and continual learning with step-by-step use cases, considerations, and technologies. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29840274&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;science&#34;&gt;#science&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://phys.org/news/2021-10-antibodies-cells-aging.html?utm_source=bengtan.com/interesting-things/039&#34;&gt;Researchers design antibodies that destroy old cells, slowing down aging&lt;/a&gt;&lt;/strong&gt; (Oct 2021) — An antibody recognizes specific proteins on the surface of aged or senescent cells and attaches itself to them. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29845575&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://arstechnica.com/science/2022/01/entangled-microwave-photons-may-give-500x-boost-to-radar/?utm_source=bengtan.com/interesting-things/039&#34;&gt;Entangled microwave photons may give 500x boost to radar&lt;/a&gt;&lt;/strong&gt; — Stretched, entangled microwave pulses are the key. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29845554&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.nytimes.com/2022/01/02/science/jim-green-nasa-mars.html?utm_source=bengtan.com/interesting-things/039&#34;&gt;NASA’s Retiring Top Scientist Says We Can Terraform Mars and Maybe Venus, Too&lt;/a&gt;&lt;/strong&gt; — Jim Green has shaped much of the space agency’s scientific inquiry for decades. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29768584&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://news.mongabay.com/2022/01/not-your-ordinary-houseplant-worlds-tallest-begonia-found-in-tibet/?utm_source=bengtan.com/interesting-things/039&#34;&gt;Not your ordinary houseplant: World’s tallest begonia found in Tibet&lt;/a&gt;&lt;/strong&gt; — When researchers found a begonia plant twice as tall as a person, they knew they had something extraordinary. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29842969&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.quantamagazine.org/qubits-can-be-as-safe-as-bits-researchers-show-20220106/?utm_source=bengtan.com/interesting-things/039&#34;&gt;Qubits Can Be as Safe as Bits, Researchers Show&lt;/a&gt;&lt;/strong&gt; — A new result shows that quantum information can theoretically be protected from errors just as well as classical information can. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29833543&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.wired.com/story/astronomers-discover-a-strange-galaxy-without-dark-matter/?utm_source=bengtan.com/interesting-things/039&#34;&gt;Astronomers Discover a Strange Galaxy Without Dark Matter&lt;/a&gt;&lt;/strong&gt; — New, high-resolution observations of a faint, fluffy galaxy suggest that dark matter’s not as ubiquitous. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29866114&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;society&#34;&gt;#society&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.thedrive.com/the-war-zone/43776/cyber-command-task-force-conducted-its-first-offensive-operation-as-defense-secretary-watched?utm_source=bengtan.com/interesting-things/039&#34;&gt;Cyber Command Task Force Conducted Its First Offensive Operation As The Secretary Of Defense Watched&lt;/a&gt;&lt;/strong&gt; — A sign of the rapidly evolving nature of warfare in the digital domain and the future importance of offensive cyber operations. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29833956&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.theatlantic.com/health/archive/2022/01/self-control-habit-new-years-resolutions/621200/?utm_source=bengtan.com/interesting-things/039&#34;&gt;You Can’t Simply Decide to Be a Different Person&lt;/a&gt;&lt;/strong&gt; — Forming new habits isn’t impossible, but it’s much easier for some people than others. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29851963&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.scotthyoung.com/blog/2022/01/04/cognitive-load-theory/?utm_source=bengtan.com/interesting-things/039&#34;&gt;Cognitive Load Theory and its Applications for Learning&lt;/a&gt;&lt;/strong&gt; — What makes learning hard? How can we make it easier? Cognitive load theory explains. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29847954&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.ipcnet.org/history-of-pepper/?utm_source=bengtan.com/interesting-things/039&#34;&gt;History of Pepper&lt;/a&gt;&lt;/strong&gt; — The most important spice in the world. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29848590&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.tastingtable.com/679061/reasons-pistachios-are-so-expensive/?utm_source=bengtan.com/interesting-things/039&#34;&gt;Reasons Pistachios Are So Expensive&lt;/a&gt;&lt;/strong&gt; — Snacking on a handful of pistachios is a delight but can be pretty expensive. There&amp;rsquo;s a very good reason though. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29852215&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;end&#34;&gt;#end&lt;/h2&gt;
+&lt;p&gt;If you liked these stories, please share them (or this newsletter) with your friends. I would appreciate it if you help me spread the word. 🙏&lt;/p&gt;
+&lt;p&gt;Enjoy your reading and have a good day,
+Beng&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://bengtan.com/images/portrait-40.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 
         
       </description>
