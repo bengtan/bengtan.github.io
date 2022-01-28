@@ -6,18 +6,71 @@
     <description>Recent content in Recent Posts on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Fri, 21 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Interesting Things #40 — Fantastic Symbols</title>
-      <link>https://bengtan.com/interesting-things/040-private/</link>
-      <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
+      <title>Interesting Things #41 — Reflexivity</title>
+      <link>https://bengtan.com/interesting-things/041-private/</link>
+      <pubDate>Fri, 28 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://bengtan.com/interesting-things/040-private/</guid>
+      <guid>https://bengtan.com/interesting-things/041-private/</guid>
       <description>
         
           &lt;p&gt;The lastest issue of &lt;strong&gt;Interesting Things&lt;/strong&gt; is subscriber-only. Please come back in a few days time.&lt;/p&gt;
 &lt;p&gt;If you don&amp;rsquo;t want to wait, &lt;a href=&#34;https://bengtan.com/newsletter&#34;&gt;subscribe&lt;/a&gt; to get it in your inbox now!&lt;/p&gt;
 &lt;p&gt;Look at some &lt;a href=&#34;https://bengtan.com/interesting-things&#34;&gt;older issues&lt;/a&gt;.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Interesting Things #40 — Fantastic Symbols</title>
+      <link>https://bengtan.com/interesting-things/040/</link>
+      <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bengtan.com/interesting-things/040/</guid>
+      <description>
+        
+          &lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;This is &lt;a href=&#34;https://bengtan.com/about/&#34;&gt;Beng Tan&lt;/a&gt; and welcome to &lt;strong&gt;Interesting Things&lt;/strong&gt;, a curation of interesting stories and links from tech, work, biz, science and society.&lt;/p&gt;
+&lt;p&gt;Happy reading!&lt;/p&gt;
+&lt;h2 id=&#34;tech&#34;&gt;#tech&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.polarsignals.com/blog/posts/2022/01/13/fantastic-symbols-and-where-to-find-them/?utm_source=bengtan.com/interesting-things/040&#34;&gt;Fantastic Symbols and Where to Find Them - Part 1&lt;/a&gt;&lt;/strong&gt; — How profillers and debuggers translate machine addresses to human-readable symbolic names. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29934878&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://protonmail.com/blog/dkim-replay-attack-breakdown/?utm_source=bengtan.com/interesting-things/040&#34;&gt;A breakdown of a DKIM replay attack&lt;/a&gt;&lt;/strong&gt; — A CTO explains a DKIM replay attack and how you can protect your domain from being impersonated. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29942900&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://fettblog.eu/how-not-to-learn-typescript/?utm_source=bengtan.com/interesting-things/040&#34;&gt;How not to learn TypeScript&lt;/a&gt;&lt;/strong&gt; — Mistakes I’ve seen people do when getting started with TypeScript. I hope they’re helpful to you! (&lt;a href=&#34;https://news.ycombinator.com/item?id=29872655&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.bleepingcomputer.com/news/security/new-intel-chips-wont-play-blu-ray-disks-due-to-sgx-deprecation/?utm_source=bengtan.com/interesting-things/040&#34;&gt;New Intel chips won&amp;rsquo;t play Blu-ray disks due to SGX deprecation&lt;/a&gt;&lt;/strong&gt; — Future PCs will be unable to playback Blu-ray disks in 4K resolution. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29937596&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://semiengineering.com/is-programmable-overhead-worth-the-cost/?utm_source=bengtan.com/interesting-things/040&#34;&gt;Is Programmable Overhead Worth The Cost?&lt;/a&gt;&lt;/strong&gt; — How much do we pay for a system to be programmable? It depends upon who you ask. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29946566&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.profgalloway.com/web3/?utm_source=bengtan.com/interesting-things/040&#34;&gt;Web3&lt;/a&gt;&lt;/strong&gt; — A hazy/vague term describing a crypto-powered internet, and a font of yogababble. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29941121&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.coinbase.com/a-simple-guide-to-the-web3-stack-785240e557f0?utm_source=bengtan.com/interesting-things/040&#34;&gt;A simple guide to the Web3 stack&lt;/a&gt;&lt;/strong&gt; — Web3 is the latest buzzword to see an uptick in interest in recent months. What does it actually mean? (&lt;a href=&#34;https://news.ycombinator.com/item?id=29930542&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://blog.pnkfx.org/blog/2022/01/10/why-i-use-a-debugger/?utm_source=bengtan.com/interesting-things/040&#34;&gt;Why I Use a Debugger&lt;/a&gt;&lt;/strong&gt; — What value am I really getting from this? (&lt;a href=&#34;https://news.ycombinator.com/item?id=29923007&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://therecord.media/hotel-chain-switches-to-chrome-os-to-recover-from-ransomware-attack/?utm_source=bengtan.com/interesting-things/040&#34;&gt;Hotel chain switches to Chrome OS to recover from ransomware attack&lt;/a&gt;&lt;/strong&gt; — The hotel fasttracked a pilot program to reuse old computers with a less-demanding OS. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29901769&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.jessesquires.com/blog/2022/01/11/on-third-party-apple-watch-apps/?utm_source=bengtan.com/interesting-things/040&#34;&gt;On third-party Apple Watch apps&lt;/a&gt;&lt;/strong&gt; — I think many apps are awful and simply don’t make sense on the watch. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29918033&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://svelte.dev/blog/accelerating-sveltes-development?utm_source=bengtan.com/interesting-things/040&#34;&gt;Accelerating Svelte&amp;rsquo;s Development&lt;/a&gt;&lt;/strong&gt; — Scaling the team, building partnerships, and growing the community. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29929369&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://lucumr.pocoo.org/2022/1/10/dependency-risk-and-funding/?utm_source=bengtan.com/interesting-things/040&#34;&gt;Dependency Risk and Funding&lt;/a&gt;&lt;/strong&gt; — The dependency discussion is now overlapped and conflated with discussions about funding and sustainability. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29948550&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;work&#34;&gt;#work&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://redmonk.com/jgovernor/2022/01/13/the-great-switch-distributed-work-first/?utm_source=bengtan.com/interesting-things/040&#34;&gt;The Great Switch: distributed work first&lt;/a&gt;&lt;/strong&gt; — The next 20-25 years is going to be the rise of distributed work. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29936565&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;business&#34;&gt;#business&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://matt-rickard.com/aws-is-not-a-dumb-pipe/?utm_source=bengtan.com/interesting-things/040&#34;&gt;AWS is Not a Dumb Pipe&lt;/a&gt;&lt;/strong&gt; — Telcos struggled with trying to build an intelligent network until they realized it was more profitable to build a dumb pipe. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29941545&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;science&#34;&gt;#science&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.chemistryworld.com/news/single-celled-marine-organism-first-to-be-found-releasing-oxygen-in-the-dark/4015029.article?utm_source=bengtan.com/interesting-things/040&#34;&gt;Single-celled marine organism first to be found releasing oxygen in the dark&lt;/a&gt;&lt;/strong&gt; — Discovery of new biological pathway in widespread archaea could transform understanding of oceans’ fertility. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29939062&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.sammobile.com/news/samsung-worlds-first-demonstrate-mram-technology-in-memory-computing/?utm_source=bengtan.com/interesting-things/040&#34;&gt;Samsung becomes the world’s first brand to demonstrate MRAM technology for in-memory computing&lt;/a&gt;&lt;/strong&gt; — Magnetoresistive Random Access Memory. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29943668&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.sciencedaily.com/releases/2021/11/211129155020.htm?utm_source=bengtan.com/interesting-things/040&#34;&gt;Team builds first living robots that can reproduce&lt;/a&gt;&lt;/strong&gt; — Scientists have discovered a new form of biological reproduction and created self-replicating living robots. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29406404&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.thedailybeast.com/super-earths-could-be-more-habitable-to-alien-life-than-earth-sized-planets-because-of-magnetic-fields?utm_source=bengtan.com/interesting-things/040&#34;&gt;The Most Habitable Alien Planets Might Be &amp;lsquo;Super-Earths&amp;rsquo;&lt;/a&gt;&lt;/strong&gt; — They’re bigger than your average Earth and they might just be better at hosting life. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29942834&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.science.org/content/article/puzzling-parkinson-s-protein-plays-essential-role-immunity?utm_source=bengtan.com/interesting-things/040&#34;&gt;Puzzling Parkinson’s protein plays essential role in immunity&lt;/a&gt;&lt;/strong&gt; — Mice without alpha synuclein can’t marshal an immune response in the gut. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29938197&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;society&#34;&gt;#society&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.erichgrunewald.com/posts/how-bad-is-qwerty-really-a-review-of-the-literature-such-as-it-is/?utm_source=bengtan.com/interesting-things/040&#34;&gt;How Bad Is QWERTY, Really? A Review of the Literature, such as It Is&lt;/a&gt;&lt;/strong&gt; — A look into the evidence on key layouts and ergonomics and productivity. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29945770&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.collaborativefund.com/blog/does-not-compute/?utm_source=bengtan.com/interesting-things/040&#34;&gt;Does Not Compute&lt;/a&gt;&lt;/strong&gt; — It can be hard to distinguish what’s happening from what you think should be happening. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29944830&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://www.philosophersbeard.org/2022/01/replace-waiters-with-qr-codes.html?utm_source=bengtan.com/interesting-things/040&#34;&gt;Replace Waiters With QR Codes&lt;/a&gt;&lt;/strong&gt; — A large number of jobs exist not because they create economic value. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29943942&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.theguardian.com/world/2022/jan/13/face-masks-make-people-look-more-attractive-study-finds?utm_source=bengtan.com/interesting-things/040&#34;&gt;Face masks make people look more attractive, study finds&lt;/a&gt;&lt;/strong&gt; — Images of men wearing a blue medical face mask perceived as being the most attractive. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29929019&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://forge.medium.com/good-decision-making-depends-on-an-archers-mindset-bee8433223ba?utm_source=bengtan.com/interesting-things/040&#34;&gt;Good Decision-Making Depends on an ‘Archer’s Mindset’&lt;/a&gt;&lt;/strong&gt; — A professional poker player’s advice for optimizing outcomes. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29943644&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://write.as/harold-lee/theres-a-phrase-going-around-that-you-should-buy-experiences-not-things?utm_source=bengtan.com/interesting-things/040&#34;&gt;Buy Things, Not Experiences&lt;/a&gt;&lt;/strong&gt; — Much of what is wrong with our modern lifestyles is, in a sense, a matter of overconsuming experiences. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29945929&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;random&#34;&gt;#random&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.cnet.com/tech/services-and-software/new-taco-bell-subscription-lets-you-snag-a-free-taco-a-day-heres-how-to-sign-up/?utm_source=bengtan.com/interesting-things/040&#34;&gt;New $10 Taco Bell subscription lets you snag a taco every day. Here&amp;rsquo;s how to sign up&lt;/a&gt;&lt;/strong&gt; — Taco As A Service. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29935406&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;end&#34;&gt;#end&lt;/h2&gt;
+&lt;p&gt;If you liked these stories, please share them (or this newsletter) with your friends. I would appreciate it if you help me spread the word. 🙏&lt;/p&gt;
+&lt;p&gt;Enjoy your reading and have a good day,
+Beng&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://bengtan.com/images/portrait-40.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 
         
       </description>
