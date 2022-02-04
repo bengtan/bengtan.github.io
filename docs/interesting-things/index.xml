@@ -6,18 +6,70 @@
     <description>Recent content in Interesting Things on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Fri, 28 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/interesting-things/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/interesting-things/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Interesting Things #41 — Reflexivity</title>
-      <link>https://bengtan.com/interesting-things/041-private/</link>
-      <pubDate>Fri, 28 Jan 2022 00:00:00 +0000</pubDate>
+      <title>Interesting Things #42 — Un-environmental</title>
+      <link>https://bengtan.com/interesting-things/042-private/</link>
+      <pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://bengtan.com/interesting-things/041-private/</guid>
+      <guid>https://bengtan.com/interesting-things/042-private/</guid>
       <description>
         
           &lt;p&gt;The lastest issue of &lt;strong&gt;Interesting Things&lt;/strong&gt; is subscriber-only. Please come back in a few days time.&lt;/p&gt;
 &lt;p&gt;If you don&amp;rsquo;t want to wait, &lt;a href=&#34;https://bengtan.com/newsletter&#34;&gt;subscribe&lt;/a&gt; to get it in your inbox now!&lt;/p&gt;
 &lt;p&gt;Look at some &lt;a href=&#34;https://bengtan.com/interesting-things&#34;&gt;older issues&lt;/a&gt;.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Interesting Things #41 — Reflexivity</title>
+      <link>https://bengtan.com/interesting-things/041/</link>
+      <pubDate>Fri, 28 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bengtan.com/interesting-things/041/</guid>
+      <description>
+        
+          &lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;This is &lt;a href=&#34;https://bengtan.com/about/&#34;&gt;Beng Tan&lt;/a&gt; and welcome to &lt;strong&gt;Interesting Things&lt;/strong&gt;, a curation of interesting stories and links from tech, work, biz, science and society.&lt;/p&gt;
+&lt;p&gt;Happy reading!&lt;/p&gt;
+&lt;h2 id=&#34;tech&#34;&gt;#tech&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.thediff.co/p/reflexivity-in-tech-returns-talent?utm_source=bengtan.com/interesting-things/041&#34;&gt;Reflexivity in Tech Returns: Talent Chasing Money Chasing Talent&lt;/a&gt;&lt;/strong&gt; — This recursive model is an important part of what&amp;rsquo;s going on in the tech sector. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30024561&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://taoofmac.com/space/blog/2022/01/21/2230?utm_source=bengtan.com/interesting-things/041&#34;&gt;Going to Go&lt;/a&gt;&lt;/strong&gt; — I’ve been thinking about what to use for rebuilding a set of personal projects and tackling a few new ones. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30030911&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.sethvargo.com/what-id-like-to-see-in-go-2/?utm_source=bengtan.com/interesting-things/041&#34;&gt;What I&amp;rsquo;d like to see in Go 2.0&lt;/a&gt;&lt;/strong&gt; — My only intent is to try and make Go the best programming language. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29960402&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://r2c.dev/blog/2022/the-best-free-open-source-supply-chain-tool-the-lockfile/?utm_source=bengtan.com/interesting-things/041&#34;&gt;The best free, open-source supply-chain security tool? The lockfile&lt;/a&gt;&lt;/strong&gt; — The best investment you can make for supply chain security. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30026954&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.testdouble.com/posts/2022-01-20-stop-paying-debts-start-maintaining-code/?utm_source=bengtan.com/interesting-things/041&#34;&gt;Stop paying tech debts, start maintaining code&lt;/a&gt;&lt;/strong&gt; — The real term we should all be talking about is maintenance. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30012967&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;work&#34;&gt;#work&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.artlapinsch.com/naming-mba/?utm_source=bengtan.com/interesting-things/041&#34;&gt;5-Minute MBA in Naming Things: The Ultimate Guide to Coming Up With Better Names&lt;/a&gt;&lt;/strong&gt; — An easily-digestible resource to take your understanding about naming from so-so to o-ho! in 5 minutes. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30035142&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://writing.kemitchell.com/2022/01/18/Payability-Form-Substance.html?utm_source=bengtan.com/interesting-things/041&#34;&gt;Payability, Form, and Substance&lt;/a&gt;&lt;/strong&gt; — If you want to get paid, you have to be payable. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29987221&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://danielmiessler.com/blog/your-value-comes-from-your-output/?utm_source=bengtan.com/interesting-things/041&#34;&gt;Your Value Comes From Your Output&lt;/a&gt;&lt;/strong&gt; — A seat at the table is earned by producing something of value. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30026363&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://restofworld.org/2022/latin-america-startup-developer-scarcity/?utm_source=bengtan.com/interesting-things/041&#34;&gt;“It’s a bloodbath”: U.S. companies are pillaging Latin America’s tech talent&lt;/a&gt;&lt;/strong&gt; — In Argentina, they make more than five times more than the average salary. In Mexico, it’s more than triple the average. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30032438&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://writing.kemitchell.com/2022/01/21/MIT-for-Noncommercial.html?utm_source=bengtan.com/interesting-things/041&#34;&gt;MIT for Noncommercial is Broken&lt;/a&gt;&lt;/strong&gt; — Use a real noncommercial software license. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30038130&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;business&#34;&gt;#business&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://medium.com/point-nine-news/9-tips-for-scaling-your-engineering-team-after-your-first-big-funding-round-6cf508c1fa77?utm_source=bengtan.com/interesting-things/041&#34;&gt;9 tips for scaling your engineering team after your first big funding round&lt;/a&gt;&lt;/strong&gt; — From someone who co-founded a company and scaled it to over 120,000 customers and 260 staff. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30022969&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.economist.com/briefing/2022/01/22/what-americas-largest-technology-firms-are-investing-in?utm_source=bengtan.com/interesting-things/041&#34;&gt;What America’s largest technology firms are investing in&lt;/a&gt;&lt;/strong&gt; — The metaverse, cars and health care. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30011210&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;science&#34;&gt;#science&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.bbc.com/future/article/20220113-why-indias-fossil-wealth-has-remained-hidden?utm_source=bengtan.com/interesting-things/041&#34;&gt;Why India&amp;rsquo;s fossil wealth has remained hidden&lt;/a&gt;&lt;/strong&gt; — India has some of the most spectacular fossils on the planet but many are just sitting in the ground. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30068667&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.nationalgeographic.com/science/article/volcanic-explosion-in-tonga-created-many-mysteries?utm_source=bengtan.com/interesting-things/041&#34;&gt;The volcanic explosion in Tonga destroyed an island—and created many mysteries&lt;/a&gt;&lt;/strong&gt; — Everything so far about this eruption is off-the-scale weird. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30029963&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.livescience.com/rare-leather-armor-found-china-burial?utm_source=bengtan.com/interesting-things/041&#34;&gt;Rare &amp;lsquo;bionic&amp;rsquo; armor discovered in 2,500-year-old China burial&lt;/a&gt;&lt;/strong&gt; — It&amp;rsquo;s only the second known ancient armor of its kind. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30026112&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://arstechnica.com/science/2022/01/physicists-have-created-everlasting-bubbles/?utm_source=bengtan.com/interesting-things/041&#34;&gt;Physicists have created “everlasting bubbles”&lt;/a&gt;&lt;/strong&gt; — One gas bubble lasted for a whopping 465 days, a world record for this type of object. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30023413&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.quantamagazine.org/symmetries-reveal-clues-about-the-holographic-universe-20220112/?utm_source=bengtan.com/interesting-things/041&#34;&gt;Symmetries Reveal Clues About the Holographic Universe&lt;/a&gt;&lt;/strong&gt; — Exploring how our universe might emerge like a hologram out of a two-dimensional sheet. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30032760&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.science.org/content/article/pill-derived-human-feces-treats-recurrent-gut-infections?utm_source=bengtan.com/interesting-things/041&#34;&gt;Pill derived from human feces treats recurrent gut infections&lt;/a&gt;&lt;/strong&gt; — Microbiome drug may soon offer an alternative to fecal transplants. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30026233&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://arstechnica.com/cars/2022/01/moving-more-with-less-freight-startup-bets-on-autonomous-electric-rail-cars/?utm_source=bengtan.com/interesting-things/041&#34;&gt;Autonomous battery-powered rail cars could steal shipments from truckers&lt;/a&gt;&lt;/strong&gt; — Advances in batteries, autonomy could extend the reach of freight railroads. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30022878&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;society&#34;&gt;#society&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://theconversation.com/meat-and-masculinity-why-some-men-just-cant-stomach-plant-based-food-174785?utm_source=bengtan.com/interesting-things/041&#34;&gt;Meat and masculinity: why some men just can’t stomach plant-based food&lt;/a&gt;&lt;/strong&gt; — Many men see meat as a core part of their identity. That could pose a stumbling block for the newly popular plant-based meat sector.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://news.harvard.edu/gazette/story/2022/01/exploring-why-some-remain-sharp-even-as-decades-roll-by/?utm_source=bengtan.com/interesting-things/041&#34;&gt;Exploring why some remain sharp even as decades roll by&lt;/a&gt;&lt;/strong&gt; — Scientists study ‘super-aging’ minds for clues to possible interventions. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30037770&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://americanconsequences.com/dan-ferris-the-number-one-secret-of-investing/?utm_source=bengtan.com/interesting-things/041&#34;&gt;The No. 1 Secret of Investing (and Life)&lt;/a&gt;&lt;/strong&gt; — Via negativa. It&amp;rsquo;s about what to avoid. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30038483&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.theguardian.com/society/2022/jan/16/id-keep-it-on-the-down-low-the-secret-life-of-a-super-recogniser?utm_source=bengtan.com/interesting-things/041&#34;&gt;‘I’d keep it on the down low’: the secret life of a super-recogniser&lt;/a&gt;&lt;/strong&gt; — Police employ them and scientists study them, but what is life like for the rare few who can never forget a face? (&lt;a href=&#34;https://news.ycombinator.com/item?id=30026538&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://theconversation.com/the-better-you-are-at-math-the-more-money-seems-to-influence-your-satisfaction-173720?utm_source=bengtan.com/interesting-things/041&#34;&gt;The better you are at math, the more money seems to influence your satisfaction&lt;/a&gt;&lt;/strong&gt; — People who are better at math are more happy when they have high incomes and less happy when they have lower incomes. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30036163&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://ofdollarsanddata.com/why-you-should-ignore-the-metagame/?utm_source=bengtan.com/interesting-things/041&#34;&gt;Why You Should Ignore the Metagame&lt;/a&gt;&lt;/strong&gt; — On finding the right games to play in life and where to focus your time and energy. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30031577&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://fakenous.net/?p=2757&amp;amp;utm_source=bengtan.com/interesting-things/041&#34;&gt;Why I Am Not a Utilitarian&lt;/a&gt;&lt;/strong&gt; — Utilitarians think you should always perform the action that produces the greatest total amount of benefit in the world. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30043921&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;end&#34;&gt;#end&lt;/h2&gt;
+&lt;p&gt;If you liked these stories, please share them (or this newsletter) with your friends. I would appreciate it if you help me spread the word. 🙏&lt;/p&gt;
+&lt;p&gt;Enjoy your reading and have a good day,
+Beng&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://bengtan.com/images/portrait-40.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 
         
       </description>
