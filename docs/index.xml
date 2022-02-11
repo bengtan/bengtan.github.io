@@ -6,18 +6,70 @@
     <description>Recent content in Recent Posts on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Fri, 04 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Interesting Things #42 — Un-environmental</title>
-      <link>https://bengtan.com/interesting-things/042-private/</link>
-      <pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
+      <title>Interesting Things #43 — EXIF Privacy</title>
+      <link>https://bengtan.com/interesting-things/043-private/</link>
+      <pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://bengtan.com/interesting-things/042-private/</guid>
+      <guid>https://bengtan.com/interesting-things/043-private/</guid>
       <description>
         
           &lt;p&gt;The lastest issue of &lt;strong&gt;Interesting Things&lt;/strong&gt; is subscriber-only. Please come back in a few days time.&lt;/p&gt;
 &lt;p&gt;If you don&amp;rsquo;t want to wait, &lt;a href=&#34;https://bengtan.com/newsletter&#34;&gt;subscribe&lt;/a&gt; to get it in your inbox now!&lt;/p&gt;
 &lt;p&gt;Look at some &lt;a href=&#34;https://bengtan.com/interesting-things&#34;&gt;older issues&lt;/a&gt;.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Interesting Things #42 — Un-environmental</title>
+      <link>https://bengtan.com/interesting-things/042/</link>
+      <pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bengtan.com/interesting-things/042/</guid>
+      <description>
+        
+          &lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;This is &lt;a href=&#34;https://bengtan.com/about/&#34;&gt;Beng Tan&lt;/a&gt; and welcome to &lt;strong&gt;Interesting Things&lt;/strong&gt;, a curation of interesting stories and links from tech, work, biz, science and society.&lt;/p&gt;
+&lt;p&gt;Happy reading!&lt;/p&gt;
+&lt;h2 id=&#34;tech&#34;&gt;#tech&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.forcesunseen.com/stop-storing-secrets-in-environment-variables?utm_source=bengtan.com/interesting-things/042&#34;&gt;Stop Storing Secrets In Environment Variables!&lt;/a&gt;&lt;/strong&gt; — Any overly-verbose information disclosure vulnerability in a dependency could smash the sand castle. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30117373&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://andrecronje.medium.com/not-so-smart-contracts-8c9ab4368d21?utm_source=bengtan.com/interesting-things/042&#34;&gt;Not so smart contracts&lt;/a&gt;&lt;/strong&gt; — Immutability and the lack of human interaction is a feature, not a bug. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30120381&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://lwn.net/SubscriberLink/882799/7523e0f3744660ec/?utm_source=bengtan.com/interesting-things/042&#34;&gt;Handling argc==0 in the kernel&lt;/a&gt;&lt;/strong&gt; — Indeed, the caller is not required to provide argv[0] at all. The first pointer in the new program&amp;rsquo;s argv array can be NULL. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30122927&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.gnupg.org/blog/20220102-a-new-future-for-gnupg.html?utm_source=bengtan.com/interesting-things/042&#34;&gt;A New Future for GnuPG&lt;/a&gt;&lt;/strong&gt; (Jan 2021) — A free implementation of OpenPGP has found a funding model. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29775420&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://kerkour.com/rust-web-application-clean-architecture/?utm_source=bengtan.com/interesting-things/042&#34;&gt;Clean and Scalable Architecture for Web Applications in Rust&lt;/a&gt;&lt;/strong&gt; — The so called “clean architecture” is too complex. I propose another approach. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30121315&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://arstechnica.com/information-technology/2022/01/booby-trapped-sites-delivered-potent-new-backdoor-trojan-to-macos-users/?utm_source=bengtan.com/interesting-things/042&#34;&gt;Booby-trapped sites delivered potent new backdoor trojan to macOS users&lt;/a&gt;&lt;/strong&gt; — Written from scratch, DazzleSpy is the latest advanced piece of Mac malware. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30078514&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://davnicwil.com/once-a-defender-always-a-defender/?utm_source=bengtan.com/interesting-things/042&#34;&gt;Once a Defender Always a Defender&lt;/a&gt;&lt;/strong&gt; — Start with a job title like &amp;lsquo;Frontend Engineer&amp;rsquo;, &amp;lsquo;Backend Engineer&amp;rsquo;, &amp;lsquo;SRE&amp;rsquo;, etc. but don&amp;rsquo;t accept that you&amp;rsquo;re now unavoidably on that track. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30121306&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;work&#34;&gt;#work&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.fastcompany.com/90715900/great-resignation-sabbatical-gap-year?utm_source=bengtan.com/interesting-things/042&#34;&gt;The Great Resignation has morphed into the Great Sabbatical&lt;/a&gt;&lt;/strong&gt; — Mid-career sabbaticals have tripled over the past four years. The gap year is losing its stigma. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30131473&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;business&#34;&gt;#business&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.productlessons.xyz//article/psychology-in-design-marketing?utm_source=bengtan.com/interesting-things/042&#34;&gt;How you can &amp;ldquo;think different&amp;rdquo;&lt;/a&gt;&lt;/strong&gt; — Psychology lessons from Instagram, Uber, Lyft and more. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29387200&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://rajko-rad.medium.com/the-rise-of-open-source-challengers-4a3d93932425?utm_source=bengtan.com/interesting-things/042&#34;&gt;The Rise of Open Source Challengers&lt;/a&gt;&lt;/strong&gt; — A look at how OSS takes over the application layer and the potential end of closed source software categories. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30115935&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://drive.google.com/file/d/1Vgk1FO_uFN6WsslYWETMNz9QhD1JEuFs/view?utm_source=bengtan.com/interesting-things/042&#34;&gt;How to execute your business ideas with no-code tools and less than $50&lt;/a&gt;&lt;/strong&gt; — A list of examples from the real-world. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30120213&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://archive.withcompound.com/uncharted-waters?utm_source=bengtan.com/interesting-things/042&#34;&gt;Uncharted Waters&lt;/a&gt;&lt;/strong&gt; — Equity is a big part of compensation at startups. However, this approach is not unique in history. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29968532&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;science&#34;&gt;#science&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.thedrive.com/the-war-zone/44054/a-chinese-satellite-just-grappled-another-and-pulled-it-out-of-orbit?utm_source=bengtan.com/interesting-things/042&#34;&gt;A Chinese Satellite Just Grappled Another And Pulled It Out Of Orbit&lt;/a&gt;&lt;/strong&gt; — The maneuver raises concerns about the potential militarization of satellites. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30139200&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://newatlas.com/technology/novel-artificial-leaf-carbon-capture-rate-100x/?utm_source=bengtan.com/interesting-things/042&#34;&gt;Novel &amp;ldquo;artificial leaf&amp;rdquo; design ups the carbon capture rate by 100x&lt;/a&gt;&lt;/strong&gt; — University of Illinois Chicago scientists have developed a new system to capture CO2. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30112377&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://archive.md/gi57Y?utm_source=bengtan.com/interesting-things/042&#34;&gt;Many of our proteins remain hidden in the dark proteome&lt;/a&gt;&lt;/strong&gt; —  Scientists want to develop new tools and methods to uncover the proteins they’ve yet to see. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30090178&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://physics.aps.org/articles/v15/s12?utm_source=bengtan.com/interesting-things/042&#34;&gt;Lizard Scale Patterns Described with Antiferromagnetic Model&lt;/a&gt;&lt;/strong&gt; — The pattern of green and black scales can be described with the two-parameter Ising model for antiferromagnetic systems. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30143375&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://theconversation.com/gut-microbes-help-hibernating-ground-squirrels-emerge-strong-and-healthy-in-spring-175610?utm_source=bengtan.com/interesting-things/042&#34;&gt;Gut microbes help hibernating ground squirrels emerge strong and healthy in spring&lt;/a&gt;&lt;/strong&gt; — New research found gut microbes help their hosts hold onto and use nitrogen to build proteins. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30114229&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.quantamagazine.org/how-the-physics-of-resonance-shapes-reality-20220126/?utm_source=bengtan.com/interesting-things/042&#34;&gt;How the Physics of Resonance Shapes Reality&lt;/a&gt;&lt;/strong&gt; — The same phenomenon by which an opera singer can shatter a wineglass also underlies the very existence of subatomic particles. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30088216&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.atlasobscura.com/articles/aurochs-rewilding?utm_source=bengtan.com/interesting-things/042&#34;&gt;The Once-Extinct Aurochs May Soon Roam Europe Again&lt;/a&gt;&lt;/strong&gt; — After a decade, scientists are getting close to bringing back the massive wild cattle. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30100593&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.quantamagazine.org/how-infinite-series-reveal-the-unity-of-mathematics-20220124/?utm_source=bengtan.com/interesting-things/042&#34;&gt;How Infinite Series Reveal the Unity of Mathematics&lt;/a&gt;&lt;/strong&gt; — Infinite sums are among the most underrated yet powerful concepts in mathematics. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30070435&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;society&#34;&gt;#society&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://jalopnik.com/california-has-no-idea-what-its-going-to-do-with-millio-1848435371?utm_source=bengtan.com/interesting-things/042&#34;&gt;California Has No Idea What Its Going To Do With Millions Of Old EV Batteries&lt;/a&gt;&lt;/strong&gt; — The governor wants millions of people to drive EVs. What happens to the batteries when they get old is another issue. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30123212&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.theguardian.com/lifeandstyle/2022/jan/28/cold-baths-cherry-juice-and-sleep-the-secret-to-staying-fit-in-your-40s?utm_source=bengtan.com/interesting-things/042&#34;&gt;Cold baths, cherry juice and sleep: the secret to staying fit in your 40s&lt;/a&gt;&lt;/strong&gt; — Despite aching backs and stiff joints, a growing number of elite athletes pushing the clock back. We ask the experts how to do it. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30114402&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.theatlantic.com/ideas/archive/2022/01/medieval-sleeping-habits-insomnia-segmented-biphasic/621372/?utm_source=bengtan.com/interesting-things/042&#34;&gt;Can Medieval Sleeping Habits Fix America’s Insomnia?&lt;/a&gt;&lt;/strong&gt; — The history of “first sleep” and “second sleep” holds surprising lessons about preindustrial life and 21st-century anxiety. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30114592&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://the-crypto-syllabus.com/yanis-varoufakis-on-techno-feudalism/?utm_source=bengtan.com/interesting-things/042&#34;&gt;Yanis Varoufakis on Crypto &amp;amp; the Left, and Techno-Feudalism&lt;/a&gt;&lt;/strong&gt; — A panoramic view of what is going at the intersection of money, macroeconomics, and the digital.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://dynomight.net/analogies/?utm_source=bengtan.com/interesting-things/042&#34;&gt;How to use analogies for good not evil&lt;/a&gt;&lt;/strong&gt; — Five proposed rules to make sure you’re using analogies for good. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30060371&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://gizmodo.com/lg-s-latest-announcement-solidifies-everything-wrong-wi-1848425315?utm_source=bengtan.com/interesting-things/042&#34;&gt;LG’s Latest Announcement Solidifies Everything Wrong With TVs&lt;/a&gt;&lt;/strong&gt; — It&amp;rsquo;s a sure sign of more ads with more targeting coming across more screens. That&amp;rsquo;s not what anyone wants. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30121958&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;end&#34;&gt;#end&lt;/h2&gt;
+&lt;p&gt;If you liked these stories, please share them (or this newsletter) with your friends. I would appreciate it if you help me spread the word. 🙏&lt;/p&gt;
+&lt;p&gt;Enjoy your reading and have a good day,
+Beng&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://bengtan.com/images/portrait-40.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 
         
       </description>
