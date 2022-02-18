@@ -6,18 +6,70 @@
     <description>Recent content in Recent Posts on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Fri, 11 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Interesting Things #43 — EXIF Privacy</title>
-      <link>https://bengtan.com/interesting-things/043-private/</link>
-      <pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate>
+      <title>Interesting Things #44 — Optimization</title>
+      <link>https://bengtan.com/interesting-things/044-private/</link>
+      <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://bengtan.com/interesting-things/043-private/</guid>
+      <guid>https://bengtan.com/interesting-things/044-private/</guid>
       <description>
         
           &lt;p&gt;The lastest issue of &lt;strong&gt;Interesting Things&lt;/strong&gt; is subscriber-only. Please come back in a few days time.&lt;/p&gt;
 &lt;p&gt;If you don&amp;rsquo;t want to wait, &lt;a href=&#34;https://bengtan.com/newsletter&#34;&gt;subscribe&lt;/a&gt; to get it in your inbox now!&lt;/p&gt;
 &lt;p&gt;Look at some &lt;a href=&#34;https://bengtan.com/interesting-things&#34;&gt;older issues&lt;/a&gt;.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Interesting Things #43 — EXIF Privacy</title>
+      <link>https://bengtan.com/interesting-things/043/</link>
+      <pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bengtan.com/interesting-things/043/</guid>
+      <description>
+        
+          &lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;This is &lt;a href=&#34;https://bengtan.com/about/&#34;&gt;Beng Tan&lt;/a&gt; and welcome to &lt;strong&gt;Interesting Things&lt;/strong&gt;, a curation of interesting stories and links from tech, work, biz, science and society.&lt;/p&gt;
+&lt;p&gt;Happy reading!&lt;/p&gt;
+&lt;h2 id=&#34;tech&#34;&gt;#tech&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.comparitech.com/blog/vpn-privacy/exif-metadata-privacy/?utm_source=bengtan.com/interesting-things/043&#34;&gt;EXIF metadata privacy: A picture is worth a thousand data points&lt;/a&gt;&lt;/strong&gt; (Oct 2021) — Are the pictures you share online posing a threat to your privacy?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://rtpg.co/2022/02/04/precision-in-technical-discussions.html?utm_source=bengtan.com/interesting-things/043&#34;&gt;Precision In Technical Discussions&lt;/a&gt;&lt;/strong&gt; — Some things that help me get precise. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30207429&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.ikkaro.com/en/best-f-droid-apps/?utm_source=bengtan.com/interesting-things/043&#34;&gt;Best F-Droid Apps&lt;/a&gt;&lt;/strong&gt; — Relevant F-Droid applications, discover the most interesting ones. I&amp;rsquo;m sure many will interest you. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30209189&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://medium.com/@capJavert/doing-100-000-push-ups-this-year-with-the-help-of-siri-605c3c8eb18f?utm_source=bengtan.com/interesting-things/043&#34;&gt;Doing 100,000 push-ups this year with the help of Siri&lt;/a&gt;&lt;/strong&gt; — When keeping track of my New Year resolution started to slow me down I decided to automate it through Siri and Shortcuts. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30205660&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.theatlantic.com/technology/archive/2022/02/future-internet-blockchain-investment-banking/621480/?utm_source=bengtan.com/interesting-things/043&#34;&gt;The Internet Is Just Investment Banking Now&lt;/a&gt;&lt;/strong&gt; —The sick, refreshing honesty of web3. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30221669&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://seirdy.one/2022/02/02/floss-security.html?utm_source=bengtan.com/interesting-things/043&#34;&gt;The right thing for the wrong reasons: FLOSS doesn&amp;rsquo;t imply security&lt;/a&gt;&lt;/strong&gt; — While source code is critical for user autonomy, it isn&amp;rsquo;t required to evaluate software security or understand run-time behavior. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30215786&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://ariadne.space/2022/02/04/how-i-wound-up-causing-a-major-outage-of-my-services-and-destroying-my-home-directory-by-accident/?utm_source=bengtan.com/interesting-things/043&#34;&gt;how I wound up causing a major outage of my services and destroying my home directory by accident&lt;/a&gt;&lt;/strong&gt; — Due to a combination of Linux mdraid bugs and a faulty SSD. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30207292&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://longwelwind.net/blog/networking-turn-based-game/?utm_source=bengtan.com/interesting-things/043&#34;&gt;Networking of a turn-based game&lt;/a&gt;&lt;/strong&gt; — If I had to develop from scratch again, I would do it using a deterministic method and only have to do it once. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30209124&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;work&#34;&gt;#work&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.bbc.co.uk/news/business-60206564?utm_source=bengtan.com/interesting-things/043&#34;&gt;Don&amp;rsquo;t ask for a big pay rise, warns Bank of England boss&lt;/a&gt;&lt;/strong&gt; — Ridiculous. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30214085&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.npr.org/2022/01/31/1076978534/the-trouble-with-passion-when-it-comes-to-your-career?utm_source=bengtan.com/interesting-things/043&#34;&gt;It&amp;rsquo;s OK to not be passionate about your job&lt;/a&gt;&lt;/strong&gt; — Passion and work often feel inextricably linked, but this favors privilege and can lead to burnout. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30219785&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;business&#34;&gt;#business&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.solipsys.co.uk/new/ThePaymentDance.html?VB04HN&amp;amp;utm_source=bengtan.com/interesting-things/043&#34;&gt;The Payment Dance&lt;/a&gt;&lt;/strong&gt; — In general, and for most people, the process is simple. Sometimes, however, there are more steps than you might think. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30206821&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://typesense.org/blog/why-we-are-not-raising-funds/?utm_source=bengtan.com/interesting-things/043&#34;&gt;To Raise VC, or Not. Choosing The Road Less Travelled.&lt;/a&gt;&lt;/strong&gt; — Monetary aspects aside, we are hesitant to raise Venture Capital for a number of reasons that I want to highlight in this post. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30192687&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;science&#34;&gt;#science&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.salk.edu/news-release/active-ingredient-in-cannabis-protects-aging-brain-cells/?utm_source=bengtan.com/interesting-things/043&#34;&gt;Active ingredient in cannabis protects aging brain cells&lt;/a&gt;&lt;/strong&gt; — Salk researchers find cannabinol preserves mitochondrial function and prevents oxidative damage to cells. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30207483&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.nature.com/articles/d41586-022-00292-3?utm_source=bengtan.com/interesting-things/043&#34;&gt;Omicron’s molecular structure could help explain its global takeover&lt;/a&gt;&lt;/strong&gt; — Multiple studies are revealing why the SARS-CoV-2 variant is so transmissible, but also seems to cause milder disease. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30206755&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.quantamagazine.org/ai-gets-a-quantum-computing-speedup-20220204/?utm_source=bengtan.com/interesting-things/043&#34;&gt;Machine Learning Gets a Quantum Speedup&lt;/a&gt;&lt;/strong&gt; — Quantum approaches can solve problems faster than classical computers, bringing physics and computer science closer together. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30207986&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.bbc.com/news/business-60066690?utm_source=bengtan.com/interesting-things/043&#34;&gt;How to store excess wind power underwater&lt;/a&gt;&lt;/strong&gt; — A Dutch company is testing an underwater system that can store excess energy from wind farms. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30216040&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.theatlantic.com/science/archive/2022/02/venus-true-color-solar-system/621460/?utm_source=bengtan.com/interesting-things/043&#34;&gt;Our Solar System in True Color Is Really Something Else&lt;/a&gt;&lt;/strong&gt; — Venus is white. So is the sun. They’re beautiful anyway. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30203144&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://theconversation.com/everything-we-see-is-a-mash-up-of-the-brains-last-15-seconds-of-visual-information-175577?utm_source=bengtan.com/interesting-things/043&#34;&gt;Everything we see is a mash-up of the brain’s last 15 seconds of visual information&lt;/a&gt;&lt;/strong&gt; — The brain is basically a time machine that ensures what we see is stable and continuous. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30159599&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://scitechdaily.com/mit-engineers-create-the-impossible-new-material-that-is-stronger-than-steel-and-as-light-as-plastic/?utm_source=bengtan.com/interesting-things/043&#34;&gt;MIT Engineers Create the “Impossible” – New Material That Is Stronger Than Steel and As Light as Plastic&lt;/a&gt;&lt;/strong&gt; — The new substance is the result of a feat thought to be impossible: polymerizing a material in two dimensions. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30207920&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.quantamagazine.org/triangles-are-easy-tetrahedra-are-hard-20220131/?utm_source=bengtan.com/interesting-things/043&#34;&gt;Why Triangles Are Easy and Tetrahedra Are Hard&lt;/a&gt;&lt;/strong&gt; — The triangle angle sum theorem makes working with triangles easy. What happens when you can’t rely on it? (&lt;a href=&#34;https://news.ycombinator.com/item?id=30206253&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;society&#34;&gt;#society&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://jezebel.com/ai-sex-chatbots-replika-abuse-problems-1848436769?utm_source=bengtan.com/interesting-things/043&#34;&gt;People Are Creating Sexbot Girlfriends and Treating Them as Punching Bags&lt;/a&gt;&lt;/strong&gt; — We’re facing a fundamental question about how we treat those we perceive to be subhuman. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30213380&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://eccentricculinary.substack.com/p/pizza-isnt-italian?utm_source=bengtan.com/interesting-things/043&#34;&gt;Pizza Isn’t Italian&lt;/a&gt;&lt;/strong&gt; — Sometimes, decades later, you realize that something that seemed mundane at the time is, in retrospect, really odd. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30208589&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://restofworld.org/2022/documents-reputation-laundering-firm-eliminalia/?utm_source=bengtan.com/interesting-things/043&#34;&gt;Exposed documents reveal how the powerful clean up their digital past using a reputation laundering firm&lt;/a&gt;&lt;/strong&gt; — Reputation firms like Eliminalia use legal threats and copyright notices to have material taken down around the world. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30205723&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.wired.com/story/germany-telegram-covid/?utm_source=bengtan.com/interesting-things/043&#34;&gt;Germany Has Picked a Fight With Telegram&lt;/a&gt;&lt;/strong&gt; — The country’s government is struggling to assert its authority over a messaging app believed to have been used to organize violent incidents. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30207008&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.bbc.co.uk/news/business-60067032?utm_source=bengtan.com/interesting-things/043&#34;&gt;The people deciding to ditch their smartphones&lt;/a&gt;&lt;/strong&gt; — In order to take back more control of their lives. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30053361&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.wired.com/story/trickbot-malware-group-internal-messages/?utm_source=bengtan.com/interesting-things/043&#34;&gt;Inside Trickbot, Russia’s Notorious Ransomware Gang&lt;/a&gt;&lt;/strong&gt; — Internal messages shed new light on the operators of one of the world&amp;rsquo;s biggest botnets. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30206244&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;end&#34;&gt;#end&lt;/h2&gt;
+&lt;p&gt;If you liked these stories, please share them (or this newsletter) with your friends. I would appreciate it if you help me spread the word. 🙏&lt;/p&gt;
+&lt;p&gt;Enjoy your reading and have a good day,
+Beng&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://bengtan.com/images/portrait-40.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 
         
       </description>
