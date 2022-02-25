@@ -6,18 +6,69 @@
     <description>Recent content in Recent Posts on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Fri, 18 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Interesting Things #44 — Optimization</title>
-      <link>https://bengtan.com/interesting-things/044-private/</link>
-      <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
+      <title>Interesting Things #45 — Synthetic AI</title>
+      <link>https://bengtan.com/interesting-things/045-private/</link>
+      <pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://bengtan.com/interesting-things/044-private/</guid>
+      <guid>https://bengtan.com/interesting-things/045-private/</guid>
       <description>
         
           &lt;p&gt;The lastest issue of &lt;strong&gt;Interesting Things&lt;/strong&gt; is subscriber-only. Please come back in a few days time.&lt;/p&gt;
 &lt;p&gt;If you don&amp;rsquo;t want to wait, &lt;a href=&#34;https://bengtan.com/newsletter&#34;&gt;subscribe&lt;/a&gt; to get it in your inbox now!&lt;/p&gt;
 &lt;p&gt;Look at some &lt;a href=&#34;https://bengtan.com/interesting-things&#34;&gt;older issues&lt;/a&gt;.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Interesting Things #44 — Optimization</title>
+      <link>https://bengtan.com/interesting-things/044/</link>
+      <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bengtan.com/interesting-things/044/</guid>
+      <description>
+        
+          &lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;This is &lt;a href=&#34;https://bengtan.com/about/&#34;&gt;Beng Tan&lt;/a&gt; and welcome to &lt;strong&gt;Interesting Things&lt;/strong&gt;, a curation of interesting stories and links from tech, work, biz, science and society.&lt;/p&gt;
+&lt;p&gt;Happy reading!&lt;/p&gt;
+&lt;h2 id=&#34;tech&#34;&gt;#tech&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://tinkering.xyz/fmo-optimization-story/?utm_source=bengtan.com/interesting-things/044&#34;&gt;An optimization story&lt;/a&gt; (Jan 2022)&lt;/strong&gt; — I made  a physics simulation 4x faster by exercising my best NumPy skills, and 50x faster after rewriting in Rust. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30301324&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.appsignal.com/2022/02/09/an-introduction-to-deno-is-it-better-than-nodejs.html?utm_source=bengtan.com/interesting-things/044&#34;&gt;An Introduction to Deno: Is It Better than Node.js?&lt;/a&gt;&lt;/strong&gt; — Learn about the key features of Deno, how it outperforms Node.js, as well as where it falls short. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30307409&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.ashbyhq.com/blog/company/tiptap-part-1?utm_source=bengtan.com/interesting-things/044&#34;&gt;Switching Rich Text Editors, Part 1: Picking Tiptap&lt;/a&gt;&lt;/strong&gt; — Switching rich text libraries in a production app with many daily users isn&amp;rsquo;t easy. We recently changed ours. Here&amp;rsquo;s our research and process. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30299800&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://faizilham.github.io/making-budget-pascal-compiler?utm_source=bengtan.com/interesting-things/044&#34;&gt;Making a budget Pascal compiler to WebAssembly&lt;/a&gt;&lt;/strong&gt; (Dec 2021) — I made a budget Pascal compiler to WebAssembly so that I can play a hangman game that my friends and I made 10 years ago. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30298818&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://alexcabal.com/posts/standard-ebooks-and-classic-web-tech?utm_source=bengtan.com/interesting-things/044&#34;&gt;How Standard Ebooks serves millions of requests per month with a 2GB VPS; or, a paean to the classic web&lt;/a&gt;&lt;/strong&gt; — A paean to the classic web. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30302819&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://jalopnik.com/sony-trained-an-ai-to-be-so-good-at-gran-turismo-it-sta-1848516258?utm_source=bengtan.com/interesting-things/044&#34;&gt;Sony Trained An AI To Be So Good At Gran Turismo It Started Driving Like A Total Jerk&lt;/a&gt;&lt;/strong&gt; — The AI agent is faster than the world&amp;rsquo;s best players. But teaching it sportsmanship proved the toughest part. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30302368&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://full-stack.blend.com/how-we-write-github-actions-in-go.html?utm_source=bengtan.com/interesting-things/044&#34;&gt;How We Write GitHub Actions in Go&lt;/a&gt;&lt;/strong&gt; — Using prebuilt binaries to minimize build costs. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30247675&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://johnaustin.io/articles/2022/hot-reloading-rust?utm_source=bengtan.com/interesting-things/044&#34;&gt;Hot Reloading Rust: Windows and Linux&lt;/a&gt;&lt;/strong&gt; — I was surprised to discover that hot reloading works just fine on Windows! What makes these platforms different? (&lt;a href=&#34;https://news.ycombinator.com/item?id=30301049&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://thehackerblog.com/zero-days-without-incident-compromising-angular-via-expired-npm-publisher-email-domains-7kZplW4x/?utm_source=bengtan.com/interesting-things/044&#34;&gt;&amp;ldquo;Zero-Days&amp;rdquo; Without Incident - Compromising Angular via Expired npm Publisher Email Domains&lt;/a&gt;&lt;/strong&gt; — Dependency security is a complex problem with risk tradeoffs that should be weighed carefully. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30302913&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.thinkful.com/blog/why-learning-to-code-is-so-damn-hard/?utm_source=bengtan.com/interesting-things/044&#34;&gt;Why Learning to Code is So Damn Hard&lt;/a&gt;&lt;/strong&gt; — Learning to code is rarely as easy as people make it out to be but it&amp;rsquo;s also rarely as difficult as it seems. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30311963&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://journal.plain.com/posts/2022-02-08-a-magical-aws-serverless-developer-experience/?utm_source=bengtan.com/interesting-things/044&#34;&gt;A magical AWS serverless developer experience&lt;/a&gt;&lt;/strong&gt; — Find out how we build serverless applications at Plain and what makes our developer experience truly magical. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30302238&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://spectrum.ieee.org/andrew-ng-data-centric-ai?utm_source=bengtan.com/interesting-things/044&#34;&gt;Unbiggen AI&lt;/a&gt;&lt;/strong&gt; — AI pioneer says it’s time for smart-sized, “data-centric” solutions to big issues. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30278187&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.quantamagazine.org/quantum-complexity-tamed-by-machine-learning-20220207/?utm_source=bengtan.com/interesting-things/044&#34;&gt;Quantum Complexity Tamed by Machine Learning&lt;/a&gt;&lt;/strong&gt; — Artificial intelligence systems are helping with the next leap in understanding exactly how electrons act in molecules. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30329110&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;business&#34;&gt;#business&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.indiehackers.com/post/friends-come-warm-yourselves-by-the-flaming-wreckage-of-my-micro-saas-93d393b07f?utm_source=bengtan.com/interesting-things/044&#34;&gt;Friends, come warm yourselves by the flaming wreckage of my micro-SaaS&lt;/a&gt;&lt;/strong&gt; — How I built and launched a micro-SaaS product in 26 weeks, only to come undone at the last moment. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30310990&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;science&#34;&gt;#science&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://bellmar.medium.com/the-unreasonableness-of-math-is-context-independence-6826fd5f3515?utm_source=bengtan.com/interesting-things/044&#34;&gt;The Unreasonableness of Math is Context Independence&lt;/a&gt;&lt;/strong&gt; — Mathematics has produced some of the most beautiful and elegant abstractions in human history. What can system thinkers learn from their accuracy? (&lt;a href=&#34;https://news.ycombinator.com/item?id=30310383&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.washington.edu/news/2022/02/11/smartphone-app-vibrate-single-drop-of-blood-determine-how-well-clots/?utm_source=bengtan.com/interesting-things/044&#34;&gt;Smartphone app can vibrate a single drop of blood to determine how well it clots&lt;/a&gt;&lt;/strong&gt; — Researchers have developed a new blood-clotting test that uses a single drop of blood and a smartphone vibration motor and camera. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30301204&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.seas.harvard.edu/news/2022/02/biohybrid-fish-made-human-cardiac-cells-swims-heart-beats?utm_source=bengtan.com/interesting-things/044&#34;&gt;Artificial biohybrid fish made from human cardiac cells swims like the heart beats&lt;/a&gt;&lt;/strong&gt; — Device offers insights into artificial muscular pumps, a step toward building an artificial heart. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30299775&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.nytimes.com/2022/02/09/science/volcano-lava-eruption-pictures.html?utm_source=bengtan.com/interesting-things/044&#34;&gt;This Galápagos Volcano Produced a ‘Mesmerizing’ River of Fire&lt;/a&gt;&lt;/strong&gt; — When a volcano erupted last month, its lava trail extended for miles in an orange line so bright that it was visible from space. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30307545&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;society&#34;&gt;#society&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://gizmodo.com/a-hacker-group-has-been-framing-people-for-crimes-they-1848522497?utm_source=bengtan.com/interesting-things/044&#34;&gt;A Hacker Group Has Been Framing People for Crimes They Didn&amp;rsquo;t Commit&lt;/a&gt;&lt;/strong&gt; — The tactics and techniques of a cybercrime group that is known for planting incriminating evidence on the devices of activists in India. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30309288&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.theatlantic.com/magazine/archive/2022/03/why-we-are-never-satisfied-happiness/621304/?utm_source=bengtan.com/interesting-things/044&#34;&gt;How to Want Less&lt;/a&gt;&lt;/strong&gt; — The secret to satisfaction has nothing to do with achievement, money, or stuff. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30298303&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.notonlycode.org/relearned-typing/?utm_source=bengtan.com/interesting-things/044&#34;&gt;I relearned typing to save my wrists&lt;/a&gt;&lt;/strong&gt; — With help of Ergodox keyboard and Colemak layout I changed my typing habits and saved my wrists from severe pain. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30233383&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.ribbonfarm.com/2022/02/10/tools/?utm_source=bengtan.com/interesting-things/044&#34;&gt;Tools&lt;/a&gt;&lt;/strong&gt; — There are two kinds of tools: user-friendly tools, and physics-friendly tools. Most real tools are a blend of the two kinds, but with a clear bias. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30321461&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://archive.is/ORCCO?utm_source=bengtan.com/interesting-things/044&#34;&gt;Here’s Why I’ll Be Keeping My Shoes on in Your Shoeless Home&lt;/a&gt;&lt;/strong&gt; — Why are you assuming that your guests’ shoes are dirtier than your floors? (&lt;a href=&#34;https://news.ycombinator.com/item?id=30292943&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.theguardian.com/lifeandstyle/2021/jun/06/just-dont-do-it-10-exercise-myths?utm_source=bengtan.com/interesting-things/044&#34;&gt;Just don’t do it: 10 exercise myths&lt;/a&gt;&lt;/strong&gt; (Jun 2021) — We all believe we should exercise more. So why is it so hard to keep it up? (&lt;a href=&#34;https://news.ycombinator.com/item?id=30307262&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;random&#34;&gt;#random&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.farmlinkproject.org/stories-and-features/cheese-caves-and-food-surpluses-why-the-u-s-government-currently-stores-1-4-billion-lbs-of-cheese?utm_source=bengtan.com/interesting-things/044&#34;&gt;Cheese Caves and Food Surpluses: Why the U.S. Government currently stores 1.4 billion lbs of cheese&lt;/a&gt;&lt;/strong&gt; (Aug 2021) — Hundreds of feet below the ground in Missouri, there are hundreds of thousands of pounds of American cheese. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30310102&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;end&#34;&gt;#end&lt;/h2&gt;
+&lt;p&gt;If you liked these stories, please share them (or this newsletter) with your friends. I would appreciate it if you help me spread the word. 🙏&lt;/p&gt;
+&lt;p&gt;Enjoy your reading and have a good day,
+Beng&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://bengtan.com/images/portrait-40.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 
         
       </description>
