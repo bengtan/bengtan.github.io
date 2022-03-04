@@ -6,18 +6,71 @@
     <description>Recent content in Recent Posts on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Fri, 25 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Interesting Things #45 — Synthetic AI</title>
-      <link>https://bengtan.com/interesting-things/045-private/</link>
-      <pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate>
+      <title>Interesting Things #46 — Steam Deck</title>
+      <link>https://bengtan.com/interesting-things/046-private/</link>
+      <pubDate>Fri, 04 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://bengtan.com/interesting-things/045-private/</guid>
+      <guid>https://bengtan.com/interesting-things/046-private/</guid>
       <description>
         
           &lt;p&gt;The lastest issue of &lt;strong&gt;Interesting Things&lt;/strong&gt; is subscriber-only. Please come back in a few days time.&lt;/p&gt;
 &lt;p&gt;If you don&amp;rsquo;t want to wait, &lt;a href=&#34;https://bengtan.com/newsletter&#34;&gt;subscribe&lt;/a&gt; to get it in your inbox now!&lt;/p&gt;
 &lt;p&gt;Look at some &lt;a href=&#34;https://bengtan.com/interesting-things&#34;&gt;older issues&lt;/a&gt;.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Interesting Things #45 — Synthetic AI</title>
+      <link>https://bengtan.com/interesting-things/045/</link>
+      <pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bengtan.com/interesting-things/045/</guid>
+      <description>
+        
+          &lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;This is &lt;a href=&#34;https://bengtan.com/about/&#34;&gt;Beng Tan&lt;/a&gt; and welcome to &lt;strong&gt;Interesting Things&lt;/strong&gt;, a curation of interesting stories and links from tech, work, biz, science and society.&lt;/p&gt;
+&lt;p&gt;Happy reading!&lt;/p&gt;
+&lt;h2 id=&#34;tech&#34;&gt;#tech&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://spectrum.ieee.org/synthetic-data-ai?utm_source=bengtan.com/interesting-things/045&#34;&gt;Are You Still Using Real Data to Train Your AI?&lt;/a&gt;&lt;/strong&gt; — Synthetic data can make AI systems better and maybe even more ethical. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30384263&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://blog.pnkfx.org/blog/2022/02/09/what-is-rusts-hole-purpose/?utm_source=bengtan.com/interesting-things/045&#34;&gt;What Is Rust&amp;rsquo;s Hole Purpose?&lt;/a&gt;&lt;/strong&gt; — An oft-cited selling point is that Rust offers safety. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30386337&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.quantamagazine.org/ai-overcomes-stumbling-block-on-brain-inspired-hardware-20220217/?utm_source=bengtan.com/interesting-things/045&#34;&gt;AI Overcomes Stumbling Block on Brain-Inspired Hardware&lt;/a&gt;&lt;/strong&gt; — Algorithms that use the brain’s communication signal can now work on analog chips which closely mimic our energy-efficient brains. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30384116&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.sonarsource.com/zabbix-case-study-of-unsafe-session-storage/?utm_source=bengtan.com/interesting-things/045&#34;&gt;Zabbix - A Case Study of Unsafe Session Storage&lt;/a&gt;&lt;/strong&gt; — We discuss the security of client-side session storages and analyze a vulnerable implementation in the IT monitoring solution Zabbix. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30386364&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.t-systems-mms.com/tech-insights/mob-programming-remote-teams-in-the-flow?utm_source=bengtan.com/interesting-things/045&#34;&gt;Mob Programming – Remote Teams in the Flow&lt;/a&gt;&lt;/strong&gt; — In which an entire team works together and at the same time on the same code. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30383382&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://codepunk.io/2021/the-russian-internet/?utm_source=bengtan.com/interesting-things/045&#34;&gt;The Russian Internet&lt;/a&gt;&lt;/strong&gt; — An interwoven story of the control of information from paper to sound waves to Internet packets aimed at philosophy, conspiracy, and journalism. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30387224&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://robertheaton.com/otr1?utm_source=bengtan.com/interesting-things/045&#34;&gt;Off-The-Record Messaging part 1: the problem with PGP&lt;/a&gt;&lt;/strong&gt; —  Its (relatively) simple genius is in how it arranges old tools in novel patterns. We don’t need to pore over pages of mathematical proofs. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30393551&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://gazj.substack.com/p/python-and-the-legend-of-zelda?utm_source=bengtan.com/interesting-things/045&#34;&gt;Python and the Legend of Zelda&lt;/a&gt;&lt;/strong&gt; — Using brute force to solve a classic grid-based puzzle. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30225311&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.alicemaz.com/writing/program.html?utm_source=bengtan.com/interesting-things/045&#34;&gt;how I think when I think about programming&lt;/a&gt;&lt;/strong&gt; — A whirlwind tour through the guts of the system. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30395287&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://cookieplmonster.github.io/2022/02/17/year-2038-problem/?utm_source=bengtan.com/interesting-things/045&#34;&gt;Year 2038 problem is still alive and well&lt;/a&gt;&lt;/strong&gt; — Year 2038 problem? Wasn’t that supposed to be solved once and for all years ago? Not quite. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30387826&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;work&#34;&gt;#work&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.sfexaminer.com/findings/tech-industrys-three-day-work-week-may-change-the-future-of-the-office-forever/?utm_source=bengtan.com/interesting-things/045&#34;&gt;Tech industry’s ‘three-day work week’ may change the future of the office forever&lt;/a&gt;&lt;/strong&gt; Monday and Fridays remote. Tuesday, Wednesday, Thursday in the office. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30390607&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://medium.com/@nidhi.sadanand/your-next-staff-plus-role-8d1d8dfe373?utm_source=bengtan.com/interesting-things/045&#34;&gt;Your Next Staff Plus Role&lt;/a&gt;&lt;/strong&gt; — Your impact is not about product features or delivery of a project. It is more about being the force multiplier. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30390367&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.lennysnewsletter.com/p/a-product-managers-guide-to-web3?utm_source=bengtan.com/interesting-things/045&#34;&gt;A product manager’s guide to web3&lt;/a&gt;&lt;/strong&gt; — How PM&amp;rsquo;ing in web3 is different, the pros and cons of going web3, how to break in, and how to be successful. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30349481&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.nytimes.com/2022/02/17/business/jobs-hiring-fraud.html?utm_source=bengtan.com/interesting-things/045&#34;&gt;Do You Know Who That Worker You Just Hired Really Is?&lt;/a&gt;&lt;/strong&gt; — Psychologists say nearly everyone uses some form of deception to get a job. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30377139&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;science&#34;&gt;#science&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.gpsworld.com/russia-expected-to-ditch-glonass-for-loran-in-ukraine-invasion/?utm_source=bengtan.com/interesting-things/045&#34;&gt;Russia expected to ditch GLONASS for Loran in Ukraine invasion&lt;/a&gt;&lt;/strong&gt; — Russian forces are expert at jamming and spoofing GNSS. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30385174&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://phys.org/news/2022-02-scientists-self-awareness-fish.html?utm_source=bengtan.com/interesting-things/045&#34;&gt;Scientists demonstrate self-awareness in fish&lt;/a&gt;&lt;/strong&gt; — Researchers have shown the fish L. dimidiatus to indeed have Mirror Self-Recognition. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30390321&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://ucsdnews.ucsd.edu/pressrelease/flies-possess-more-sophisticated-cognitive-abilities-than-previously-known?utm_source=bengtan.com/interesting-things/045&#34;&gt;Flies Possess More Sophisticated Cognitive Abilities than Previously Known&lt;/a&gt;&lt;/strong&gt; — Immersive virtual reality and real-time brain activity imaging showcase remarkable links between the cognitive abilities of flies and mammals. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30373994&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.theguardian.com/science/2022/feb/17/brains-do-not-slow-down-until-after-age-of-60-study-finds?utm_source=bengtan.com/interesting-things/045&#34;&gt;Brains do not slow down until after age of 60, study finds&lt;/a&gt;&lt;/strong&gt; — Findings go against the assumption that mental processing speed declines from a peak at age 20. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30384598&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.bbc.co.uk/news/technology-60414452?utm_source=bengtan.com/interesting-things/045&#34;&gt;SmartWater: The forensic spray helping keep women safe&lt;/a&gt;&lt;/strong&gt; — Police forces in England are trialling it as one of their domestic violence tools. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30388943&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.quantamagazine.org/ancient-cells-had-sex-fusion-proteins-long-before-sex-evolved-20220216/?utm_source=bengtan.com/interesting-things/045&#34;&gt;A Billion Years Before Sex, Ancient Cells Were Equipped for It&lt;/a&gt;&lt;/strong&gt; — Molecular detective work is zeroing in on the origins of sexual reproduction. The protein tools for cell mergers seem to have long predated sex. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30395552&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://spectrum.ieee.org/quantum-programming-language-twist?utm_source=bengtan.com/interesting-things/045&#34;&gt;Meet Twist: MIT’s Quantum Programming Language&lt;/a&gt;&lt;/strong&gt; — Keeping tabs on data entanglement keeps reins on buggy quantum code. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30387115&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;society&#34;&gt;#society&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.sapiens.org/biology/deep-voice-men-attractive/?utm_source=bengtan.com/interesting-things/045&#34;&gt;What’s the Appeal of Deep Voices in Men?&lt;/a&gt;&lt;/strong&gt; — Low-pitched male voices are frequently seen as signs of dominance, strength, and sex appeal. Is this true or a stereotype? (&lt;a href=&#34;https://news.ycombinator.com/item?id=30393730&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://ava.substack.com/p/its-beautiful-i-just-dont-always?utm_source=bengtan.com/interesting-things/045&#34;&gt;it&amp;rsquo;s beautiful, I just don&amp;rsquo;t always see it&lt;/a&gt;&lt;/strong&gt; — The biggest way I’ve surrendered in the past lol couple years is by letting go of my anxiety. And I had a lot of anxiety to let go of. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30340287&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://nautil.us/the-moon-is-underrated-14018/?utm_source=bengtan.com/interesting-things/045&#34;&gt;The Moon Is Underrated&lt;/a&gt;&lt;/strong&gt; — New research hints at what makes Earth’s moon special. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30395544&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.bbc.co.uk/news/technology-60416058?utm_source=bengtan.com/interesting-things/045&#34;&gt;Bionic eyes: Obsolete tech leaves patients in the dark&lt;/a&gt;&lt;/strong&gt; — Hundreds of people who had retinal implants rely on a technology that is now obsolete. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30383360&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://pudding.cool/2022/02/plain/?utm_source=bengtan.com/interesting-things/045&#34;&gt;What makes writing more readable?&lt;/a&gt;&lt;/strong&gt; — An examination of translating text to make it as accessible as possible. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30378139&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;random&#34;&gt;#random&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://granta.com/the-trip-to-rose-cottage/?utm_source=bengtan.com/interesting-things/045&#34;&gt;The Trip to Rose Cottage&lt;/a&gt;&lt;/strong&gt; — Visiting the abandoned island of Swona. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30390473&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;end&#34;&gt;#end&lt;/h2&gt;
+&lt;p&gt;If you liked these stories, please share them (or this newsletter) with your friends. I would appreciate it if you help me spread the word. 🙏&lt;/p&gt;
+&lt;p&gt;Enjoy your reading and have a good day,
+Beng&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://bengtan.com/images/portrait-40.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 
         
       </description>
