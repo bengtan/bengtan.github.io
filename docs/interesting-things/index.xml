@@ -6,18 +6,69 @@
     <description>Recent content in Interesting Things on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Fri, 04 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/interesting-things/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/interesting-things/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Interesting Things #46 — Steam Deck</title>
-      <link>https://bengtan.com/interesting-things/046-private/</link>
-      <pubDate>Fri, 04 Mar 2022 00:00:00 +0000</pubDate>
+      <title>Interesting Things #47 — NaN</title>
+      <link>https://bengtan.com/interesting-things/047-private/</link>
+      <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://bengtan.com/interesting-things/046-private/</guid>
+      <guid>https://bengtan.com/interesting-things/047-private/</guid>
       <description>
         
           &lt;p&gt;The lastest issue of &lt;strong&gt;Interesting Things&lt;/strong&gt; is subscriber-only. Please come back in a few days time.&lt;/p&gt;
 &lt;p&gt;If you don&amp;rsquo;t want to wait, &lt;a href=&#34;https://bengtan.com/newsletter&#34;&gt;subscribe&lt;/a&gt; to get it in your inbox now!&lt;/p&gt;
 &lt;p&gt;Look at some &lt;a href=&#34;https://bengtan.com/interesting-things&#34;&gt;older issues&lt;/a&gt;.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Interesting Things #46 — Steam Deck</title>
+      <link>https://bengtan.com/interesting-things/046/</link>
+      <pubDate>Fri, 04 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bengtan.com/interesting-things/046/</guid>
+      <description>
+        
+          &lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;This is &lt;a href=&#34;https://bengtan.com/about/&#34;&gt;Beng Tan&lt;/a&gt; and welcome to &lt;strong&gt;Interesting Things&lt;/strong&gt;, a curation of interesting stories and links from tech, work, biz, science and society.&lt;/p&gt;
+&lt;p&gt;Happy reading!&lt;/p&gt;
+&lt;h2 id=&#34;tech&#34;&gt;#tech&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.phoronix.com/scan.php?page=article&amp;amp;item=steam-deck-steamos-linux&amp;amp;num=1&amp;amp;utm_source=bengtan.com/interesting-things/046&#34;&gt;For Linux Enthusiasts Especially, The Steam Deck Is An Incredible &amp;amp; Fun Device&lt;/a&gt;&lt;/strong&gt; — A developer mode effectively turns it into a general Linux handheld able to load your Linux distribution of choice. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30470263&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://arstechnica.com/gaming/2022/02/linux-on-steam-deck-what-you-need-to-know-what-currently-works/?utm_source=bengtan.com/interesting-things/046&#34;&gt;A brief tour of the Steam Deck’s Linux implementation&lt;/a&gt;&lt;/strong&gt; — Use the Deck&amp;rsquo;s built-in KDE desktop to unlock system&amp;rsquo;s full potential. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30493877&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://devapt.com/html-tags?utm_source=bengtan.com/interesting-things/046&#34;&gt;10 HTML tags you have never used before&lt;/a&gt;&lt;/strong&gt; — Learn when and how to use these tags in your project. Some of the tags are really handy. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30469695&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.quantamagazine.org/cryptographers-achieve-perfect-secrecy-with-imperfect-devices-20220225/?utm_source=bengtan.com/interesting-things/046&#34;&gt;Cryptographers Achieve Perfect Secrecy With Imperfect Devices&lt;/a&gt;&lt;/strong&gt; — Experiments demonstrate the possibility of sharing secrets with perfect privacy even when the devices used to share them cannot be trusted. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30468817&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.esper.io/android-dessert-bites-14-gpu-driver-updates-3819534/?utm_source=bengtan.com/interesting-things/046&#34;&gt;Why you can’t update Android’s GPU drivers like on your PC&lt;/a&gt;&lt;/strong&gt; — Updating your PC&amp;rsquo;s GPU drivers is easy, so why is it so complicated on Android? (&lt;a href=&#34;https://news.ycombinator.com/item?id=30469862&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.kerrickstaley.com/2022/02/25/transit-panel?utm_source=bengtan.com/interesting-things/046&#34;&gt;Transit Panel&lt;/a&gt;&lt;/strong&gt; — I built a web app that runs on a tablet by my front door. It tells me when to leave my apartment to catch the next train. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30475410&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.ncameron.org/blog/the-problem-with-rfcs/?utm_source=bengtan.com/interesting-things/046&#34;&gt;We need to talk about RFCs&lt;/a&gt;&lt;/strong&gt; — I think the Rust RFC process needs serious reform. Let me explain some of the problems with the current process. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30425107&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://holub.com/bugs/?utm_source=bengtan.com/interesting-things/046&#34;&gt;Don’t track bugs, fix them&lt;/a&gt;&lt;/strong&gt; — A bug tracking system is a symptom of a deeper problem: Insufficient focus on quality. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30470154&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.vice.com/en/article/v7dxg3/chinese-cybersecurity-company-doxes-apparent-nsa-hacking-operation?utm_source=bengtan.com/interesting-things/046&#34;&gt;Chinese Cybersecurity Company Doxes Apparent NSA Hacking Operation&lt;/a&gt;&lt;/strong&gt; — A detailed report about malware created by Equation Group. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30445861&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://goto10.xyz/qnap.html?utm_source=bengtan.com/interesting-things/046&#34;&gt;How to keep using old and cheap hardware&lt;/a&gt;&lt;/strong&gt; — Or how I bricked my QNAP and moved on to Debian. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30469459&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://cacm.acm.org/magazines/2022/3/258915-here-we-go-again/fulltext?utm_source=bengtan.com/interesting-things/046&#34;&gt;Here We Go Again: Why Is It Difficult for Developers to Learn Another Programming Language?&lt;/a&gt;&lt;/strong&gt; — Interference forces programmers to adopt suboptimal, opportunistic learning strategies. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30467374&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://cushychicken.github.io/more-web-scraper-notes/?utm_source=bengtan.com/interesting-things/046&#34;&gt;More notes on writing web scrapers&lt;/a&gt;&lt;/strong&gt; — The months since then have produced a ton more work, and a ton more learning about web scraping. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30466687&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;work&#34;&gt;#work&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.theregister.com/2022/02/25/ibm_motion_age_discrimination/?utm_source=bengtan.com/interesting-things/046&#34;&gt;IBM cannot kill this age-discrimination lawsuit linked to CEO&lt;/a&gt;&lt;/strong&gt; — Scientist&amp;rsquo;s claim that the director of IBM research unfairly axed him was found to be plausible enough for trial hearing. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30474316&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;science&#34;&gt;#science&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://spectrum.ieee.org/topological-photonics-entanglement-protection?utm_source=bengtan.com/interesting-things/046&#34;&gt;Is Math the Key to Quantum Entanglement Protection?&lt;/a&gt;&lt;/strong&gt; — A new experiment reveals how powerfully topology can shelter delicate photonic quantum-computer states. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30465890&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://arstechnica.com/science/2022/02/new-fast-radio-burst-found-in-area-that-shouldnt-have-any-sources/?utm_source=bengtan.com/interesting-things/046&#34;&gt;New fast radio burst found in area that shouldn’t have any sources&lt;/a&gt;&lt;/strong&gt; — Source narrowed down to a cluster where the stars are too old for bursts. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30466618&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.smithsonianmag.com/science-nature/do-birds-have-language-180979629/?utm_source=bengtan.com/interesting-things/046&#34;&gt;Do Birds Have Language?&lt;/a&gt;&lt;/strong&gt; — In the cheeps, trills and tweets of birdsong, scientists find some parallels with human speech. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30475748&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://scitechdaily.com/scientists-have-discovered-an-exotic-magnetic-state-of-matter/?utm_source=bengtan.com/interesting-things/046&#34;&gt;Scientists Have Discovered an Exotic Magnetic State of Matter&lt;/a&gt;&lt;/strong&gt; — This long-sought magnetic state was predicted nearly 60 years ago. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30469048&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;society&#34;&gt;#society&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.theguardian.com/commentisfree/2022/feb/24/ive-been-waiting-15-years-for-facebook-to-die-im-more-hopeful-than-ever?utm_source=bengtan.com/interesting-things/046&#34;&gt;I’ve been waiting 15 years for Facebook to die. I’m more hopeful than ever&lt;/a&gt;&lt;/strong&gt; — Facebook is struggling to retain users, fending off regulation, trying to pivot to VR, and paying a massive wage premium.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://frankzliu.com/blog/my-experience-living-and-working-in-china-part-i?utm_source=bengtan.com/interesting-things/046&#34;&gt;My Experience Working and Living in China: Part I&lt;/a&gt;&lt;/strong&gt; — I’ll go over some of the lessons I learned living and doing business in China’s tech industry. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30476052&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.gpsworld.com/when-will-russia-attack-gps-interview-with-former-cia-analyst-george-bebee/?utm_source=bengtan.com/interesting-things/046&#34;&gt;When will Russia attack GPS? Interview with former CIA analyst George Beebe&lt;/a&gt;&lt;/strong&gt; — It is clear that Russia can destroy all, or at least most, GPS satellites in one go. What is less clear, is whether Russia would really do that. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30467286&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.telegraph.co.uk/world-news/2022/02/23/russia-deploys-mobile-crematorium-follow-troops-battle/?utm_source=bengtan.com/interesting-things/046&#34;&gt;Russia deploys mobile crematoriums to follow its troops into battle&lt;/a&gt;&lt;/strong&gt; — The vehicle-mounted incinerators can be used to hide evidence of battlefield casualties. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30472585&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.vox.com/22939038/rents-rising-home-prices-americans-moving-residential-stagnation-stuck-mobility-freedom?utm_source=bengtan.com/interesting-things/046&#34;&gt;What happens when Americans stay in the same house forever?&lt;/a&gt;&lt;/strong&gt; — Americans used to move a lot; now they don’t. It could be causing a social crisis. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30466639&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.independent.co.uk/asia/india/mbbs-student-bluetooth-cheating-bhopal-b2021217.html?utm_source=bengtan.com/interesting-things/046&#34;&gt;Medical student surgically implants Bluetooth device into own ear to cheat in final exam&lt;/a&gt;&lt;/strong&gt; — It was the student’s final attempt to clear the exam after repeatedly failing. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30458696&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.nytimes.com/2022/02/25/business/vitaly-borker-glasses-retail.html?utm_source=bengtan.com/interesting-things/046&#34;&gt;A Fraudster Who Just Can’t Seem to Stop … Selling Eyeglasses&lt;/a&gt;&lt;/strong&gt; — “Something is just not right inside my brain,” he wrote. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30474283&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;random&#34;&gt;#random&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://theconversation.com/volcanoes-plague-famine-and-endless-winter-welcome-to-536-what-historians-and-scientists-believe-was-the-worst-year-to-be-alive-175654?utm_source=bengtan.com/interesting-things/046&#34;&gt;Volcanoes, plague, famine and endless winter&lt;/a&gt;&lt;/strong&gt; — Welcome to 536, what historians and scientists believe was the worst year to be alive. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30465839&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;end&#34;&gt;#end&lt;/h2&gt;
+&lt;p&gt;If you liked these stories, please share them (or this newsletter) with your friends. I would appreciate it if you help me spread the word. 🙏&lt;/p&gt;
+&lt;p&gt;Enjoy your reading and have a good day,
+Beng&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://bengtan.com/images/portrait-40.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 
         
       </description>
