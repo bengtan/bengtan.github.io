@@ -6,18 +6,70 @@
     <description>Recent content in Recent Posts on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Fri, 11 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Interesting Things #47 — NaN</title>
-      <link>https://bengtan.com/interesting-things/047-private/</link>
-      <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
+      <title>Interesting Things #48 — Tidbyt</title>
+      <link>https://bengtan.com/interesting-things/048-private/</link>
+      <pubDate>Fri, 18 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://bengtan.com/interesting-things/047-private/</guid>
+      <guid>https://bengtan.com/interesting-things/048-private/</guid>
       <description>
         
           &lt;p&gt;The lastest issue of &lt;strong&gt;Interesting Things&lt;/strong&gt; is subscriber-only. Please come back in a few days time.&lt;/p&gt;
 &lt;p&gt;If you don&amp;rsquo;t want to wait, &lt;a href=&#34;https://bengtan.com/newsletter&#34;&gt;subscribe&lt;/a&gt; to get it in your inbox now!&lt;/p&gt;
 &lt;p&gt;Look at some &lt;a href=&#34;https://bengtan.com/interesting-things&#34;&gt;older issues&lt;/a&gt;.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Interesting Things #47 — NaN</title>
+      <link>https://bengtan.com/interesting-things/047/</link>
+      <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bengtan.com/interesting-things/047/</guid>
+      <description>
+        
+          &lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;This is &lt;a href=&#34;https://bengtan.com/about/&#34;&gt;Beng Tan&lt;/a&gt; and welcome to &lt;strong&gt;Interesting Things&lt;/strong&gt;, a curation of interesting stories and links from tech, work, biz, science and society.&lt;/p&gt;
+&lt;p&gt;Happy reading!&lt;/p&gt;
+&lt;h2 id=&#34;tech&#34;&gt;#tech&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.lucidchart.com/techblog/2022/03/04/if-its-not-a-number-what-is-it-demystifying-nan-for-the-working-programmer/?utm_source=bengtan.com/interesting-things/047&#34;&gt;If it’s not a number, what is it? Demystifying NaN for the working programmer.&lt;/a&gt;&lt;/strong&gt; — There are few things that can trip up even experienced programmers more easily than floating-point arithmetic. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30558690&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://ravidwivedi.in/signal/?utm_source=bengtan.com/interesting-things/047&#34;&gt;Problems with Signal messenger app&lt;/a&gt;&lt;/strong&gt; (Jan 2022) — Centralization means that the whole infrastructure is controlled by one entity. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30548307&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://vaghetti.dev/posts/joy/?utm_source=bengtan.com/interesting-things/047&#34;&gt;Developer tooling must spark joy&lt;/a&gt;&lt;/strong&gt; — Happier people tend to be more pleasant to work with and to stay longer at their jobs. This has an impact on productivity. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30547037&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://r.bluethl.net/how-to-design-better-apis?utm_source=bengtan.com/interesting-things/047&#34;&gt;How to design better APIs&lt;/a&gt;&lt;/strong&gt; — 15 language-agnostic, actionable tips on REST API design. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30552578&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.honeycomb.io/blog/truth-about-meh-trics-metrics/?utm_source=bengtan.com/interesting-things/047&#34;&gt;The Truth About “MEH-TRICS”&lt;/a&gt;&lt;/strong&gt; — Metrics aren’t worthless; they’re just limited. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30497720&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://wrongbaud.github.io/sf-slides/?utm_source=bengtan.com/interesting-things/047&#34;&gt;Hacking Hadoukens&lt;/a&gt;&lt;/strong&gt; — Reverse engineering a Street Fighter Two cabinet. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30555036&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.theregister.com/2022/03/01/the_internet_is_so_hard/?utm_source=bengtan.com/interesting-things/047&#34;&gt;ARPANET pioneer Jack Haverty says the internet was never finished&lt;/a&gt;&lt;/strong&gt; — The early structure of the internet was experimental, and not much has changed since. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30520450&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://kloudle.com/blog/piercing-the-cloud-armor-the-8kb-bypass-in-google-cloud-platform-waf?utm_source=bengtan.com/interesting-things/047&#34;&gt;Piercing the Cloud Armor - The 8KB bypass in Google Cloud Platform WAF&lt;/a&gt;&lt;/strong&gt; — The limitation is not widely known and is not presented to customers prominently. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30539393&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://serokell.io/blog/introduction-to-free-monads?utm_source=bengtan.com/interesting-things/047&#34;&gt;Introduction to Free Monads&lt;/a&gt;&lt;/strong&gt; (Jan 2022) — In this introductory article, we&amp;rsquo;ll show you what they are, why they are useful, and examples on how they can be used. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30561583&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;work&#34;&gt;#work&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.tbray.org/ongoing/When/202x/2022/03/04/Get-Computer-Glasses?utm_source=bengtan.com/interesting-things/047&#34;&gt;Get Computer Glasses&lt;/a&gt;&lt;/strong&gt; — Run, not walk, to the nearest optometrist, get your eyes checked, and order a set of “computer glasses”. Trust me. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30560500&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.globalapptesting.com/engineering/respect-the-time-of-your-engineers?utm_source=bengtan.com/interesting-things/047&#34;&gt;Respect the time of your engineers&lt;/a&gt;&lt;/strong&gt; — Before hiring more engineers, managers should learn how to efficiently work with them. Use these tips to reduce wasted time. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30544948&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://leftalign.substack.com/p/are-tech-interviews-broken-or-is?utm_source=bengtan.com/interesting-things/047&#34;&gt;Are tech interviews broken — or is the cruelty the point?&lt;/a&gt;&lt;/strong&gt; — Hiring managers say that coding challenges are the easiest way to find the best developers, but I&amp;rsquo;m not convinced. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30553877&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://trellick.work/writing/job-search-2021/?utm_source=bengtan.com/interesting-things/047&#34;&gt;My 2021 Job Search&lt;/a&gt;&lt;/strong&gt; (Nov 2021) — On my process of searching for the right next thing as a later-career software engineer and manager. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30556024&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://qz.com/work/2135247/the-one-job-perk-more-popular-than-a-4-day-workweek/?utm_source=bengtan.com/interesting-things/047&#34;&gt;There’s one job perk more popular than a four-day workweek&lt;/a&gt;&lt;/strong&gt; — 50% of workers said they’d rather have the freedom to set their own hours. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30517155&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://pulseasync.com/blog/hire-remote-employees-that-write-well/?utm_source=bengtan.com/interesting-things/047&#34;&gt;Hire remote employees that write well (and how to do it)&lt;/a&gt;&lt;/strong&gt; (Feb 2022) — To find great remote employees, prioritize candidates with strong writing skills. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30334705&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;business&#34;&gt;#business&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://archive.ph/fmEN2?utm_source=bengtan.com/interesting-things/047&#34;&gt;If Russian Currency Reserves Aren’t Really Money, the World Is in for a Shock&lt;/a&gt;&lt;/strong&gt; — This may reshape geopolitics, economic management and even the international role of the U.S. dollar. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30544469&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;science&#34;&gt;#science&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://news.feinberg.northwestern.edu/2022/02/investigators-identify-new-connections-between-circadian-rhythm-and-muscle-repair/?utm_source=bengtan.com/interesting-things/047&#34;&gt;Investigators Identify New Connections Between Circadian Rhythm and Muscle Repair&lt;/a&gt;&lt;/strong&gt; — A novel mechanism connects circadian rhythm-controlled cellular metabolism and regeneration with muscle repair after injury. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30561781&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://newatlas.com/medical/drug-factory-beads-tumors-cancer-week/?utm_source=bengtan.com/interesting-things/047&#34;&gt;&amp;ldquo;Drug factory&amp;rdquo; beads implanted in mice take out tumors within a week&lt;/a&gt;&lt;/strong&gt; — A new type of implant carries the cellular machinery needed to produce and deliver continuous doses of anti-cancer compounds. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30546963&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.quantamagazine.org/scientists-watch-a-memory-form-in-a-living-brain-20220303/?utm_source=bengtan.com/interesting-things/047&#34;&gt;Scientists Watch a Memory Form in a Living Brain&lt;/a&gt;&lt;/strong&gt; — Neuroscientists saw an unexpected level of rewiring occur in the synaptic connections of a living fish. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30572633&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;society&#34;&gt;#society&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.abc.net.au/news/2022-02-17/hikikomori-seiko-goto-japan/100792330?utm_source=bengtan.com/interesting-things/047&#34;&gt;In Japan, a million people have shut themselves in their rooms. One mother is helping them come out&lt;/a&gt;&lt;/strong&gt; — Seiko Goto stood by her son&amp;rsquo;s bed with a knife: She feared she had raised a person who was of no use to the world. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30549914&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://12ft.io/proxy?q=https://www.usatoday.com/story/money/2022/03/02/rental-car-hertz-warrant-arrest/9330894002&amp;amp;utm_source=bengtan.com/interesting-things/047&#34;&gt;If you’ve rented a car from Hertz, there could be a warrant out for your arrest&lt;/a&gt;&lt;/strong&gt; — Hertz files 3,365 police reports about stolen vehicles involving its customers each year. Many of them were innocent paying customers. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30560812&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://medium.com/@bladley/my-battle-with-post-finasteride-syndrome-part-i-9a75442d939f?utm_source=bengtan.com/interesting-things/047&#34;&gt;My Battle with Post-finasteride Syndrome, Part I&lt;/a&gt;&lt;/strong&gt; — What would you do if, in your early twenties, your sexuality was permanently impaired by an FDA-approved drug for male pattern baldness? (&lt;a href=&#34;https://news.ycombinator.com/item?id=30557068&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.theatlantic.com/family/archive/2022/03/older-workers-silicon-valley-business/623880/?utm_source=bengtan.com/interesting-things/047&#34;&gt;The Kind of Smarts You Don’t Find in Young People&lt;/a&gt;&lt;/strong&gt; — How older people can save tech. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30550087&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.bbc.com/worklife/article/20220302-how-mindfulness-can-make-you-a-darker-person?utm_source=bengtan.com/interesting-things/047&#34;&gt;How mindfulness can make you a darker person&lt;/a&gt;&lt;/strong&gt; — Mindfulness is beneficial but it can also make you less likely to feel guilty about wrongdoing and derail your moral compass. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30556022&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;random&#34;&gt;#random&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.hodinkee.com/articles/honey-he-shrunk-the-watches?utm_source=bengtan.com/interesting-things/047&#34;&gt;Honey, He Shrunk The Watches!&lt;/a&gt;&lt;/strong&gt; — This man makes faithful tiny watch replicas from pop culture. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30562219&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;end&#34;&gt;#end&lt;/h2&gt;
+&lt;p&gt;If you liked these stories, please share them (or this newsletter) with your friends. I would appreciate it if you help me spread the word. 🙏&lt;/p&gt;
+&lt;p&gt;Enjoy your reading and have a good day,
+Beng&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://bengtan.com/images/portrait-40.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 
         
       </description>
