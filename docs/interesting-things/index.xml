@@ -6,18 +6,69 @@
     <description>Recent content in Interesting Things on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Fri, 18 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/interesting-things/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/interesting-things/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Interesting Things #48 — Tidbyt</title>
-      <link>https://bengtan.com/interesting-things/048-private/</link>
-      <pubDate>Fri, 18 Mar 2022 00:00:00 +0000</pubDate>
+      <title>Interesting Things #49 — Extensible FS</title>
+      <link>https://bengtan.com/interesting-things/049-private/</link>
+      <pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://bengtan.com/interesting-things/048-private/</guid>
+      <guid>https://bengtan.com/interesting-things/049-private/</guid>
       <description>
         
           &lt;p&gt;The lastest issue of &lt;strong&gt;Interesting Things&lt;/strong&gt; is subscriber-only. Please come back in a few days time.&lt;/p&gt;
 &lt;p&gt;If you don&amp;rsquo;t want to wait, &lt;a href=&#34;https://bengtan.com/newsletter&#34;&gt;subscribe&lt;/a&gt; to get it in your inbox now!&lt;/p&gt;
 &lt;p&gt;Look at some &lt;a href=&#34;https://bengtan.com/interesting-things&#34;&gt;older issues&lt;/a&gt;.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Interesting Things #48 — Tidbyt</title>
+      <link>https://bengtan.com/interesting-things/048/</link>
+      <pubDate>Fri, 18 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bengtan.com/interesting-things/048/</guid>
+      <description>
+        
+          &lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;This is &lt;a href=&#34;https://bengtan.com/about/&#34;&gt;Beng Tan&lt;/a&gt; and welcome to &lt;strong&gt;Interesting Things&lt;/strong&gt;, a curation of interesting stories and links from tech, work, biz, science and society.&lt;/p&gt;
+&lt;p&gt;Happy reading!&lt;/p&gt;
+&lt;h2 id=&#34;tech&#34;&gt;#tech&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://macwright.com/2022/03/11/tidbyt-review.html?utm_source=bengtan.com/interesting-things/048&#34;&gt;Tidbyt: a review&lt;/a&gt;&lt;/strong&gt; — A tabletop LED display for quiet data. I think it&amp;rsquo;s pretty cool. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30650620&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://billwadge.com/2022/03/10/tech-talks-dont-have-to-be-boring-follow-these-simple-rules/?utm_source=bengtan.com/interesting-things/048&#34;&gt;Tech Talks Don’t Have to be Boring&lt;/a&gt;&lt;/strong&gt; — Most people think these simple rules are impractical and don’t follow them. Result? Bo-ring! (&lt;a href=&#34;https://news.ycombinator.com/item?id=30641096&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.cryptomuseum.com/crypto/ru/m427/?utm_source=bengtan.com/interesting-things/048&#34;&gt;M-427 DERVISH&lt;/a&gt;&lt;/strong&gt; — This online/offline encryption device developed around 2000 in Russia cannot be hacked and withstands electromagnetic pulse (EMP) attacks. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30638483&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://boilingsteam.com/valve-releases-windows-drivers-for-the-steam-deck/?utm_source=bengtan.com/interesting-things/048&#34;&gt;Valve Releases Windows Drivers For the Steam Deck&lt;/a&gt;&lt;/strong&gt; — If you believed that the Steam Deck will only run SteamOS, you might want to revise your opinion. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30637096&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://arctype.com/blog/postgresql-hooks/?utm_source=bengtan.com/interesting-things/048&#34;&gt;Hooks: The secret feature powering the Postgres ecosystem&lt;/a&gt;&lt;/strong&gt; — They are a powerful way to customize how Postgres works. We explore how to build with them with examples from popular projects. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30643346&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.nextplatform.com/2022/03/11/pondering-the-cpu-inside-chinas-sunway-oceanlight-supercomputer/?utm_source=bengtan.com/interesting-things/048&#34;&gt;How China Made An Exascale Supercomputer Out Of Old 14 Nanometer Tech&lt;/a&gt;&lt;/strong&gt; — 37 million cores. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30667128&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.morling.dev/blog/the-code-review-pyramid/?utm_source=bengtan.com/interesting-things/048&#34;&gt;The Code Review Pyramid&lt;/a&gt;&lt;/strong&gt; — Focus on those parts which matter the most. The other parts could and should be automated. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30674159&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://rachelbythebay.com/w/2022/03/05/prod/?utm_source=bengtan.com/interesting-things/048&#34;&gt;Editing stuff in prod&lt;/a&gt;&lt;/strong&gt; — Editing files in prod to develop them? That&amp;rsquo;s bad news. Having to do it to get your job done? You might be in a bad place. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30640925&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.tomshardware.com/news/apple-uses-cowos-s-to-build-m1-ultra?utm_source=bengtan.com/interesting-things/048&#34;&gt;The Tech Behind Apple&amp;rsquo;s M1 UltraFusion Chip Interconnect&lt;/a&gt;&lt;/strong&gt; — Apple&amp;rsquo;s UltraFusion architecture uses TSMC&amp;rsquo;s CoWoS-S to deliver 2.5 TB/s of interprocessor bandwidth. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30639123&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://lauratacho.com/blog/better-code-review-feedback?utm_source=bengtan.com/interesting-things/048&#34;&gt;Giving Better Code Review Feedback&lt;/a&gt;&lt;/strong&gt; — Got an emotional reaction when you asked a logical question? Code reviews easily get personal, even when it’s about the code. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30620905&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/giltayar/proposal-types-as-comments?utm_source=bengtan.com/interesting-things/048&#34;&gt;ECMAScript proposal: Types as Comments&lt;/a&gt;&lt;/strong&gt; — Add type annotations to JavaScript code which are transparent to whatever JavaScript engine is running it. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30653574&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://hugopeixoto.net/articles/rust-wasm-ocr-experiments.html?utm_source=bengtan.com/interesting-things/048&#34;&gt;Rust WebAssembly OCR experiments&lt;/a&gt;&lt;/strong&gt; — This post will go over two things: the process of extracting the scores from a JPG in rust, and the process of embedding it in Cyberscore’s frontend. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30668757&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://charlieharrington.com/sql-powered-reading-list/?utm_source=bengtan.com/interesting-things/048&#34;&gt;SQL-Powered Reading List&lt;/a&gt;&lt;/strong&gt; — I keep my reading list in a Google Sheet and I query it with SQL from my website. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30602303&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://will-keleher.com/posts/Mongo_Performance_is_Disk-graceful.html?utm_source=bengtan.com/interesting-things/048&#34;&gt;MongoDB Performance is Disk-graceful&lt;/a&gt;&lt;/strong&gt; — MongoDB databases often require lots of disk I/O because documents aren&amp;rsquo;t stored in a clustered index and writing snapshots can saturate disk I/O. (&lt;a href=&#34;https://news.ycombinator.com/item?id=29131347&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.nature.com/articles/s41586-022-04448-z?utm_source=bengtan.com/interesting-things/048&#34;&gt;Restoring and attributing ancient texts using deep neural networks&lt;/a&gt;&lt;/strong&gt; — Cooperation between artificial intelligence and historians can transform how we study and write about one of the most important periods in human history. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30617576&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;work&#34;&gt;#work&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.zdnet.com/article/tech-workers-are-fed-up-and-want-to-quit-a-few-thoughtful-changes-could-make-them-stay/?utm_source=bengtan.com/interesting-things/048&#34;&gt;Tech workers are fed up and want to quit. A few thoughtful changes could make them stay&lt;/a&gt;&lt;/strong&gt; — Tech workers are more inclined to leave their jobs than those in other industries. But it is possible to persuade them to stay. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30645836&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://ubuntu.com/blog/deep-work-in-interesting-times?utm_source=bengtan.com/interesting-things/048&#34;&gt;Deep work in interesting times&lt;/a&gt;&lt;/strong&gt; — I’m going to show you how I use emacs org-mode to keep me sane, focused, and productive even when the world is in impending chaos. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30637026&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;business&#34;&gt;#business&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://longform.asmartbear.com/docs/exponential-growth?utm_source=bengtan.com/interesting-things/048&#34;&gt;The Elephant in the room: The myth of exponential hypergrowth&lt;/a&gt;&lt;/strong&gt; — If you have an incorrect model, you can’t control nor predict growth. Here is a different model to understand how companies actually grow. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30588648&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;science&#34;&gt;#science&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://acsjournals.onlinelibrary.wiley.com/doi/10.3322/caac.21694?utm_source=bengtan.com/interesting-things/048&#34;&gt;Intermittent fasting in the prevention and treatment of cancer&lt;/a&gt;&lt;/strong&gt; (Aug 2021) — It has become a popular diet. Patients with cancer are seeking advice about its beneficial effects for cancer prevention and treatment. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30643428&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.nature.com/articles/d41586-022-00681-8?utm_source=bengtan.com/interesting-things/048&#34;&gt;Kids show mysteriously low levels of COVID antibodies&lt;/a&gt;&lt;/strong&gt; — Children also seem to be able to clear SARS-CoV-2 from their bodies much quicker than adults can. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30648337&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://restofworld.org/2022/how-truecaller-built-a-billion-dollar-id-data-empire-in-india/?utm_source=bengtan.com/interesting-things/048&#34;&gt;How TrueCaller built a billion-dollar caller ID data empire in India&lt;/a&gt;&lt;/strong&gt; — How a Swedish company has used India’s lack of a comprehensive legal framework surrounding data protection to advance its business. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30623876&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;society&#34;&gt;#society&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.bbc.co.uk/news/technology-60709207?utm_source=bengtan.com/interesting-things/048&#34;&gt;&amp;lsquo;Reselling PlayStations keeps a roof over my head&amp;rsquo;&lt;/a&gt;&lt;/strong&gt; — How so-called scalpers use online bots to snap up consoles and resell them for profit. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30650411&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://qz.com/2129426/inflation-and-supply-chain-snags-are-shrinking-your-products/?utm_source=bengtan.com/interesting-things/048&#34;&gt;How companies are hiding inflation without charging you more&lt;/a&gt;&lt;/strong&gt; — Do consumers notice when their everyday products get smaller? Shrinkflation is causing consumers to pay the same or more for less. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30650614&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://arstechnica.com/tech-policy/2022/03/biden-considers-digital-dollar-heres-how-it-could-differ-from-regular-money/?utm_source=bengtan.com/interesting-things/048&#34;&gt;Biden considers digital dollar—here’s how it could differ from regular money&lt;/a&gt;&lt;/strong&gt; — Digital currency may have advantages but could also be a tool for surveillance. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30625758&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://lithub.com/how-the-inca-used-knots-to-tell-stories/?utm_source=bengtan.com/interesting-things/048&#34;&gt;How The Inca Used Knots To Tell Stories&lt;/a&gt;&lt;/strong&gt; — To fully understand quipu, we must shed our preconceived notions of what defines writing. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30640969&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;end&#34;&gt;#end&lt;/h2&gt;
+&lt;p&gt;If you liked these stories, please share them (or this newsletter) with your friends. I would appreciate it if you help me spread the word. 🙏&lt;/p&gt;
+&lt;p&gt;Enjoy your reading and have a good day,
+Beng&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://bengtan.com/images/portrait-40.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 
         
       </description>
