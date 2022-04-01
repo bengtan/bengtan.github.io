@@ -6,18 +6,70 @@
     <description>Recent content in Recent Posts on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Fri, 25 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Interesting Things #49 — Extensible FS</title>
-      <link>https://bengtan.com/interesting-things/049-private/</link>
-      <pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate>
+      <title>Interesting Things #50 — BonsaiDb</title>
+      <link>https://bengtan.com/interesting-things/050-private/</link>
+      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://bengtan.com/interesting-things/049-private/</guid>
+      <guid>https://bengtan.com/interesting-things/050-private/</guid>
       <description>
         
           &lt;p&gt;The lastest issue of &lt;strong&gt;Interesting Things&lt;/strong&gt; is subscriber-only. Please come back in a few days time.&lt;/p&gt;
 &lt;p&gt;If you don&amp;rsquo;t want to wait, &lt;a href=&#34;https://bengtan.com/newsletter&#34;&gt;subscribe&lt;/a&gt; to get it in your inbox now!&lt;/p&gt;
 &lt;p&gt;Look at some &lt;a href=&#34;https://bengtan.com/interesting-things&#34;&gt;older issues&lt;/a&gt;.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Interesting Things #49 — Extensible FS</title>
+      <link>https://bengtan.com/interesting-things/049/</link>
+      <pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bengtan.com/interesting-things/049/</guid>
+      <description>
+        
+          &lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;This is &lt;a href=&#34;https://bengtan.com/about/&#34;&gt;Beng Tan&lt;/a&gt; and welcome to &lt;strong&gt;Interesting Things&lt;/strong&gt;, a curation of interesting stories and links from tech, work, biz, science and society.&lt;/p&gt;
+&lt;p&gt;Happy reading!&lt;/p&gt;
+&lt;h2 id=&#34;tech&#34;&gt;#tech&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.johnstarich.com/write-once-store-anywhere-extensible-file-systems-for-go-65c7c0949e74?utm_source=bengtan.com/interesting-things/049&#34;&gt;Write once, store anywhere: Extensible file systems for Go&lt;/a&gt;&lt;/strong&gt; — Use this new file system pattern in your next app for better quality code and less wasted effort. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30728348&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://rorodi.substack.com/p/sorry-but-due-to-the-high-cost-of?utm_source=bengtan.com/interesting-things/049&#34;&gt;Sorry, but due to the high cost of energy we will shutdown your server on April 4th&lt;/a&gt;&lt;/strong&gt; — Electricity prices rose by 400% within a few months. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30732606&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://hub.jhu.edu/2022/03/14/computer-scientist-identifies-javascript-vulnerability/?utm_source=bengtan.com/interesting-things/049&#34;&gt;Computer scientist identifies JavaScript vulnerability in thousands of websites&lt;/a&gt;&lt;/strong&gt; — The flaw allows attackers to modify, or &amp;ldquo;pollute,&amp;rdquo; a prototype, which is a built-in property of a JavaScript object. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30725274&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://labs.ripe.net/author/waehlisch/secure-personal-communication-in-the-event-of-crisis/?utm_source=bengtan.com/interesting-things/049&#34;&gt;Secure Personal Communication in the Event of Crisis&lt;/a&gt;&lt;/strong&gt; — Some concrete guidelines to those who need to communicate at some level of security. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30721864&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://arstechnica.com/information-technology/2022/03/sabotage-code-added-to-popular-npm-package-wiped-files-in-russia-and-belarus/?utm_source=bengtan.com/interesting-things/049&#34;&gt;Sabotage: Code added to popular NPM package wiped files in Russia and Belarus&lt;/a&gt;&lt;/strong&gt; — When code with millions of downloads nukes user files, bad things can happen. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30726349&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://archive.ph/Ek4LH?utm_source=bengtan.com/interesting-things/049&#34;&gt;Some of the Tech Magic Is Gone&lt;/a&gt;&lt;/strong&gt; — The bubble hasn’t exactly burst, but we’re no longer seeing a fantastical belief in the power of technology. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30729272&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.cyborch.com/the-case-against-serverless/?utm_source=bengtan.com/interesting-things/049&#34;&gt;The case against serverless&lt;/a&gt;&lt;/strong&gt; — Has lambda been superseded by kubernetes? (&lt;a href=&#34;https://news.ycombinator.com/item?id=30300724&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.wired.com/story/fido-alliance-ios-android-password-replacement/?utm_source=bengtan.com/interesting-things/049&#34;&gt;A Big Bet to Kill the Password for Good&lt;/a&gt;&lt;/strong&gt; — After a decade of work, the FIDO Alliance says it’s found the missing piece in the bridge to a password-free future. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30742183&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://jmmv.dev/2022/03/a-year-on-windows-debugging.html?utm_source=bengtan.com/interesting-things/049&#34;&gt;A year on Windows: System debugging&lt;/a&gt;&lt;/strong&gt; — Closed-source does not mean that it is opaque. In fact, it feels quite the opposite in many areas. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30711695&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://archive.ph/aJ4tu?utm_source=bengtan.com/interesting-things/049&#34;&gt;‘No-Code’ Brings the Power of A.I. to the Masses&lt;/a&gt;&lt;/strong&gt; — A growing number of new products allow anyone to apply artificial intelligence without having to write a line of computer code. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30710635&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;work&#34;&gt;#work&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.wsj.com/articles/people-quit-full-time-jobs-for-contract-gigs-and-make-six-figures-great-resignation-11647291183?utm_source=bengtan.com/interesting-things/049&#34;&gt;People Are Quitting Full-Time Jobs for Contract Work—and Making Six Figures&lt;/a&gt;&lt;/strong&gt; — Many professionals who have become independent consultants say they now have more money and control over their lives. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30732075&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://stackoverflow.blog/2022/03/17/new-data-what-makes-developers-happy-at-work/?utm_source=bengtan.com/interesting-things/049&#34;&gt;New data: What makes developers happy at work&lt;/a&gt;&lt;/strong&gt; — Turns out developers and plants need mostly the same things. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30720701&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;business&#34;&gt;#business&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://bam.kalzumeus.com/archive/accounting-for-saas-and-swords/?utm_source=bengtan.com/interesting-things/049&#34;&gt;Accounting for SaaS and swords&lt;/a&gt;&lt;/strong&gt; — Revenue recognition for software companies is much deeper. What is the economically useful life of an imaginary sword? (&lt;a href=&#34;https://news.ycombinator.com/item?id=30725962&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://andrewchen.com/startups-are-cheaper-to-build-more-expensive-to-grow/?utm_source=bengtan.com/interesting-things/049&#34;&gt;Startups are cheaper to build, but more expensive to grow – here’s why&lt;/a&gt;&lt;/strong&gt; — Startups are raising more capital and burning more capital to get to their Series A. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30726353&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.lennysnewsletter.com/p/product-sense?utm_source=bengtan.com/interesting-things/049&#34;&gt;How to develop product sense&lt;/a&gt;&lt;/strong&gt; — The skill of consistently being able to craft products (or make changes to existing products) that have the intended impact on their users. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30693908&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;science&#34;&gt;#science&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.nationalgeographic.com/science/article/how-a-game-changing-transplant-could-treat-dying-organs?utm_source=bengtan.com/interesting-things/049&#34;&gt;How a game-changing transplant could treat dying organs&lt;/a&gt;&lt;/strong&gt; — Mitochondria offers a glimmer of hope for people fighting for survival after cardiac arrest, stroke, and more. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30729112&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://futurism.com/anti-universe-time-backwards?utm_source=bengtan.com/interesting-things/049&#34;&gt;Scientists Say There May Be a Mirror Universe in Which Time Runs Backwards&lt;/a&gt;&lt;/strong&gt; — A theory which could also help explain the existence of dark matter. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30727015&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.theguardian.com/us-news/2022/mar/18/benzene-carcinogenic-chemical-personal-care-products-us?utm_source=bengtan.com/interesting-things/049&#34;&gt;Carcinogenic chemical benzene found in hundreds of US personal care products&lt;/a&gt;&lt;/strong&gt; — Independent lab found the chemical in more than a quarter of items it tested – sometimes at levels considered ‘life threatening’ (&lt;a href=&#34;https://news.ycombinator.com/item?id=30720229&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://nautil.us/even-worms-feel-pain-14243/?utm_source=bengtan.com/interesting-things/049&#34;&gt;Even Worms Feel Pain&lt;/a&gt;&lt;/strong&gt; — An evolutionary biologist argues that animals could feel more pain than humans. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30732786&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.wired.com/story/living-in-a-simulation/?utm_source=bengtan.com/interesting-things/049&#34;&gt;Of Course We’re Living in a Simulation&lt;/a&gt;&lt;/strong&gt; — The only people who absolutely disagree are, well, scientists. They need to get over themselves and join the fun. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30614270&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.quantamagazine.org/machine-learning-reimagines-the-building-blocks-of-computing-20220315/?utm_source=bengtan.com/interesting-things/049&#34;&gt;Machine Learning Reimagines the Building Blocks of Computing&lt;/a&gt;&lt;/strong&gt; —  A new approach, called algorithms with predictions, uses the power of machine learning to improve algorithms. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30724055&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.quantamagazine.org/before-brains-mechanics-may-have-ruled-animal-behavior-20220316/?utm_source=bengtan.com/interesting-things/049&#34;&gt;This Animal’s Behavior Is Mechanically Programmed&lt;/a&gt;&lt;/strong&gt; — Biomechanical interactions, rather than neurons, control the movements of one of the simplest animals. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30730495&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;society&#34;&gt;#society&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://theconversation.com/is-there-such-a-thing-as-the-perfect-alarm-tone-we-think-so-and-this-is-what-it-might-sound-like-178902?utm_source=bengtan.com/interesting-things/049&#34;&gt;Is there such a thing as the perfect alarm tone?&lt;/a&gt;&lt;/strong&gt; — What type of alarm provides peak alertness upon waking?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://awealthofcommonsense.com/2022/03/how-to-prepare-for-a-recession/?utm_source=bengtan.com/interesting-things/049&#34;&gt;How to Prepare For a Recession&lt;/a&gt;&lt;/strong&gt; — The same way you prepare your finances for anything else. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30721011&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.pennlive.com/life/2022/03/doritos-bags-will-now-have-5-fewer-chips-thanks-to-inflation.html?utm_source=bengtan.com/interesting-things/049&#34;&gt;Doritos bags will now have 5 fewer chips thanks to inflation&lt;/a&gt;&lt;/strong&gt; — Potentially saving more than $50 million. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30727753&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://time.com/6158182/vitalik-buterin-ethereum-profile/?utm_source=bengtan.com/interesting-things/049&#34;&gt;The Man Behind Ethereum Is Worried About Crypto&amp;rsquo;s Future&lt;/a&gt;&lt;/strong&gt; — The most influential person in crypto is concerned about overeager investors, rising transaction fees, and the shameless displays of wealth. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30729721&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;end&#34;&gt;#end&lt;/h2&gt;
+&lt;p&gt;If you liked these stories, please share them (or this newsletter) with your friends. I would appreciate it if you help me spread the word. 🙏&lt;/p&gt;
+&lt;p&gt;Enjoy your reading and have a good day,
+Beng&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://bengtan.com/images/portrait-40.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 
         
       </description>
