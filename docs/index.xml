@@ -6,18 +6,70 @@
     <description>Recent content in Recent Posts on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Fri, 01 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Interesting Things #50 — BonsaiDb</title>
-      <link>https://bengtan.com/interesting-things/050-private/</link>
-      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
+      <title>Interesting Things #51 — What Artists Do</title>
+      <link>https://bengtan.com/interesting-things/051-private/</link>
+      <pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://bengtan.com/interesting-things/050-private/</guid>
+      <guid>https://bengtan.com/interesting-things/051-private/</guid>
       <description>
         
           &lt;p&gt;The lastest issue of &lt;strong&gt;Interesting Things&lt;/strong&gt; is subscriber-only. Please come back in a few days time.&lt;/p&gt;
 &lt;p&gt;If you don&amp;rsquo;t want to wait, &lt;a href=&#34;https://bengtan.com/newsletter&#34;&gt;subscribe&lt;/a&gt; to get it in your inbox now!&lt;/p&gt;
 &lt;p&gt;Look at some &lt;a href=&#34;https://bengtan.com/interesting-things&#34;&gt;older issues&lt;/a&gt;.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Interesting Things #50 — BonsaiDb</title>
+      <link>https://bengtan.com/interesting-things/050/</link>
+      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bengtan.com/interesting-things/050/</guid>
+      <description>
+        
+          &lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;This is &lt;a href=&#34;https://bengtan.com/about/&#34;&gt;Beng Tan&lt;/a&gt; and welcome to &lt;strong&gt;Interesting Things&lt;/strong&gt;, a curation of interesting stories and links from tech, work, biz, science and society.&lt;/p&gt;
+&lt;p&gt;Happy reading!&lt;/p&gt;
+&lt;h2 id=&#34;tech&#34;&gt;#tech&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://bonsaidb.io/blog/one-year-anniversary/?utm_source=bengtan.com/interesting-things/050&#34;&gt;A Year of BonsaiDb: A retrospective and looking to the future&lt;/a&gt;&lt;/strong&gt; — Aiming to be the most developer-friendly Rust database with a unique feature set geared at solving many common data problems. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30800272&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://kerkour.com/rust-is-minimalist?utm_source=bengtan.com/interesting-things/050&#34;&gt;Rust is minimalist&lt;/a&gt;&lt;/strong&gt; — I realize that, today, Rust is the first language that can reliably do everything well. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30780990&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://tech.trivago.com/post/2022-03-09-why-and-how-we-use-primitive-maps/?utm_source=bengtan.com/interesting-things/050&#34;&gt;Why and how we use primitive maps&lt;/a&gt;&lt;/strong&gt; — Operating on petabytes of data in public clouds could be quite costly. Is there any way to optimize performance? (&lt;a href=&#34;https://news.ycombinator.com/item?id=30799818&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://arstechnica.com/gadgets/2022/03/the-ars-technica-guide-to-mechanical-keyboards/?utm_source=bengtan.com/interesting-things/050&#34;&gt;The Ars Technica guide to mechanical keyboards&lt;/a&gt;&lt;/strong&gt; — Want a mechanical keyboard but don&amp;rsquo;t know where to start? We&amp;rsquo;ve got you covered. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30803338&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://fzakaria.com/2022/03/14/shrinkwrap-taming-dynamic-shared-objects.html?utm_source=bengtan.com/interesting-things/050&#34;&gt;Shrinkwrap: Taming dynamic shared objects&lt;/a&gt;&lt;/strong&gt; — Overcome some of the chaos of dependency hell by freezing the dependencies directly on the executable. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30798569&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://lists.debian.org/debian-vote/2022/03/msg00214.html?utm_source=bengtan.com/interesting-things/050&#34;&gt;how is Debian doing?&lt;/a&gt;&lt;/strong&gt; — Starting with a tl;dr, I think Debian is doing ok. It&amp;rsquo;s not doing great, but it is ok. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30809491&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.nulliq.dev/posts/battleship/?utm_source=bengtan.com/interesting-things/050&#34;&gt;Battleship&lt;/a&gt;&lt;/strong&gt; — Lets overengineer a childhood game. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30803571&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://medium.com/workpath-thewaywework/we-tried-elixir-liked-it-and-decided-against-it-for-now-a749667f5885?utm_source=bengtan.com/interesting-things/050&#34;&gt;We Tried Elixir, Liked It … And Decided Against It (For Now)&lt;/a&gt;&lt;/strong&gt; — It has a steep learning curve and a small mindshare. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30800427&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;work&#34;&gt;#work&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://thewalrus.ca/canada-vacation-days/?utm_source=bengtan.com/interesting-things/050&#34;&gt;Out of Office: The Case for More Paid Vacation Days&lt;/a&gt;&lt;/strong&gt; — The pandemic has forced us to reevaluate our relationship with work and time off. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30822991&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://hbr.org/2022/03/how-to-vet-a-remote-workplace?utm_source=bengtan.com/interesting-things/050&#34;&gt;How to Vet a Remote Workplace&lt;/a&gt;&lt;/strong&gt; — Questions to ask before you take the job. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30808306&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://charity.wtf/2022/03/24/twin-anxieties-of-the-engineer-manager-pendulum/?utm_source=bengtan.com/interesting-things/050&#34;&gt;Twin Anxieties of the Engineer/Manager Pendulum&lt;/a&gt;&lt;/strong&gt; — I have written a lot about this and I often hear from people who are angsting about the transition. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30792085&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;business&#34;&gt;#business&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.causal.app/blog/churn-how-it-works-operationally-and-ways-to-calculate-it?utm_source=bengtan.com/interesting-things/050&#34;&gt;Churn - How it works operationally and ways to calculate it&lt;/a&gt;&lt;/strong&gt; — Understanding the intricacies of working with churn metrics. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30802000&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://supabase.com/blog/2022/03/25/should-i-open-source-my-company?utm_source=bengtan.com/interesting-things/050&#34;&gt;Should I Open Source my Company?&lt;/a&gt;&lt;/strong&gt; — The unexpected upsides of building in public. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30806415&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://arstechnica.com/gaming/2022/03/wordle-creator-describes-games-rise-says-nyt-sale-was-a-way-to-walk-away/?utm_source=bengtan.com/interesting-things/050&#34;&gt;Wordle creator describes game’s rise, says NYT sale was “a way to walk away”&lt;/a&gt;&lt;/strong&gt; — Meteoric rise, celeb fans, flagrant clones, feeling &amp;ldquo;miserable,&amp;rdquo; and moving on. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30818429&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.fastcompany.com/90732166/what-happened-to-starbucks-how-a-progressive-company-lost-its-way?utm_source=bengtan.com/interesting-things/050&#34;&gt;What happened to Starbucks? How a progressive company lost its way&lt;/a&gt;&lt;/strong&gt; — Starbucks’s app has made the coffee giant healthier financially, but at a cost to its culture, cafés, and even its brand identity. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30711777&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;science&#34;&gt;#science&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.theatlantic.com/science/archive/2022/03/how-boa-constrictor-snakes-eat-prey/627607/?utm_source=bengtan.com/interesting-things/050&#34;&gt;You Try Constricting Your Prey and Breathing at the Same Time&lt;/a&gt;&lt;/strong&gt; — It&amp;rsquo;s not easy but boa constrictors have figured out a way to inflate only parts of their lungs. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30802508&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.smithsonianmag.com/smart-news/researchers-discover-oldest-known-ochre-workshop-in-east-asia-180979776/?utm_source=bengtan.com/interesting-things/050&#34;&gt;Researchers Discover Oldest-Known Ochre Workshop in East Asia&lt;/a&gt;&lt;/strong&gt; — Tools and pieces of the clay earth pigment date to about 40,000 years old and introduce new theories about early human migration. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30798690&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://psyche.co/ideas/what-did-the-ancient-babylonians-discern-in-the-skies-above?utm_source=bengtan.com/interesting-things/050&#34;&gt;What did the ancient Babylonians discern in the skies above?&lt;/a&gt;&lt;/strong&gt; — Ancient Babylonian astronomers help us see that our view of the world is as much a product of our senses as of our culture. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30809588&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.nytimes.com/2022/03/24/science/symmetry-biology-evolution.html?utm_source=bengtan.com/interesting-things/050&#34;&gt;Life’s Preference for Symmetry Is Like ‘A New Law of Nature’&lt;/a&gt;&lt;/strong&gt; — Techniques from computer science may help explain the tendency in biology for structures to repeat themselves. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30807474&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://theconversation.com/how-a-few-geothermal-plants-could-solve-americas-lithium-supply-crunch-and-boost-the-ev-battery-industry-179465?utm_source=bengtan.com/interesting-things/050&#34;&gt;How a few geothermal plants could solve America’s lithium supply crunch and boost the EV battery industry&lt;/a&gt;&lt;/strong&gt; — A new U.S. source could provide 10 times more lithium than the country uses today. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30771838&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.theguardian.com/environment/2022/mar/24/microplastics-found-in-human-blood-for-first-time?utm_source=bengtan.com/interesting-things/050&#34;&gt;Microplastics found in human blood for first time&lt;/a&gt;&lt;/strong&gt; — The discovery shows the particles can travel around the body and may lodge in organs. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30788379&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;society&#34;&gt;#society&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.theguardian.com/technology/2022/mar/14/slobbing-out-and-giving-up-why-are-so-many-people-going-goblin-mode?utm_source=bengtan.com/interesting-things/050&#34;&gt;Slobbing out and giving up: why are so many people going ‘goblin mode’?&lt;/a&gt;&lt;/strong&gt; — Goblin mode is about a complete lack of aesthetic. Because why would a goblin care what they look like? (&lt;a href=&#34;https://news.ycombinator.com/item?id=30810046&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.mintpressnews.com/harvesting-blood-americas-poor-late-stage-capitalism/263175/?utm_source=bengtan.com/interesting-things/050&#34;&gt;Harvesting the Blood of America’s Poor: The Latest Stage of Capitalism&lt;/a&gt;&lt;/strong&gt; — There is no shortage of corporations ready to exploit America’s most vulnerable populations in order to get their blood. Literally. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30808205&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://newsletters.theatlantic.com/galaxy-brain/623d45efdc551a00208acf88/data-hoarding-google-health-effect/?utm_source=bengtan.com/interesting-things/050&#34;&gt;Confessions of an Information Hoarder&lt;/a&gt;&lt;/strong&gt; — What happens to our brains when we have an infinite memory? (&lt;a href=&#34;https://news.ycombinator.com/item?id=30802992&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.bbc.com/news/business-60763168?utm_source=bengtan.com/interesting-things/050&#34;&gt;Not smart but clever? The return of &amp;lsquo;dumbphones&amp;rsquo;&lt;/a&gt;&lt;/strong&gt; — Why sales of very basic mobile phones, without apps and internet connection, are increasing. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30799220&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://thewalrus.ca/invisible-siege/?utm_source=bengtan.com/interesting-things/050&#34;&gt;A Nineteenth-Century Pandemic May Be a Window into Coronaviruses&lt;/a&gt;&lt;/strong&gt; — Experts have turned back the clock to see what the Russian flu and other epidemics can teach us. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30809159&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;end&#34;&gt;#end&lt;/h2&gt;
+&lt;p&gt;If you liked these stories, please share them (or this newsletter) with your friends. I would appreciate it if you help me spread the word. 🙏&lt;/p&gt;
+&lt;p&gt;Enjoy your reading and have a good day,
+Beng&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://bengtan.com/images/portrait-40.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 
         
       </description>
