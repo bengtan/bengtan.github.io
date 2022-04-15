@@ -6,18 +6,67 @@
     <description>Recent content in Recent Posts on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Fri, 08 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Interesting Things #51 — What Artists Do</title>
-      <link>https://bengtan.com/interesting-things/051-private/</link>
-      <pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate>
+      <title>Interesting Things #52 — Long crisis</title>
+      <link>https://bengtan.com/interesting-things/052-private/</link>
+      <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://bengtan.com/interesting-things/051-private/</guid>
+      <guid>https://bengtan.com/interesting-things/052-private/</guid>
       <description>
         
           &lt;p&gt;The lastest issue of &lt;strong&gt;Interesting Things&lt;/strong&gt; is subscriber-only. Please come back in a few days time.&lt;/p&gt;
 &lt;p&gt;If you don&amp;rsquo;t want to wait, &lt;a href=&#34;https://bengtan.com/newsletter&#34;&gt;subscribe&lt;/a&gt; to get it in your inbox now!&lt;/p&gt;
 &lt;p&gt;Look at some &lt;a href=&#34;https://bengtan.com/interesting-things&#34;&gt;older issues&lt;/a&gt;.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Interesting Things #51 — What Artists Do</title>
+      <link>https://bengtan.com/interesting-things/051/</link>
+      <pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bengtan.com/interesting-things/051/</guid>
+      <description>
+        
+          &lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;This is &lt;a href=&#34;https://bengtan.com/about/&#34;&gt;Beng Tan&lt;/a&gt; and welcome to &lt;strong&gt;Interesting Things&lt;/strong&gt;, a curation of interesting stories and links from tech, work, biz, science and society.&lt;/p&gt;
+&lt;p&gt;Happy reading!&lt;/p&gt;
+&lt;h2 id=&#34;tech&#34;&gt;#tech&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.lesswrong.com/posts/xmWfNDnEf36yQBLY9/to-make-better-software-do-what-artists-do?utm_source=bengtan.com/interesting-things/051&#34;&gt;To Make Better Software, Do What Artists Do&lt;/a&gt;&lt;/strong&gt; — Writing software involves a kind of illegible creativity, a quality we usually associate with art. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30885404&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://monzo.com/blog/2022/03/31/how-we-secure-monzos-banking-platform/?utm_source=bengtan.com/interesting-things/051&#34;&gt;How we secure Monzo’s banking platform&lt;/a&gt;&lt;/strong&gt; — Our security principles and how they work with other engineering teams to keep our customers and platform safe. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30876527&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.cloudflare.com/end-cloudflare-captcha/?utm_source=bengtan.com/interesting-things/051&#34;&gt;The end of the road for Cloudflare CAPTCHAs&lt;/a&gt;&lt;/strong&gt; — We built a platform to test many alternatives and see which had the best potential to replace CAPTCHA. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30877880&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://cliffle.com/blog/rust-mutexes/?utm_source=bengtan.com/interesting-things/051&#34;&gt;Why Rust mutexes look like they do&lt;/a&gt;&lt;/strong&gt; — You can certainly create a C-style mutex API in Rust, but it gives up most of Rust’s safety guarantees. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30882577&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://decrypt.co/96456/nike-destroy-unauthorized-nfts-how-will-that-work?utm_source=bengtan.com/interesting-things/051&#34;&gt;Nike Wants to &amp;lsquo;Destroy&amp;rsquo; Unauthorized NFTs—How Will That Work?&lt;/a&gt;&lt;/strong&gt; — Nike is asking a court to destroy something that pretty much can&amp;rsquo;t be destroyed. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30872479&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.wired.com/story/satellite-hacking-anit-f1r-shadytel/?utm_source=bengtan.com/interesting-things/051&#34;&gt;Researchers Used a Decommissioned Satellite to Broadcast Hacker TV&lt;/a&gt;&lt;/strong&gt; — What happens when an old satellite is no longer in use but can still broadcast? Hacker shenanigans, that&amp;rsquo;s what. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30865385&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://hikari.noyu.me/blog/2022-04-01-javascript-is-a-safer-language-for-integer-programming-than-c.html?utm_source=bengtan.com/interesting-things/051&#34;&gt;Even ancient JavaScript is a safer language for programming with integers than modern C&lt;/a&gt;&lt;/strong&gt; — Questioning preconceived notions about what domains low-level and high-level languages belong to. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30890058&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.mollywhite.net/axie-hack/?utm_source=bengtan.com/interesting-things/051&#34;&gt;The Axie Infinity hack, what happened, and why people keep talking about bridges&lt;/a&gt;&lt;/strong&gt; — Axie Infinity suffered an enormous hack on March 23. What happened, and what does it mean? (&lt;a href=&#34;https://news.ycombinator.com/item?id=30864424&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://thememoryguy.com/the-rarely-seen-but-beautiful-content-addressable-memory-cam/?utm_source=bengtan.com/interesting-things/051&#34;&gt;The Rarely Seen, But Beautiful Content-Addressable Memory (CAM)&lt;/a&gt;&lt;/strong&gt; — A different kind of memory chip. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30880534&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;work&#34;&gt;#work&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.bbc.com/worklife/article/20220329-the-coasting-workers-whove-checked-out-of-their-jobs?utm_source=bengtan.com/interesting-things/051&#34;&gt;The ‘coasting’ workers who’ve checked out of their jobs&lt;/a&gt;&lt;/strong&gt; — Rather than quit, more and more employees are happy to just get by and collect their salaries. Is it necessarily a problem? (&lt;a href=&#34;https://news.ycombinator.com/item?id=30884033&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.datawrapper.de/colors-for-data-vis-style-guides/?utm_source=bengtan.com/interesting-things/051&#34;&gt;A detailed guide to colors in data vis style guides&lt;/a&gt;&lt;/strong&gt; — You won&amp;rsquo;t find a more extensive guide on this topic. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30898779&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://makeworkbetter.substack.com/p/how-to-transform-your-culture-have?utm_source=bengtan.com/interesting-things/051&#34;&gt;How to transform your culture? Have two days with no meetings&lt;/a&gt;&lt;/strong&gt; — Two meeting-free days increases productivity, autonomy and satisfaction. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30886430&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.doist.com/asynchronous-communication/?utm_source=bengtan.com/interesting-things/051&#34;&gt;Asynchronous Communication: The Real Reason Remote Workers Are More Productive&lt;/a&gt;&lt;/strong&gt; — What it is and why it matters. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30875997&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;business&#34;&gt;#business&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.jimmydaly.com/superpath-zero-to-one/?utm_source=bengtan.com/interesting-things/051&#34;&gt;Superpath: Zero to One&lt;/a&gt;&lt;/strong&gt; — About six months ago, my startup closed a milestone deal. It opened my eyes to a more exciting future than the one I&amp;rsquo;d been stressing about. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30881483&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.initialized.com/2022/03/how-to-hire-engineers-in-a-distorted-job-market/?utm_source=bengtan.com/interesting-things/051&#34;&gt;How to hire engineers in a distorted job market&lt;/a&gt;&lt;/strong&gt; — What startups should do to attract the best engineering talent in this distorted job market. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30875512&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;science&#34;&gt;#science&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.nist.gov/pml/time-and-frequency-division/time-realization/primary-standard-nist-f1?utm_source=bengtan.com/interesting-things/051&#34;&gt;NIST-F1 Cesium Fountain Atomic Clock&lt;/a&gt;&lt;/strong&gt; — The primary atomic clock in the US is so accurate it would neither gain nor lose a second in more than 100 million years. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30886428&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.smithsonianmag.com/history/digging-up-viking-history-britain-180979790/?utm_source=bengtan.com/interesting-things/051&#34;&gt;Digging Up the Rich Viking History of Britain&lt;/a&gt;&lt;/strong&gt; — A massive 1,100-year-old graveyard leads to a surprising new view of the Nordic legacy in Britain. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30875297&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://nautil.us/the-ocean-is-having-trouble-breathing-15789/?utm_source=bengtan.com/interesting-things/051&#34;&gt;The Ocean Is Having Trouble Breathing&lt;/a&gt;&lt;/strong&gt; — A drop in oxygen levels is putting ocean ecosystems on life support. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30877378&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;society&#34;&gt;#society&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.deprocrastination.co/blog/choose-your-addiction?utm_source=bengtan.com/interesting-things/051&#34;&gt;Choose your addiction&lt;/a&gt;&lt;/strong&gt; — Choose deliberately what is going to stimulate you. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30875757&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://archive.ph/DZaMA?utm_source=bengtan.com/interesting-things/051&#34;&gt;I like unusual books. Here’s what I’d read — if I had time.&lt;/a&gt;&lt;/strong&gt; — I’d delve into undeservedly forgotten novels and works of intellectual history and explore the arcane, the magical and more. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30882273&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://archive.ph/Qgmwb?utm_source=bengtan.com/interesting-things/051&#34;&gt;Putin and Xi Exposed the Great Illusion of Capitalism&lt;/a&gt;&lt;/strong&gt; — Unless the U.S. and its allies mobilize to save it, the second great age of globalization is coming to a catastrophic close. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30789361&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://archive.ph/NPZWB?utm_source=bengtan.com/interesting-things/051&#34;&gt;The Dying Art of Driving a Stick Shift&lt;/a&gt;&lt;/strong&gt; — In Europe, 80% of cars sold have manual transmissions. In the U.S., it’s only 1%. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30897866&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.exactlywhatistime.com/other-aspects-of-time/time-in-different-cultures/?utm_source=bengtan.com/interesting-things/051&#34;&gt;Time in Different Cultures&lt;/a&gt;&lt;/strong&gt; — Attitudes to time may differ between different cultures in often quite significant ways. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30879299&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;end&#34;&gt;#end&lt;/h2&gt;
+&lt;p&gt;If you liked these stories, please share them (or this newsletter) with your friends. I would appreciate it if you help me spread the word. 🙏&lt;/p&gt;
+&lt;p&gt;Enjoy your reading and have a good day,
+Beng&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://bengtan.com/images/portrait-40.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 
         
       </description>
