@@ -6,18 +6,69 @@
     <description>Recent content in Interesting Things on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Fri, 15 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/interesting-things/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/interesting-things/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Interesting Things #52 — Long crisis</title>
-      <link>https://bengtan.com/interesting-things/052-private/</link>
-      <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>
+      <title>Interesting Things #53 — Five koans</title>
+      <link>https://bengtan.com/interesting-things/053-private/</link>
+      <pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://bengtan.com/interesting-things/052-private/</guid>
+      <guid>https://bengtan.com/interesting-things/053-private/</guid>
       <description>
         
           &lt;p&gt;The lastest issue of &lt;strong&gt;Interesting Things&lt;/strong&gt; is subscriber-only. Please come back in a few days time.&lt;/p&gt;
 &lt;p&gt;If you don&amp;rsquo;t want to wait, &lt;a href=&#34;https://bengtan.com/newsletter&#34;&gt;subscribe&lt;/a&gt; to get it in your inbox now!&lt;/p&gt;
 &lt;p&gt;Look at some &lt;a href=&#34;https://bengtan.com/interesting-things&#34;&gt;older issues&lt;/a&gt;.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Interesting Things #52 — Long crisis</title>
+      <link>https://bengtan.com/interesting-things/052/</link>
+      <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bengtan.com/interesting-things/052/</guid>
+      <description>
+        
+          &lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;This is &lt;a href=&#34;https://bengtan.com/about/&#34;&gt;Beng Tan&lt;/a&gt; and welcome to &lt;strong&gt;Interesting Things&lt;/strong&gt;, a curation of interesting stories and links from tech, work, biz, science and society.&lt;/p&gt;
+&lt;p&gt;Happy reading!&lt;/p&gt;
+&lt;h2 id=&#34;tech&#34;&gt;#tech&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://logicmag.io/clouds/agile-and-the-long-crisis-of-software/?utm_source=bengtan.com/interesting-things/052&#34;&gt;Agile and the Long Crisis of Software&lt;/a&gt;&lt;/strong&gt; — What is Agile? And where does it come from? (&lt;a href=&#34;https://news.ycombinator.com/item?id=30967432&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.wired.com/story/spreadsheets-are-hot-and-cranking-out-complex-code/?utm_source=bengtan.com/interesting-things/052&#34;&gt;Spreadsheets Are Hot—and Cranking Out Complex Code&lt;/a&gt;&lt;/strong&gt; — The venerable (and super dull) piece of officeware is getting reinvented as a tool for non-coders to automate and simplify their lives. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30955940&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.mcsweeneys.net/articles/weve-upgraded-your-toilet-to-a-subscription-based-model?utm_source=bengtan.com/interesting-things/052&#34;&gt;We’ve Upgraded Your Toilet to a Subscription-Based Model&lt;/a&gt;&lt;/strong&gt; — Congratulations, we’ve successfully installed your new toilet. You need to activate your subscription. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30961931&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://sayr.us/reverse/soundblaster-reverse/?utm_source=bengtan.com/interesting-things/052&#34;&gt;Reversing Sound Blaster X7 Control for fun and Linux support&lt;/a&gt;&lt;/strong&gt; — Controlled by either a mobile device over Bluetooth or from a Windows machine over USB, I reverse engineer it to work for linux too. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30955078&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://armadillophone.com/blog/how-to-detect-imsi-catchers?utm_source=bengtan.com/interesting-things/052&#34;&gt;How to detect IMSI catchers&lt;/a&gt;&lt;/strong&gt; — Defending against the most effective mobile attacks. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30961912&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://educatedguesswork.org/posts/messaging-e2e/?utm_source=bengtan.com/interesting-things/052&#34;&gt;End-to-End Encryption and Messaging Interoperability&lt;/a&gt;&lt;/strong&gt; — If connecting service A and service B requires some kind of bridge that decrypts and reencrypts messages, then this has a negative impact on security. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30955597&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.peachesnstink.com/p/aSXwkmGVrrKu31k0xoP0N2?utm_source=bengtan.com/interesting-things/052&#34;&gt;For Pete&amp;rsquo;s Sake, Don&amp;rsquo;t Touch HTML Inputs&lt;/a&gt;&lt;/strong&gt; — Front-end frameworks try to make HTML inputs better by using boatloads of CSS and JavaScript. This practice is utter garbage in my opinion. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30956882&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://thenextweb.com/news/usb-c-complexity-usb-if-logo-standards-analysis?utm_source=bengtan.com/interesting-things/052&#34;&gt;It’s 2022, so why is USB-C still so damn complicated?&lt;/a&gt;&lt;/strong&gt; — While USB-C has made life easier by making one type of port available on devices, it&amp;rsquo;s hard to pick a right cable for it. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30956175&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://betterprogramming.pub/stop-using-json-web-tokens-for-authentication-use-stateful-sessions-instead-c0a803931a5d?utm_source=bengtan.com/interesting-things/052&#34;&gt;Stop Using JSON Web Tokens For Authentication (The wrong way).&lt;/a&gt;&lt;/strong&gt; — Yup, you’re probably using them incorrectly. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30957609&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://kevincox.ca/2022/04/07/passwords/?utm_source=bengtan.com/interesting-things/052&#34;&gt;Maybe Passwords are the Future&lt;/a&gt;&lt;/strong&gt; — Would it not be better to stick with passwords but improve the underlying protocol to provide better security? (&lt;a href=&#34;https://news.ycombinator.com/item?id=30973515&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.yankodesign.com/2022/04/04/someone-managed-to-fit-an-entire-raspberry-pi-computer-into-the-body-of-a-cassette/?utm_source=bengtan.com/interesting-things/052&#34;&gt;Someone managed to fit an entire Raspberry Pi computer inside the body of a cassette&lt;/a&gt;&lt;/strong&gt; — Designed to show how far we&amp;rsquo;ve come in a span of 4 decades, this cassette has a Raspberry Pi computer running a ZX Spectrum emulator. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30961440&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://quickwit.io/blog/memory-inspector-gadget/?utm_source=bengtan.com/interesting-things/052&#34;&gt;How to investigate memory usage of your rust program&lt;/a&gt;&lt;/strong&gt; — Occasionally measuring your application is indispensable to get valuable insights. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30916709&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;work&#34;&gt;#work&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.devjobsscanner.com/blog/the-most-demanded-frontend-frameworks-in-2022/?utm_source=bengtan.com/interesting-things/052&#34;&gt;The Most Demanded Frontend Frameworks in 2022&lt;/a&gt;&lt;/strong&gt; — We analyze ~250k frontend job offers to discover which is the most demanded and highest paying frontend framework in 2022. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30954277&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://staysaasy.com/software/2022/01/29/integrity.html?utm_source=bengtan.com/interesting-things/052&#34;&gt;Working with Integrity&lt;/a&gt;&lt;/strong&gt; (Jan 2022) — A person has got to have a code of behaviour. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30964495&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;business&#34;&gt;#business&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.pragmaticengineer.com/how-to-become-a-full-time-creator/?utm_source=bengtan.com/interesting-things/052&#34;&gt;Becoming a Full-Time Creator as a Software Engineer: Controversial Advice&lt;/a&gt;&lt;/strong&gt; — I&amp;rsquo;m a full-time creator. With remote work becoming more common in tech, I get more messages from people asking: how can they do what I do? (&lt;a href=&#34;https://news.ycombinator.com/item?id=30960569&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.npr.org/2022/02/17/1081201040/domm-holland-fast-stripe?utm_source=bengtan.com/interesting-things/052&#34;&gt;He reinvented himself in Silicon Valley. Ex-associates say he&amp;rsquo;s running from his past&lt;/a&gt;&lt;/strong&gt; (Feb 2022) — The payments startup Fast has raised tens of millions of dollars, but critics of its CEO Domm Holland say his past is being overlooked. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30857339&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;science&#34;&gt;#science&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://hyperallergic.com/720694/science-confirms-that-life-flashes-before-the-eyes-upon-death/?utm_source=bengtan.com/interesting-things/052&#34;&gt;Science Confirms That Life Flashes Before the Eyes Upon Death&lt;/a&gt;&lt;/strong&gt; — When an 87-year-old patient unexpectedly passed away, his brain seemed to replay memories in the 30 seconds before and after his death. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30962954&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.bbc.co.uk/news/science-environment-60991675?utm_source=bengtan.com/interesting-things/052&#34;&gt;Rejuvenation of woman&amp;rsquo;s skin could tackle diseases of ageing&lt;/a&gt;&lt;/strong&gt; — Researchers have rejuvenated a 53-year-old woman&amp;rsquo;s skin cells so they are the equivalent of a 23-year-old&amp;rsquo;s. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30957404&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.nature.com/articles/d41586-022-00971-1?utm_source=bengtan.com/interesting-things/052&#34;&gt;Your brain expands and shrinks over time — these charts show how&lt;/a&gt;&lt;/strong&gt; — A neuroscientest has amassed more than 120,000 brain scans to create the first comprehensive growth charts for brain development. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30942921&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.bbc.co.uk/news/science-environment-60993523?utm_source=bengtan.com/interesting-things/052&#34;&gt;Shock result in particle experiment could spark physics revolution&lt;/a&gt;&lt;/strong&gt; — Scientists have found that the mass of a sub-atomic particle is not what it should be. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30948672&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;society&#34;&gt;#society&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.vincentntang.com/tenacity-and-life-lessons/?utm_source=bengtan.com/interesting-things/052&#34;&gt;Tenacity and life lessons through the 33% rule&lt;/a&gt;&lt;/strong&gt; — For X number of people, 33% will support you, 33% don&amp;rsquo;t care, and 33% will dislike you. 1% of the opinions may change you. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30965446&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.bbc.co.uk/news/health-61021823?utm_source=bengtan.com/interesting-things/052&#34;&gt;Keep your waist to less than half your height, guidance says&lt;/a&gt;&lt;/strong&gt; — People should measure their waist to check they don&amp;rsquo;t have too much dangerous fat around their middle, updated guidelines say. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30957091&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.wired.com/story/digital-cash-ecash-act/?utm_source=bengtan.com/interesting-things/052&#34;&gt;The Future of Digital Cash Is Not on the Blockchain&lt;/a&gt;&lt;/strong&gt; — If you want the privacy of paper money, you need something that leaves no paper trail. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30833906&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.vice.com/en/article/y3vj3y/apple-airtags-police-reports-stalking-harassment?utm_source=bengtan.com/interesting-things/052&#34;&gt;Police Records Show Women Are Being Stalked With Apple AirTags Across the Country&lt;/a&gt;&lt;/strong&gt; — As predicted when the product launched, this technology has been used as a tool to stalk and harass women. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30947639&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://lithub.com/its-official-according-to-science-reading-fiction-makes-you-nicer/?utm_source=bengtan.com/interesting-things/052&#34;&gt;It’s official! According to science, reading fiction makes you nicer.&lt;/a&gt;&lt;/strong&gt; — Apparently fiction reveals truths about human interactions and interiority, which readers internalize and apply to their lives. (&lt;a href=&#34;https://news.ycombinator.com/item?id=30971197&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;end&#34;&gt;#end&lt;/h2&gt;
+&lt;p&gt;If you liked these stories, please share them (or this newsletter) with your friends. I would appreciate it if you help me spread the word. 🙏&lt;/p&gt;
+&lt;p&gt;Enjoy your reading and have a good day,
+Beng&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://bengtan.com/images/portrait-40.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 
         
       </description>
