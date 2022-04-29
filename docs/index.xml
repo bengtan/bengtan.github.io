@@ -6,18 +6,70 @@
     <description>Recent content in Recent Posts on Beng Tan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
-    <lastBuildDate>Fri, 22 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bengtan.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Interesting Things #53 — Five koans</title>
-      <link>https://bengtan.com/interesting-things/053-private/</link>
-      <pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate>
+      <title>Interesting Things #54 — Debug ability</title>
+      <link>https://bengtan.com/interesting-things/054-private/</link>
+      <pubDate>Fri, 29 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://bengtan.com/interesting-things/053-private/</guid>
+      <guid>https://bengtan.com/interesting-things/054-private/</guid>
       <description>
         
           &lt;p&gt;The lastest issue of &lt;strong&gt;Interesting Things&lt;/strong&gt; is subscriber-only. Please come back in a few days time.&lt;/p&gt;
 &lt;p&gt;If you don&amp;rsquo;t want to wait, &lt;a href=&#34;https://bengtan.com/newsletter&#34;&gt;subscribe&lt;/a&gt; to get it in your inbox now!&lt;/p&gt;
 &lt;p&gt;Look at some &lt;a href=&#34;https://bengtan.com/interesting-things&#34;&gt;older issues&lt;/a&gt;.&lt;/p&gt;
+
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Interesting Things #53 — Five koans</title>
+      <link>https://bengtan.com/interesting-things/053/</link>
+      <pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://bengtan.com/interesting-things/053/</guid>
+      <description>
+        
+          &lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;This is &lt;a href=&#34;https://bengtan.com/about/&#34;&gt;Beng Tan&lt;/a&gt; and welcome to &lt;strong&gt;Interesting Things&lt;/strong&gt;, a curation of interesting stories and links from tech, work, biz, science and society.&lt;/p&gt;
+&lt;p&gt;Happy reading!&lt;/p&gt;
+&lt;h2 id=&#34;tech&#34;&gt;#tech&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://bellmar.medium.com/five-koans-of-software-architecture-f9f7305598c2?utm_source=bengtan.com/interesting-things/053&#34;&gt;Five Koans of Software Architecture&lt;/a&gt;&lt;/strong&gt; — Random advice I find myself repeating a lot. (&lt;a href=&#34;https://news.ycombinator.com/item?id=31036632&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.vice.com/en/article/g5qebq/how-cryptocurrency-gave-birth-to-the-ransomware-epidemic?utm_source=bengtan.com/interesting-things/053&#34;&gt;How Cryptocurrency Gave Birth to the Ransomware Epidemic&lt;/a&gt;&lt;/strong&gt; — Ransomware gangs are targeting everyone from large and small businesses and government agencies to hospitals and schools. (&lt;a href=&#34;https://news.ycombinator.com/item?id=31042310&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://prophitt.me/a-self-inflicted-data-breach?utm_source=bengtan.com/interesting-things/053&#34;&gt;A Self-Inflicted Data Breach&lt;/a&gt;&lt;/strong&gt; — A look at Stack Exchange&amp;rsquo;s 2013 data breach. How it happened and it&amp;rsquo;s impact. (&lt;a href=&#34;https://news.ycombinator.com/item?id=31043137&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.agwa.name/blog/post/using_sni_proxying_and_ipv6_to_share_port_443?utm_source=bengtan.com/interesting-things/053&#34;&gt;How I&amp;rsquo;m Using SNI Proxying and IPv6 to Share Port 443 Between Webapps&lt;/a&gt;&lt;/strong&gt; — I hate HTTP reverse proxies and want my webapps to listen directly on port 443. How can I make this work in a world of IPv4 scarcity? (&lt;a href=&#34;https://news.ycombinator.com/item?id=31040667&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.wired.com/story/pipedream-ics-malware/?utm_source=bengtan.com/interesting-things/053&#34;&gt;Feds Uncover a ‘Swiss Army Knife’ for Hacking Industrial Control Systems&lt;/a&gt;&lt;/strong&gt; — The malware toolkit, known as Pipedream, is perhaps the most versatile tool ever made to target critical infrastructure like power grids and oil refineries. (&lt;a href=&#34;https://news.ycombinator.com/item?id=31024778&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://arstechnica.com/gadgets/2022/04/razer-designed-linux-laptop-targets-ai-developers-with-deep-learning-emphasis/?utm_source=bengtan.com/interesting-things/053&#34;&gt;Razer-designed Linux laptop targets AI developers with deep-learning emphasis&lt;/a&gt;&lt;/strong&gt; — A Linux clamshell in Razer clothing. (&lt;a href=&#34;https://news.ycombinator.com/item?id=31017747&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://earthly.dev/blog/golang-streamers/?utm_source=bengtan.com/interesting-things/053&#34;&gt;Watch People Doing the Thing&lt;/a&gt;&lt;/strong&gt; — I’ve learned so much from watching other people code. (&lt;a href=&#34;https://news.ycombinator.com/item?id=31004252&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://jrsinclair.com/articles/2022/javascript-function-composition-whats-the-big-deal/?utm_source=bengtan.com/interesting-things/053&#34;&gt;JavaScript function composition: What’s the big deal?&lt;/a&gt;&lt;/strong&gt; — Function composition is not complicated. You probably use it all the time, whether you realise it or not. (&lt;a href=&#34;https://news.ycombinator.com/item?id=31043430&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://evilmartians.com/chronicles/a-slice-of-life-table-partitioning-in-postgresql-databases?utm_source=bengtan.com/interesting-things/053&#34;&gt;A slice of life: table partitioning in PostgreSQL databases&lt;/a&gt;&lt;/strong&gt; — Learn to implement table partitioning in PostgreSQL databases and explore common problems and pitfalls. (&lt;a href=&#34;https://news.ycombinator.com/item?id=31050063&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://anildash.com/2022/04/13/a-web-renaissance/?utm_source=bengtan.com/interesting-things/053&#34;&gt;A Web Renaissance&lt;/a&gt;&lt;/strong&gt; — Thanks to the mistrust of big tech, better tools for developers, and the weird and wonderful creativity of ordinary people, the web is thriving again. (&lt;a href=&#34;https://news.ycombinator.com/item?id=31025112&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.quantamagazine.org/researchers-glimpse-how-ai-gets-so-good-at-language-processing-20220414/?utm_source=bengtan.com/interesting-things/053&#34;&gt;Researchers Gain New Understanding From Simple AI&lt;/a&gt;&lt;/strong&gt; — Language processing programs are notoriously hard to interpret, but smaller versions can provide important insights into how they work. (&lt;a href=&#34;https://news.ycombinator.com/item?id=31053019&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;work&#34;&gt;#work&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://staysaasy.com/startups/2022/04/03/performance-management.html?utm_source=bengtan.com/interesting-things/053&#34;&gt;The Most Important Performance Management Rule For Software Engineers&lt;/a&gt;&lt;/strong&gt; — Merge code every week. That’s what you should be saying to your new Software Engineer hire. (&lt;a href=&#34;https://news.ycombinator.com/item?id=31038850&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;business&#34;&gt;#business&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://blog.lithic.com/interchange/?utm_source=bengtan.com/interesting-things/053&#34;&gt;What is Interchange? How Fintechs Earn Revenue from Credit and Debit Cards&lt;/a&gt;&lt;/strong&gt; — Explore the economics of interchange fees, their role in the payments market, and how founders can earn interchange by offering card products. (&lt;a href=&#34;https://news.ycombinator.com/item?id=31045967&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://devd.me/log//posts/startup-security/?utm_source=bengtan.com/interesting-things/053&#34;&gt;Early Security for Startups&lt;/a&gt;&lt;/strong&gt; (Mar 2022) — What to do if a startup does not have a security team? (&lt;a href=&#34;https://news.ycombinator.com/item?id=31045504&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;science&#34;&gt;#science&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://neuroscience.stanford.edu/news/researchers-control-brain-circuits-distance-using-infrared-light?utm_source=bengtan.com/interesting-things/053&#34;&gt;Researchers control brain circuits from a distance using infrared light&lt;/a&gt;&lt;/strong&gt; — The first non-invasive technique for controlling targeted brain circuits in behaving animals from a distance. (&lt;a href=&#34;https://news.ycombinator.com/item?id=31041612&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://labblog.uofmhealth.org/lab-notes/study-helps-explain-how-xanthan-gum-a-common-food-additive-processed-gut?utm_source=bengtan.com/interesting-things/053&#34;&gt;Study helps explain how xanthan gum, a common food additive, is processed in the gut&lt;/a&gt;&lt;/strong&gt; — Eating processed foods can alter the gut microbiome. (&lt;a href=&#34;https://news.ycombinator.com/item?id=31045909&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.quantamagazine.org/deep-learning-poised-to-blow-up-famed-fluid-equations-20220412/?utm_source=bengtan.com/interesting-things/053&#34;&gt;Deep Learning Poised to ‘Blow Up’ Famed Fluid Equations&lt;/a&gt;&lt;/strong&gt; — For centuries, mathematicians have tried to prove that Euler’s fluid equations can produce nonsensical answers. (&lt;a href=&#34;https://news.ycombinator.com/item?id=31012422&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.bbc.co.uk/news/health-61042598?utm_source=bengtan.com/interesting-things/053&#34;&gt;Is a virus we all have causing multiple sclerosis?&lt;/a&gt;&lt;/strong&gt; — Scientists think they have now uncovered a mystery cause of this incurable disease. (&lt;a href=&#34;https://news.ycombinator.com/item?id=31034661&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.euronews.com/green/2022/04/12/solar-energy-can-now-be-stored-for-up-to-18-years-say-scientists?utm_source=bengtan.com/interesting-things/053&#34;&gt;Solar energy can now be stored for up to 18 years, say scientists&lt;/a&gt;&lt;/strong&gt; — The future of solar has just got brighter with this ‘ultra-thin’ device for converting stored energy into electricity. (&lt;a href=&#34;https://news.ycombinator.com/item?id=31029257&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;society&#34;&gt;#society&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://thehustle.co/why-thinking-about-inflation-leads-to-more-inflation/?utm_source=bengtan.com/interesting-things/053&#34;&gt;Why thinking about inflation leads to more inflation&lt;/a&gt;&lt;/strong&gt; — America is dealing with its worst inflation in nearly 40 years. It could get worse if inflationary psychology takes hold. (&lt;a href=&#34;https://news.ycombinator.com/item?id=31047020&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.dwarkeshpatel.com/p/annus-mirabilis?utm_source=bengtan.com/interesting-things/053&#34;&gt;The mystery of the miracle year&lt;/a&gt;&lt;/strong&gt; — An interesting pattern recurs across the career of great scientists: a miracle year in which they make multiple, seemingly independent breakthroughs. (&lt;a href=&#34;https://news.ycombinator.com/item?id=31065649&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://wiscprivacy.com/publication/vca_mute/?utm_source=bengtan.com/interesting-things/053&#34;&gt;Are You Really Muted?: A Privacy Analysis of Mute Buttons in Video Conferencing Apps&lt;/a&gt;&lt;/strong&gt; —  What happens to the microphone data when a user clicks the mute button? (&lt;a href=&#34;https://news.ycombinator.com/item?id=31044290&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://pudding.cool/2022/04/banknotes/?utm_source=bengtan.com/interesting-things/053&#34;&gt;Who’s in Your Wallet?&lt;/a&gt;&lt;/strong&gt; — A visual essay about the famous figures who represent today’s currencies around the world. (&lt;a href=&#34;https://news.ycombinator.com/item?id=31020728&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;random&#34;&gt;#random&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.bbc.com/culture/article/20220413-onoda-the-man-who-hid-in-the-jungle-for-30-years?utm_source=bengtan.com/interesting-things/053&#34;&gt;Onoda: The man who hid in the jungle for 30 years&lt;/a&gt;&lt;/strong&gt; — A new film tells the strange story of Japan&amp;rsquo;s controversial WW2 hero. (&lt;a href=&#34;https://news.ycombinator.com/item?id=31050924&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://marginalrevolution.com/marginalrevolution/2022/04/the-best-fiction-in-recent-times.html?utm_source=bengtan.com/interesting-things/053&#34;&gt;The best fiction in recent times&lt;/a&gt;&lt;/strong&gt; — Here are my picks, in no particular order. (&lt;a href=&#34;https://news.ycombinator.com/item?id=31047533&#34;&gt;hn&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;end&#34;&gt;#end&lt;/h2&gt;
+&lt;p&gt;If you liked these stories, please share them (or this newsletter) with your friends. I would appreciate it if you help me spread the word. 🙏&lt;/p&gt;
+&lt;p&gt;Enjoy your reading and have a good day,
+Beng&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://bengtan.com/images/portrait-40.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 
         
       </description>
